@@ -1,0 +1,916 @@
+{
+  "joganyag_forrasa": "2013. évi V. törvény a Polgári Törvénykönyvről",
+  "cimek": [
+    {
+      "cim_sorszama": "VII.",
+      "megnevezes": "A zálogjog",
+      "szakaszok": [
+        {
+          "szakasz": "5:107. §",
+          "cim": "A kézizálogfedezet védelme",
+          "tartalom": "(1) A zálogkötelezett vagy a személyes kötelezett jogosult ellenőrizni a zálogtárgy állagát és használatát.\n(2) Ha a zálogtárgy értékének csökkenése a követelés kielégítését veszélyezteti, és a zálogkötelezett – a zálogjogosult megfelelő határidőt tartalmazó felszólítása ellenére – a zálogtárgy állapotát nem állítja helyre, nem ad megfelelő új zálogtárgyat vagy az értékcsökkenés mértékének megfelelő kiegészítő biztosítékot, a zálogjogosult a zálogtárgyat – a zálogtárgy tulajdonosa helyett és nevében eljárva – értékesítheti a további értékcsökkenés megelőzése érdekében. A zálogjogosult felszólítás és határidőtűzés nélkül jogosult a zálogtárgyat értékesíteni, ha a felszólítás elháríthatatlan akadályba ütközik vagy a zálogkötelezett intézkedésének bevárása a zálogtárgy további jelentős értékcsökkenésével járna.\n(3) Ha a zálogkötelezett vagy a személyes kötelezett más megfelelő vagyontárgyat ajánl fel, és ez a kielégítési jogot nem veszélyezteti, a zálogjogosult köteles a zálogtárgyat visszaadni.\n(4) Az óvadék tárgya és egyéb nyilvános információ alapján egyértelműen meghatározható értékkel rendelkező osztható zálogtárgy vagy a biztosított követelés értékének változása esetén a zálogkötelezett kiegészítő biztosíték nyújtására, illetve a zálogjogosult a túlzott biztosíték zálogkötelezett részére való arányos kiadására köteles.\n(5) A zálogkötelezett jogosult a zálogtárgy helyébe lépett biztosítási összeget, kártérítést vagy más értéket a zálogtárgy helyreállítására fordítani, ha ez a biztosított követelés kielégítését nem veszélyezteti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:108. §",
+          "cim": "A jelzálogjog tárgyának birtoklása, használata és hasznosítása",
+          "tartalom": "(1) A zálogkötelezett jogosult a jelzálogjog tárgyát birtokában tartani, rendeltetésszerűen használni és hasznosítani, továbbá köteles a zálogtárgyat épségben megőrizni.\n(2) A hitelbiztosítéki nyilvántartásba bejegyzett jelzálogjog kötelezettje a rendes gazdálkodás körében jogosult a körülírással meghatározott zálogtárgyat feldolgozni, átalakítani, egyesíteni, vegyíteni és elidegeníteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:109. §",
+          "cim": "A jelzálogfedezet védelme",
+          "tartalom": "(1) A zálogjogosult a zálogtárgy állagát és használatát ellenőrizheti.\n(2) Ha a zálogkötelezett vagy harmadik személy a zálogtárgy épségét veszélyezteti, a zálogjogosult gyakorolhatja a károsodás veszélye esetén a veszélyeztetettet megillető jogokat.\n(3) Ha a zálogtárgy értékének csökkenése a követelés kielégítését veszélyezteti, és a zálogkötelezett – a zálogjogosult megfelelő határidőt tartalmazó felszólítása ellenére – a zálogtárgy állapotát nem állítja helyre, nem ad megfelelő új zálogtárgyat vagy az értékcsökkenés mértékének megfelelő kiegészítő biztosítékot, a zálogjogosult a zálogtárgyat értékesítheti a további értékcsökkenés megelőzése érdekében.\n(4) A zálogkötelezett jogosult a zálogtárgy helyébe lépett biztosítási összeget, kártérítést vagy más értéket a zálogtárgy helyreállítására fordítani, ha ez a biztosított követelés kielégítését nem veszélyezteti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:110. §",
+          "cim": "Az elzálogosított követelés mint zálogfedezet védelme",
+          "tartalom": "(1) Az elzálogosított követelés kötelezettjének a zálogjog megalapításáról való – az elzálogosított követelés és a zálogjogosult megjelölését tartalmazó – írásbeli értesítését követően a zálogjogosulttal szemben hatálytalan a zálogkötelezett és az elzálogosított követelés kötelezettje közötti szerződés megszüntetése vagy olyan módosítása, amely a zálogjogosult kielégítési jogát hátrányosan érinti vagy egyébként a zálogfedezetet csökkenti. A szerződés megszüntetése vagy módosítása azonban hatályossá válik, ha ahhoz a zálogjogosult a zálogkötelezetthez és az elzálogosított követelés kötelezettjéhez intézett nyilatkozattal hozzájárul.\n(2) A kötelezett a zálogjogosulttal szemben azokat a kifogásokat érvényesítheti és azokat az ellenköveteléseket számíthatja be, amelyek a zálogkötelezettel szemben az értesítésekor már fennállt jogalapon keletkeztek.",
+          "footnote": [
+            "1 Megállapította: 2016. évi LXXVII. törvény 12. §. Hatályos: 2016. X. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §, 28-29. §."
+          ]
+        },
+        {
+          "szakasz": "5:111. §",
+          "cim": "Az elzálogosított követelés kötelezettjének jogai és kötelezettségei",
+          "tartalom": "(1) Az elzálogosított követelés kötelezettje mindaddig a zálogkötelezett részére köteles teljesíteni, amíg olyan teljesítési utasítást nem kap, amely meghatározza a zálogjogosult személyét, székhelyét, természetes személy esetén lakóhelyét, szokásos tartózkodási helyét vagy számlaszámát. Ezt követően a kötelezett a teljesítési utasításnak megfelelően teljesíthet.\n(2) A teljesítési utasítás akkor váltja ki az (1) bekezdés szerinti joghatást, ha az utasítás az elzálogosításról szóló értesítésbe van foglalva, egyébként a zálogkötelezettől származik, vagy ha a zálogjogosult a zálogszerződéssel vagy más hitelt érdemlő módon igazolja a követelés elzálogosítását. Ha az elzálogosításról szóló értesítés megjelölte a zálogjogosultat, de nem tartalmazta a teljesítési utasítást, teljesítési utasítást kizárólag a zálogjogosult adhat.\n(3) A zálogjogosult a kielégítési jog megnyílása után küldhet teljesítési utasítást.\n(4) Az (1) bekezdésben foglaltaktól eltérően, a teljesítési utasítás nem érinti a számlavezető banknak a számlatulajdonossal szemben a számla- illetve betétszerződés alapján fennálló jogait és kötelezettségeit.\n(5) A zálogkötelezett a zálogjogosult kérésére köteles az elzálogosított követelés érvényesítéséhez szükséges okiratokat átadni. Ha az elzálogosított követelés esedékessége a jogosult jognyilatkozatától vagy egyéb általa teljesítendő feltételtől függ, a zálogjogosult megteheti e jognyilatkozatot vagy teljesítheti az esedékesség bekövetkezéséhez szükséges feltételt.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:112. §",
+          "cim": "A hitelbiztosítéki nyilvántartás alapelvei",
+          "tartalom": "(1) A hitelbiztosítéki nyilvántartás a zálogkötelezettek személyéhez kapcsolódóan tartalmazza a nem lajstromozott ingó dolgokon, jogokon és követeléseken alapított jelzálogjogokat, valamint az e törvényben meghatározott egyéb biztosítéki jogokat.\n(2) A hitelbiztosítéki nyilvántartás nyilvános, tartalmát az interneten bárki ingyen, személyazonosítás nélkül megtekintheti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:113. §",
+          "cim": "A hitelbiztosítéki nyilvántartás tartalmát meghatározó nyilatkozatok",
+          "tartalom": "(1) A hitelbiztosítéki nyilvántartásba való bejegyzésre, a bejegyzés módosítására és törlésére a zálogjogosultnak, illetve a zálogkötelezettnek jogszabályban meghatározott, elektronikus formanyomtatvány kitöltése útján, a hitelbiztosítéki nyilvántartás internetes honlapján tett nyilatkozata alapján, a nyilatkozat tartalmi vizsgálata nélkül kerül sor.\n(2) A zálogjogosult által tett nyilatkozatról a zálogkötelezett, a zálogkötelezett által tett nyilatkozatról a zálogjogosult a nyilatkozattételt követően késedelem nélkül, elektronikus úton értesítést kap.\n(3) Nyilatkozatok megtételére a hitelbiztosítéki nyilvántartás felhasználóiként nyilvántartásba vett személyek jogosultak.\n(4) A nyilatkozatok megtétele során az a természetes személy jogosult a felhasználóként nyilvántartásba vett jogi személy vagy egyéb szervezet nevében eljárni, akit a szervezet a nyilvántartásba vételkor vagy azt követően a nevében eljárni jogosult személyként megjelölt.\n(5) A nyilatkozatok megtételére a saját vagy más nevében eljáró személy elektronikus személyazonosítását követően kerülhet sor.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:114. §",
+          "cim": "A zálogjog bejegyzése",
+          "tartalom": "(1) Zálogjog bejegyzésére irányuló nyilatkozatot a zálogjogosult vagy a zálogkötelezett tehet.\n(2) Ha a zálogjog bejegyzésére irányuló nyilatkozatot a zálogjogosult tette, a nyilatkozat alapján a zálogjog bejegyzésére akkor kerül sor, ha a bejegyzéshez a zálogkötelezett elektronikus formában a hitelbiztosítéki nyilvántartás internetes honlapján tett nyilatkozatával hozzájárult.\n(3) Ha a zálogjog bejegyzésére irányuló nyilatkozatot a zálogkötelezett tette, a zálogjog bejegyzésére a nyilatkozat alapján kerül sor.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:115. §",
+          "cim": "A zálogjog bejegyzésére irányuló nyilatkozat tartalma",
+          "tartalom": "(1) A zálogjog bejegyzésére olyan nyilatkozat alapján kerül sor, amely tartalmazza\na) a zálogkötelezett nevét és külön jogszabályban meghatározott adatait;\nb) a zálogjogosult nevét és külön jogszabályban meghatározott adatait;\nc) a jogi személy vagy egyéb szervezet nevében eljáró természetes személy nevét és külön jogszabályban meghatározott adatait; és\nd) a zálogtárgy egyedileg vagy körülírással való meghatározását.\n(2) A zálogjog bejegyzésére irányuló nyilatkozat tartalmazhatja azt az összeget is, amelynek erejéig a zálogjogosult a zálogtárgyból kielégítést kereshet.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:116. §",
+          "cim": "A hitelbiztosítéki nyilvántartás tartalma",
+          "tartalom": "A hitelbiztosítéki nyilvántartás minden bejegyzett zálogjog vonatkozásában tartalmazza\na) a zálogjog bejegyzésére irányuló nyilatkozatban foglaltakat;\nb) a zálogjog bejegyzésének időpontját; és\nc) a bejegyzés sorszámát.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:117. §",
+          "cim": "A zálogjog törlése",
+          "tartalom": "(1) Zálogjog törlésére irányuló nyilatkozatot a zálogjogosult és a zálogkötelezett is tehet.\n(2) Ha a zálogjog törlésére irányuló nyilatkozatot a zálogjogosult tette, a zálogjog törlésére a nyilatkozat alapján kerül sor.\n(3) Ha a zálogjog törlésére irányuló nyilatkozatot a zálogkötelezett tette, a nyilatkozat alapján a zálogjog törlésére akkor kerül sor, ha a zálogjogosult\na) a zálogjog törléséhez hozzájárult; vagy\nb) a zálogkötelezettnek a zálogjog törlésére irányuló nyilatkozatától számított harminc napon belül nem tett a bejegyzés fenntartására irányuló nyilatkozatot.\n(4) A zálogjogosult köteles a zálogjog törléséhez hozzájárulni, illetve nem jogosult a bejegyzés fenntartására irányuló nyilatkozatot tenni, ha nem áll fenn zálogjoggal biztosított követelése vagy olyan jogviszony, amelynek alapján a jövőben zálogjoggal biztosított követelése keletkezhet.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:118. §",
+          "cim": "A zálogjog megalapításához kötődő rangsor elve",
+          "tartalom": "Ha ugyanazt a zálogtárgyat több zálogjog terheli, a kielégítési jog a zálogjogosultakat a zálogjogok alapításának a sorrendjében illeti meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:119. §",
+          "cim": "A zálogtárgy helyébe lépő vagy a zálogfedezet kiegészítésére adott tárgyon fennálló zálogjog ranghelye",
+          "tartalom": "A zálogtárgy helyébe lépő vagy a zálogfedezet kiegészítésére adott vagyontárgyon – hacsak azt egyéb zálogjogok nem terhelik – a zálogjog az eredeti zálogtárgyon alapított zálogjog ranghelye szerint áll fenn.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:120. §",
+          "cim": "A hitelbiztosítéki nyilvántartásba bejegyzett zálogjog tárgyainak változása",
+          "tartalom": "Ha a hitelbiztosítéki nyilvántartásba bejegyzett zálogjog tárgya több, körülírással meghatározott vagyontárgy, az egyes dolgok, jogok és követelések változása a zálogjog ranghelyét nem érinti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:121. §",
+          "cim": "A rendelkezési jog korábbi jogosultja által alapított zálogjog",
+          "tartalom": "A hitelbiztosítéki nyilvántartásba bejegyzett zálogjog tárgya felett a rendelkezési jog korábbi jogosultja által alapított zálogjog megelőzi azt a jelzálogjogot, amelyet e zálogjogot megelőzően alapítottak, de – a rendelkezési jog hiányában – csak ezt követően jött létre.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:122. §",
+          "cim": "A zálogtárgy megszerzését biztosító zálogjog elsőbbsége",
+          "tartalom": "Az eladónak az ingó zálogtárgy vételára iránti vagy a hitelezőnek az ingó zálogtárgy tulajdonjoga megszerzéséhez nyújtott kölcsön visszafizetése iránti követelését biztosító jelzálogjog megelőzi a vevő vagy az adós által korábban alapított jelzálogjogokat, ha a zálogtárgy átruházása előtt\na) a zálogjogot bejegyzik a hitelbiztosítéki nyilvántartásba; és\nb) a zálogjogosult írásban értesíti a zálogjog megalapításáról azokat a korábbi zálogjogosultakat, akiknek a jelzálogjoga, a zálogkötelezett tulajdonába kerülése esetén, kiterjed az új zálogtárgyra.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:123. §",
+          "cim": "Óvadék és jelzálogjog közötti rangsor",
+          "tartalom": "Ha ugyanazt a zálogtárgyat óvadék és jelzálogjog is terheli, az óvadék jogosultját kielégítési elsőbbség illeti meg a jelzálogjog jogosultjával szemben.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:124. §",
+          "cim": "Ranghely-szerződés",
+          "tartalom": "(1) A zálogjogok rangsora valamennyi érdekelt hozzájárulásával megváltoztatható. A rangsor megváltozásához a ranghely megváltozásának a bejegyzése szükséges.\n(2) A bejegyzések ranghelyével való rendelkezés nem járhat harmadik személy – a ranghely módosításának időpontjában bejegyzett – jogának sérelmével.\n(3) A rangsor megváltoztatása folytán előrelépett zálogjog az előrelépéssel szerzett ranghelyét megtartja akkor is, ha a hátralépett zálogjog megszűnik.",
+          "footnote": [
+            "1 Módosította: 2021. évi CXLVI. törvény 90. § a)."
+          ]
+        },
+        {
+          "szakasz": "5:125. §",
+          "cim": "A zálogjog ranghelyének előzetes biztosítása",
+          "tartalom": "(1) A tulajdonos a megfelelő nyilvántartásba – meghatározott személy javára vagy a jogosult megjelölése nélkül – bejegyezheti, hogy valamely vagyontárgyat zálogjoggal kíván megterhelni.\n(2) A bejegyzésben meg kell határozni azt az összeget, amelynek erejéig a tulajdonos zálogjogot kíván alapítani.\n(3) Az előzetesen biztosított ranghelyre bejegyzett zálogjog a bejegyzés ranghelyéhez igazodó ranghelyet kap.",
+          "footnote": [
+            "2 Módosította: 2021. évi CXLVI. törvény 90. § b).",
+            "3 Módosította: 2021. évi CXLVI. törvény 90. § c).",
+            "1 Módosította: 2021. évi CXLVI. törvény 90. § d)."
+          ]
+        },
+        {
+          "szakasz": "5:126. §",
+          "cim": "A kielégítési jog",
+          "tartalom": "(1) A zálogjogosult kielégítési joga a zálogjoggal biztosított követelés esedékessé válásakor, a teljesítés elmulasztása esetén nyílik meg.\n(2) Az önálló zálogjog jogosultjának kielégítési joga – ha a felek a biztosítéki szerződésben másként nem állapodtak meg – az önálló zálogjog felmondásával és a felmondási idő elteltével nyílik meg.\n(3) A kielégítési jog gyakorlása a zálogjogosult választása szerint bírósági végrehajtás útján vagy – fogyasztóval szemben e törvény szerinti korlátozással – bírósági végrehajtáson kívül történhet.\n(4) A fizetésiszámla-követelést terhelő jelzálogjog érvényesítése bírósági végrehajtás útján történhet.",
+          "footnote": [
+            "2 Megállapította: 2016. évi LXXVII. törvény 13. §. Hatályos: 2016. X. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §, 28-29. §.",
+            "3 Megállapította: 2016. évi LXXVII. törvény 13. §. Hatályos: 2016. X. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §, 28-29. §."
+          ]
+        },
+        {
+          "szakasz": "5:127. §",
+          "cim": "A kielégítési jog bírósági végrehajtáson kívüli gyakorlásának módjai",
+          "tartalom": "(1) A kielégítési jog bírósági végrehajtáson kívüli gyakorlása a zálogjogosult választása szerint\na) a zálogtárgy zálogjogosult általi értékesítése;\nb) a zálogtárgy tulajdonjogának a zálogjogosult által történő megszerzése; vagy\nc) az elzálogosított jog vagy követelés érvényesítése\nútján történik.\n(2) A zálogjogosult a kielégítési jog érvényesítésének választott módjáról másikra térhet át.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:128. §",
+          "cim": "A kielégítési jog gyakorlása fogyasztóval szemben",
+          "tartalom": "A zálogjogosult a fogyasztóval szembeni kielégítési jogát bírósági végrehajtáson kívül csak akkor gyakorolhatja, ha\na) az óvadék tárgyára vonatkozóan a közvetlen kielégítés jogával él,\nb) az elzálogosított jogot vagy követelést e törvény szerint érvényesíti, vagy\nc) a kielégítési jog megnyílása után a zálogkötelezettel a zálogtárgy zálogjogosult által történő értékesítésének módjában írásban megállapodott.",
+          "footnote": [
+            "4 Megállapította: 2016. évi LXXVII. törvény 14. §. Hatályos: 2016. X. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §, 28-29. §."
+          ]
+        },
+        {
+          "szakasz": "5:129. §",
+          "cim": "A zálogjog érvényesítésének átvételéhez való jog",
+          "tartalom": "(1) A zálogjog érvényesítését megkezdő zálogjogosultat megelőző ranghelyű zálogjogosult a zálogjogot érvényesítő zálogjogosultnak címzett írásbeli nyilatkozattal átveheti a zálogjog érvényesítését, ha megtéríti az érvényesítést megkezdő zálogjogosult felmerült költségeit.\n(2) A zálogjogot érvényesítő zálogjogosult, ha az érvényesítés átvételére irányuló nyilatkozatot kap, köteles az addig megtett lépésekről és a már felmerült költségekről megfelelő tájékoztatást adni az elsőbbségi zálogjogosult részére.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:130. §",
+          "cim": "A kielégítési jog gyakorlásának felfüggesztése vagy korlátozása",
+          "tartalom": "Ha a zálogjogosult a kielégítési jogának gyakorlása során az e törvényben meghatározott kötelezettségeit megszegi, a zálogkötelezett, a személyes kötelezett vagy bármely más személy, akinek ehhez jogi érdeke fűződik, kérheti a bíróságtól a kielégítési jog gyakorlásának felfüggesztését vagy a zálogjogosult kötelezését a kielégítési jognak a bíróság által meghatározott feltételek szerinti gyakorlására.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:131. §",
+          "cim": "Az előzetes értesítés",
+          "tartalom": "(1) A zálogjogosult köteles a zálogtárgy értékesítésére vonatkozó szándékáról írásban értesíteni\na) a zálogkötelezettet, a személyes kötelezettet és a személyes kötelezett teljesítéséért felelősséget vállalt személyeket;\nb) a zálogtárgyat terhelő egyéb zálogjogok jogosultjait;\nc) lajstromozott zálogtárgy esetén mindazokat, akiknek a zálogtárgyra vonatkozóan a lajstromba bejegyzett joguk van; és\nd) azokat, akik a zálogtárgyat terhelő joguk fennállásáról, annak igazolása mellett, a zálogjogosult által adott értesítést megelőző tizedik napig írásban értesítették.\n(2) Az előzetes értesítés és az értékesítés időpontja között legalább tíz napnak kell eltelnie.\n(3) Az előzetes értesítésben meg kell jelölni\na) a zálogjogosultat és a zálogkötelezettet;\nb) az értékesíteni kívánt zálogtárgyat;\nc) az érvényesített követelés összegét és járulékait;\nd) a kielégítési jog megnyílásának okát és időpontját;\ne) az értékesítés tervezett módját;\nf) a nyilvános értékesítés helyét és idejét, egyéb módon történő értékesítés esetén azt az időpontot, amely után az értékesítésre sor kerül.\n(4) A zálogjogosult előzetes értesítés nélkül jogosult a zálogtárgy értékesítésére, ha a zálogtárgy\na) gyorsan romló vagy egyéb olyan dolog, amelynek értéke a késedelem hatására jelentősen csökkenne; vagy\nb) olyan dolog vagy jog, amellyel tőzsdén kereskednek.",
+          "footnote": [
+            "1 Megállapította: 2016. évi LXXVII. törvény 15. §. Hatályos: 2016. X. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §, 28-29. §."
+          ]
+        },
+        {
+          "szakasz": "5:132. §",
+          "cim": "A zálogtárgy birtoklásához való jog",
+          "tartalom": "(1) A zálogjogosult a kielégítési jog megnyílása után jogosult a zálogtárgyat értékesítés céljából birtokba venni és ennek érdekében felszólítani a zálogkötelezettet, hogy a zálogtárgyat a felszólításban meghatározott időn belül bocsássa a birtokába.\n(2) A birtokba bocsátás teljesítésére a körülmények által indokolt, de ingó zálogtárgy esetén legalább tíznapos, ingatlan zálogtárgy esetén legalább húsznapos határidőt kell szabni. A lakóingatlan kiürített állapotban való birtokba bocsátásának teljesítésére legalább három hónapos határidőt kell szabni.\n(3) A zálogkötelezett – a kielégítési jog megnyílása után a zálogjogosult felszólítására, a felszólításban meghatározott határidőn belül – köteles az értékesítés céljából a zálogjogosult számára kiadni a birtokában lévő zálogtárgyat, lehetővé tenni a zálogtárgy birtokbavételét, és tartózkodni minden olyan magatartástól, amely a zálogjogosultat az értékesítésben akadályozná.\n(4) A birtokba bocsátás elmaradása nem akadálya a zálogtárgy értékesítésének.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:133. §",
+          "cim": "A kereskedelmi ésszerűség követelménye",
+          "tartalom": "(1) A zálogjogosult a zálogtárgy értékesítése során a kereskedelmi ésszerűség követelményei szerint, a zálogkötelezett, illetve a személyes kötelezett érdekeit is figyelembe véve köteles eljárni.\n(2) Az ellenkező bizonyításáig vélelmezni kell, hogy a zálogtárgy értékesítése a kereskedelmi ésszerűség követelményei szerint történik, ha az értékesítésre\na) tőzsdén, az értékesítés időpontjában érvényes áron; vagy\nb) a zálogtárgy kereskedelmi forgalma során általában alkalmazott, az adott piacon szokásos módon kerül sor.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:134. §",
+          "cim": "Az értékesítés",
+          "tartalom": "(1) A zálogjogosult – a zálogtárgy tulajdonosa helyett és nevében eljárva – jogosult a zálogtárgy tulajdonjogának átruházására.\n(2) Az értékesítés történhet\na) a zálogtárgy eredeti állapotában vagy kereskedelmi szempontból ésszerű feldolgozása, illetve átalakítása után;\nb) magánúton vagy nyilvánosan.\n(3) Ha a zálogjog több zálogtárgyat terhel, azok értékesítése történhet együtt vagy külön-külön.\n(4) A zálogjogosult az általa értékesített zálogtárgy tulajdonjogát nyilvános értékesítés esetén vagy akkor szerezheti meg, ha a zálogtárggyal tőzsdén kereskednek.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:135. §",
+          "cim": "Elszámolás, az értékesítés bevételének felosztása",
+          "tartalom": "(1) A zálogjogosult az értékesítést követően késedelem nélkül köteles írásbeli elszámolást készíteni, amelyben meg kell jelölnie\na) az értékesített zálogtárgyat;\nb) a befolyt vételárat;\nc) a zálogtárgy zálogjogosult által beszedett hasznait;\nd) a zálogtárgy őrzésével, fenntartásával, feldolgozásával, átalakításával és értékesítésével kapcsolatban felmerült költségeket; és\ne) ha tudomása van róla, a zálogtárgyat terhelő zálogjogok rangsorát és a zálogjogok által biztosított követelések összegét.\n(2) A zálogjogosult köteles az elszámolást megküldeni a zálogkötelezettnek és az előzetes értesítésre jogosult személyeknek.\n(3) A zálogjogosult késedelem nélkül köteles a befolyt vételárnak a beszedett hasznokkal növelt és a zálogtárgy őrzésével, állagának fenntartásával, feldolgozásával, átalakításával és értékesítésével kapcsolatban felmerült költségekkel csökkentett összegét – a zálogjogok rangsora és a zálogjoggal biztosított követelések mértéke szerint – felosztani a zálogtárgyat terhelő zálogjogok jogosultjai között, és a fennmaradó összeget a zálogkötelezettnek kiadni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:136. §",
+          "cim": "A zálogtárgy zálogjogosult általi megszerzésének tilos esete",
+          "tartalom": "Semmis az olyan megállapodás, amely szerint a zálogjogosult kielégítési joga megnyílásakor megszerzi a zálogtárgy tulajdonjogát.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:137. §",
+          "cim": "A zálogtárgy tulajdonjogának a zálogjogosult által történő megszerzése a kielégítési jog megnyílását követően",
+          "tartalom": "(1) A zálogjogosult a kielégítési jogának megnyílását követően írásban felajánlhatja a zálogkötelezettnek, hogy a zálogtárgy tulajdonjogát elfogadja a biztosított követelés teljes vagy részleges kielégítése fejében.\n(2) Az ajánlatnak meg kell jelölnie\na) a zálogjogosultat és a zálogkötelezettet;\nb) a zálogtárgyat, amelyre az ajánlat vonatkozik;\nc) a zálogjoggal biztosított, fennálló követelés összegét;\nd) a kielégítési jog megnyílásának okát és időpontját; és\ne) azt, hogy a zálogtárgy tulajdonjogának megszerzése a biztosított követelés milyen mértékű kielégítését eredményezné, illetve azt az összeget, amelyet a zálogjogosult – a tulajdonjog megszerzése fejében, a biztosított követelés elszámolásán felül – fizetne a zálogkötelezett részére.\n(3) A zálogjogosult az ajánlatról – annak megküldésével – köteles értesíteni a zálogkötelezetten kívül\na) a személyes kötelezettet és a személyes kötelezett teljesítéséért felelősséget vállalt személyeket;\nb) a zálogtárgyat terhelő egyéb zálogjogok jogosultjait;\nc) lajstromozott zálogtárgy esetén mindazokat, akiknek a zálogtárgyra vonatkozóan a lajstromba bejegyzett joguk van; és\nd) azokat, akik a zálogtárgyat terhelő joguk fennállásáról, annak igazolása mellett, a zálogjogosult által adott értesítést megelőző tízedik napig írásban értesítették.\n(4) Az értesítésre jogosult személyek kifogást emelhetnek a zálogjogosult ajánlata ellen, ha az veszélyezteti biztosított követelésük kielégítését.\n(5) Ha a zálogkötelezett írásban elfogadja a zálogjogosult ajánlatát annak kézhezvételét követő húsz napon belül, és a (3) bekezdésben meghatározott személyek nem emelnek írásban kifogást az ajánlat ellen az annak kézhezvételét követő húsz napon belül, a zálogjogosult és a zálogkötelezett között adásvételi szerződés jön létre, amelynek alapján a zálogkötelezett köteles a zálogtárgy birtokát átruházni, illetve a tulajdonjog bejegyzéséhez az engedélyt kiadni. A tulajdonjog átszállásával a zálogjoggal biztosított követelés – az ajánlat tartalmának megfelelően – részben vagy egészben megszűnik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:138. §",
+          "cim": "A közvetlen kielégítés joga",
+          "tartalom": "(1) Óvadék esetén, ha annak tárgya pénz, fizetésiszámla-követelés, tőzsdei vagy egyéb nyilvánosan jegyzett piaci árral rendelkező értékpapír vagy adott időpontban az értékpapírban foglalt feltételek szerint a felektől függetlenül meghatározható értékkel rendelkező pénzkövetelést megtestesítő értékpapír, a zálogjogosult a kielégítési joga megnyílásakor a zálogkötelezetthez címzett egyoldalú nyilatkozattal – a biztosított követelés összege erejéig – a zálogtárgy tulajdonjogát megszerezheti, illetve ha már korábban megszerezte, megszüntetheti azt a kötelezettségét, hogy a kapott óvadékkal egyező fajtájú és mennyiségű vagyontárgyat ruházzon át a zálogkötelezettre.\n(2) A zálogjogosult a közvetlen kielégítési jog gyakorlását követően késedelem nélkül köteles a zálogkötelezettel írásban elszámolni és a biztosított követelést meghaladó fedezetet a zálogkötelezett részére kiadni. Az elszámolás során a pénzt és a fizetésiszámla-követelést annak névértékén, az értékpapírt nyilvános forgalmi vagy az (1) bekezdésben foglaltak szerint felektől függetlenül meghatározott értékén kell figyelembe venni.\n(3) Ezeket a szabályokat kell megfelelően alkalmazni akkor is, ha a zálogjog tárgyát tulajdonjogot megtestesítő értékpapír alkotja, és a tulajdonjog tárgyát olyan dolog képezi, amely tőzsdei vagy egyéb nyilvánosan jegyzett piaci árral rendelkezik.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 187. § (1) szerinti szöveggel lép hatályba.",
+            "2 A 2013. évi CCLII. törvény 187. § (1) szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "5:139. §",
+          "cim": "Az elzálogosított jog vagy követelés érvényesítése",
+          "tartalom": "(1) Ha a jelzálogjog tárgya követelés, a zálogjogosult teljesítési utasítást adhat a követelés kötelezettje számára, és a követelés esedékessé válását követően az eredeti jogosult helyett a követelés kötelezettjével szemben érvényesítheti is a követelést. Ebben az esetben a zálogjogosult a követelés eredeti jogosultjával elszámolni köteles. Ezeket a szabályokat megfelelően alkalmazni kell akkor is, ha a jelzálogjog tárgya jog.\n(2) Ha az elzálogosított követelés kezességgel van biztosítva, a zálogjogosult a kezességből fakadó jogokat a követelés kezesével szemben a kezesség jogosultjára irányadó szabályok szerint – a vele való elszámolási kötelezettség mellett – gyakorolhatja.",
+          "footnote": [
+            "1 Megállapította: 2023. évi XXXIX. törvény 91. § (1). Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1)."
+          ]
+        },
+        {
+          "szakasz": "5:140. §",
+          "cim": "Az alzálogjog érvényesítése",
+          "tartalom": "(1) Az alzálogjog jogosultja (a továbbiakban: alzálogjogosult) – a kielégítési jogának megnyílását követően – választása szerint\na) gyakorolhatja az elzálogosított követelést biztosító zálogjog jogosultjának jogait, vagy\nb) az elzálogosított követelést biztosító zálogjog jogosultja helyébe léphet.\nA felek megállapodhatnak abban, hogy az alzálogjogosult csak az a) vagy csak a b) pont szerint járhat el.\n(2) Az alzálogjogosult az alzálogjog érvényesítésének (1) bekezdés szerinti módjáról a zálogjogosultat, a zálogjoggal biztosított követelés kötelezettjét, vagy ha az nem azonos a zálogjoggal biztosított követelés kötelezettjével, akkor a zálogkötelezettet is címzett írásbeli nyilatkozattal értesíti.\n(3) Az alzálogjogosult e jogából fakadó jogait úgy köteles gyakorolni, hogy azzal a zálogjogosult zálogjoggal biztosított követelésének megtérülését ne veszélyeztesse. Az alzálogjog érvényesítése eredményeként az alzálogjogosult a zálogjogosulttal köteles elszámolni és az alzálogjoggal biztosított követelését meghaladóan befolyt pénzösszeget vagy ennek helyébe lépő más vagyontárgyat részére kiadni.\n(4) Ha a követelést kézizálogjog biztosítja, a zálogjogosult az alzálogjogosult kérésére köteles a zálogtárgy birtokát részére átruházni.\n(5) Ha az alzálogjogosult a zálogjogosult helyébe lép, a zálogjoggal biztosított követelés és a zálogjog az alzálogjogosultra száll át, aki zálogjogosultként követelheti a zálogtárgy birtokának (4) bekezdés szerinti átruházását, illetve a rá átszálló jelzálogjognak a javára való bejegyzéséhez szükséges jognyilatkozatok kiadását.",
+          "footnote": [
+            "2 Megállapította: 2023. évi XXXIX. törvény 91. § (2). Hatályos: 2023. IX. 1-től. Lásd: 2023. évi XXXIX. törvény 165. § (4)."
+          ]
+        },
+        {
+          "szakasz": "5:141. §",
+          "cim": "Követelést megtestesítő értékpapírok",
+          "tartalom": "Az elzálogosított jog vagy követelés érvényesítésére és az aljelzálogra vonatkozó szabályokat kell megfelelően alkalmazni akkor is, ha a zálogjog tárgyát követelést megtestesítő értékpapír alkotja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:142. §",
+          "cim": "A zálogjog megszűnése",
+          "tartalom": "(1) A zálogjog megszűnik, ha\na) a zálogjogosult lemond a zálogjogáról és a zálogtárgyat visszaadja a zálogkötelezettnek vagy ha a jelzálogjogot törlik a megfelelő nyilvántartásból;\nb) a zálogjog tárgyául szolgáló dolog elpusztul, a zálogjog tárgyául szolgáló követelés vagy jog megszűnik anélkül, hogy más vagyontárgy lépne a helyébe;\nc) a kézizálogjog jogosultja elveszíti a zálogtárgy birtokát, kivéve, ha késedelem nélkül birtokvédelmi eljárást vagy birtokpert indított;\nd) a zálogjoggal biztosított követelés, illetve minden olyan jogviszony, amely alapján a jövőben zálogjoggal biztosított követelés keletkezhet, megszűnik;\ne) a zálogjoggal biztosított követelés elévül, ez azonban a követelést biztosító kézizálogból való kielégítést nem akadályozza;\nf) a zálogjogosult a kielégítési jogát gyakorolva a zálogtárgyat értékesíti vagy a zálogtárgy tulajdonjogát megszerzi.\n(2) A zálogjoggal biztosított követelést kielégítő személyes kötelezettre, zálogkötelezettre vagy harmadik személyre – teljesítése erejéig a megtérítési igénye kielégítéséül átszálló követeléssel együtt – a zálogjog is átszáll.\n(3) A zálogjog fennmarad a zálogjoggal biztosított követelés biztosítékául, ha ugyanaz a személy lesz a zálogkötelezett és a zálogjogosult.\n(4) Megszűnik a zálogjog, ha a követelés átruházása kifejezetten az azt biztosító zálogjog átszállásának kizárásával történt. Ha azonban a zálogjog a követelés átruházójának az átruházott követelését meghaladóan más követelését is biztosítja, e követelés biztosítékaként a zálogjog fennmarad.",
+          "footnote": [
+            "1 Megállapította: 2016. évi LXXVII. törvény 17. § (1). Hatályos: 2016. X. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §, 28-29. §.",
+            "2 Megállapította: 2023. évi XXXIX. törvény 92. §. Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (3).",
+            "3 Megállapította: 2016. évi LXXVII. törvény 17. § (2). Hatályos: 2016. X. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §, 28-29. §."
+          ]
+        },
+        {
+          "szakasz": "5:143. §",
+          "cim": "Zálogjogtól mentes tulajdonszerzés",
+          "tartalom": "(1) A kereskedelmi forgalomban jóhiszeműen és ellenérték fejében szerző hitelbiztosítéki nyilvántartásba bejegyzett zálogjogtól mentes tulajdonjogot, jogot vagy követelést szerez.\n(2) Ha a zálogtárgy értékesítésére a zálogfedezet védelme érdekében kerül sor, a vevő zálogjogtól mentes tulajdonjogot, jogot vagy követelést szerez.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:144. §",
+          "cim": "A zálogjogosult kötelezettsége a zálogjog megszűntekor",
+          "tartalom": "(1) Ha a zálogjoggal biztosított követelés megszűnt vagy elévült, és nem áll fenn olyan jogviszony, amely alapján a jövőben zálogjoggal biztosított követelés keletkezhet, a zálogjogosult köteles késedelem nélkül\na) a zálogtárgyat a zálogkötelezettnek visszaadni;\nb) a zálogjog törléséhez hozzájárulni; és\nc) a zálogkötelezett számlavezetőjét vagy azt a harmadik személyt, aki mint zálogtartó a zálogtárgy birtokában van vagy akinek a számláján a zálogtárgyat a zálogjogosult javára jóváírták, a zálogjog megszűntéről írásban értesíteni.\n(2) A harmadik személy, aki mint zálogtartó a zálogtárgy birtokában van vagy akinek a számláján a zálogtárgyat a zálogjogosult javára jóváírták, a zálogjog megszűntéről való írásbeli értesítés kézhezvételét követően késedelem nélkül köteles a zálogtárgyat a zálogkötelezettnek visszaadni vagy a számláján jóváírt zálogtárgynak a zálogkötelezett számláján való jóváírásáról rendelkezni.\n(3)",
+          "footnote": [
+            "4 Hatályon kívül helyezte: 2016. évi LXXVII. törvény 24. § b). Hatálytalan: 2016. X. 1-től."
+          ]
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "VIII.",
+      "megnevezes": "A HASZNÁLATI JOGOK",
+      "szakaszok": [
+        {
+          "szakasz": "5:145. §",
+          "cim": "Földhasználati jog a föld és az épület szétváló tulajdonjoga esetén",
+          "tartalom": "(1) Ha a föld és a földön létesített épület tulajdonjoga nem ugyanazt a személyt illeti meg, az épület tulajdonosát az épület fennállásáig az épület rendeltetésszerű használatához szükséges mértékben a földre földhasználati jog illeti meg.\n(2) Földhasználati jogánál fogva az épület tulajdonosa az épület használathoz szükséges mértékben jogosult a föld használatára és hasznai szedésére, valamint a használat arányában köteles viselni a föld fenntartásával járó terheket.",
+          "footnote": [
+            "1 Módosította: 2021. évi CXLVI. törvény 89. § a)."
+          ]
+        },
+        {
+          "szakasz": "5:146. §",
+          "cim": "A szerződésen alapuló haszonélvezet keletkezése",
+          "tartalom": "(1) Haszonélvezeti jog létrejöttéhez az erre irányuló szerződésen vagy más jogcímen felül a dolog birtokának átruházása; az ingatlanon vagy ingatlan-nyilvántartásba bejegyzett jogon alapított haszonélvezeti jog esetén a haszonélvezeti jog ingatlan-nyilvántartásba való bejegyzése szükséges.\n(2) Ha az ingatlanon vagy az ingatlan-nyilvántartásba bejegyzett jogon jogszabálynál fogva keletkezik haszonélvezet, a haszonélvezeti jogot az ingatlan-nyilvántartásba be kell jegyezni; ha ez elmarad, a haszonélvezeti jog a dolognak rosszhiszemű vagy ingyenes megszerzőjével szemben érvényesíthető.\n(3) A haszonélvezeti jog nem terjed ki arra, amivel a haszonélvezeti jog tárgya a haszonélvezet keletkezését követően gyarapszik, kivéve, ha a gyarapodás a haszonélvezet tárgyának a rendes gazdálkodás körében való hasznosításából származik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:147. §",
+          "cim": "A haszonélvezeti jog tartalma",
+          "tartalom": "(1) Haszonélvezeti jogánál fogva a jogosult a más személy tulajdonában álló dolgot birtokában tarthatja, használhatja, hasznosíthatja és hasznait szedheti.\n(2) Ha a haszonélvezeti jog egyidejűleg több haszonélvezőt illet meg, a birtoklás, a használat és a hasznok szedésének jogára a közös tulajdon szabályait kell megfelelően alkalmazni.\n(3) A haszonélvezeti jog a dolog tulajdonosának személyében beállott változásra tekintet nélkül fennmarad.\n(4) A természetes személyt megillető haszonélvezeti jog korlátozott időre és legfeljebb a jogosult haláláig állhat fenn.\n(5) Jogi személy javára haszonélvezeti jog korlátozott időre, de legfeljebb ötven évre engedhető; a határozatlan időre alapított haszonélvezeti jog ötven évig áll fenn.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:148. §",
+          "cim": "A haszonélvezet gyakorlásának átengedése",
+          "tartalom": "(1) A haszonélvező a haszonélvezeti jogot nem ruházhatja át, de a birtoklás, a használat és a hasznok szedése jogának gyakorlását átengedheti.\n(2) Ellenérték fejében a haszonélvezeti jog gyakorlását a haszonélvező akkor engedheti át, ha a tulajdonos – azonos feltételek mellett – a dolog használatára, hasznosítására vagy a dolog hasznainak szedésére nem tart igényt.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:149. §",
+          "cim": "A haszonélvező jogai és kötelezettségei a haszonélvezet fennállása alatt",
+          "tartalom": "(1) A haszonélvező jogának gyakorlása során a rendes gazdálkodás szabályai szerint köteles eljárni.\n(2) A haszonélvező a tulajdonos hozzájárulása nélkül a haszonélvezet tárgyát képező dolog gazdasági rendeltetését annyiban változtathatja meg, illetve a dolgot annyiban alakíthatja át vagy változtathatja meg lényegesen, amennyiben a dolog gazdasági rendeltetésének fenntartása vagy eredeti formájában való hagyása a rendes gazdálkodás követelményeivel ellentétes.\n(3) A haszonélvező viseli – a rendkívüli javítások és helyreállítások kivételével – a dologgal kapcsolatos terheket. A haszonélvezőt terhelik a dolog használatával kapcsolatos kötelezettségek.\n(4) A haszonélvező köteles a tulajdonost a dolgot fenyegető veszélyről és a beállott kárról értesíteni – ideértve azt az esetet is, ha őt harmadik személy a haszonélvezet gyakorlásában akadályozza –, köteles továbbá tűrni, hogy a tulajdonos a veszély elhárításához vagy a kár következményeinek megszüntetéséhez a szükséges intézkedéseket megtegye.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:150. §",
+          "cim": "A költségek viselése",
+          "tartalom": "(1) A haszonélvező a rendkívüli javítási vagy helyreállítási munkálatokat elvégezheti, ha felszólítására a tulajdonos azokat nem végzi el.\n(2) A haszonélvezet megszűnésekor a haszonélvező a tulajdonostól a saját költségén elvégzett rendkívüli javítási vagy helyreállítási munkálatok következtében a dologban beállott értéknövekedés megtérítését a jogalap nélküli gazdagodás szabályai szerint követelheti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:151. §",
+          "cim": "A rendhagyó haszonélvezet",
+          "tartalom": "(1) A haszonélvező a haszonélvezet keletkezésekor meglevő, természetüknél fogva elhasználható dolgokkal, gazdasági felszereléssel és állatállománnyal, árukészlettel és pénzzel a rendes gazdálkodás szabályai szerint indokolt mértékben rendelkezhet. A haszonélvezet megszűnésekor köteles ezeket pótolni; ha ez nem lehetséges, értéküket megtéríteni.\n(2) Ha a haszonélvezettel terhelt és értékesített vagy elhasznált dolog volt tulajdonosának a pótlás vagy az értékmegtérítés iránti követelése veszélyeztetve van, a tulajdonos megfelelő biztosítékot követelhet.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:152. §",
+          "cim": "A tulajdonos jogai a haszonélvezet fennállása alatt",
+          "tartalom": "(1) A tulajdonos jogosult a haszonélvezet gyakorlását ellenőrizni.\n(2) Ha a haszonélvező a dolgot nem rendeltetésének megfelelő módon használja vagy rongálja, illetve rendeltetését meg nem engedett módon megváltoztatja, továbbá ha a dolognak a haszonélvezet megszűntével való visszaadását egyébként veszélyezteti, a tulajdonos megfelelő biztosítékot követelhet, ha tiltakozása nem vezetett eredményre.\n(3) Ha a haszonélvező nem ad megfelelő biztosítékot, a bíróság a tulajdonos kérelmére a haszonélvezeti jog gyakorlását biztosíték adásáig felfüggesztheti.\n(4) A tulajdonost ezek a jogok azzal szemben is megilletik, akinek a haszonélvező a haszonélvezetből fakadó jogok gyakorlását átengedte. Ebben az esetben a megfelelő biztosíték elmaradása esetén a bíróság a harmadik személyt a haszonélvező által a részére átengedett jog gyakorlásától eltiltja.\n(5) A haszonélvezeti jog fennállása alatt a tulajdonos a birtoklás, a használat és a hasznok szedésének jogát annyiban gyakorolhatja, amennyiben a haszonélvező e jogokkal nem él.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:153. §",
+          "cim": "A haszonélvezet tárgyának elpusztulása",
+          "tartalom": "(1) Ha a dolog vagy annak jelentős része elpusztul, a tulajdonos nem köteles azt helyreállítani.\n(2) Ha a tulajdonos a dolgot helyreállítja, a haszonélvezeti jog feléled, de a tulajdonos kérheti annak a helyreállításra fordított összeggel arányos korlátozását.\n(3) Ha a tulajdonos a dolgot nem állítja helyre, a haszonélvezet megszűnik. Ha a haszonélvezet tárgya helyébe más dolog vagy követelés lép, a haszonélvezet erre terjed ki. Ha a dolog helyébe pénzösszeg vagy követelés lépett, a tulajdonos és a haszonélvező is követelheti ennek az összegnek a dolog helyreállítására vagy pótlására fordítását, ha ez a rendes gazdálkodás követelményeinek megfelel.\n(4) A tulajdonos a helyreállítást vagy a pótlást maga elvégezheti vagy a megtérítési összeget erre a célra a haszonélvezőnek átengedheti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:154. §",
+          "cim": "A haszonélvezet megszűnése",
+          "tartalom": "(1) A haszonélvezet megszűnik a határozott időtartam lejártával, a jogosult halálával vagy jogutód nélküli megszűnésével, továbbá ha a haszonélvező szerzi meg a dolog tulajdonjogát.\n(2) A haszonélvezetnek jogügylettel való megszüntetéséhez a haszonélvező lemondó nyilatkozata; ingatlanon, illetve ingatlan-nyilvántartásba vagy más közhiteles nyilvántartásba bejegyzett jogon fennálló haszonélvezet esetén a haszonélvezeti jognak a nyilvántartásból való törlése is szükséges.\n(3) A lemondó nyilatkozatot dolog haszonélvezete esetén a tulajdonoshoz, jog haszonélvezete esetén a haszonélvezet tárgyát képező jog jogosultjához vagy a jog megalapítójához kell intézni.\n(4) Ingatlanon, illetve ingatlan-nyilvántartásba vagy más közhiteles nyilvántartásba bejegyzett jogon fennálló haszonélvezet esetén a lemondó nyilatkozatot írásban kell megtenni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:155. §",
+          "cim": "A haszonélvező kötelezettségei a haszonélvezet megszűnése esetén",
+          "tartalom": "(1) A haszonélvezet megszűntével a haszonélvező köteles a dolgot visszaadni. A haszonélvező a dologban bekövetkezett károkért a szerződésen kívül okozott károkért való felelősség szabályai szerint felel. A rendeltetésszerű használattal járó értékcsökkenést a haszonélvező nem köteles megtéríteni.\n(2) A haszonélvezeti jog megsértéséből eredő igényekre a tulajdonjog védelmére vonatkozó szabályokat kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:156. §",
+          "cim": "Haszonélvezet jogokon",
+          "tartalom": "(1) A hasznot hajtó jog és követelés haszonélvezetére a dolgok haszonélvezetének szabályait kell megfelelően alkalmazni.\n(2) Haszonélvezettel terhelt jogot vagy követelést a haszonélvezetre kiterjedő hatállyal a haszonélvező hozzájárulásával lehet szerződéssel megszüntetni vagy a haszonélvező hátrányára megváltoztatni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:157. §",
+          "cim": "A jog haszonélvezőjének jogállása",
+          "tartalom": "Ha a haszonélvezetnek olyan jog a tárgya, amelynél fogva valaminek a szolgáltatását lehet követelni, a haszonélvező és a szolgáltatásra kötelezett közötti jogviszonyra megfelelően irányadók azok a szabályok, amelyek a jog átruházásának esetén a jog megszerzője és a kötelezett közötti jogviszonyra vonatkoznak.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:158. §",
+          "cim": "Haszonélvezet követelésen",
+          "tartalom": "(1) Követelés haszonélvezője jogosult a követelést érvényesíteni, és ha az esedékességhez a hitelező felmondása szükséges, a hitelezőt megillető felmondási jogot gyakorolni. Ha a követelést a haszonélvező hajtja be, a követelés érvényesítéséért a jogosulttal szemben a szerződésen kívül okozott károkért való felelősség szabályai szerint felel. A haszonélvezőnek a követelésre vonatkozó más rendelkezése semmis.\n(2) Az adós teljesítésével a szolgáltatás tárgyát a követelés jogosultja szerzi meg, azzal, hogy azon a haszonélvező a teljesítéssel egyidejűleg haszonélvezetet szerez.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:159. §",
+          "cim": "A használat",
+          "tartalom": "(1) A használat jogánál fogva a jogosult a dolgot a saját, valamint vele együtt élő családtagjai szükségleteit meg nem haladó mértékben használhatja és hasznait szedheti. Jogi személy a használat jogánál fogva a dolgot a létesítő okiratában meghatározott céljával és tevékenységével összhangban használhatja és szedheti annak hasznait. A használat jogának gyakorlása másnak nem engedhető át.\n(2) A használatra egyebekben a haszonélvezet szabályait kell alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:159. §",
+          "cim": "Az építményi jog fogalma",
+          "tartalom": "(1) Az építményi jogánál fogva a jogosult az ingatlanon vagy annak felszíne alatt épületet létesíthet, illetve hasznosíthat. Ennek során jogosult az épület építésére vagy építtetésére, és ennek érdekében az ingatlan igénybevételére, jogosult továbbá a felépült vagy az ingatlanon már fennálló épület birtoklására, használatára és hasznainak szedésére.\n(2) Az építményi jog kiterjed az annak alapján létesített vagy hasznosított épületre és annak alkotórészeire.\n(3) Az építményi jog átruházható és jogutódlás tárgya lehet. Az átruházással, illetve jogutódlással szerzett építményi jog jogosultja e jogát az építményi jog alapjául szolgáló szerződés szerint gyakorolhatja. Az építményi jog zálogjoggal az erre irányuló zálogszerződés alapján az ingatlan-nyilvántartásba történő bejegyzéssel terhelhető meg.\n(4) Az építményi jog több jogosultat egyidejűleg és együttesen is megillethet, jogaik gyakorlására és kötelezettségeik teljesítésére ilyen esetben a közös tulajdonra vonatkozó szabályok megfelelően irányadók.",
+          "footnote": [
+            "3 Beiktatta: 2023. évi XXXIX. törvény 93. §. Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1)."
+          ]
+        },
+        {
+          "szakasz": "5:159. §",
+          "cim": "Az építményi jog alapítása",
+          "tartalom": "(1) Az építményi jog határozott időre alapítható. A szerződést írásba kell foglalni.\n(2) Az építményi jog létrejöttéhez az erre irányuló szerződésen vagy más jogcímen kívül az építményi jognak a jogosult javára az ingatlan-nyilvántartásba történő bejegyzése szükséges. Építményi jogot az ingatlan tulajdonosa egyoldalú nyilatkozattal a saját javára is alapíthat.\n(3) Ingatlannak földhasználati joggal terhelt részén építményi jogot csak a földhasználati jog jogosultjának javára és a földhasználati jogának törlésével egyidejűleg lehet alapítani.\n(4) Az építményi jogot alapító szerződésben e jog gyakorlására vonatkozóan előírt további korlátozások harmadik személyekkel szemben annyiban hatályosak, amennyiben e korlátozások az ingatlan-nyilvántartási bejegyzésből, illetve az annak alapjául szolgáló okiratból megismerhetők.\n(5) Közös tulajdonban álló ingatlanon építményi jog csak úgy alapítható, ha ez valamennyi tulajdonostárs tulajdoni hányadát együttesen terheli.\n(6) Építményi jogot fogyasztó a tulajdonát képező ingatlanon nem alapíthat és ilyen jogot fogyasztó – az öröklés kivételével – nem szerezhet.",
+          "footnote": [
+            "4 Beiktatta: 2023. évi XXXIX. törvény 93. §. Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1)."
+          ]
+        },
+        {
+          "szakasz": "5:159. §",
+          "cim": "Az építményi jog megszűnése",
+          "tartalom": "(1) Az építményi jog megszűnik, ha a jogosult azt tizenöt éven át nem gyakorolja. Ennek az időnek a számítására az ingatlan elbirtoklására vonatkozó szabályok az irányadók.\n(2) Az épület megsemmisülése az építményi jogot nem érinti. Az építményi jog nem szűnik meg azzal, ha az építményi jogot az ingatlan tulajdonosa, vagy ha az ingatlan tulajdonjogát az építményi jog jogosultja szerzi meg.\n(3) Az építményi jog jogügylettel való megszüntetéséhez a jogosultnak e jogáról való írásbeli lemondó nyilatkozata és az építményi jognak az ingatlan-nyilvántartásból való törlése szükséges.\n(4) Ha az építményi jogot ötven évnél hosszabb időre alapították, az a megalapításától számított ötven év elteltével megszűnik.\n(5) A határozott idő vagy az ötven év eltelte előtt az építményi jogot a bíróság a tulajdonos keresete alapján megszüntetheti, ha az ingatlan tulajdonosa bizonyítja, hogy az építményi jog jogosultja az őt megillető jogok gyakorlására vonatkozó szabályokat súlyosan megsértette vagy az őt terhelő kötelezettségeket súlyosan megszegte.",
+          "footnote": [
+            "1 Beiktatta: 2023. évi XXXIX. törvény 93. §. Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1)."
+          ]
+        },
+        {
+          "szakasz": "5:159. §",
+          "cim": "Az építményi jog átruházása és megterhelése",
+          "tartalom": "(1) Az építményi jog fennállása alatt az e joggal terhelt ingatlan átruházása vagy megterhelése az építményi jogot nem érinti, ennek jogosultjával szemben csak azok a terhek hatályosak, amelyek az építményi jog bejegyzését a rangsorban megelőzték.\n(2) Az építményi jog átruházása vagy megterhelése az ingatlanra vonatkozó tulajdonjogot nem érinti. Az építményi jogból, illetve az ennek átruházásából vagy megterheléséből származó követelésekre a tulajdonjogból, illetve ennek átruházásából vagy megterheléséből eredő követelésekre irányadó szabályokat kell megfelelően alkalmazni.",
+          "footnote": [
+            "2 Beiktatta: 2023. évi XXXIX. törvény 93. §. Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1)."
+          ]
+        },
+        {
+          "szakasz": "5:159. §",
+          "cim": "Az építményi jog jogosultja és a tulajdonos közötti jogviszony",
+          "tartalom": "(1) Az építményi jog gyakorlására vonatkozóan a rendes gazdálkodás követelménye és az építésügyi szabályok keretei között az építményi jogot alapító szerződés további korlátozásokat és követelményeket is megállapíthat.\n(2) Az építményi jogot alapító szerződésben kiköthető, hogy az építményi jogot a jogosult csak az ingatlan tulajdonosának hozzájárulásával idegenítheti el vagy terhelheti meg.\n(3) Ha a felek másként nem állapodnak meg, az ingatlannal, illetve az azon létesített épülettel kapcsolatos terheket, ideértve az épülettel kapcsolatos kárveszélyt is, az építményi jog jogosultja viseli, és őt terhelik az ingatlan és az azon létesített vagy fennálló épület használatával és hasznosításával kapcsolatos kötelezettségek is.\n(4) Ha az építményi jog ellenértékeként a jogosult egyösszegű vagy időszakonként visszatérő szolgáltatás (építménybér) teljesítésére köteles, ennek mértékét és esedékességét az építményi jogot alapító szerződésben kell meghatározni. Az építménybérhez való jog – a még esedékessé nem vált szolgáltatás tekintetében is – az ingatlan mindenkori tulajdonosát illeti meg.\n(5) Az építményi jog megszűnésével az ingatlannal tartósan egyesített épület az ingatlan alkotórésze marad, kivéve, ha a felek az építményi jogot alapító szerződésben az épület és a föld elváló tulajdonára vonatkozó szabályok szerint abban állapodtak meg, hogy az épület önálló ingatlanként az építményi jog jogosultjának tulajdonába kerül.\n(6) Ha az építményi jog megszűnésével az épület az ingatlan alkotórésze marad, az ingatlan tulajdonosa az épület értékének megtérítésére – a felek eltérő megállapodása hiányában – nem köteles.\n(7) Az önálló ingatlannak nem minősülő olyan épület tekintetében, amely az ingatlanról eltávolítható, az építményi jog jogosultja e jogának megszűnésekor az elvitel jogával élhet.",
+          "footnote": [
+            "3 Beiktatta: 2023. évi XXXIX. törvény 93. §. Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1)."
+          ]
+        },
+        {
+          "szakasz": "5:159. §",
+          "cim": "Az építményi jog terheinek alakulása annak megszűnése esetén",
+          "tartalom": "(1) Ha az építményi jogot annak megszűnésekor jelzálogjog vagy más dologi jog terheli, e teher tekintetében az építményi jog helyébe az építményi jog jogosultját megillető más jog vagy megtérítési követelés lép.\n(2) Az építményi jog megszűnése esetén – ha az épület az ingatlan alkotórésze marad – az építményi jog jogosultja által bérbeadással vagy haszonbérbeadással hasznosított épület tekintetében a bérbe vagy haszonbérbe adott ingatlan elidegenítése esetére irányadó szabályokat kell megfelelően alkalmazni. Ha azonban az épület hasznosítására kötött szerződés határozott időtartama az építményi jog határozott vagy fennállásának ötvenéves időtartamát meghaladja, a tulajdonos hozzájárulása hiányában a szerződés fennmaradó idejére a határozatlan időtartamú jogviszonyra vonatkozó szabályok az irányadók.",
+          "footnote": [
+            "1 Beiktatta: 2023. évi XXXIX. törvény 93. §. Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1)."
+          ]
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "IX.",
+      "megnevezes": "SZOLGALOM ÉS KÖZÉRDEKŰ HASZNÁLAT",
+      "szakaszok": [
+        {
+          "szakasz": "5:160. §",
+          "cim": "A telki szolgalom fogalma",
+          "tartalom": "(1) Telki szolgalom alapján az ingatlan mindenkori birtokosa átjárás, vízellátás, vízelvezetés, pince létesítése, vezetékoszlopok elhelyezése, épület megtámasztása céljára vagy az ingatlan mindenkori birtokosa számára előnyös más hasonló célra más ingatlanát meghatározott terjedelemben használhatja, vagy követelheti, hogy a másik ingatlan birtokosa a jogosultságából egyébként folyó valamely magatartástól tartózkodjék.\n(2) Ha valamely föld nincs összekötve megfelelő közúttal, a szomszédok kötelesek tűrni, hogy az ingatlan mindenkori birtokosa földjeiken átjárjon.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:161. §",
+          "cim": "A telki szolgalom létrejötte szerződéssel és elbirtoklással",
+          "tartalom": "(1) A telki szolgalom szerződéssel való létesítésére az ingatlan haszonélvezetének alapítására vonatkozó szabályokat kell megfelelően alkalmazni.\n(2) Telki szolgalmat az ingatlan tulajdonosa egyoldalú nyilatkozattal a saját javára is alapíthat.\n(3) Elbirtoklással szerzi meg a telki szolgalmat az ingatlan birtokosa, ha a másik ingatlan használata ellen annak birtokosa tizenöt éven át nem tiltakozik. Szívességből vagy visszavonásig engedett jog gyakorlása nem vezet elbirtoklásra.\n(4) A telki szolgalom nem lehet önállóan forgalom tárgya.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:162. §",
+          "cim": "A telki szolgalom gyakorlása",
+          "tartalom": "(1) A szolgalom gyakorlása nem vezethet mások, különösen a szolgalommal terhelt dolog használója jogainak szükségtelen sérelméhez.\n(2) Ha a telki szolgalom gyakorlása valamely berendezés vagy felszerelés használatával jár, a fenntartás költségei a szolgalom jogosultját és kötelezettjét – eltérő megállapodás hiányában – olyan arányban terhelik, amilyen arányban a berendezést vagy felszerelést használják.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:163. §",
+          "cim": "A telki szolgalom megszűnése",
+          "tartalom": "(1) A bíróság a telki szolgalmat megszüntetheti, korlátozhatja vagy gyakorlását felfüggesztheti, ha az az ingatlan mindenkori birtokosa ingatlanának rendeltetésszerű használatához már nem szükséges.\n(2) A szolgalom megszűnik, ha a jogosult – bár ez módjában állt – tizenöt éven át nem gyakorolta vagy eltűrte, hogy gyakorlásában akadályozzák.\n(3) A telki szolgalom jogügylettel való megszüntetéséhez az uralkodó telek tulajdonosának a szolgáló telek tulajdonosához intézett írásbeli lemondó nyilatkozata és a szolgalmi jog ingatlan-nyilvántartásból való törlése szükséges.",
+          "footnote": []
+        },
+        {
+          "szakasz": "5:164. §",
+          "cim": "A közérdekű használati jog",
+          "tartalom": "(1) Ingatlanra közérdekből, a jogszabályban feljogosított személyek javára – hatóság határozatával vagy az érintett feleknek a határozatot pótló megállapodásával – szolgalmat vagy más használati jogot lehet alapítani. A használati jog alapításáért a korlátozás mértékének megfelelő kártalanítás jár.\n(2) A használati jog alapításából eredő károkat a kisajátítási kártalanításra vonatkozó szabályok szerint kell megtéríteni.",
+          "footnote": [
+            "1 Módosította: 2021. évi CXLVI. törvény 89. § c)."
+          ]
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "X.",
+      "megnevezes": "AZ INGATLAN-NYILVÁNTARTÁS TARTALMA ÉS AZ AHHOZ FŰZŐDŐ JOGHATÁSOK",
+      "szakaszok": [
+        {
+          "szakasz": "5:165. §",
+          "cim": "Az ingatlan-nyilvántartás tartalma",
+          "tartalom": "Az ingatlan-nyilvántartás az ingatlanokra vonatkozóan bejegyezhető jogokat, tényeket és adatokat az ingatlan-nyilvántartásról szóló jogszabályban meghatározottak szerint tartalmazza.",
+          "footnote": [
+            "2 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        },
+        {
+          "szakasz": "5:166. §",
+          "cim": "Az ingatlan-nyilvántartásba való bejegyzés",
+          "tartalom": "(1) E törvény eltérő rendelkezése hiányában az ingatlanra vonatkozó dologi jogok és korlátolt dologi jogok (a továbbiakban együtt: dologi jogok) az ingatlan-nyilvántartásba történő bejegyzéssel keletkeznek, módosulnak és szűnnek meg.\n(2) Az ingatlan-nyilvántartásba bejegyezhető nem dologi jogok és tények harmadik személyekkel szemben az ingatlan-nyilvántartásba történő bejegyzéssel válnak hatályossá.\n(3) A jogszabály erejénél fogva keletkező jog vagy tény harmadik személyekkel szemben bejegyzés nélkül is hatályos, ha az ingatlannak a jogot vagy tényt keletkeztető jogszabály hatálya alá tartozása az ingatlan-nyilvántartásban szereplő más jog, tény vagy – a helyrajzi számot ide nem értve – adat alapján az ingatlan tekintetében kétségtelenül megállapítható.\n(4) Törvényben meghatározott jogok vagy tények bejegyzése a későbbi jogszerzők szerzését korlátozza vagy feltételessé teszi.",
+          "footnote": [
+            "3 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        },
+        {
+          "szakasz": "5:167. §",
+          "cim": "Az ingatlan-nyilvántartás közhitelességének joghatása",
+          "tartalom": "Ha valamely jogot, tényt vagy adatot az ingatlan-nyilvántartásba bejegyeztek vagy az ingatlan-nyilvántartásból töröltek, senki sem hivatkozhat arra, hogy annak fennállásáról vagy törléséről nem tudott.",
+          "footnote": [
+            "4 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        },
+        {
+          "szakasz": "5:168. §",
+          "cim": "Jóhiszeműen és ellenérték fejében szerzők védelme",
+          "tartalom": "(1) A jóhiszemű és ellenérték fejében szerző javára az ingatlan-nyilvántartás tartalmát akkor is helyesnek és teljesnek kell tekinteni, ha ez az anyagi jogi jogállapottól eltér.\n(2) Az (1) bekezdés szerinti rendelkezésre nem lehet hivatkozni azzal szemben, aki a jóhiszemű és ellenérték fejében szerző ellen az ingatlan-nyilvántartási bejegyzés törlése vagy kiigazítása iránt, illetve az ingatlan-nyilvántartásban feltüntetett bejegyzési igény alapjául szolgáló jogügylet érvénytelenségének vagy a bejegyzési igény elévülésének megállapítása iránt pert indít. Ugyanez a szabály irányadó, ha a törlési vagy kiigazítási perindítást bejegyezték az ingatlan-nyilvántartásba.",
+          "footnote": [
+            "5 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        },
+        {
+          "szakasz": "5:169. §",
+          "cim": "Az ingatlan-nyilvántartáson kívül jogot szerző jogállása",
+          "tartalom": "(1) Az ingatlan-nyilvántartáson kívül az ingatlanra vonatkozóan dologi jogot szerző a szerzett jogát nem érvényesítheti az ingatlan-nyilvántartásba bejegyzett vagy őt a bejegyzési igénnyel rangsorban megelőző, jóhiszemű és ellenérték fejében jogot szerzővel szemben.\n(2) Az ingatlan-nyilvántartásba be nem jegyzett jogot vagy tényt annak jogosultja a jóhiszemű és ellenérték fejében jogot szerző bejegyzett jogosulttal, valamint a be nem jegyzett jog vagy tény jogosultját bejegyzési igénnyel rangsorban megelőző jóhiszeműen és ellenérték fejében jogot szerzővel szemben nem érvényesítheti.",
+          "footnote": [
+            "6 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        },
+        {
+          "szakasz": "5:170. §",
+          "cim": "Az ingatlan-nyilvántartási bejegyzés hatályának kiterjesztése",
+          "tartalom": "Az ingatlan-nyilvántartási bejegyzés hatályára, továbbá a jóhiszemű és ellenérték fejében szerzők védelmére vonatkozó szabályokat kell alkalmazni arra az esetre, ha az ingatlan-nyilvántartásba bejegyzett jog alapján az ingatlan-nyilvántartásban jogosultként megjelölt részére szolgáltatást teljesítenek.",
+          "footnote": [
+            "1 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XI.",
+      "megnevezes": "A TÖRLÉSI ÉS A KIIGAZÍTÁSI PER; JOGVÉDELMI HATÁS",
+      "szakaszok": [
+        {
+          "szakasz": "5:171. §",
+          "cim": "A bejegyzés törlése",
+          "tartalom": "Az ingatlan-nyilvántartási bejegyzés törlésének a bejegyzés alapjául szolgáló jogügylet érvénytelensége vagy a bejegyzés utólagos helytelenné válása miatt van helye.",
+          "footnote": [
+            "4 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        },
+        {
+          "szakasz": "5:172. §",
+          "cim": "A törlési és kiigazítási igény",
+          "tartalom": "(1) A jogosultat megillető törlési vagy kiigazítási igény az ingatlan tulajdonjogát vagy az ingatlanra vonatkozó valamely más jogot közvetlenül szerzővel szemben nem évül el.\n(2) Azzal szemben, aki közvetlenül a bejegyzés folytán szerzett jogot vagy mentesült kötelezettség alól, a bejegyzés törlése iránti pert addig lehet megindítani, amíg a bejegyzés alapjául szolgáló jognyilatkozat érvénytelensége vagy a bejegyzés utólagos helytelenné válása megállapításának helye van.",
+          "footnote": [
+            "5 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        },
+        {
+          "szakasz": "5:173. §",
+          "cim": "Bejegyeztetési kötelezettség",
+          "tartalom": "Ha az ingatlan-nyilvántartás kiigazításának feltétele az, hogy ezt megelőzően más jogát bejegyezzék, a jogosult ettől a személytől az őt megillető jog ingatlan-nyilvántartásba történő bejegyeztetését követelheti.",
+          "footnote": [
+            "6 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        },
+        {
+          "szakasz": "5:174. §",
+          "cim": "Az ingatlan-nyilvántartás jogvédelmi hatása",
+          "tartalom": "(1) A törlési pert a jóhiszeműen és ellenérték fejében jogot szerző harmadik személlyel szemben az anyagi jog szerinti jogosult vagy a bejegyzés törlése esetén jogosulttá váló személy\na) az érvénytelen bejegyzésről vagy az utólag helytelenné vált bejegyzés alapján történt jogszerzés bejegyzéséről szóló határozat részére történő kézbesítésétől számított hat hónap alatt,\nb) ha a határozat részére történő kézbesítésére nem került sor, a bejegyzés hatályossá válásától számított hároméves határidő alatt\nindíthatja meg.\n(2) Az (1) bekezdés szerinti perindítási határidők elmulasztása jogvesztéssel jár.\n(3) Az (1) és (2) bekezdés a kiigazítási igény érvényesítésére irányuló kiigazítási perre is irányadó, ha az ingatlanügyi hatósági eljárásban a sérelem nem orvosolható, vagy ha a sérelem orvoslását a bejegyzést sérelmesnek tartó fél eredménytelenül kísérelte meg.",
+          "footnote": [
+            "7 Megállapította: 2021. évi C. törvény 105. §. Hatályos: 2025. I. 15-től."
+          ]
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "I.",
+      "megnevezes": "ÁLTALÁNOS RENDELKEZÉSEK",
+      "szakaszok": [
+        {
+          "szakasz": "6:1. §",
+          "cim": "A kötelem",
+          "tartalom": "(1) A kötelem kötelezettség a szolgáltatás teljesítésére és jogosultság a szolgáltatás teljesítésének követelésére.\n(2) A kötelem valamely dolog adására, tevékenységre, tevékenységtől való tartózkodásra vagy más magatartásra irányulhat.\n(3) A kötelmeknek a felek jogaira és kötelezettségeire vonatkozó közös szabályaitól a felek egyező akarattal eltérhetnek, ha e törvény az eltérést nem tiltja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:2. §",
+          "cim": "Kötelemkeletkeztető tények",
+          "tartalom": "(1) Kötelem keletkezhet különösen szerződésből, károkozásból, személyiségi, dologi vagy más jog megsértéséből, egyoldalú jognyilatkozatból, értékpapírból, jogalap nélküli gazdagodásból, megbízás nélküli ügyvitelből és utaló magatartásból.\n(2) Egyoldalú jognyilatkozatból jogszabályban meghatározott esetekben keletkezik kötelem. Ezekre a kötelmekre a kötelmek közös és a szerződés általános szabályait kell megfelelően alkalmazni.\n(3) Kötelem jogszabályból, bírósági vagy hatósági határozatból akkor keletkezik, ha a jogszabály, a bírósági vagy a hatósági határozat így rendelkezik, és a kötelezettet, a jogosultat és a szolgáltatást meghatározza. Ezekre a kötelmekre a kötelmek közös és a szerződés általános szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:3. §",
+          "cim": "A kötelem megszűnése",
+          "tartalom": "A kötelem megszűnik\na) a szolgáltatás teljesítésével, ha e törvény eltérően nem rendelkezik;\nb) abban az esetben, ha ugyanaz a személy lesz a jogosult és a kötelezett, ha e törvény eltérően nem rendelkezik;\nc) a kötelezett halálával vagy jogutód nélküli megszűnésével, ha kötelezettsége személyesen teljesíthető szolgáltatás nyújtására irányult;\nd) a jogosult halálával vagy jogutód nélküli megszűnésével, ha a szolgáltatást – annak jellegénél fogva – kifejezetten részére kellett nyújtani;\ne) a feleknek a kötelem megszüntetésére irányuló megállapodásával;\nf) jogszabályban vagy bírósági vagy hatósági határozatban meghatározott egyéb okból.",
+          "footnote": [
+            "1 Megállapította: 2023. évi XXXIX. törvény 94. §. Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (3)."
+          ]
+        },
+        {
+          "szakasz": "6:4. §",
+          "cim": "A jognyilatkozat",
+          "tartalom": "(1) A jognyilatkozat joghatás kiváltására irányuló akaratnyilatkozat.\n(2) Jognyilatkozat szóban, írásban vagy ráutaló magatartással tehető.\n(3) Ha a fél jognyilatkozatát ráutaló magatartással fejezi ki, a jognyilatkozat megtételének a ráutaló magatartás tanúsítása minősül.\n(4) A hallgatás vagy valamilyen magatartástól tartózkodás a felek kifejezett rendelkezése alapján minősül jognyilatkozatnak.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:5. §",
+          "cim": "A jognyilatkozat hatályosulása",
+          "tartalom": "(1) A jelenlevők között tett jognyilatkozat nyomban hatályossá válik. Jelenlévők között tett a jognyilatkozat abban az esetben, ha a jognyilatkozat tartalmáról a címzett annak megtételével egyidejűleg tudomást szerez.\n(2) A távollevők között tett jognyilatkozat a címzetthez való megérkezéssel válik hatályossá.\n(3) A ráutaló magatartással tett jognyilatkozat a címzett tudomásszerzésével válik hatályossá.\n(4) A nem címzett jognyilatkozat megtételével válik hatályossá.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:6. §",
+          "cim": "Alakisághoz kötött jognyilatkozat",
+          "tartalom": "(1) Ha jogszabály vagy a felek megállapodása a jognyilatkozatra meghatározott alakot rendel, a jognyilatkozat ebben az alakban érvényes.\n(2) Ha a jognyilatkozat meghatározott alakban tehető meg érvényesen, a jognyilatkozat módosítása, megerősítése, visszavonása, megtámadása, valamint a jognyilatkozat alapján létrejött jogviszony módosítása és megszüntetése is a meghatározott alakban érvényes.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:7. §",
+          "cim": "Írásbeli alakhoz kötött jognyilatkozat",
+          "tartalom": "(1) Ha a jognyilatkozatot írásban kell megtenni, az akkor érvényes, ha legalább a lényeges tartalmát írásba foglalták.\n(2) Ha e törvény eltérően nem rendelkezik, a jognyilatkozat akkor minősül írásba foglaltnak, ha jognyilatkozatát a nyilatkozó fél aláírta.\n(3) Írásba foglaltnak kell tekinteni a jognyilatkozatot akkor is, ha annak közlésére a jognyilatkozatban foglalt tartalom változatlan visszaidézésére, a nyilatkozattevő személyének és a nyilatkozat megtétele időpontjának azonosítására alkalmas formában kerül sor.\n(3a)\n(4) Írni nem tudó vagy nem képes személy írásbeli jognyilatkozata abban az esetben érvényes, ha azt közokirat vagy olyan teljes bizonyító erejű magánokirat tartalmazza, amelyen a nyilatkozó fél aláírását vagy kézjegyét bíróság vagy közjegyző hitelesíti, vagy amelyen ügyvéd ellenjegyzéssel vagy két tanú aláírással igazolja, hogy a nyilatkozó fél a nem általa írt okiratot előttük írta alá vagy látta el kézjegyével, vagy az okiraton lévő aláírást vagy kézjegyet előttük saját aláírásának vagy kézjegyének ismerte el. Az olvasni nem tudó, továbbá az olyan személy esetén, aki nem érti azt a nyelvet, amelyen az írásbeli nyilatkozatát tartalmazó okirat készült, az írásbeli jognyilatkozat érvényességének további feltétele, hogy magából az okiratból kitűnjön, hogy annak tartalmát a tanúk egyike vagy a hitelesítő személy a nyilatkozó félnek megmagyarázta.\n(5) A (4) bekezdésen alapuló érvénytelenségre csak a nyilatkozattevő személy érdekében lehet hivatkozni.",
+          "footnote": [
+            "1 Hatályon kívül helyezte: 2023. évi XLVI. törvény 36. §. Hatálytalan: 2024. I. 1-től.",
+            "1 Beiktatta: 2016. évi LXXVII. törvény 18. §. Hatályos: 2016. VII. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §."
+          ]
+        },
+        {
+          "szakasz": "6:8. §",
+          "cim": "A jognyilatkozat értelmezése",
+          "tartalom": "(1) A jognyilatkozatot vita esetén úgy kell értelmezni, ahogyan azt a címzettnek a nyilatkozó feltehető akaratára és az eset körülményeire tekintettel a szavak általánosan elfogadott jelentése szerint értenie kellett.\n(2) A nem címzett jognyilatkozatot vita esetén úgy kell értelmezni, ahogyan azt a nyilatkozó feltehető akaratára és az eset körülményeire tekintettel a szavak általánosan elfogadott jelentése szerint érteni kell.\n(3) Jogról lemondani vagy abból engedni kifejezett jognyilatkozattal lehet. Ha valaki jogáról lemond vagy abból enged, jognyilatkozatát nem lehet kiterjesztően értelmezni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:9. §",
+          "cim": "A szerződés szabályainak megfelelő alkalmazása",
+          "tartalom": "A jognyilatkozat hatályára, érvénytelenségére és hatálytalanságára – ha e törvény eltérően nem rendelkezik – a szerződés általános szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:10. §",
+          "cim": "A jognyilatkozatra vonatkozó szabályok megfelelő alkalmazása",
+          "tartalom": "A jognyilatkozatra vonatkozó szabályokat – ha e törvény eltérően nem rendelkezik – a nem kötelmi jogi jognyilatkozatokra megfelelően alkalmazni kell.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:11. §",
+          "cim": "Képviselet",
+          "tartalom": "(1) Ha e törvény eltérően nem rendelkezik, más személy útján is lehet jognyilatkozatot tenni. A képviselő által megtett jognyilatkozat közvetlenül a képviseltet jogosítja és kötelezi.\n(2) A képviseleti jog jogszabályon, bírósági vagy hatósági határozaton, létesítő okiraton vagy meghatalmazáson alapulhat.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:12. §",
+          "cim": "A képviseleti jog korlátozása",
+          "tartalom": "A képviselő jogkörének korlátozása jóhiszemű harmadik személlyel szemben hatálytalan, ha e törvény eltérően nem rendelkezik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:13. §",
+          "cim": "Érdekellentét",
+          "tartalom": "(1) Ha a képviselő és a képviselt között érdekellentét van, a képviselő által tett jognyilatkozatot a képviselt megtámadhatja.\n(2) Vélelmezett az érdekellentét, ha a képviselő az ellenérdekű fél vagy annak képviselője.\n(3) A képviselt nem támadhatja meg a jognyilatkozatot, ha a képviseleti jog alapításakor az érdekellentétről tudott.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:14. §",
+          "cim": "Álképviselet",
+          "tartalom": "(1) Aki képviseleti jog nélkül vagy képviseleti jogkörét túllépve más nevében jognyilatkozatot tesz, nyilatkozata a képviselt jóváhagyásával vált ki joghatást.\n(2) Ha a képviselt a nevében tett jognyilatkozatot nem hagyja jóvá, a jóhiszemű álképviselő a harmadik személynek a jognyilatkozat megtételéből eredő kárát, a rosszhiszemű álképviselő a harmadik személynek a teljes kárát köteles megtéríteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:15. §",
+          "cim": "Meghatalmazás",
+          "tartalom": "(1) A meghatalmazás képviseleti jogot létesítő egyoldalú jognyilatkozat. A meghatalmazást a képviselőhöz, az érdekelt hatósághoz, bírósághoz vagy ahhoz a személyhez kell intézni, akihez a meghatalmazás alapján a képviselő jognyilatkozatot jogosult tenni.\n(2) A meghatalmazáshoz olyan alakszerűségek szükségesek, amilyeneket jogszabály a meghatalmazás alapján megtehető jognyilatkozatra előír.\n(3) A meghatalmazás visszavonásig érvényes.\n(4) A meghatalmazás korlátozásának és visszavonásának jogáról való lemondás semmis. A meghatalmazás korlátozása és visszavonása harmadik személy irányában akkor hatályos, ha arról tudott vagy tudnia kellett.\n(5) Meghatalmazás alapján cselekvőképes személyt korlátozottan cselekvőképes vagy cselekvőképességében részlegesen korlátozott személy is képviselhet.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:16. §",
+          "cim": "Általános meghatalmazás",
+          "tartalom": "Ügyek egyedileg meg nem határozott körére adott meghatalmazás akkor érvényes, ha teljes bizonyító erejű magánokiratba vagy közokiratba foglalták. A határozatlan vagy öt évnél hosszabb időre szóló általános meghatalmazás öt év elteltével hatályát veszti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:17. §",
+          "cim": "A képviselet terjedelme",
+          "tartalom": "A képviseleti jog kiterjed mindazon cselekmények elvégzésére és jognyilatkozatok megtételére, amelyek a képviselettel elérni kívánt cél érdekében szükségesek.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:18. §",
+          "cim": "Vélelmezett és látszaton alapuló képviselet",
+          "tartalom": "(1) Üzlethelyiségben vagy az ügyfélforgalom számára nyitva álló egyéb helyiségben képviselőnek kell tekinteni azt a személyt, akiről okkal feltételezhető, hogy az ott szokásos jognyilatkozatok megtételére jogosult. A képviselő jogkörének korlátozása harmadik személlyel szemben hatálytalan, kivéve, ha a harmadik személy a korlátozásról tudott.\n(2) Képviselőnek kell tekinteni azt a személyt, akiről eljárása és a képviselt személy magatartása alapján okkal feltételezhető, hogy jogosultsággal rendelkezik a képviselt személy nevében jognyilatkozatot tenni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:19. §",
+          "cim": "Ügyeinek vitelében akadályozott személy képviselete",
+          "tartalom": "(1) A gyámhatóság kérelemre gondnokot rendel annak, akit körülményei ügyeinek vitelében akadályoznak. A gondnokrendelést bármely érdekelt és bármely hatóság kérheti, és annak hivatalból is helye van.\n(2) A gondnokrendelés a gondnokolt személy cselekvőképességét nem érinti.\n(3) A gondnok kezeli a gondnokolt vagyonát. A távollevő gondnoka – a gyámhatóság előzetes hozzájárulásával – minden olyan intézkedést megtehet, amivel a gondnokolt személyt károsodástól óvja meg. A halaszthatatlanul sürgős intézkedéshez a gyámhatóság hozzájárulása nem szükséges, erről azonban a gyámhatóságnak késedelem nélkül be kell számolni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:20. §",
+          "cim": "Eseti gondnokság és eseti gyámság",
+          "tartalom": "(1) A gyámhatóság eseti gondnokot rendel, ha a gondnok jogszabály vagy a gyámhatóság rendelkezése folytán, érdekellentét vagy más tényleges akadály miatt nem járhat el.\n(2) Eseti gondnokot kell rendelni akkor is,\na) ha sürgősen kell intézkedni, és a cselekvőképtelen vagy a cselekvőképességében részlegesen korlátozott nagykorú személynek nincs törvényes képviselője vagy annak személye nem állapítható meg; továbbá\nb) ha az ismeretlen, távollevő vagy ügyeinek vitelében egyébként akadályozott személy jogainak megóvása érdekében szükséges.\n(3) Az eseti gondnok az ügyben olyan jogkörrel jár el, mint a gondnok.\n(4) A gondnok jogköre nem terjed ki azokra az ügyekre, amelyeknek ellátására eseti gondnokot rendeltek.\n(5) A gyámhatóság az (1) és a (2) bekezdésben meghatározott esetekben eseti gyámot rendel, ha kiskorú személy képviseletéről kell gondoskodni. Az eseti gyámra az eseti gondnokra vonatkozó szabályokat kell megfelelően alkalmazni.",
+          "footnote": [
+            "1 Megállapította: 2019. évi CX. törvény 84. § (1). Módosította: 2025. évi XLIX. törvény 107. § b).",
+            "2 Módosította: 2019. évi CX. törvény 84. § (2), 2025. évi XLIX. törvény 107. § c)."
+          ]
+        },
+        {
+          "szakasz": "6:21. §",
+          "cim": "Az időmúlás joghatása",
+          "tartalom": "Jogosultság gyakorlására és követelés érvényesítésére jogszabályban előírt határidő eltelte jogvesztéssel akkor jár, ha ezt jogszabály kifejezetten így rendeli. Ha a határidő nem jogvesztő, arra az elévülés szabályait kell alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:22. §",
+          "cim": "Elévülés",
+          "tartalom": "(1) Ha e törvény eltérően nem rendelkezik, a követelések öt év alatt évülnek el.\n(2) Az elévülés akkor kezdődik, amikor a követelés esedékessé válik.\n(3) Az elévülési idő megváltoztatására irányuló megállapodást írásba kell foglalni.\n(4) Az elévülést kizáró megállapodás semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:23. §",
+          "cim": "Az elévülés joghatásai",
+          "tartalom": "(1) Ha e törvény eltérően nem rendelkezik, az elévült követelést bírósági eljárásban nem lehet érvényesíteni.\n(2) Az elévülés a kötelezettnek a szolgáltatás teljesítésére vonatkozó kötelezettségét nem érinti; az elévült követelés alapján teljesített szolgáltatást a követelés elévülésére tekintettel visszakövetelni nem lehet.\n(3) A főkövetelés elévülésével az attól függő mellékkövetelések is elévülnek. A mellékkövetelések elévülése a főkövetelés elévülését nem érinti.\n(4) Az elévülést a bírósági vagy hatósági eljárásban nem lehet hivatalból figyelembe venni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:24. §",
+          "cim": "Az elévülés nyugvása",
+          "tartalom": "(1) Ha a követelést a jogosult menthető okból nem tudja érvényesíteni, az elévülés nyugszik.\n(2) Ha az elévülés nyugszik, az akadály megszűnésétől számított egyéves – egyéves vagy ennél rövidebb elévülési idő esetén három hónapos – határidőn belül a követelés akkor is érvényesíthető, ha az elévülési idő már eltelt, vagy abból egy évnél – egyéves vagy ennél rövidebb elévülési idő esetén három hónapnál – kevesebb van hátra.\n(3) A (2) bekezdésben meghatározott időtartam alatt az elévülés nyugvásának nincs helye, az elévülés megszakítására vonatkozó rendelkezéseket pedig azzal az eltéréssel kell alkalmazni, hogy a megszakítás következtében az egyéves – egyéves vagy ennél rövidebb elévülési idő esetén a három hónapos – határidő számítása kezdődik újból.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:25. §",
+          "cim": "Az elévülés megszakítása",
+          "tartalom": "(1) Az elévülést megszakítja\na) a tartozásnak a kötelezett részéről történő elismerése;\nb) a kötelem megegyezéssel történő módosítása és az egyezség;\nc) a követelés kötelezettel szembeni bírósági eljárásban történő érvényesítése, ha a bíróság az eljárást befejező jogerős érdemi határzatot hozott; vagy\nd) a követelés csődeljárásban történő bejelentése.\n(2) Az elévülés megszakításától vagy az elévülést megszakító eljárás jogerős befejezésétől az elévülés újból kezdődik.\n(3) Ha az elévülést megszakító eljárás során végrehajtható határozatot hoztak, az elévülést a kötelem megegyezéssel való módosítása és a végrehajtási cselekmények szakítják meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:26. §",
+          "cim": "Tartozáselismerés",
+          "tartalom": "Ha a kötelezett a tartozását elismeri, a tartozás jogcíme nem változik meg, de a tartozását elismerő kötelezettet terheli annak bizonyítása, hogy tartozása az elismerő jognyilatkozat megtételének időpontjában nem vagy alacsonyabb összegben állt fenn, bírósági eljárásban nem érvényesíthető követelésen vagy érvénytelen szerződésen alapult.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:27. §",
+          "cim": "Egyezség",
+          "tartalom": "(1) A felek a kötelemből eredő vitás vagy bizonytalan kérdéseket megegyezéssel úgy is rendezhetik, hogy kölcsönösen engednek egymásnak, vagy valamelyik fél egyoldalúan enged követeléséből.\n(2) Az egyezség érvényességét nem érinti a feleknek olyan körülményre vonatkozó tévedése, amely közöttük vitás volt, vagy amelyet bizonytalannak tartottak.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "II.",
+      "megnevezes": "TÖBBALANYÚ KÖTELMEK",
+      "szakaszok": [
+        {
+          "szakasz": "6:28. §",
+          "cim": "Osztott kötelezettség",
+          "tartalom": "(1) Ha többen tartoznak egy osztható szolgáltatással – ha e törvény eltérően nem rendelkezik – a jogosult minden kötelezettől a ráeső részt követelheti. Kétség esetén a kötelezettek egyenlő mértékű szolgáltatás teljesítésére kötelesek.\n(2) Osztható a szolgáltatás, ha önállóan használható részekre bontható, kivéve, ha a megosztás a jogosult lényeges jogi érdekét sértené.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:29. §",
+          "cim": "Egyetemleges kötelezettség",
+          "tartalom": "(1) Ha többen tartoznak egy nem osztható szolgáltatással, a teljesítés bármelyik kötelezettől követelhető. Egyetemleges a kötelezettség abban az esetben is, ha többen úgy tartoznak egy osztható szolgáltatással, hogy a jogosult bármelyik kötelezettől követelheti a teljesítést.\n(2) Egyetemleges kötelezettség esetén minden kötelezett az egész szolgáltatással tartozik, de ha bármelyikük teljesít, a jogosulttal szemben a teljesített rész erejéig a többiek kötelezettsége is megszűnik. A kötelezettek egymás szerződésszegéséért is felelnek.\n(3) A kötelezett a jogosult követelésével szemben a többi kötelezettet megillető, a jogosult kielégítésével kapcsolatos kifogásra is hivatkozhat, a többi kötelezett követelését azonban nem számíthatja be.\n(4) A jogosultnak az egyik kötelezettel szemben beálló késedelme valamennyiük javára beáll.\n(5) A követelésnek egyik kötelezettel szembeni elévülése nem hat ki a többi kötelezettre.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:30. §",
+          "cim": "Az egyetemleges kötelezettek egymás közti viszonya",
+          "tartalom": "(1) Az egyetemleges kötelezetteket – ha jogviszonyukból más nem következik – a kötelezettség egymás között egyenlő arányban terheli. Ha a kötelezett kötelezettségét meghaladó szolgáltatást teljesített a jogosultnak, a többi kötelezettől a követelésnek őket terhelő része erejéig az általa nyújtott többletszolgáltatás megtérítését kérheti.\n(2) A kötelezett nem hivatkozhat a többi kötelezettel szemben olyan kedvezményre, amelyben a jogosulttól részesült.\n(3) Az a kötelezett, akivel szemben a jogosult követelése elévült, az elévülésre a többi kötelezettel szemben is hivatkozhat.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:31. §",
+          "cim": "Több jogosult osztható szolgáltatás esetén",
+          "tartalom": "Ha egy osztható szolgáltatást többen követelhetnek, minden jogosult az őt megillető részt követelheti. Kétség esetén a jogosultak egyenlő mértékű szolgáltatás követelésére jogosultak.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:32. §",
+          "cim": "Jogosulti együttesség",
+          "tartalom": "Ha többen jogosultak nem osztható szolgáltatást követelni, valamennyiük kezéhez kell teljesíteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:33. §",
+          "cim": "A jogosultak egyetemlegessége",
+          "tartalom": "(1) Ha a követelés több jogosultat úgy illet meg, hogy mindegyik az egész szolgáltatást követelheti, de a kötelezettet egyszeri szolgáltatás terheli, a kötelezettség minden jogosulttal szemben megszűnik, ha bármelyik jogosult kielégítést kap.\n(2) A jogosultak bármelyikének késedelme vagy az olyan jognyilatkozat, amely a követelés érvényesítésének vagy a kötelezettség teljesítésének feltétele, mindegyik jogosultra kihat.\n(3) A követelés egyik jogosulttal szemben sem évül el addig, amíg az elévülés feltételei valamennyiükkel szemben be nem következtek.\n(4) Ha valamelyik jogosult a teljesítés iránt pert indít, a per jogerős befejezéséig a kötelezett – anélkül, hogy a késedelem jogkövetkezményei alól ezzel mentesülne – a többi jogosult irányában megtagadhatja a teljesítést.\n(5) A jogosultakat – ha jogviszonyukból más nem következik – a követelés egymás között egyenlő arányban illeti meg.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "III.",
+      "megnevezes": "A KÖTELEM TELJESÍTÉSE",
+      "szakaszok": [
+        {
+          "szakasz": "6:34. §",
+          "cim": "A teljesítés általános szabálya",
+          "tartalom": "A szolgáltatást a kötelem tartalmának megfelelően kell teljesíteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:35. §",
+          "cim": "A teljesítés ideje",
+          "tartalom": "(1) A teljesítés ideje meghatározható határnap vagy határidő tűzésével. Határnap tűzése esetén a szolgáltatást ezen a napon kell teljesíteni. Határidő megjelölése esetén a szolgáltatás a meghatározott időtartamon belül bármikor teljesíthető, kivéve, ha az eset körülményeiből az következik, hogy a jogosult választhatja meg a teljesítés időpontját.\n(2) Ha a szolgáltatás rendeltetéséből a teljesítési idő megállapítható, a szolgáltatást ebben az időpontban kell teljesíteni.\n(3) Ha a teljesítés idejét az (1)–(2) bekezdés alapján nem lehet megállapítani, a kötelezett a teljesítés előkészítéséhez szükséges idő elteltével köteles teljesíteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:36. §",
+          "cim": "Idő előtti teljesítés",
+          "tartalom": "(1) A jogosult a teljesítési idő előtt felajánlott teljesítést köteles elfogadni, ha az lényeges jogi érdekét nem sérti, és a kötelezett az ezzel járó többletköltséget viseli.\n(2) A teljesítési idő előtti teljesítés elfogadása nem érinti a másik fél szolgáltatása teljesítésének esedékességét.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:37. §",
+          "cim": "A teljesítés helye",
+          "tartalom": "(1) Ha e törvény eltérően nem rendelkezik, a szolgáltatás teljesítésének helye a kötelezettnek a kötelem keletkezésének időpontja szerinti telephelye, ennek hiányában székhelye, természetes személy esetén lakóhelye, ennek hiányában szokásos tartózkodási helye.\n(2) Ha a kötelezettnek több telephelye van, a teljesítés helyének azt a telephelyet kell tekinteni, amely a kötelemmel a legszorosabb kapcsolatban áll.\n(3) Ha a kötelem keletkezését követően a teljesítési hely megváltozik, és erről a kötelezett a jogosultat értesíti, a teljesítés helye az új telephely vagy székhely, természetes személy esetén az új lakóhely vagy szokásos tartózkodási hely. A teljesítés helyének megváltozásából eredő többletköltséget a kötelezett előlegezi és viseli.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:38. §",
+          "cim": "A teljesítés elismerése",
+          "tartalom": "(1) A jogosult a kötelezett kérelmére köteles a teljesítés tényének írásbeli elismerésére vagy a kötelezvény visszaadására.\n(2) Azt, aki felmutatja a jogosult írásba foglalt elismerő nyilatkozatát, a teljesítés elfogadására jogosított személynek kell tekinteni, kivéve, ha a körülményekből nyilvánvaló, hogy a teljesítés elfogadására nem jogosult.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:39. §",
+          "cim": "A teljesítési költségek viselése",
+          "tartalom": "A teljesítéssel járó költségek a kötelezettet terhelik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:40. §",
+          "cim": "Fajlagos szolgáltatás elosztása",
+          "tartalom": "(1) Ha valaki fajta és mennyiség szerint meghatározott dolgokat ugyanannak a személynek különböző helyekre köteles küldeni, de az egész mennyiséget nem tudja szolgáltatni, a jogosult rendelkezése szerint köteles a rendelkezésre álló mennyiséget elosztani.\n(2) Ha a jogosult felszólítás ellenére nem rendelkezik, a kötelezett az egyes helyekre járó mennyiséget arányosan köteles csökkenteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:41. §",
+          "cim": "Elszámolás több tartozás esetén",
+          "tartalom": "(1) Ha a kötelezettet a jogosulttal szemben több egynemű szolgáltatás terheli, és a felajánlott teljesítés nem fedezi valamennyi tartozását, a kötelezett a teljesítés időpontjában megjelölheti, hogy mely tartozására kívánja azt elszámolni.\n(2) Ha a kötelezett a tartozások elszámolásának rendjéről nem rendelkezett, és egyértelmű szándéka sem ismerhető fel, a másik fél jogosult eldönteni, hogy az esedékes és nem vitás tartozások közül a teljesítést melyik tartozásra számolja el. A jogosult döntéséről a kötelezettet megfelelő határidőn belül értesíteni köteles.\n(3) Ha egyik fél sem rendelkezett, vagy a jogosult döntéséről a kötelezettet nem értesítette, a teljesítést a régebben lejárt, azonos lejárat esetén a kevésbé biztosított, egyenlő mértékben biztosított követelések közül a kötelezettre terhesebb tartozásra kell elszámolni.\n(4) Ha a teljesítés a (3) bekezdés alapján nem számolható el, azt valamennyi tartozásra arányosan kell elszámolni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:42. §",
+          "cim": "Fizetés",
+          "tartalom": "(1) Pénztartozást pénz tulajdonjogának a jogosult részére való átruházása vagy a jogosult fizetési számlájára való befizetés vagy átutalás útján lehet teljesíteni.\n(2) A pénztartozás készpénzfizetés esetén a pénz átvételének időpontjában, egyéb esetben abban az időpontban válik teljesítetté, amikor a pénzt a jogosult fizetési számláján a jogosult számlavezető bankja jóváírta vagy azt jóvá kellett volna írnia.\n(3) Ezeket a rendelkezéseket kell megfelelően alkalmazni minden egyéb, pénz átadására irányuló kötelezettség teljesítésére is.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:43. §",
+          "cim": "Pénztartozás idő előtti teljesítése",
+          "tartalom": "A jogosult a teljesítési idő előtt felajánlott teljesítést köteles elfogadni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:44. §",
+          "cim": "Pénztartozás teljesítésének helye",
+          "tartalom": "(1) A pénztartozás teljesítésének helye készpénzfizetés esetén a jogosultnak a kötelem keletkezésének időpontja szerinti telephelye, ennek hiányában székhelye, természetes személy esetén a jogosult lakóhelye, ennek hiányában szokásos tartózkodási helye. Ha a pénztartozást a kötelezett nem készpénzfizetéssel teljesíti, a pénztartozás teljesítésének helye a jogosultnak a kötelem keletkezésének időpontja szerinti fizetési számláját vezető bank telephelye, ennek hiányában székhelye. Ha a kötelem keletkezésének időpontjában a jogosultnak több fizetési számlája van, a kötelezettet a teljesítési hely tekintetében választási jog illeti meg.\n(2) Ha a jogosultnak több telephelye van, a teljesítés helyének azt a telephelyet kell tekinteni, amely a kötelemmel a legszorosabb kapcsolatban áll.\n(3) Ha a készpénztartozás keletkezését követően a teljesítési hely megváltozik, és erről a jogosult a kötelezettet értesíti, a teljesítés helye az új telephely vagy székhely, természetes személy esetén az új lakóhely vagy szokásos tartózkodási hely.\n(4) A teljesítés helyének megváltozásából eredő többletköltséget a jogosult előlegezi és viseli.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:45. §",
+          "cim": "Pénztartozás teljesítésének módja",
+          "tartalom": "(1) A pénztartozást a teljesítés helyén és idején érvényben lévő pénznemben kell megfizetni.\n(2) A más pénznemben meghatározott pénztartozást a teljesítés helye szerinti jegybank által a teljesítés idején meghatározott árfolyam – ha ilyen nincs, a pénzpiaci árfolyam – alapján kell átszámítani. Ha a pénztartozás külföldi pénznemben teljesítendő, és a teljesítés idején a tartozás a külföldi pénznemben nem teljesíthető, a pénztartozást az (1) bekezdésben foglaltak szerint kell teljesíteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:46. §",
+          "cim": "Elszámolás több tartozás esetén",
+          "tartalom": "Ha a pénztartozás teljesítéseként fizetett összeg az egész tartozás kiegyenlítésére nem elegendő, azt – ha a jogosult eltérően nem rendelkezett, és egyértelmű szándéka sem ismerhető fel – elsősorban a költségekre, majd a kamatokra és végül a főtartozásra kell elszámolni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:47. §",
+          "cim": "Kamat",
+          "tartalom": "(1) Pénztartozás után – ha e törvény eltérően nem rendelkezik – kamat jár.\n(2) A kamat mértéke megegyezik a jegybanki alapkamattal.\n(3) Idegen pénznemben meghatározott pénztartozás esetén a kamat mértéke az adott pénznemre a kibocsátó jegybank által meghatározott alapkamat, ha ilyen nincs, a pénzpiaci kamat.\n(4) A kamat számításakor az érintett naptári félév első napján érvényes kamat irányadó az adott naptári félév teljes idejére.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:48. §",
+          "cim": "Késedelmi kamat",
+          "tartalom": "(1) Pénztartozás esetén a kötelezett a késedelembe esés időpontjától kezdődően a késedelemmel érintett naptári félév első napján érvényes jegybanki alapkamattal – idegen pénznemben meghatározott pénztartozás esetén az adott pénznemre a kibocsátó jegybank által meghatározott alapkamattal, ennek hiányában a pénzpiaci kamattal – megegyező mértékű késedelmi kamatot köteles fizetni, akkor is, ha a pénztartozás egyébként kamatmentes volt.\n(2) Ha a jogosultnak a késedelembe esés időpontjáig kamat jár, a kötelezett a késedelembe esés időpontjától e kamaton felül a késedelemmel érintett naptári félév első napján érvényes jegybanki alapkamat – idegen pénznemben meghatározott pénztartozás esetén az adott pénznemre a kibocsátó jegybank által meghatározott alapkamat, ennek hiányában a pénzpiaci kamat – egyharmadával megegyező késedelmi kamatot, de összesen legalább az (1) bekezdésben meghatározott kamatot köteles fizetni.\n(3) A kamat számításakor a késedelemmel érintett naptári félév első napján érvényes jegybanki alapkamat irányadó az adott naptári félév teljes idejére.\n(4) A kamatfizetési kötelezettség akkor is beáll, ha a kötelezett késedelmét kimenti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:49. §",
+          "cim": "Pénzkövetelések beszámítása",
+          "tartalom": "(1) A kötelezett pénztartozását úgy is teljesítheti, hogy a jogosulttal szemben fennálló lejárt pénzkövetelését a jogosulthoz intézett jognyilatkozattal a pénztartozásába beszámítja.\n(2) A beszámítás erejéig a kötelezettségek megszűnnek.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:50. §",
+          "cim": "Pénzkövetelések beszámításának korlátai",
+          "tartalom": "(1) Az elévült pénzkövetelést is be lehet számítani, ha a beszámítani kívánt pénzkövetelés elévülése a pénztartozás esedékessé válásának időpontjában még nem következett be.\n(2) Végrehajtható okirattal vagy egyezséggel meghatározott, továbbá közokiratba foglalt pénzkövetelésbe ugyanilyen pénztartozást lehet beszámítani.\n(3) Végrehajtás alól mentes pénzköveteléssel szemben olyan pénztartozást lehet beszámítani, amely a pénzköveteléssel azonos jogalapból ered.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:51. §",
+          "cim": "A beszámítás kizártsága",
+          "tartalom": "(1) Beszámításnak nincs helye\na) tartásdíj- és járadékköveteléssel szemben, a túlfizetés esetét kivéve; és\nb) a szándékosan okozott kár megtérítésére irányuló pénzköveteléssel szemben.\n(2) A bírósági eljárásban nem érvényesíthető pénzkövetelés beszámításának nincs helye.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:52. §",
+          "cim": "A beszámítás szabályainak alkalmazása nem pénzkövetelés esetén",
+          "tartalom": "A beszámítás szabályait megfelelően alkalmazni kell akkor is, ha a kötelezett a jogosulttal szemben fennálló bármely más egynemű és lejárt követelését a jogosulthoz intézett jognyilatkozattal a tartozásába beszámítja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:53. §",
+          "cim": "Bírósági letét útján való teljesítés",
+          "tartalom": "(1) A kötelezett a pénz fizetésére, továbbá értékpapír vagy más okirat kiadására irányuló kötelezettségét bírósági letétbe helyezés útján is teljesítheti, ha\na) a jogosult személye bizonytalan, és azt a kötelezett önhibáján kívül nem tudja megállapítani;\nb) a jogosult a teljesítés helyén nem található;\nc) a jogosult a kötelezett részéről megfelelően felajánlott teljesítést nem fogadja el; vagy\nd) a jogosultak jogosulti együttesség esetén nem teszik lehetővé, hogy a kötelezett valamennyiük kezéhez teljesítsen.\n(2) A letéteményes kötelezettségeire a letéti szerződés szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:54. §",
+          "cim": "Visszakövetelés és elévülés",
+          "tartalom": "(1) A kötelezett a letétet mindaddig visszakövetelheti, amíg a jogosult a letétbe helyezésről a bíróságtól értesítést nem kapott.\n(2) A jogosult a letét kiadását a letétbe helyezésről szóló értesítés kézhezvételétől számított ötéves elévülési időn belül követelheti.\n(3) Ha a jogosultnak a letét kiadására irányuló joga elévült, a kötelezett követelheti a letét visszaadását.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:55. §",
+          "cim": "A letét kiadása",
+          "tartalom": "(1) A bíróság a letétet a jogosultnak adhatja ki.\n(2) Ha a letétbe helyezésre amiatt került sor, mert a jogosult személye bizonytalan, a letétet a jogosult személyét igazoló jogerős vagy véglegessé vált határozat alapján lehet kiadni.\n(3) A bíróság a letétet jogosulti együttesség esetén a jogosultak közös kérelmére vagy a jogosult személyét igazoló jogerős ítélet alapján adhatja ki.\n(4) A kötelezett a letétbe helyezés alkalmával kikötheti, hogy a letétet a jogosultnak az őt terhelő szolgáltatás teljesítésének igazolása ellenében adják ki.",
+          "footnote": [
+            "1 Módosította: 2017. évi L. törvény 438. § g)."
+          ]
+        },
+        {
+          "szakasz": "6:56. §",
+          "cim": "Közjegyzői letét",
+          "tartalom": "(1) A bírósági letét útján való teljesítés feltételeinek megvalósulása esetén a kötelezett kötelezettségét közjegyzőnél történő letétbe helyezés útján is teljesítheti.\n(2) A közjegyzőnél történő letétre a bírósági letétre vonatkozó szabályokat kell alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:57. §",
+          "cim": "Harmadik személy részéről történő teljesítés",
+          "tartalom": "(1) A jogosult a harmadik személy részéről felajánlott teljesítést köteles elfogadni, ha ehhez a kötelezett hozzájárult, a szolgáltatás nincs személyhez kötve és nem igényel olyan szakértelmet vagy képességet, amellyel a harmadik személy nem rendelkezik. A kötelezett hozzájárulása nem szükséges, ha a harmadik személynek lényeges jogi érdeke fűződik ahhoz, hogy a teljesítés megtörténjék, és a kötelezett a teljesítést elmulasztotta, vagy nyilvánvaló, hogy időben nem tud teljesíteni.\n(2) Ha a kötelezett és a harmadik személy közötti jogviszonyból más nem következik, a harmadik személyt megtérítési igény illeti meg a kötelezettel szemben.\n(3) Ha a jogosultnak harmadik személy teljesít, ennek erejéig a megtérítési igénye kielégítéséül a követelés és annak biztosítékai a teljesítő harmadik személyre szállnak át. Ezt a rendelkezést kell alkalmazni akkor is, ha a követelés kielégítésére zálogjog vagy biztosítékot nyújtó személy helytállása alapján kerül sor.\n(4) A kötelezettnek a harmadik személy teljesítéséről való értesítése a harmadik személyre átszálló követelés elévülését megszakítja.",
+          "footnote": [
+            "2 Megállapította: 2023. évi XXXIX. törvény 95. § (1). Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (3).",
+            "3 Beiktatta: 2023. évi XXXIX. törvény 95. § (2). Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (3)."
+          ]
+        }
+      ]
+    }
+  ]
+}

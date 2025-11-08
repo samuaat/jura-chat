@@ -1,0 +1,988 @@
+{
+  "joganyag_forrasa": "2013. évi V. törvény a Polgári Törvénykönyvről",
+  "cimek": [
+    {
+      "cim_sorszama": "XXVII.",
+      "megnevezes": "A szerződés módosítása (Fejezet)",
+      "szakaszok": [
+        {
+          "szakasz": "6:191. §",
+          "cim": "A szerződés felek általi módosítása",
+          "tartalom": "(1) A felek közös megegyezéssel módosíthatják a szerződés tartalmát vagy megváltoztathatják kötelezettségvállalásuk jogcímét.\n(2) A szerződésnek a módosítással nem érintett része változatlan marad. A kötelezettség biztosítására szolgáló zálogjog és kezesség fennmarad, de a zálogkötelezett és a kezes helyzete hozzájárulásuk nélkül nem válhat terhesebbé.\n(3) A szerződés módosítására a szerződés megkötésére vonatkozó rendelkezéseket kell megfelelően alkalmazni.\n(4) A szerződés tartalmát valamelyik fél egyoldalúan akkor módosíthatja, ha ezt a szerződésben kikötötték, vagy ha a felet erre jogszabály feljogosítja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:192. §",
+          "cim": "Bírósági szerződésmódosítás",
+          "tartalom": "(1) Bármelyik fél a szerződés bírósági módosítását kérheti, ha a felek közötti tartós jogviszonyban a szerződés megkötését követően előállott körülmény következtében a szerződés változatlan feltételek melletti teljesítése lényeges jogi érdekét sértené, és\na) a körülmények megváltozásának lehetősége a szerződés megkötésének időpontjában nem volt előrelátható;\nb) a körülmények megváltozását nem ő idézte elő; és\nc) a körülmények változása nem tartozik rendes üzleti kockázata körébe.\n(2) A bíróság a szerződést az általa meghatározott időponttól, legkorábban a szerződésmódosításra irányuló igény bíróság előtti érvényesítésének időpontjától kezdődően úgy módosíthatja, hogy a körülmények megváltozása miatt egyik fél lényeges jogi érdeke se sérüljön.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XII.",
+      "megnevezes": "ENGEDMÉNYEZÉS, JOGÁTRUHÁZÁS, TARTOZÁSÁTVÁLLALÁS ÉS SZERZŐDÉSÁTRUHÁZÁS",
+      "szakaszok": [
+        {
+          "szakasz": "6:193. §",
+          "cim": "Engedményezés",
+          "tartalom": "(1) A jogosult a kötelezettel szembeni követelését másra ruházhatja át.\n(2) A követelés átruházással való megszerzéséhez az átruházásra irányuló szerződés vagy más jogcím és a követelés engedményezése szükséges. Az engedményezés az engedményező és az engedményes szerződése, amellyel az engedményes az engedményező helyébe lép.\n(3) Az engedményezéssel az engedményesre szállnak át a követelés teljesítését elősegítő és annak érvényesítéséhez kapcsolódó jogok, a követelés biztosítékai, valamint a kamatkövetelés is. Az engedményes követelheti a zálogtárgy birtokának átruházását, illetve a rá átszálló jelzálogjognak a javára való bejegyzéséhez szükséges jognyilatkozatok kiadását.\n(4) Ha az engedményezett követelés esedékessége a jogosult jognyilatkozatától vagy egyéb általa teljesítendő feltételtől függ, az engedményes megteheti e jognyilatkozatot vagy teljesítheti az esedékesség bekövetkezéséhez szükséges feltételt.",
+          "footnote": [
+            "1 Megállapította: 2023. évi XXXIX. törvény 96. § (1). Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1).",
+            "2 Beiktatta: 2023. évi XXXIX. törvény 96. § (2). Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1)."
+          ]
+        },
+        {
+          "szakasz": "6:194. §",
+          "cim": "Az engedményezhető követelések",
+          "tartalom": "(1) A követelés akkor engedményezhető, ha az engedményezéskor már létezik az a jogviszony, amelyből a követelés fakad.\n(2) Az engedményezett követelést a kötelezett, a jogcím, az összeg és az esedékesség megjelölésével vagy egyéb olyan módon kell meghatározni, amely az engedményezés időpontjában, jövőbeli követelések esetén legkésőbb a követelés létrejöttekor az engedményezett követelést azonosíthatóvá teszi.\n(3) Semmis a jogosult személyéhez kötött követelések engedményezése.",
+          "footnote": [
+            "3 A 2013. évi CCLII. törvény 188. § (10) a) szerint módosított szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "6:195. §",
+          "cim": "Engedményezést kizáró kikötés",
+          "tartalom": "(1) Harmadik személlyel szemben hatálytalan a követelés engedményezését kizáró kikötés.\n(2) Az (1) bekezdésben foglalt rendelkezés nem érinti az engedményező felelősségét az engedményezést kizáró kikötés megszegéséért. Semmis a szerződés azon kikötése, amely e szerződésszegés esetére felmondási jogot biztosít vagy kötbérfizetési kötelezettséget ír elő.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:196. §",
+          "cim": "Tájékoztatás és az okiratok átadása",
+          "tartalom": "Az engedményező köteles az engedményest a követelés érvényesítéséhez szükséges tájékoztatással ellátni, és köteles a birtokában lévő, a követelés fennállását bizonyító okiratokat az engedményesnek átadni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:197. §",
+          "cim": "Értesítés az engedményezésről",
+          "tartalom": "(1) Az engedményező köteles az engedményes választásának megfelelően a kötelezettet az engedményezésről az engedményezés tényét és az engedményezett követelést megjelölve írásban értesíteni, vagy az engedményes személyét is meghatározó engedményezési okiratot az engedményesnek átadni.\n(2) A kötelezett értesítését követően az engedményessel szemben hatálytalan a kötelezett és az engedményező szerződésének módosítása vagy megszüntetése. A kötelezett az engedményessel szemben azokat a kifogásokat érvényesítheti és azokat az ellenköveteléseket számíthatja be, amelyek az engedményezővel szemben az értesítésekor már fennállt jogalapon keletkeztek.\n(3) Az engedményezésről szóló értesítés a (2) bekezdés szerinti joghatást akkor váltja ki, ha az engedményezőtől származik, vagy az engedményes az engedményezési okirattal vagy más hitelt érdemlő módon igazolja az engedményezés megtörténtét.",
+          "footnote": [
+            "4 Megállapította: 2023. évi XXXIX. törvény 97. §. Hatályos: 2023. VI. 24-től. Lásd: 2023. évi XXXIX. törvény 165. § (1)."
+          ]
+        },
+        {
+          "szakasz": "6:198. §",
+          "cim": "Teljesítési utasítás",
+          "tartalom": "(1) A kötelezett mindaddig az engedményezőnek köteles teljesíteni, amíg nem kap olyan teljesítési utasítást, amely az engedményes személyét, valamint az engedményes telephelyét, ennek hiányában székhelyét, természetes személy esetén lakóhelyét, ennek hiányában szokásos tartózkodási helyét vagy számlaszámát meghatározza. Ezt követően a kötelezett a teljesítési utasításnak megfelelően teljesíthet.\n(2) A teljesítési utasítás akkor váltja ki az (1) bekezdés szerinti joghatást, ha az utasítás az engedményezőtől származik, vagy az engedményes engedményezési okirattal vagy más hitelt érdemlő módon igazolja, hogy a követelést rá engedményezték. Ha az értesítés megjelölte az engedményest, de nem tartalmazta a teljesítési utasítást, teljesítési utasítást kizárólag az engedményes adhat.\n(3) Ha a kötelezett az engedményező részére teljesít, az engedményező köteles a szolgáltatás teljesítéseként birtokába került vagyontárgyakat a sajátjától elkülönítve kezelni, és az engedményes részére késedelem nélkül kiadni. Az engedményező hitelezői az ilyen vagyontárgyakra nem tarthatnak igényt.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 188. § (4) szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "6:199. §",
+          "cim": "Többszöri és utólagos engedményezés",
+          "tartalom": "(1) Ha az engedményező azonos követelést többször engedményez, a kötelezett akkor szabadul, ha az elsőként kapott teljesítési utasításnak megfelelően teljesít.\n(2) Ha az engedményes a követelést továbbengedményezi, a kötelezett akkor szabadul, ha az utolsó teljesítési utasításnak megfelelően teljesít.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:200. §",
+          "cim": "A kötelezett költségeinek megtérítése",
+          "tartalom": "A kötelezett engedményezéssel okozott költségeinek a megtérítésére az engedményező és az engedményes egyetemlegesen kötelesek.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:201. §",
+          "cim": "Követelés átszállása jogszabály rendelkezése alapján",
+          "tartalom": "Ha a követelés jogszabály rendelkezése alapján száll át másra, az engedményezés szabályait kell megfelelően alkalmazni. Ebben az esetben az engedményező helytállási kötelezettsége akkor marad fenn, ha ezt kifejezett rendelkezés írja elő.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:202. §",
+          "cim": "Jogátruházás",
+          "tartalom": "(1) A jogosult jogát másra átruházhatja, kivéve, ha jogszabály a jog forgalomképességét kizárja vagy a forgalomképtelenség a jog természetéből egyértelműen következik.\n(2) Ha e törvény eltérően nem rendelkezik, a jog átruházással való megszerzéséhez az átruházásra irányuló szerződés vagy más jogcím és a jogátruházás szükséges. A jogátruházás az átruházó és az új jogosult szerződése, amellyel az új jogosult az átruházó helyébe lép.\n(3) A jogok átruházására az engedményezésre vonatkozó szabályokat kell megfelelően alkalmazni.\n(4) Ha a jog fennállását közhiteles nyilvántartás tanúsítja, a jog átruházásához az engedményezésen felül a jogosult személyében bekövetkezett változásnak a nyilvántartásba való bejegyzése szükséges.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:203. §",
+          "cim": "Tartozásátvállalás",
+          "tartalom": "(1) Ha a kötelezett és a jogosult megállapodik egy harmadik személlyel (e fejezet alkalmazásában: átvállaló) abban, hogy az a kötelezettnek a jogosulttal szemben fennálló kötelezettségét átvállalja, a jogosult a szolgáltatást kizárólag az átvállalótól követelheti.\n(2) Az átvállalót mindazon jogok megilletik, amelyek a kötelezettet a jogosulttal szemben a szerződés alapján megillették.\n(3) A tartozásátvállalással a követelés biztosítékai megszűnnek. Fennmarad a biztosíték, ha annak kötelezettje a tartozásátvállaláshoz hozzájárul.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:204. §",
+          "cim": "Előzetes hozzájárulás a tartozásátvállaláshoz",
+          "tartalom": "(1) Ha a jogosult a tartozásátvállaláshoz szükséges jognyilatkozatát előzetesen megteszi, a tartozásátvállalás a jogosult értesítésével válik hatályossá.\n(2) A jogosult jognyilatkozata megtételekor fenntarthatja a jogot annak visszavonására.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:205. §",
+          "cim": "Teljesítésátvállalás",
+          "tartalom": "Ha harmadik személy megállapodik a kötelezettel a kötelezett tartozásának átvállalásáról, a harmadik személy köteles lesz a kötelezett tartozását teljesíteni vagy a kötelezettet olyan helyzetbe hozni, hogy az lejáratkor teljesíthessen. A jogosult nem követelheti a tartozást a harmadik személytől.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:206. §",
+          "cim": "Tartozáselvállalás",
+          "tartalom": "Ha a felek a teljesítésátvállalásról a jogosultat értesítik, egyetemleges kötelezettség jön létre. Tartozáselvállalás esetén az egyetemleges kötelezettet mindazon jogok megilletik, amelyek a kötelezettet a jogosulttal szemben a szerződés alapján megillették. A tartozás elvállalója nem jogosult beszámítani a kötelezettnek a jogosulttal szemben fennálló egyéb követelését.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:207. §",
+          "cim": "Tartozás átszállása jogszabály rendelkezése alapján",
+          "tartalom": "Ha a tartozás jogszabály rendelkezése alapján száll át másra, a tartozásátvállalás szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:208. §",
+          "cim": "A szerződésátruházás joghatásai",
+          "tartalom": "(1) A szerződésből kilépő, a szerződésben maradó és a szerződésbe belépő fél megállapodhatnak a szerződésből kilépő felet megillető jogok és az őt terhelő kötelezettségek összességének a szerződésbe belépő félre történő átruházásáról.\n(2) A szerződésbe belépő felet megilletik mindazon jogok, és terhelik mindazon kötelezettségek, amelyek a szerződésből kilépő felet a szerződésben maradó féllel szemben a szerződés alapján megillették és terhelték. A szerződésbe belépő fél nem jogosult beszámítani a szerződésből kilépő félnek a szerződésben maradó féllel szemben fennálló egyéb követelését. A szerződésben maradó fél nem jogosult beszámítani a szerződésből kilépő féllel szemben fennálló egyéb követelését.\n(3) A szerződésbe belépő félre átszálló jogosultság biztosítéka fennmarad. A szerződésbe belépő félre átszálló kötelezettség teljesítésének biztosítéka megszűnik, kivéve, ha a biztosíték kötelezettje a szerződésátruházáshoz hozzájárul.",
+          "footnote": [
+            "1 Megállapította: 2016. évi LXXVII. törvény 20. §. Hatályos: 2016. VII. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §."
+          ]
+        },
+        {
+          "szakasz": "6:209. §",
+          "cim": "Előzetes hozzájárulás a szerződésátruházáshoz",
+          "tartalom": "(1) Ha a szerződésben maradó fél a szerződésátruházáshoz szükséges jognyilatkozatát előzetesen megteszi, a szerződésátruházás a szerződésben maradó fél értesítésével válik hatályossá.\n(2) A szerződésben maradó fél a jognyilatkozat megtételekor fenntarthatja a jogot annak visszavonására.\n(3) Ha a biztosíték kötelezettje a szerződésbe belépő félre átszálló kötelezettség biztosítéka fennmaradásához szükséges hozzájáruló jognyilatkozatát előzetesen megteszi, jognyilatkozata a szerződésátruházásról történt értesítésével válik hatályossá.\n(4) A biztosíték kötelezettje a jognyilatkozat megtételekor fenntarthatja a jogot annak visszavonására.",
+          "footnote": [
+            "2 Beiktatta: 2016. évi LXXVII. törvény 21. §. Hatályos: 2016. VII. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §.",
+            "3 Beiktatta: 2016. évi LXXVII. törvény 21. §. Hatályos: 2016. VII. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §."
+          ]
+        },
+        {
+          "szakasz": "6:210. §",
+          "cim": "Az engedményezés és a tartozásátvállalás szabályainak alkalmazása",
+          "tartalom": "A szerződésátruházásra egyebekben a követelések és a jogok tekintetében az engedményezés, a kötelezettségek tekintetében a tartozásátvállalás szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:211. §",
+          "cim": "Szerződésátruházás jogszabály rendelkezése alapján",
+          "tartalom": "Ha valakinek egy szerződésből származó valamennyi joga és kötelezettsége jogszabály rendelkezése alapján száll át másra, a szerződésátruházás szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XIII.",
+      "megnevezes": "A SZERZŐDÉS MEGSZÜNTETÉSE MEGÁLLAPODÁSSAL ÉS EGYOLDALÚ NYILATKOZATTAL",
+      "szakaszok": [
+        {
+          "szakasz": "6:212. §",
+          "cim": "Megszüntetés a felek megállapodásával",
+          "tartalom": "(1) A felek közös megegyezéssel a szerződést a jövőre nézve megszüntethetik vagy a szerződés megkötésének időpontjára visszamenő hatállyal felbonthatják.\n(2) A szerződés megszüntetése esetén a felek további szolgáltatásokkal nem tartoznak, és kötelesek egymással a megszűnés előtt már teljesített szolgáltatásokkal elszámolni.\n(3) A szerződés felbontása esetén a már teljesített szolgáltatások visszajárnak. Ha az eredeti állapot természetben nem állítható helyre, a szerződés felbontásának nincs helye.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:213. §",
+          "cim": "Megszüntetés egyoldalú jognyilatkozattal",
+          "tartalom": "(1) Aki jogszabálynál vagy a szerződésnél fogva felmondásra vagy elállásra jogosult, a másik félhez intézett jognyilatkozattal szüntetheti meg a szerződést. A szerződés felmondása esetén a szerződés megszüntetésének, elállás esetén a szerződés felbontásának a szabályait kell alkalmazni, azzal, hogy elállásra a fél akkor jogosult, ha az általa kapott szolgáltatás egyidejű visszaadását felajánlja.\n(2) Ha a felek az elállás jogát meghatározott pénzösszeg (bánatpénz) fizetése ellenében kikötötték, a túlzott mértékű bánatpénz összegét a bíróság a kötelezett kérelmére mérsékelheti.\n(3) Ha e törvény eltérően nem rendelkezik, a tartós jogviszonyt létrehozó, határozatlan időre kötött szerződést megfelelő felmondási idő alkalmazásával bármelyik fél felmondhatja. A felmondási jog kizárása semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:214. §",
+          "cim": "Bíróság általi megszüntetés",
+          "tartalom": "E rendelkezéseket kell megfelelően alkalmazni a szerződés bíróság által történő megszüntetésére.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XIV.",
+      "megnevezes": "A TULAJDONÁTRUHÁZÓ SZERZŐDÉSEK",
+      "szakaszok": [
+        {
+          "szakasz": "6:215. §",
+          "cim": "Adásvételi szerződés",
+          "tartalom": "(1) Adásvételi szerződés alapján az eladó dolog tulajdonjogának átruházására, a vevő a vételár megfizetésére és a dolog átvételére köteles.\n(2) Ha az adásvételi szerződés tárgya ingatlan, az eladó a tulajdonjog átruházásán felül köteles a dolog birtokának átruházására is. Ha a szerződés tárgya ingatlan, az adásvételi szerződést írásba kell foglalni.\n(3) A dolog adásvételére vonatkozó szabályokat kell megfelelően alkalmazni arra a szerződésre is, amelyből jog vagy követelés visszterhes átruházására vonatkozó kötelezettség fakad.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:216. §",
+          "cim": "Tulajdonjog-fenntartás",
+          "tartalom": "(1) Az eladó a tulajdonjogát a vételár kiegyenlítéséig fenntarthatja, ennek időtartama alatt a vevő tulajdonszerzésre irányuló jogát hozzájárulása nélkül nem csorbíthatja.\n(2) A tulajdonjog-fenntartásra vonatkozó megállapodást írásba kell foglalni.\n(3) Az ingatlanra vonatkozó tulajdonjog-fenntartást az ahhoz kapcsolódó vevői jog feltüntetésével kell az ingatlan-nyilvántartásba bejegyezni.\n(4) Az ingó dologra vonatkozó tulajdonjog-fenntartást az eladó köteles a tulajdonjog-fenntartás tényének és a vevő személyének a hitelbiztosítéki nyilvántartásba, vagy ha az ingó dolog tulajdonjogát közhiteles nyilvántartás tanúsítja, és jogszabály a dolog elzálogosítását a lajstromba való bejegyzéshez köti, a megfelelő lajstromba bejegyeztetni. Nyilvántartásba vétel hiányában\na) a vevőtől jóhiszeműen és ellenérték fejében szerző megszerzi az átruházással az ingó dolog tulajdonjogát; és\nb) a vevő által az ingó dolgon harmadik személy javára alapított zálogjog a vevő rendelkezési joga hiányában is létrejön.",
+          "footnote": [
+            "1 Megállapította: 2022. évi XLVIII. törvény 54. § (1). Hatályos: 2025. I. 15-től.",
+            "2 Megállapította: 2022. évi XLVIII. törvény 54. § (2). Hatályos: 2025. I. 15-től."
+          ]
+        },
+        {
+          "szakasz": "6:217. §",
+          "cim": "Hasznok szedése, teher- és kárveszélyviselés ingatlan adásvétele esetén",
+          "tartalom": "Ha az eladó az adásvétel tárgyát képező ingatlan birtokát a vevő tulajdonjogának az ingatlan-nyilvántartásba való bejegyzése előtt a vevőre átruházza, a vevő a birtokátruházás napjától kezdve szedi a dolog hasznait, viseli terheit és a dologban beállott azt a kárt, amelynek megtérítésére senkit sem lehet kötelezni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:218. §",
+          "cim": "Költségek",
+          "tartalom": "(1) Az eladó viseli a birtokátruházással és az ingatlan-nyilvántartásban feltüntetett állapot rendezésével kapcsolatos költségeket.\n(2) A dolog átvételének és a tulajdonváltozás ingatlan-nyilvántartásba való bejegyzésének költségei a vevőt terhelik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:219. §",
+          "cim": "Kárveszély átszállása fogyasztói adásvétel esetén",
+          "tartalom": "Ha az eladó vállalkozás és a vevő fogyasztó, és az eladó vállalja a dolog vevőhöz történő eljuttatását, a kárveszély akkor száll át a vevőre, amikor a vevő vagy az általa kijelölt harmadik személy birtokba veszi a dolgot. A kárveszély a fuvarozónak történő átadáskor átszáll a vevőre, ha a fuvarozót a vevő bízta meg, feltéve, hogy a fuvarozót nem az eladó ajánlotta.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:220. §",
+          "cim": "Az eladó késedelmének jogkövetkezményei fogyasztói adásvétel esetén",
+          "tartalom": "(1) Ha az eladó vállalkozás és a vevő fogyasztó, a felek eltérő megállapodásának hiányában, az eladó a szerződés megkötését követően késedelem nélkül, de legkésőbb harminc napon belül köteles a vevő rendelkezésére bocsátani a dolgot.\n(2) Az eladó késedelme esetén a vevő jogosult póthatáridőt tűzni. Ha az eladó a póthatáridőn belül nem teljesít, a vevő jogosult a szerződéstől elállni.\n(3) A vevő póthatáridő tűzése nélkül jogosult a szerződéstől elállni, ha\n\na) az eladó a szerződés teljesítését megtagadta; vagy\nb) a szerződést a felek megállapodása szerint vagy a szolgáltatás felismerhető rendeltetésénél fogva a meghatározott teljesítési időben – és nem máskor – kellett volna teljesíteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:221. §",
+          "cim": "Elővásárlási jog",
+          "tartalom": "(1) Ha a tulajdonos meghatározott dologra nézve szerződéssel elővásárlási jogot alapít, és a dolgot harmadik személytől származó ajánlat elfogadásával el akarja adni, az elővásárlási jog jogosultja az ajánlatban rögzített feltételek mellett a harmadik személyt megelőzve jogosult a dolog megvételére.\n(2) Ha a tulajdonos egymást követően több személynek enged ugyanarra a dologra elővásárlási jogot, a jogosultak az elővásárlási jogok keletkezésének sorrendjében gyakorolhatják elővásárlási jogukat.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:222. §",
+          "cim": "A vételi ajánlat közlése az elővásárlásra jogosulttal",
+          "tartalom": "(1) Ha a tulajdonos harmadik személytől olyan vételi ajánlatot kap, amelyet el kíván fogadni, az ajánlat elfogadása előtt köteles az ajánlatot teljes terjedelemben közölni az elővásárlásra jogosulttal. Nem terheli e kötelezettség a tulajdonost, ha annak teljesítése a jogosult tartózkodási helye vagy más körülmény miatt rendkívüli nehézséggel vagy számottevő késedelemmel járna.\n(2) Az ajánlat közlése a tulajdonos által tett eladási ajánlatnak minősül. Az ajánlati kötöttségre a távollevők között tett ajánlatra vonatkozó szabályokat azzal az eltéréssel kell alkalmazni, hogy a tulajdonos ajánlati kötöttségének idejét a szerződés általános szabályaiban meghatározottnál rövidebb időtartamban nem határozhatja meg.\n(3) Ha a jogosult az ajánlati kötöttség ideje alatt nem tesz elfogadó nyilatkozatot, a tulajdonos a dolgot az ajánlatot tevő harmadik személy ajánlatának megfelelően vagy annál az eladó számára kedvezőbb feltételek mellett eladhatja.\n(4) Ha az elővásárlásra jogosult a tulajdonoshoz intézett nyilatkozatában az ajánlatot elfogadja, a szerződés közöttük jön létre.\n(5) Ha ugyanazon dologra nézve több személyt azonos rangsorban illet meg elővásárlási jog, és közülük többen tesznek elfogadó nyilatkozatot, a tulajdonos késedelem nélkül köteles erről a jogosultakat tájékoztatni, akik a tájékoztatás hatályossá válásától számított nyolc napon belül elfogadó nyilatkozatukat visszavonhatják. E határidő leteltekor az adásvételi szerződés a hatályos elfogadó nyilatkozatot tett jogosultakkal jön létre. Az elfogadó nyilatkozatot tett jogosultak egymás közötti érdekeltségük arányában szereznek közös tulajdont. Ha az elfogadó nyilatkozatot tett jogosultak érdekeltségének aránya nem állapítható meg, a jogosultak egyenlő arányban szereznek tulajdoni hányadot a dolgon.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:223. §",
+          "cim": "Az elővásárlási jog megszegésével kötött szerződés hatálytalansága",
+          "tartalom": "(1) Ha a tulajdonos az elővásárlási jogból eredő kötelezettségeinek megszegésével köt szerződést, az így megkötött szerződés az elővásárlási jog jogosultjával szemben hatálytalan.\n(2) A hatálytalanságból eredő igényeket a jogosult a szerződéskötésről való tudomásszerzéstől számított harminc napon belül érvényesítheti azzal a feltétellel, hogy az igényérvényesítéssel egyidejűleg az ajánlatot elfogadó nyilatkozatot tesz, és igazolja teljesítőképességét. A hatálytalanságból eredő igényeket a jogosult a szerződéskötéstől számított három év elteltével nem érvényesítheti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:224. §",
+          "cim": "Visszavásárlási jog",
+          "tartalom": "(1) Ha az adásvételi szerződés megkötésével egyidejűleg a felek megállapodnak abban, hogy a vevő visszavásárlási jogot enged a megvett dologra, az eladó a vevőhöz intézett nyilatkozatával a dolgot megveheti.\n(2) A visszavásárlási árat a felek a visszavásárlási jog létesítéséről szóló megállapodásukban határozzák meg. Ennek elmulasztása esetén a jogosult a visszavásárlás jogát a dolognak a visszavásárlási jog gyakorlásakor képviselt forgalmi értékével azonos vételáron gyakorolhatja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:225. §",
+          "cim": "Vételi és eladási jog",
+          "tartalom": "(1) Ha a tulajdonos meghatározott dologra nézve szerződéssel vételi jogot alapít, a jogosult a dolgot a szerződésben meghatározott vételáron egyoldalú nyilatkozattal megvásárolhatja.\n(2) Ha a tulajdonos meghatározott dologra nézve szerződéssel eladási jogot szerez, a dolgot a szerződésben meghatározott vételáron egyoldalú nyilatkozattal eladhatja az eladási jog kötelezettjének.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:226. §",
+          "cim": "Az elővásárlási, a visszavásárlási, a vételi és az eladási jog közös szabályai",
+          "tartalom": "(1) Az elővásárlási, a visszavásárlási, a vételi és az eladási jog alapítására vonatkozó szerződést írásba kell foglalni.\n(2) Ha az ingatlanra szerződéssel létesített elővásárlási, visszavásárlási, vételi vagy eladási jogot az ingatlan-nyilvántartásba, továbbá a közhiteles nyilvántartásban nyilvántartott ingóságra szerződéssel létesített elővásárlási, visszavásárlási, vételi vagy eladási jogot a közhiteles nyilvántartásba bejegyzik, az mindenkivel szemben hatályos, aki a bejegyzést követően az ilyen dolgon valamely jogot szerez.\n(3) Az elővásárlási, a visszavásárlási, a vételi és az eladási jogra vonatkozó rendelkezéseket a jogszabályon alapuló elővásárlási, visszavásárlási, vételi és eladási jogra is alkalmazni kell. A jogszabályon alapuló elővásárlási, visszavásárlási, vételi és eladási jog a szerződéses elővásárlási, visszavásárlási, vételi és eladási jogot megelőzi.\n(4) A visszavásárlási, a vételi és az eladási jog kötelezettje köteles tartózkodni minden olyan magatartástól, amely a visszavásárlási, a vételi és az eladási jog gyakorlását meghiúsítaná vagy korlátozná.\n(5) Megszűnik a visszavásárlási, a vételi és az eladási jog, ha a dolog a kötelezettnek fel nem róható okból megsemmisül.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:227. §",
+          "cim": "Részletvétel",
+          "tartalom": "(1) Ha a felek abban állapodnak meg, hogy a vevő a vételárat meghatározott időpontokban, több részletben fizeti meg, de a dolog birtokát a vételár teljes kiegyenlítése előtt a vevőre átruházzák, az eladó – választása szerint – az elállás vagy a részletfizetési kedvezmény megvonásának jogát gyakorolhatja akkor, ha a vevő a részletet az esedékességkor nem fizeti meg. Ezzel a jogával az eladó a részlet megfizetésének első ízben való elmulasztása esetén akkor élhet, ha a vevőt erről előzőleg értesítette, és neki a teljesítésre megfelelő időt engedett.\n(2) Ha az eladó a szerződéstől elállt, a vevő köteles a szerződés alapján birtokában volt dolog után használati díjat fizetni, és megtéríteni azt a kárt, amely a dolog rendeltetésszerű használatával járó értékcsökkenést meghaladja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:228. §",
+          "cim": "Megtekintésre vétel",
+          "tartalom": "(1) Ha a vevő az adásvételi szerződést a szerződés tárgyát képező dolog megtekintése nélkül köti meg, de a felek megállapodnak abban, hogy a vevő a dolog megtekintése után nyilatkozhat a szerződés hatálybalépéséről, akkor az eladó köteles lehetővé tenni a dolog megtekintését. Ebben az esetben a szerződés hatálya a vevő nyilatkozatától függ. A vevő a nyilatkozatát nem köteles indokolni.\n(2) Ha az eladó lehetővé tette a dolog megtekintését, megfelelő határidőt tűzhet a vevő nyilatkozatának megtételére. Ha a vevő a szerződésben kikötött vagy az eladó által a nyilatkozattételre kitűzött határidőt elmulasztja, a szerződés nem lép hatályba.\n(3) Az eladó nem teljesít hibásan, ha bizonyítja, hogy a vevő a hibát megtekintéskor felismerte vagy fel kellett volna ismernie.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:229. §",
+          "cim": "Próbára vétel",
+          "tartalom": "(1) Ha a felek az adásvételi szerződésben kikötik, hogy az adásvétel tárgyát képező dolog kipróbálása alapján a vevő meghatározott időn belül nyilatkozhat a szerződés hatályáról, a szerződés hatálya a vevő nyilatkozatától függ. A vevő e nyilatkozatát nem köteles indokolni.\n(2) Ha a vevő a dolog kipróbálására általában szükséges vagy az eladó által megszabott megfelelő határidőn belül nem nyilatkozik, a szerződés hatályban marad.\n(3) Az eladó nem teljesít hibásan, ha bizonyítja, hogy a vevő a hibát a kipróbálás ideje alatt felismerte vagy fel kellett volna ismernie.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:230. §",
+          "cim": "Minta szerinti vétel",
+          "tartalom": "(1) Ha a felek a szerződés tárgyát képező dolog valamely tulajdonságát mintára hivatkozással határozzák meg, az eladó köteles a minta hivatkozott tulajdonságának megfelelő dolgot szolgáltatni.\n(2) Az eladó a dolog fel nem ismerhető hibájáért akkor is szavatol, ha e hiba a mintában is megvolt.\n(3) Ha a vevő a mintát nem mutatja fel, őt terheli annak bizonyítása, hogy a minta milyen tulajdonságokkal rendelkezett.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:231. §",
+          "cim": "Fajta és mennyiség szerint meghatározott dolog határidős adásvétele",
+          "tartalom": "(1) Ha az eladó fajta és mennyiség szerint meghatározott dolog jövőbeni szolgáltatására vállal kötelezettséget, és a felek rögzítik annak a mennyiségi eltérésnek a mértékét, amennyivel az eladó a szerződésben kikötött mennyiségnél többet vagy kevesebbet szolgáltathat, a vevő a ténylegesen szolgáltatott mennyiségnek megfelelő vételárat köteles megfizetni.\n(2) Ha az eladó a mennyiségi eltérés által lehetővé tett legkisebb mennyiségnél kisebb mennyiséget szolgáltat, a szerződésszegése következményeit a szerződésben kikötött mennyiség figyelembevételével kell alkalmazni.\n(3) Ha az eladó fajta és mennyiség szerint meghatározott dolog jövőbeni szolgáltatására vállal kötelezettséget, a vevő az eladó teljesítésének felajánlásáig elállhat a szerződéstől; ha az eladó a szerződést részletekben köteles teljesíteni, és a szolgáltatás egy részének teljesítését már felajánlotta, akkor a vevő a teljesítésre még fel nem ajánlott szolgáltatásokra vonatkozóan a szerződést felmondhatja. Az elállási vagy felmondási jog gyakorlásával az eladónak okozott kárért a vevő kártalanítási kötelezettséggel tartozik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:232. §",
+          "cim": "Saját termelésű mezőgazdasági áru szolgáltatására kötött adásvételi szerződés",
+          "tartalom": "(1) Ha az eladó az adásvételi szerződésben maga termelte mezőgazdasági termény, termék, saját nevelésű vagy hizlalású állat későbbi időpontban történő szolgáltatására vállal kötelezettséget, jogosult a szerződésben kikötött mennyiségnél tíz százalékkal kevesebbet teljesíteni.\n(2) Az (1) bekezdés szerinti szerződést az eladó jogosult a kikötött teljesítési idő előtt is teljesíteni, feltéve, hogy a vevőt a teljesítés megkezdéséről az átvételhez szükséges felkészülési idő biztosításával előzetesen értesíti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:233. §",
+          "cim": "A vevő közreműködésével előállított mezőgazdasági áru szolgáltatására kötött adásvételi szerződés",
+          "tartalom": "Ha az eladó az adásvételi szerződésben maga termelte mezőgazdasági termény, termék, saját nevelésű vagy hizlalású állat későbbi időpontban történő szolgáltatására vállal kötelezettséget, és a felek megállapodnak abban, hogy a vevő a teljesítést elősegítő szolgáltatást nyújt, továbbá ehhez kapcsolódó tájékoztatást ad az eladónak, akkor az eladó köteles ezt a szolgáltatást a tájékoztatásnak megfelelően igénybe venni. Az eladó a vevő teljesítést elősegítő szolgáltatásainak szerződés szerinti ellenértékét akkor is köteles megfizetni, és a vevő által folyósított termelési előlegnek a vételárral nem fedezett részét akkor is köteles visszafizetni, ha erre a termelés eredménye nem biztosít fedezetet.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:234. §",
+          "cim": "Csereszerződés",
+          "tartalom": "Ha a felek dolgok tulajdonjogának, más jogoknak vagy követeléseknek kölcsönös átruházására vállalnak kötelezettséget, az adásvétel szabályait kell megfelelően alkalmazni. Ebben az esetben mindegyik fél eladó a saját szolgáltatása és vevő a másik fél szolgáltatása tekintetében.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:235. §",
+          "cim": "Ajándékozási szerződés",
+          "tartalom": "(1) Ajándékozási szerződés alapján az ajándékozó dolog tulajdonjogának ingyenes átruházására, a megajándékozott a dolog átvételére köteles.\n(2) Ha az ajándékozási szerződés tárgya ingatlan, az ajándékozó a tulajdonjog átruházásán felül köteles a dolog birtokának átruházására is. Ha a szerződés tárgya ingatlan, az ajándékozási szerződést írásba kell foglalni.\n(3) A dolog ajándékozására vonatkozó szabályokat kell megfelelően alkalmazni jog vagy követelés ingyenes átruházására történő kötelezettségvállalás esetén.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:236. §",
+          "cim": "A teljesítés megtagadása",
+          "tartalom": "A szerződés teljesítését az ajándékozó megtagadhatja, ha bizonyítja, hogy a szerződés megkötése után saját körülményeiben vagy a megajándékozotthoz fűződő viszonyában olyan lényeges változás állott be, hogy a szerződés teljesítése tőle nem várható el.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:237. §",
+          "cim": "Ajándék visszakövetelése",
+          "tartalom": "(1) A meglévő ajándékot az ajándékozó visszakövetelheti, ha arra a szerződéskötés után bekövetkezett változások miatt létfenntartása érdekében szüksége van, és az ajándék visszaadása a megajándékozott létfenntartását nem veszélyezteti. A megajándékozott nem köteles az ajándék visszaadására, ha az ajándékozó létfenntartását járadék vagy természetbeni tartás útján megfelelően biztosítja.\n(2) Ha a megajándékozott vagy vele együtt élő hozzátartozója az ajándékozó vagy közeli hozzátartozója rovására súlyos jogsértést követ el, az ajándékozó visszakövetelheti az ajándékot, vagy követelheti az ajándék helyébe lépett értéket.\n(3) Az ajándékozó visszakövetelheti az ajándékot, vagy követelheti az ajándék helyébe lépett értéket akkor is, ha a szerződő felek számára a szerződéskötéskor ismert olyan feltevés, amelyre figyelemmel az ajándékozó az ajándékot adta, utóbb véglegesen meghiúsult, és e nélkül az ajándékozásra nem került volna sor.\n(4) Visszakövetelésnek nincs helye, ha az ajándék vagy a helyébe lépett érték a jogsértés elkövetése időpontjában már nincs meg, továbbá ha az ajándékozó a sérelmet megbocsátotta; megbocsátásnak, illetve a visszakövetelésről való lemondásnak számít, ha az ajándékozó az ajándékot megfelelő ok nélkül hosszabb idő nélkül nem követeli vissza.\n(5) A szokásos mértékű ajándék visszakövetelésének nincs helye.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XV.",
+      "megnevezes": "A VÁLLALKOZÁSI TÍPUSÚ SZERZŐDÉSEK",
+      "szakaszok": [
+        {
+          "szakasz": "6:238. §",
+          "cim": "Vállalkozási szerződés",
+          "tartalom": "Vállalkozási szerződés alapján a vállalkozó tevékenységgel elérhető eredmény (a továbbiakban: mű) megvalósítására, a megrendelő annak átvételére és a vállalkozói díj megfizetésére köteles.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:239. §",
+          "cim": "A tevékenység megszervezése",
+          "tartalom": "(1) A tevékenység végzésének feltételeit a vállalkozó úgy köteles megszervezni, hogy biztosítsa a tevékenység biztonságos, szakszerű, gazdaságos és határidőre történő befejezését.\n(2) Ha a mű előállításához valamilyen anyag szükséges, azt a vállalkozó köteles beszerezni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:240. §",
+          "cim": "A megrendelő utasítási joga",
+          "tartalom": "(1) A vállalkozó a megrendelő utasítása szerint köteles eljárni. Az utasítás nem terjedhet ki a tevékenység megszervezésére, és nem teheti a teljesítést terhesebbé.\n(2) Ha a megrendelő célszerűtlen vagy szakszerűtlen utasítást ad, a vállalkozó köteles őt erre figyelmeztetni. Ha a megrendelő a figyelmeztetés ellenére utasítását fenntartja, a vállalkozó a szerződéstől elállhat vagy a feladatot a megrendelő utasításai szerint, a megrendelő kockázatára elláthatja. A vállalkozó köteles megtagadni az utasítás teljesítését, ha annak végrehajtása jogszabály vagy hatósági határozat megsértéséhez vezetne, vagy veszélyeztetné mások személyét vagy vagyonát.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:241. §",
+          "cim": "A tevékenység végzésének helye",
+          "tartalom": "(1) Ha a tevékenységet a megrendelő által kijelölt munkaterületen kell végezni, a megrendelő köteles azt a tevékenység végzésére alkalmas állapotban a vállalkozó rendelkezésére bocsátani.\n(2) A vállalkozó a tevékenység megkezdését mindaddig megtagadhatja, amíg a munkaterület a tevékenység végzésére nem alkalmas. Ha a megrendelő a munkaterületet a vállalkozó felszólítása ellenére nem biztosítja, a vállalkozó elállhat a szerződéstől, és kártérítést követelhet.\n(3) Ha a felek abban állapodnak meg, hogy a tevékenység végzésére kijelölt helyet a vállalkozó teszi a tevékenység végzésére alkalmassá, annak költségeit a megrendelő viseli.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:242. §",
+          "cim": "A megrendelő ellenőrzési joga",
+          "tartalom": "(1) A megrendelő a tevékenységet és a felhasználásra kerülő anyagot bármikor ellenőrizheti.\n(2) A vállalkozó nem mentesül a szerződésszegés jogkövetkezményei alól amiatt, hogy a megrendelő a vállalkozó tevékenységét nem vagy nem megfelelően ellenőrizte.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:243. §",
+          "cim": "A munkavégzés összehangolása",
+          "tartalom": "Ha ugyanazon a munkaterületen egyidejűleg vagy egymást követően több vállalkozó tevékenykedik, a munkák gazdaságos és összehangolt elvégzésének feltételeit a megrendelő köteles megteremteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:244. §",
+          "cim": "Többletmunka. Pótmunka",
+          "tartalom": "(1) A vállalkozó köteles elvégezni a vállalkozási szerződés tartalmát képező, de a vállalkozói díj meghatározásánál figyelembe nem vett munkát és az olyan munkát is, amely nélkül a mű rendeltetésszerű használatra alkalmas megvalósítása nem történhet meg (többletmunka).\n(2) A vállalkozó köteles elvégezni az utólag megrendelt, különösen tervmódosítás miatt szükségessé váló munkát is, ha annak elvégzése nem teszi feladatát aránytalanul terhesebbé (pótmunka).",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:245. §",
+          "cim": "A vállalkozói díj",
+          "tartalom": "(1) Ha a felek átalánydíjban állapodtak meg, a vállalkozó az átalánydíjon felül a pótmunka ellenértékét igényelheti, a többletmunka ellenértékének megtérítésére nem jogosult. A megrendelő köteles azonban megtéríteni a vállalkozónak a többletmunkával kapcsolatban felmerült olyan költségét, amely a szerződés megkötésének időpontjában nem volt előrelátható.\n(2) Tételes elszámolás szerint meghatározott vállalkozói díj esetén a vállalkozó az elvégzett munka ellenértékére jogosult.\n(3) A vállalkozói díj a szerződés teljesítésekor esedékes.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:246. §",
+          "cim": "Törvényes zálogjog",
+          "tartalom": "A vállalkozót a vállalkozói díj és a költségek biztosítására zálogjog illeti meg a megrendelőnek azokon a vagyontárgyain, amelyek a vállalkozási szerződés következtében birtokába kerültek.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:247. §",
+          "cim": "A szolgáltatás átadás-átvétele",
+          "tartalom": "(1) A vállalkozó a művet átadás-átvételi eljárás keretében köteles átadni, amelynek során a felek elvégzik az adott üzletágban szokásos azon vizsgálatokat, amelyek a teljesítés szerződésszerűségének megállapításához szükségesek.\n(2) Határidőben teljesít a vállalkozó, ha az átadás-átvétel a szerződésben előírt teljesítési határidőn belül megkezdődik. Az átadás-átvétel időtartama harminc nap. Vállalkozások közötti szerződés, illetve szerződő hatóság által megrendelőként szerződő hatóságnak nem minősülő vállalkozással kötött szerződés esetén az átadás-átvétel időtartamára vonatkozó rendelkezéstől a jóhiszeműség és tisztesség követelményének megsértésével egyoldalúan és indokolatlanul a vállalkozó hátrányára eltérő szerződési feltételt – mint tisztességtelen kikötést – a vállalkozó megtámadhatja.\n(3) Nem tagadható meg az átvétel a mű olyan hibája miatt, amely, illetve amelynek kijavítása vagy pótlása nem akadályozza a rendeltetésszerű használatot.\n(4) Ha a megrendelő az átadás-átvételi eljárást nem folytatja le, a teljesítés joghatásai a tényleges birtokbavétel alapján állnak be.\n(5) Ha a szerződés teljesítéséhez a vállalkozó dolog tulajdonjogának átruházására köteles, a dolog a mű átadásával és az ellenérték megfizetésével kerül a megrendelő tulajdonába.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 188. § (5) szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "6:248. §",
+          "cim": "A szerződés lehetetlenülése",
+          "tartalom": "(1) Ha a teljesítés olyan okból válik lehetetlenné, amelyért egyik fél sem felelős, és\n\na) a lehetetlenné válás oka a vállalkozó érdekkörében merült fel, díjazásra nem tarthat igényt;\n b) a lehetetlenné válás oka a megrendelő érdekkörében merült fel, a vállalkozót a díj megilleti, de a megrendelő levonhatja azt az összeget, amelyet a vállalkozó a lehetetlenné válás folytán költségben megtakarított, továbbá amelyet a felszabadult időben másutt keresett vagy nagyobb nehézség nélkül kereshetett volna;\n c) a lehetetlenné válás oka mindkét fél érdekkörében vagy érdekkörén kívül merült fel, a vállalkozót az elvégzett munka és költségei fejében a díj arányos része illeti meg.\n(2) Lehetetlenülés esetén a megrendelő követelheti, hogy a vállalkozó a megkezdett, de be nem fejezett művet neki adja át; ebben az esetben a jogalap nélküli gazdagodás szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:249. §",
+          "cim": "Elállás, felmondás",
+          "tartalom": "(1) A megrendelő a szerződéstől a szerződés teljesítésének megkezdése előtt bármikor elállhat, ezt követően a teljesítésig a szerződést felmondhatja.\n(2) A megrendelő elállása vagy felmondása esetén köteles a vállalkozónak a díj arányos részét megfizetni és a szerződés megszüntetésével okozott kárt megtéríteni azzal, hogy a kártalanítás a vállalkozói díjat nem haladhatja meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:250. §",
+          "cim": "Ingyenes vállalkozási szerződés",
+          "tartalom": "(1) E fejezet rendelkezéseit megfelelően alkalmazni kell az olyan vállalkozási szerződésre, amely alapján a megrendelő ellenszolgáltatás nyújtására nem köteles.\n(2) Ha a vállalkozó a szolgáltatás nyújtását ingyenesen vállalja, a megrendelő köteles a vállalkozó költségeit megtéríteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:251. §",
+          "cim": "A tervezési szerződés",
+          "tartalom": "(1) Tervezési szerződés alapján a vállalkozó tervezőmunka elvégzésére és a tervdokumentáció átadására, a megrendelő annak átvételére és díj fizetésére köteles.\n(2) A tervdokumentációnak műszakilag kivitelezhető, gazdaságos és célszerű megoldásokat kell tartalmaznia, és alkalmasnak kell lennie a megrendelő felismerhető, a felhasználás céljából következő igényeinek kielégítésére.\n(3) A terv hibája miatt mindaddig érvényesíthetőek a szerződésszegésből fakadó jogok, amíg a terv alapján kivitelezett szolgáltatás tervhibával összefüggő hibás teljesítése miatt jogok gyakorolhatók.\n(4) A tervező jogszavatossággal tartozik azért, hogy harmadik személynek nincs olyan joga, amely a terv felhasználását akadályozza vagy korlátozza.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:252. §",
+          "cim": "A kivitelezési szerződés",
+          "tartalom": "(1) Kivitelezési szerződés alapján a kivitelező építési, szerelési munka elvégzésére és az előállított mű átadására, a megrendelő annak átvételére és díj fizetésére köteles.\n(2) A munka elvégzéséhez szükséges tervdokumentáció elkészítése és a hatósági engedélyek beszerzése a megrendelő kötelezettsége.\n(3) A kivitelező köteles a megrendelő által átadott tervdokumentációt a szerződés megkötése előtt megvizsgálni és a megrendelőt a terv felismerhető hibáira, hiányosságaira figyelmeztetni. Ha a terv valamely hibája vagy hiányossága a kivitelezés folyamatában válik felismerhetővé, a kivitelező késedelem nélkül köteles erről a megrendelőt tájékoztatni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:253. §",
+          "cim": "Kutatási szerződés",
+          "tartalom": "(1) Kutatási szerződés alapján a kutató kutatómunkával elérhető eredmény megvalósítására, a megrendelő annak átvételére és díj fizetésére köteles.\n(2) A kutató közreműködőt a megrendelő hozzájárulása esetén vehet igénybe. Nincs szükség hozzájárulásra, ha a közreműködő igénybevétele a kutatás jellegével együtt jár.\n(3) Ha az eredmény szerzői jogi védelemben részesül vagy iparjogvédelmi oltalomban részesíthető, a kutató a védelemből eredő vagyoni jogokat köteles a megrendelőre átruházni. Ha a vagyoni jog átruházását jogszabály kizárja, a kutató a megengedett legszélesebb terjedelmű felhasználási jog engedélyezésére köteles.\n(4) Kutatási szerződésben a jogszavatosság kizárása vagy korlátozása semmis.\n(5) A szerződéssel összefüggő üzleti titok jogosultja a megrendelő. A kutatómunka alapján elkészített szellemi alkotás nyilvánosságra hozatalához a megrendelő előzetes hozzájárulása szükséges.\n(6) Ha a felek abban állapodnak meg, hogy a díj a kutatás eredménytelen befejezése esetén is jár, a kutatás végzésére és a kutató díjigényére a megbízás szabályait kell alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:254. §",
+          "cim": "Utazási szerződés",
+          "tartalom": "(1) Utazási szerződés alapján a vállalkozó utazás és az út egyes állomásain való tartózkodás megszervezésére, továbbá kapcsolódó szolgáltatások nyújtására, a megrendelő a szolgáltatások átvételére és díj fizetésére köteles.\n(2) A díjengedmény, illetve a kártérítési igény elévülése szempontjából a fogyasztónak nem minősülő megrendelőt is fogyasztónak kell tekinteni.\n(3) A megrendelő az utazás megkezdése előtt az utazási szerződésből fakadó jogait és kötelezettségeit átruházhatja olyan harmadik személyre, aki az utazási szerződésben foglalt feltételeknek megfelel.\n(4) A jogok és kötelezettségek átruházását megelőzően keletkezett kötelezettségekért és az átruházásból eredő többletköltségek megfizetéséért a megrendelő és a harmadik személy egyetemlegesen állnak helyt.\n(5) Semmis a szerződés olyan kikötése, amely ezen § rendelkezéseitől a megrendelő hátrányára eltér.",
+          "footnote": [
+            "1 Megállapította: 2017. évi CXCIV. törvény 2. § (1). Hatályos: 2018. VII. 1-től."
+          ]
+        },
+        {
+          "szakasz": "6:255. §",
+          "cim": "Mezőgazdasági vállalkozási szerződés",
+          "tartalom": "(1) Mezőgazdasági vállalkozási szerződés alapján a vállalkozó a megrendelő tulajdonában álló állat nevelésére, vagy terménynek a megrendelő tulajdonában álló területen való megtermelésére, a megrendelő díj fizetésére köteles.\n(2) A vállalkozó a szerződésnek az állat vagy a termény betegsége miatti lehetetlenné válásáért nem felelős, ha a megbetegedést az ellenőrzési körén kívüli elháríthatatlan ok idézte elő. Ebben az esetben a vállalkozót arányos díj illeti meg.\n(3) A megrendelő által elszámolásra vagy előlegként adott szolgáltatások visszafizetését a termelő nem tagadhatja meg azon az alapon, hogy azok a termelés eredményéből nem fedezhetők.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:256. §",
+          "cim": "Közszolgáltatási szerződés",
+          "tartalom": "(1) Közszolgáltatási szerződés alapján a szolgáltató általános gazdasági érdekű szolgáltatás nyújtására, a felhasználó díj fizetésére köteles.\n(2) A szolgáltatót szerződéskötési kötelezettség terheli.\n(3) A felhasználó a díjat havonta, utólag köteles megfizetni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:257. §",
+          "cim": "Fuvarozási szerződés",
+          "tartalom": "Fuvarozási szerződés alapján a fuvarozó a küldemény rendeltetési helyére történő továbbítására és a címzettnek történő kiszolgáltatására, a feladó díj fizetésére köteles.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:258. §",
+          "cim": "A fuvarlevél",
+          "tartalom": "(1) A fuvarozó a feladó utasítása esetén köteles\n\na) fuvarlevelet kiállítani és abból egy példányt a feladónak átadni; vagy\nb) a küldemény átvételéről elismervényt adni.\n(2) A fuvarozó által kiállított fuvarlevél az ellenkező bizonyításáig bizonyítja a fuvarozási szerződés létrejöttét, a küldemény átvételét, valamint – a fuvarozó által a fuvarlevélbe tett fenntartás hiányában – azt, hogy a küldemény és csomagolása az átvételkor külsőleg jó állapotban volt, és hogy a küldemények száma a fuvarlevélben közölttel megegyezik, ha a fuvarlevelet a feladó és a fuvarozó is aláírta, és a fuvarlevél tartalmazza\n\na) a küldemény átvételének helyét és időpontját;\n b) a feladó, a címzett és a fuvarozó nevét és címét;\n c) a kiszolgáltatás helyét;\n d) a küldemény megnevezését, csomagolási módját, veszélyességének az adott fuvarozási ág szerinti megjelölését, darabszámát, jelét, számát, tömegét vagy más módon kifejezett mennyiségét.\n(3) A fuvarozó által tett fenntartásnak minősül az is, ha a fuvarozó az ok megjelölésével azt jegyzi fel a fuvarlevélre, hogy a (2) bekezdés d) pontjában meghatározott adatok ellenőrzése önhibáján kívül nem volt lehetséges.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:259. §",
+          "cim": "Csomagolás; okmányok",
+          "tartalom": "(1) A feladó köteles\n\na) a küldeményt úgy csomagolni, hogy a csomagolás a küldeményt megóvja, és az mások személyét és vagyonát ne veszélyeztesse;\n b) a küldemény fuvarozás során történő kezeléséhez szükséges információkat a csomagoláson, ennek hiányában a küldeményen feltüntetni; és\n c) a fuvarozónak a küldemény továbbításához és kezeléséhez szükséges okiratokat átadni.\n(2) Ha nyilvánvaló, hogy a csomagolás vagy a küldemény kezeléséhez szükséges információ nem megfelelő, vagy a feladó a küldemény továbbításához és kezeléséhez szükséges okiratokat nem adja át, a fuvarozó a küldemény átvételét megtagadhatja. Ha a feladó a hiányosságot késedelem nélkül nem pótolja, a fuvarozó elállhat a szerződéstől.\n(3) Ha a csomagolás vagy a küldemény kezeléséhez szükséges információ hiányossága a küldemény átvételét követően válik nyilvánvalóvá, a fuvarozó köteles erről a körülményről a feladót késedelem nélkül tájékoztatni. A feladó továbbításra adott kifejezett utasítása hiányában a fuvarozó a küldemény továbbítására nem köteles. Ha a feladó a küldemény továbbítására ad utasítást, a fuvarozó megfelelő biztosítékot kérhet arra az esetre, ha a csomagolás vagy a küldemény kezeléséhez szükséges információ hiányosságából fakadóan kára keletkezhet, vagy más személlyel szembeni felelőssége merülhet fel. Ha a feladó nem ad utasítást vagy megfelelő biztosítékot, a fuvarozó a szerződést felmondhatja.\n(4) A fuvarozó köteles az átadott okiratokat a feladó utasításai szerint felhasználni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:260. §",
+          "cim": "Veszélyes áru fuvarozása",
+          "tartalom": "Ha a küldemény veszélyes áru, a feladó köteles közölni a fuvarozóval az áru veszélyességének az adott fuvarozási ág szerinti megjelölését és a veszély elkerüléséhez szükséges információkat. Ennek hiányában a fuvarozó az áru átvételét megtagadhatja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:261. §",
+          "cim": "A fuvareszköz kiállítása és a küldemény berakása",
+          "tartalom": "(1) A fuvarozó köteles a fuvareszközt a szerződésben meghatározott időben és helyen, fuvarozásra alkalmas állapotban kiállítani, és a fuvarozást késedelem nélkül megkezdeni.\n(2) A küldemény berakására a feladó köteles. Ha a küldeményt a címzett nem rakja ki, a fuvarozó a kirakást a feladó költségére elvégezheti.\n(3) A berakás és a kirakás körében a fuvarozót a küldemény elhelyezése tekintetében utasítási jog illeti meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:262. §",
+          "cim": "A feladó elállási joga a fuvarozás megkezdése előtt",
+          "tartalom": "A feladó a szerződéstől a fuvarozás megkezdése előtt állhat el.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:263. §",
+          "cim": "Fuvarozási akadály",
+          "tartalom": "(1) Ha a fuvarozás akadályba ütközik, a fuvarozó köteles késedelem nélkül értesíteni a feladót és szükség esetén utasítást kérni.\n(2) A feladó a fuvardíjnak az akadály felmerültéig járó arányos részét köteles megfizetni, ha azok meg nem fizetésével gazdagodnék, vagy ha a fuvarozó bizonyítja, hogy az akadályt ellenőrzési körén kívül eső, a szerződéskötés időpontjában előre nem látható körülmény okozta, és nem volt elvárható, hogy a körülményt elkerülje vagy a kárt elhárítsa.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:264. §",
+          "cim": "Rendelkezési jog",
+          "tartalom": "(1) A feladót a küldemény kiszolgáltatásáig vagy amíg a címzett a küldeménnyel nem rendelkezett, megilleti a küldeménnyel való rendelkezési jog.\n(2) A fuvarozó a feladó fuvarozás megkezdését követően tett rendelkezésének teljesítését megfelelő biztosíték adásához kötheti, ha az a fuvarozás teljesítését terhesebbé tenné. Ha a feladó nem ad megfelelő biztosítékot, a fuvarozó a kereskedelmi ésszerűség követelményei szerint, a feladó és a címzett érdekeit is figyelembe véve köteles eljárni. A fuvarozó ennek keretében a küldemény értékesítésére is jogosult.\n(3) Az ellenkező bizonyításáig vélelmezni kell, hogy a küldemény értékesítése a kereskedelmi ésszerűség követelményei szerint történik, ha az értékesítésre\n\na) tőzsdén, az értékesítés időpontjában érvényes áron; vagy\n b) a küldemény kereskedelmi forgalma során általában alkalmazott, az adott piacon szokásos módon kerül sor.\n(4) Ha a fuvarozó a küldeményt értékesíti vagy felhasználja, köteles erről a feladót értesíteni.\n(5) A (2)–(4) bekezdést megfelelően alkalmazni kell, ha a fuvarozó a fuvarozás megkezdését követően a fuvarozás teljesítéséhez utasítást kér, és a feladó megfelelő időn belül nem ad utasítást, vagy a fuvarozó az utasítás teljesítését megfelelő biztosíték adásához köti, és a feladó ennek nem tesz eleget.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:265. §",
+          "cim": "Értesítés a küldemény megérkezéséről",
+          "tartalom": "(1) A fuvarozó a küldemény megérkezéséről a címzettet késedelem nélkül köteles értesíteni. Az értesítés megérkezését követően a küldeménnyel a címzett jogosult rendelkezni.\n(2) A címzettnek az (1) bekezdés szerinti értesítés megérkezését megelőzően tett utasítását a fuvarozó annyiban veheti figyelembe, amennyiben az nem ellentétes a feladó utasításaival. A fuvarozó a címzett által adott utasítás teljesítését megfelelő biztosíték adásához kötheti, ha annak teljesítése a fuvarozó kötelezettségét terhesebbé tenné. A fuvarozó megtagadhatja a címzett utasításának teljesítését, ha a címzett nem ad megfelelő biztosítékot.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:266. §",
+          "cim": "Fuvardíj",
+          "tartalom": "(1) Ha a díjat a fuvarlevélbe bejegyzett adat alapján kell megállapítani, az ellenkező bizonyításáig a fuvarlevélbe bejegyzett adatot pontosnak és megfelelőnek kell tekinteni akkor is, ha a fuvarozó a fuvarlevélen olyan fenntartással élt, hogy az adatok ellenőrzésére nem volt módja.\n(2) A küldemény teljes vagy részleges elveszése és megsemmisülése esetén a fuvarozó fuvardíjra vagy annak arányos részére nem tarthat igényt, kivéve, ha bizonyítja, hogy a küldemény elveszését vagy megsemmisülését ellenőrzési körén kívül eső, a szerződéskötés időpontjában előre nem látható körülmény okozta, és nem volt elvárható, hogy a körülményt elkerülje vagy a kárt elhárítsa.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:267. §",
+          "cim": "Törvényes zálogjog",
+          "tartalom": "A fuvarozót a fuvardíj és a költségek biztosítására zálogjog illeti meg azokon a dolgokon, amelyek a fuvarozással kapcsolatosan birtokába kerültek vagy amelyekkel okmányok útján rendelkezik. A zálogjog a fuvarozónak a feladóval szemben fennálló, más fuvarozási szerződésből származó lejárt és nem vitatott követelését is biztosítja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:268. §",
+          "cim": "A fuvarozó felelőssége",
+          "tartalom": "(1) A fuvarozó felelősségét kizáró vagy korlátozó kikötés akkor is semmis, ha az a fuvarozó által súlyos gondatlansággal okozott károkra vonatkozik.\n(2) Ha a fuvarozó a küldeményt több fuvarozási mód igénybevételével továbbítja, az egyes fuvarozási módok tekintetében tevékenységére az adott fuvarozási ág szabályait kell alkalmazni. Ha nem állapítható meg, hogy a kár hol következett be, a fuvarozó felelősségére e fejezet rendelkezései irányadóak.\n(3) Ha a feladó külföldi, a fuvarozó által fizetendő kártérítés mértéke nem lehet magasabb, mint a feladó államának joga szerint fizethető legmagasabb kártérítési összeg.\n(4) A küldemény elveszettnek minősül, ha azt a fuvarozó a fuvarozási határidő lejártától számított harmincadik napon belül nem szolgáltatja ki. Ha a küldemény a kártérítés megfizetése után megkerül, a fuvarozó köteles a feladót a körülmények által lehetővé tett legrövidebb időn belül értesíteni, és a feladó jogosult a küldeménnyel rendelkezni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:269. §",
+          "cim": "A feladó felelőssége",
+          "tartalom": "A feladó a fuvarozóval szemben felelős azért a kárért, amely a nem megfelelő vagy hiányzó csomagolásból, a küldeménnyel kapcsolatos adatok, információk és okmányok hiányából, hiányosságából vagy pontatlanságából származott.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:270. §",
+          "cim": "Az igények elévülése",
+          "tartalom": "A fuvarozási szerződés alapján támasztható igények – a szándékosan vagy súlyos gondatlansággal okozott károk kivételével – egy év alatt elévülnek. Az elévülés kezdő időpontja a küldemény címzettnek történő kiszolgáltatásának időpontja vagy az az időpont, amikor a küldeményt a címzettnek ki kellett volna szolgáltatni. Ezeket a rendelkezéseket kell alkalmazni abban az esetben is, ha a fuvarozó a küldeményt több fuvarozási mód igénybevételével továbbítja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:271. §",
+          "cim": "A vállalkozás szabályainak alkalmazása",
+          "tartalom": "E fejezet eltérő rendelkezésének hiányában a fuvarozási szerződésre a vállalkozási szerződés szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XVI.",
+      "megnevezes": "A MEGBÍZÁSI TÍPUSÚ SZERZŐDÉSEK",
+      "szakaszok": [
+        {
+          "szakasz": "6:272. §",
+          "cim": "Megbízási szerződés",
+          "tartalom": "Megbízási szerződés alapján a megbízott a megbízó által rábízott feladat ellátására, a megbízó a megbízási díj megfizetésére köteles.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:273. §",
+          "cim": "Utasítás",
+          "tartalom": "(1) A megbízott köteles a megbízó utasításait követni.\n(2) A megbízott a megbízó utasításától akkor térhet el, ha ezt a megbízó érdeke feltétlenül megköveteli, és a megbízó előzetes értesítésére már nincs mód. Ilyen esetben a megbízót késedelem nélkül értesíteni kell.\n(3) Ha a megbízó célszerűtlen vagy szakszerűtlen utasítást ad, a megbízott köteles őt erre figyelmeztetni. Ha a megbízó a figyelmeztetés ellenére utasítását fenntartja, a megbízott a szerződéstől elállhat, illetve a szerződést felmondhatja, vagy a feladatot a megbízó utasításai szerint, a megbízó kockázatára elláthatja. Meg kell tagadnia az utasítás teljesítését, ha annak végrehajtása jogszabály vagy hatósági határozat megsértésére vezetne, vagy veszélyeztetné mások személyét vagy vagyonát.\n(4) A megbízó köteles megtéríteni az utasítás teljesítésével kapcsolatban felmerült költségeket. A megbízott az utasítás teljesítését megfelelő biztosíték adásához kötheti. Ha a megbízó nem ad megfelelő biztosítékot, a megbízott az utasítás teljesítését megtagadhatja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:274. §",
+          "cim": "Képviseleti jog",
+          "tartalom": "Ha a megbízás teljesítéséhez szerződés kötése vagy más jognyilatkozat tétele szükséges, a megbízás a meghatalmazást is magában foglalja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:275. §",
+          "cim": "Tájékoztatási kötelezettség",
+          "tartalom": "(1) A megbízott köteles a megbízót tevékenységéről és a feladat állásáról kívánságára, szükség esetén e nélkül is tájékoztatni. A megbízott köteles a megbízót tájékoztatni, ha közreműködő igénybevétele vált szükségessé, vagy ha a felmerült új körülmények az utasítások módosítását teszik indokolttá.\n(2) A megbízott köteles a megbízót a megbízás teljesítéséről késedelem nélkül értesíteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:276. §",
+          "cim": "Megbízási díj",
+          "tartalom": "(1) A megbízott megbízási díjra akkor is jogosult, ha eljárása nem vezetett eredményre, kivéve, ha az eredmény részben vagy egészben azért maradt el, mert a megbízott felróhatóan járt el.\n(2) A megbízási díj a szerződés teljesítésekor esedékes. Ha a szerződés a megbízás teljesítése előtt szűnt meg, a megbízott a megbízási díjnak tevékenységével arányos részét követelheti.\n(3) A megbízott a megbízás ellátásával rendszerint együtt járó költségek előlegezésére köteles.\n(4) A szerződés megszűnésekor a megbízó köteles a megbízottat a megbízás alapján harmadik személyekkel szemben vállalt kötelezettségei alól mentesíteni, valamint szükséges és indokolt költségeit megtéríteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:277. §",
+          "cim": "Törvényes zálogjog",
+          "tartalom": "A megbízottat a megbízási díj és a költségek biztosítására zálogjog illeti meg a megbízónak azokon a vagyontárgyain, amelyek a megbízás következtében kerültek birtokába.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:278. §",
+          "cim": "Felmondás",
+          "tartalom": "(1) A szerződést bármelyik fél felmondhatja.\n(2) A megbízó felmondása esetén a megbízó köteles megtéríteni a megbízottnak a felmondással okozott kárt, kivéve, ha a felmondásra a megbízott szerződésszegése miatt került sor.\n(3) Ha a szerződést a megbízott alkalmatlan időben mondta fel, köteles megtéríteni a megbízónak a felmondással okozott kárt, kivéve, ha a felmondásra a megbízó szerződésszegése miatt került sor.\n(4) A felmondás jogának korlátozása vagy kizárása semmis. Tartós megbízási jogviszony esetén a felek megállapodhatnak a felmondás jogának korlátozásában, és kiköthetik azt is, hogy meghatározott idő előtt a rendes felmondás joga nem gyakorolható.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:279. §",
+          "cim": "Elszámolás",
+          "tartalom": "A szerződés megszűnésekor a megbízott köteles a megbízónak mindazt kiadni, amihez a megbízás teljesítése céljából vagy eljárása eredményeképpen jutott, kivéve, amit abból a megbízás folytán jogosan felhasznált.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:280. §",
+          "cim": "Ingyenes megbízási szerződés",
+          "tartalom": "(1) E fejezet rendelkezéseit megfelelően alkalmazni kell az olyan megbízási szerződésre, amely alapján a megbízó ellenszolgáltatás nyújtására nem köteles.\n(2) Ha a megbízott a feladat ellátását ingyenesen vállalja, a megbízó köteles a megbízott költségeit megtéríteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:281. §",
+          "cim": "Bizományi szerződés",
+          "tartalom": "(1) Bizományi szerződés alapján a bizományos a megbízó javára a saját nevében ingó dologra adásvételi szerződés kötésére, a megbízó a díj megfizetésére köteles.\n(2) E fejezet rendelkezéseit megfelelően alkalmazni kell az olyan bizományi szerződésre, amely alapján a bizományos más szerződés kötésére vállal kötelezettséget.\n(3) Semmis a bizományi szerződés, ha annak alapján a bizományos ingatlan tulajdonjogának a megszerzésére köteles.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:282. §",
+          "cim": "A bizományos jogállása",
+          "tartalom": "(1) A bizományi szerződés alapján kötött adásvételi szerződés a bizományossal szerződő féllel szemben a bizományost jogosítja és kötelezi.\n(2) A bizományos akkor áll helyt mindazoknak a kötelezettségeknek a teljesítéséért, amelyek a vele szerződő felet a szerződés folytán terhelik, ha ezt kifejezetten elvállalta.\n(3) A bizományos hitelezői nem támaszthatnak igényt\n\na) a bizományossal szerződő féllel szemben fennálló és a megbízót illető követelésekre;\n b) vételi bizomány esetén a bizományos által megvett dolgokra;\n c) a bizományoshoz befolyt és elkülönítve tartott vagy kezelt olyan pénzösszegekre, amelyekről megállapítható, hogy a megbízót illetik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:283. §",
+          "cim": "Tulajdonszerzés",
+          "tartalom": "(1) Vételi bizomány esetén a bizományos a szerződés teljesítése során megszerzett ingó dolog tulajdonjogát az elszámolás során ruházza át a megbízóra.\n(2) Eladási bizomány esetén a bizományos jogosult a megbízó tulajdonjogában álló ingó dolog tulajdonjogának az átruházására.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:284. §",
+          "cim": "Bizományi díj",
+          "tartalom": "A bizományosnak díj akkor jár, ha az adásvételi szerződést megkötötték, vagy ha a szerződés megkötésére a megbízó érdekkörében felmerült okból nem került sor.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:285. §",
+          "cim": "Belépési jog",
+          "tartalom": "(1) A bizományos az adásvételi szerződést a megbízóval maga is megkötheti, ha a dolog forgalmi értéke nyilvános információ alapján egyértelműen megállapítható.\n(2) A bizományos belépése esetén is köteles a szerződést a megbízóra legkedvezőbb feltételek mellett megkötni.\n(3) A bizományos az elszámolás keretében köteles a megbízót tájékoztatni, ha az adásvételi szerződést a megbízóval maga kötötte meg.\n(4) A bizományos díjigényét nem érinti, ha a szerződést a megbízóval maga köti meg. Egyebekben a bizományos belépése esetén a megbízó és a bizományos jogviszonyára az adásvételi szerződés szabályait kell alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:286. §",
+          "cim": "Eltérés a bizományi szerződés feltételeitől",
+          "tartalom": "(1) Ha a bizományos a megbízóra kedvezőbb feltételek mellett köti meg az adásvételi szerződést, mint amilyeneket a bizományi szerződésben megállapítottak, az ebből eredő előny a megbízót illeti.\n(2) Ha a bizományos a bizományi szerződésben megállapított áron alul ad el, köteles a megbízónak az árkülönbözetet megtéríteni, kivéve, ha bizonyítja, hogy az adásvételi szerződést a megállapított áron megkötni nem lehetett, az eladással a megbízót kártól óvta meg, és a megbízót idejében értesíteni nem tudta.\n(3) Ha a bizományos a bizományi szerződésben kikötött feltételektől lényegesen eltér, köteles az eltérésről a megbízót értesíteni. A megbízó az értesítést követően késedelem nélkül jogosult az adásvételi szerződést visszautasítani, kivéve, ha a bizományos a szerződésben meghatározott árnál drágábban vásárolt, de az értékkülönbözetet megtéríti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:287. §",
+          "cim": "A megbízás szabályainak alkalmazása",
+          "tartalom": "E fejezet eltérő rendelkezésének hiányában a bizományi szerződésre a megbízási szerződés szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:288. §",
+          "cim": "Közvetítői szerződés",
+          "tartalom": "Közvetítői szerződés alapján a közvetítő megbízója és harmadik személy között szerződés megkötésének elősegítésére irányuló tevékenység folytatására, a megbízó díj fizetésére köteles.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:289. §",
+          "cim": "A közvetítő képviseleti jogának terjedelme",
+          "tartalom": "Ha e törvény eltérően nem rendelkezik, a közvetítő a megbízója nevében az általa közvetített szerződés megkötésére és az annak alapján történő teljesítés elfogadására nem jogosult.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:290. §",
+          "cim": "Tájékoztatási kötelezettség",
+          "tartalom": "A közvetítő köteles a megbízót tájékoztatni, ha harmadik személy javára közvetítői tevékenységet végez.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:291. §",
+          "cim": "A közvetítő díjazása",
+          "tartalom": "(1) A díj a közvetített szerződés megkötésének időpontjában válik esedékessé.\n(2) A díj a közvetítőt abban az esetben is megilleti, ha a közvetített szerződést a felek a közvetítői szerződés megszűnését követően kötik meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:292. §",
+          "cim": "A megbízás szabályainak alkalmazása",
+          "tartalom": "E fejezet eltérő rendelkezésének hiányában a közvetítői szerződésre a megbízási szerződés szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:293. §",
+          "cim": "Különös szabályok önállóan eljáró közvetítő esetén",
+          "tartalom": "(1) Közvetítői szerződés alapján a közvetítő tartós jogviszony keretében, önállóan eljárva megbízójának harmadik személyekkel kötendő szerződések közvetítésére, illetve a megbízó nevében történő megkötésére, a megbízó díj fizetésére köteles.\n(2) Önállóan jár el az a személy, aki az (1) bekezdés szerinti tevékenységet nem munkaviszony, vezető tisztségviselői jogviszony vagy más olyan jogszabályon, bírósági vagy hatósági rendelkezésen alapuló jogviszony keretében végzi, amely őt valamely jogi személy képviseletére feljogosítja.\n(3) E fejezet alkalmazásában tartós a jogviszony, ha a közvetítő\n\na) több szerződés megkötésének közvetítésre; vagy\n b) egy szerződés megkötésének közvetítésére és a jogviszony fenntartására, illetve megújítására köteles.\n(4) Ha a szerződést írásba foglalták, az egyik fél kérelmére a másik fél köteles átadni a szerződés és annak módosításának másolatát; e rendelkezéstől való eltérés és e jogról való lemondás semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:294. §",
+          "cim": "A közvetítő képviseleti jogának terjedelme",
+          "tartalom": "Ha a közvetítő az általa közvetített szerződés megkötésére jogosult, a képviseleti joga minden olyan jognyilatkozat megtételére kiterjed, amely a közvetített szerződések teljesítésével rendszerint együtt jár. Ez a jog nem foglalja magában a már megkötött szerződések módosításához, a pénz átvételéhez és a fizetési határidő megállapításához való jogot.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:295. §",
+          "cim": "A megbízó kötelezettségei",
+          "tartalom": "(1) A megbízó saját költségére köteles a közvetítőnek mindazt a tájékoztatást és segítséget megadni, amely kötelezettségeinek teljesítéséhez szükséges. E körben köteles különösen a szerződés tárgyára vonatkozó iratot a közvetítő rendelkezésére bocsátani.\n(2) A megbízó köteles a közvetítőt késedelem nélkül értesíteni, ha lényegesen kisebb mennyiségben képes vagy kíván szerződést kötni annál, mint amire a közvetítő számíthatott.\n(3) A megbízó köteles a közvetítőt késedelem nélkül értesíteni a közvetítő által közvetített szerződés elfogadásáról vagy elutasításáról, és a megkötött szerződés teljesítésének elmaradásáról.\n(4) A feleknek az (1)–(3) bekezdés rendelkezéseitől való eltérése semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:296. §",
+          "cim": "A szerződés időtartama",
+          "tartalom": "A határozott időre kötött szerződés határozatlan időtartamúvá alakul át, ha a határozott idő lejárta után a szerződéses szolgáltatások teljesítését a felek továbbra is folytatják.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:297. §",
+          "cim": "A szerződés felmondása",
+          "tartalom": "(1) A határozatlan időtartamra kötött közvetítői szerződést bármelyik fél a naptári hónap utolsó napjára felmondhatja. A felmondási idő a szerződés első évében egy hónap, a szerződés második évében két hónap, a harmadik és az azt követő években három hónap. Ennél rövidebb felmondási idő kikötése semmis.\n(2) Ha a felek az (1) bekezdésben foglaltaknál hosszabb felmondási időben állapodnak meg, a megbízóra irányadó felmondási idő nem lehet rövidebb, mint a közvetítőre irányadó felmondási idő. A felek ettől eltérő megállapodása semmis.\n(3) Ha a határozott időtartamra kötött szerződés határozatlan időtartamúvá alakul át, a felmondási idő számítása szempontjából a szerződés teljes időtartamát figyelembe kell venni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:298. §",
+          "cim": "A közvetítő kártalanítása",
+          "tartalom": "(1) A közvetítői szerződés megszűnése esetén a közvetítőnek a megbízótól kártalanítás jár, ha a kártalanítás a szerződéssel összefüggő valamennyi körülményre tekintettel méltányos, figyelemmel arra, hogy a közvetítő a szerződés megszűnése következtében elveszíti az olyan jutalékhoz való jogát, amely őt a szerződés fennmaradása esetén az adott üzletfelekkel kötött vagy jövőben kötendő üzletek után megilletné, feltéve, hogy\n\na) a közvetítő a megbízónak üzleti kapcsolatok kialakításával új ügyfeleket szerzett, vagy meglévő üzleti kapcsolatokat – legalább egy új ügyfél megnyerésének megfelelő mértékben – bővített, ha az üzleti kapcsolatokból a megbízó a szerződés megszűnése után is jelentős előnyre tesz szert; vagy\n b) a tartós jogviszony létrehozására irányuló megbízást teljesítette, de a közvetítői szerződés megszűnése következtében folytatólagos díjazástól esik el.\n(2) A kártalanítás összege nem haladhatja meg a közvetítő által a szerződés megszűnését megelőző öt évben kapott díjazás átlagából számított egyévi összeget, öt évnél rövidebb közvetítői szerződés esetén a szerződés időtartama alatt kapott díj átlagából számított egyévi összeget.\n(3) A kártalanítási igény egyéves jogvesztő határidőn belül érvényesíthető.\n(4) A kártalanítás nem érinti a közvetítőt megillető kártérítési igényt és a közvetítőnek a szerződés megszűnését követő gazdasági tevékenysége gyakorlásában korlátozó megállapodásért járó díjigényt.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:299. §",
+          "cim": "A kártalanítás kizártsága",
+          "tartalom": "Nem jár kártalanítás a közvetítőnek, ha\n\na) a szerződést a közvetítő mondta fel, kivéve, ha azt a megbízó ellenőrzési körében beállt olyan körülmény alapozta meg, vagy a közvetítő olyan életkora vagy egészségi állapota indokolta, amelynek folytán a közvetítőtől a tevékenységének folytatása már nem volt elvárható; vagy\n b) ha a megbízóval kötött szerződés alapján a közvetítő a szerződésben meghatározott jogait és kötelezettségeit másra ruházza.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:300. §",
+          "cim": "A kártalanítási szabályok eltérést nem engedő jellege a közvetítő javára",
+          "tartalom": "Semmis a feleknek a szerződés megszűnése előtt kötött olyan megállapodása, amely a közvetítő kártalanítására vonatkozó rendelkezésektől a közvetítő hátrányára eltér.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:301. §",
+          "cim": "A szerződés megszűnését követő versenykorlátozás",
+          "tartalom": "(1) A szerződés megszűnését követően a közvetítőt a gazdasági tevékenysége gyakorlásában korlátozó megállapodást írásba kell foglalni.\n(2) A közvetítőt gazdasági tevékenysége gyakorlásában korlátozó megállapodás legfeljebb a szerződés megszűnésétől számított két évre köthető ki; a két évet meghaladó korlátozó kikötés semmis.\n(3) Semmis a közvetítőt gazdasági tevékenysége gyakorlásában korlátozó megállapodás annyiban, amennyiben eltér a közvetítői szerződésben meghatározott földrajzi területtől, ügyfélkörtől, illetve árufajtától.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:302. §",
+          "cim": "Szállítmányozási szerződés",
+          "tartalom": "Szállítmányozási szerződés alapján a szállítmányozó a saját nevében a megbízó javára küldemény továbbításával összefüggő szerződések megkötésére és jognyilatkozatok megtételére, a megbízó díj fizetésére köteles.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:303. §",
+          "cim": "Igényérvényesítés",
+          "tartalom": "A szállítmányozó a megbízó igényeit a fuvarozóval és más, a szállítmányozó által igénybevett közreműködőkkel szemben, a megbízó utasítása esetén a megbízó költségére és veszélyére köteles érvényesíteni. A szállítmányozó utasítás nélkül is köteles a megbízó jogainak megóvásához szükséges nyilatkozatokat megtenni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:304. §",
+          "cim": "Önszerződés",
+          "tartalom": "A szállítmányozó a fuvarozást maga is elláthatja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:305. §",
+          "cim": "Jutalék",
+          "tartalom": "A szállítmányozót illeti az az utólagos fuvardíjkedvezmény vagy üzletszerzési jutalék, amelyet a továbbított küldemények után a fuvarozó neki juttat.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:306. §",
+          "cim": "Elévülés",
+          "tartalom": "A szállítmányozási szerződésből fakadó igények – a szándékosan vagy súlyos gondatlansággal okozott károk kivételével – egy év alatt évülnek el.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:307. §",
+          "cim": "A szállítmányozó felelőssége",
+          "tartalom": "(1) A szállítmányozó felelősségére a fuvarozó felelősségére vonatkozó rendelkezéseket kell alkalmazni, ha\n\na) a küldeményt mások küldeményeivel együtt, azonos fuvarozási eszközzel továbbíttatta, és a kár ezen okból keletkezett;\n b) a birtokában levő küldemény elvész vagy károsodik.\n(2) Ha a megbízó külföldi, a szállítmányozó által fizetendő kártérítés mértéke nem lehet magasabb, mint a megbízó államának joga szerint fizethető legmagasabb kártérítési összeg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:308. §",
+          "cim": "A megbízó felelőssége",
+          "tartalom": "(1) A megbízó felel azért a kárért, amely az utasításból, a küldemény elégtelen csomagolásából, jelöléséből vagy a megbízó által adott adatok, okmányok, információk hiányosságából, pontatlanságából, hiányából származik.\n(2) Harmadik személy követelésének veszélye esetén a szállítmányozó megfelelő biztosítékot követelhet a megbízótól. Ha a megbízó nem ad megfelelő biztosítékot, a szállítmányozó a szerződést felmondhatja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:309. §",
+          "cim": "A bizomány és a fuvarozás szabályainak alkalmazása",
+          "tartalom": "E fejezet eltérő rendelkezésének hiányában a szállítmányozó és a megbízó jogviszonyára a bizományi szerződés, a küldeménnyel kapcsolatos tájékoztatási kötelezettségre, a küldemény kezelésére, megóvására, továbbítására, a szállítmányozót megillető zálogjogra, továbbá a fuvarozási szerződésből fakadó követelések elévülésére a fuvarozási szerződés szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:310. §",
+          "cim": "Bizalmi vagyonkezelési szerződés",
+          "tartalom": "(1) Bizalmi vagyonkezelési szerződés alapján a vagyonkezelő a vagyonrendelő által tulajdonába adott dolgok, ráruházott jogok és követelések (a továbbiakban: kezelt vagyon) saját nevében a kedvezményezett javára történő kezelésére, a vagyonrendelő díj fizetésére köteles.\n(2) A szerződést írásba kell foglalni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:311. §",
+          "cim": "A kedvezményezett meghatározása",
+          "tartalom": "(1) A vagyonrendelő határozza meg a kedvezményezettet és a kedvezményezetti jogosultság keletkezésének és megszűnésének feltételeit. A kedvezményezett a kedvezményezettek körére való utalással is meghatározható.\n(2) A vagyonrendelő rendelkezhet úgy, hogy meghatározott körülmények bekövetkezése esetén vagy meghatározott idő elteltével a kezelt vagyon részben vagy egészben rá, jogutódaira vagy meghatározott harmadik személyre száll.\n(3) Ha a szerződés feljogosítja a vagyonkezelőt a kedvezményezett személyének kijelölésére, a vagyonkezelő jogosult a kedvezményezett részesedésének meghatározására.\n(4) A vagyonkezelő kizárólagos kedvezményezetté nevezése semmis.\n(5) A kedvezményezetti jogosultság megszűnik, ha a kedvezményezett a szerződésben meghatározottaktól eltérő jogcímen érvényesít igényt a kezelt vagyonnal szemben.",
+          "footnote": [
+            "1 Beiktatta: 2017. évi LXI. törvény 22. §. Hatályos: 2017. VI. 23-tól."
+          ]
+        },
+        {
+          "szakasz": "6:312. §",
+          "cim": "A vagyonelkülönítés",
+          "tartalom": "(1) A kezelt vagyon a vagyonkezelő saját vagyonától és az általa kezelt egyéb vagyonoktól elkülönült vagyont képez, amelyet a vagyonkezelő köteles külön nyilvántartani. A felek ettől eltérő rendelkezése semmis.\n(2) A vagyonkezelő által a saját vagyonától és az általa kezelt egyéb vagyonoktól elkülönülten, kezelt vagyonként nyilvántartott vagyontárgyakat az ellenkező bizonyításáig a kezelt vagyon körébe tartozónak kell tekinteni.\n(3) A kezelt vagyon részét képezik a kezelt vagyontárgy helyébe lépő vagyontárgy, biztosítási összeg, kártérítés vagy más érték, továbbá mindezek hasznai, akkor is, ha nem szerepelnek a nyilvántartásban.\n(4) A vagyonkezelő által a kezelt vagyon részeként nyilvántartásba nem vett vagyontárgyakat az ellenkező bizonyításáig a vagyonkezelő saját személyes vagyonába tartozónak kell tekinteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:313. §",
+          "cim": "A kezelt vagyon védettsége",
+          "tartalom": "(1) A kezelt vagyon tárgyaira a vagyonkezelő házastársa, élettársa, továbbá személyes hitelezői és a vagyonkezelő által kezelt más vagyonok hitelezői nem támaszthatnak igényt. A kezelt vagyon nem része a vagyonkezelő hagyatékának.\n(2) A vagyonkezelő házastársával, élettársával, továbbá személyes hitelezőivel és az általa kezelt más vagyonok hitelezőivel szemben a kedvezményezett és a vagyonrendelő is felléphetnek, kérve a kezelt vagyon elkülönítését.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:314. §",
+          "cim": "A kedvezményezett és hitelezőinek igénye",
+          "tartalom": "(1) A kedvezményezett a szerződés szerint igényelheti a vagyonkezelőtől a kezelt vagyon és annak hasznai kiadását.\n(2) A kedvezményezett hitelezői attól kezdve támaszthatnak igényt a kedvezményezett vagyontárgyaira, amikor e vagyontárgyaknak vagy azok hasznainak a kedvezményezett részére való kiadása esedékessé vált.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:315. §",
+          "cim": "Ellenőrzési jog",
+          "tartalom": "A vagyonrendelő és a kedvezményezett ellenőrizheti a vagyonkezelőnek a vagyonkezelés körébe eső tevékenységét. Az ellenőrzéssel járó költségek a vagyonrendelőt, illetve a kedvezményezettet terhelik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:316. §",
+          "cim": "Utasítási jog hiánya",
+          "tartalom": "A vagyonkezelőt a vagyonrendelő és a kedvezményezett nem utasíthatja; az e tilalomba ütköző utasítás semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:317. §",
+          "cim": "A vagyonkezelővel szembeni fokozott követelmény",
+          "tartalom": "(1) A vagyonkezelő a jogviszony bizalmi jellegéből fakadó fokozott követelményeknek megfelelően, a kedvezményezett érdekeinek elsődleges figyelembevétele mellett köteles eljárni.\n(2) A vagyonkezelő a kereskedelmi ésszerűség követelményei szerint köteles a kezelt vagyont az előre láthatóan fenyegető kockázatokkal szemben megóvni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:318. §",
+          "cim": "A vagyonkezelő rendelkezési joga",
+          "tartalom": "(1) A vagyon kezelése magában foglalja a vagyonkezelőre átruházott tulajdonjogból, más jogokból és követelésekből fakadó jogosultságok gyakorlását és az azokból fakadó kötelezettségek teljesítését.\n(2) A vagyonkezelő a szerződésben foglalt feltételek szerint és korlátok között rendelkezhet a kezelt vagyonba tartozó vagyontárgyakkal.\n(3) Ha a vagyonkezelő a (2) bekezdésben foglalt kötelezettségét megsérti és jogosulatlanul ruház át harmadik személyre a kezelt vagyonhoz tartozó vagyontárgyat, a vagyonrendelő és a kedvezményezett jogosult azt a kezelt vagyon számára visszakövetelni, ha a harmadik személy nem volt jóhiszemű vagy nem visszterhesen szerzett. Ezt a szabályt kell megfelelően alkalmazni a kezelt vagyontárgy jogosulatlan megterhelése esetén.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:319. §",
+          "cim": "Titoktartási kötelezettség",
+          "tartalom": "(1) A vagyonkezelő köteles titokban tartani minden olyan tényt, tájékoztatást és egyéb adatot, amelyről vagyonkezelői megbízatása keretében vagy annak kapcsán szerzett tudomást. E kötelezettsége független a vagyonkezelői jogviszony létrejöttétől, és fennmarad a bizalmi vagyonkezelési megbízatás megszűnése után is.\n(2) A titoktartási kötelezettség alól a vagyonrendelő és jogutódja felmentést adhat.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:320. §",
+          "cim": "Tájékoztatási és számadási kötelezettség",
+          "tartalom": "(1) A vagyonkezelő a vagyonrendelő vagy a kedvezményezett kérésére köteles tájékoztatást adni a kezelt vagyonról. A tájékoztatásnak ki kell terjednie különösen a kezelt vagyon tényleges és várható gyarapodására, a kezelt vagyonba tartozó vagyoni elemekre, azok értékére, továbbá a kezelt vagyon terhére vállalt kötelezettségekre.\n(2) A vagyonkezelő kérésre köteles a vagyonkezelésről számot adni, és a kezelt vagyonnal a vagyonrendelő, illetve a kedvezményezett felé elszámolni.\n(3) A tájékoztatási és a számadási kötelezettség teljesítésével kapcsolatos költségek a vagyonrendelőt, illetve a kedvezményezettet terhelik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:321. §",
+          "cim": "A vagyonkezelő felelőssége a vagyonrendelővel és a kedvezményezettel szemben",
+          "tartalom": "(1) A vagyonkezelő kötelezettségeinek megszegéséért a szerződésszegésért való kártérítési felelősség általános szabályai szerint felel a vagyonrendelővel, illetve a kedvezményezettel szemben.\n(2) Ha a vagyonkezelő feladatát ellenszolgáltatás nélkül látja el, felelősségére az ingyenes szerződések megszegéséért való kártérítési felelősség szabályait kell alkalmazni.\n(3) A vagyonrendelő és a kedvezményezett követelheti annak a vagyoni előnynek a kezelt vagyon részeként való kezelését, amelyhez a vagyonkezelő a vagyonkezelésből fakadó kötelezettségeinek megsértésével jut.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:322. §",
+          "cim": "A vagyonkezelő költség- és díjigénye",
+          "tartalom": "(1) Ha a vagyonkezelő feladatát ingyenesen látja el, a vagyonkezeléssel járó szokásos költségei megtérítését is igényelheti.\n(2) A vagyonkezelő a díjának és indokolt költségeinek megfizetésére vonatkozó, továbbá a vagyonkezelési jogviszonyból fakadó egyéb követelését a kezelt vagyonból közvetlenül kielégítheti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:323. §",
+          "cim": "A vagyonkezelő felelőssége harmadik személyekkel szemben a vállalt kötelezettségekért",
+          "tartalom": "(1) A vagyonkezelő a kezelt vagyonnal felel a vállalt kötelezettségek teljesítéséért.\n(2) A vagyonkezelő saját vagyonával korlátlanul felel a kezelt vagyon terhére vállalt kötelezettségekből eredő követelések teljesítéséért, ha azok a kezelt vagyonból nem elégíthetők ki, és a másik fél nem tudta és nem is kellett hogy tudja, hogy a vagyonkezelő kötelezettségvállalása túlterjed a kezelt vagyon keretein.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:324. §",
+          "cim": "Több vagyonkezelő",
+          "tartalom": "(1) Ha a vagyonrendelő több vagyonkezelőt jelöl ki, a vagyonkezelők együttesen járnak el és közösen döntenek.\n(2) Ha a vagyonkezelőknek kötelezettségvállalásaikért saját vagyonukkal is helyt kell állniuk, közös döntéseikért harmadik személyekkel szemben egyetemlegesen felelnek.\n(3) A bizalmi vagyonkezelésből fakadó kötelezettségek megsértéséért több vagyonkezelő a vagyonrendelővel és a kedvezményezettel szemben egyetemlegesen felel.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:325. §",
+          "cim": "Változás a felek személyében",
+          "tartalom": "(1) A vagyonrendelő a vagyonkezelőt a megbízatásból másik vagyonkezelő egyidejű kijelölése mellett bármikor visszahívhatja.\n(2) Ha a vagyonrendelő meghal vagy jogutód nélkül megszűnik, és a kezelt vagyonnak nincs másik vagyonrendelője, a vagyonkezelőt a megbízatásból a kedvezményezett kérelmére a bíróság másik vagyonkezelő egyidejű kijelölése mellett visszahívhatja, ha a vagyonkezelő súlyosan megszegte a szerződést.\n(3) Több kedvezményezett ezt a jogot együttesen gyakorolhatja, azzal, hogy bármelyikük kérelmére a bíróság határoz a vagyonkezelői megbízatás megszűnéséről és új vagyonkezelő kijelöléséről. A bíróság nem jelölheti ki vagyonkezelőnek azt a személyt, aki ellen valamennyi kedvezményezett tiltakozik.\n(4) A vagyonrendelő a halála vagy jogutód nélküli megszűnése esetére a szerződésben kijelölheti a vagyonrendelőt megillető jogok gyakorlására jogosult és a vagyonrendelőt terhelő kötelezettségek teljesítésére köteles személyt. A kijelölésnek a vagyonkezelőhöz intézett nyilatkozattal történő elfogadása esetén a kijelölt személyt a vagyonrendelő jogai és kötelezettségei illetik meg, illetve terhelik abban a körben, amelyben a szerződés e jogait és kötelezettségeit nem korlátozta.",
+          "footnote": [
+            "1 Beiktatta: 2017. évi LXI. törvény 23. §. Hatályos: 2017. VI. 23-tól."
+          ]
+        },
+        {
+          "szakasz": "6:326. §",
+          "cim": "A bizalmi vagyonkezelés megszűnése",
+          "tartalom": "(1) A bizalmi vagyonkezelés megszűnik, ha\n\na) a kezelt vagyon elfogy;\n b) a vagyonkezelő a vagyonkezelést felmondja, a felmondást követő három hónap elteltével;\n c) a kezelt vagyonnak három hónapot meghaladó ideig nincs vagyonkezelője, a vagyonkezelői megbízás megszűnésének időpontjában;\n d) a vagyonrendelő volt az egyetlen kedvezményezett, az ő halálának időpontjában;\n e) a vagyonrendelő a határozatlan időre kötött szerződést – annak eltérő rendelkezése hiányában – felmondja.\n(2) A vagyonkezelő a felmondásnál is a kedvezményezett érdekeinek elsődleges figyelembevétele mellett köteles eljárni.\n(3) A határozatlan időtartamra vagy az ötven évnél hosszabb határozott időtartamra létesített bizalmi vagyonkezelési jogviszony ötven év elteltével megszűnik. Az ettől eltérő kikötés semmis.\n(4) A bizalmi vagyonkezelés nem szűnik meg azzal, hogy a vagyonrendelő a vagyonkezelő jogutódjává válik.\n(5) A bizalmi vagyonkezelés nem szűnik meg a vagyonrendelő, a vagyonkezelő vagy a kedvezményezett halálával vagy megszűnésével.",
+          "footnote": [
+            "1 Beiktatta: 2017. évi LXI. törvény 24. §. Hatályos: 2017. VI. 23-tól."
+          ]
+        },
+        {
+          "szakasz": "6:327. §",
+          "cim": "Elszámolási kötelezettség",
+          "tartalom": "(1) A bizalmi vagyonkezelés megszűnése esetén a vagyonkezelőt a kezelt vagyonnal kapcsolatos elszámolási és tájékoztatási kötelezettség továbbra is a bizalmi vagyonkezelés fennállása alatti tartalommal terheli.\n(2) Ha a bizalmi vagyonkezelés megszűnése a kezelt vagyont veszélyezteti, a vagyonkezelő az elszámolásig köteles megtenni a bizalmi vagyonkezelés tartalma szerint szükséges intézkedéseket.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:328. §",
+          "cim": "A kezelt vagyon kiadása",
+          "tartalom": "(1) A vagyonkezelő a vagyonkezelői megbízatásának megszűnésével köteles a kezelt vagyont a vagyonrendelő által kijelölt további vagy új vagyonkezelőnek, ilyen hiányában a vagyonrendelőnek kiadni.\n(2) Ha a vagyonkezelő jogutód nélkül szűnik meg, a kezelt vagyon a vagyonkezelő megszűnésével átszáll a vagyonrendelő által kijelölt további vagy új vagyonkezelőre, ilyen hiányában a vagyonkezelő megszűnésével visszaszáll a vagyonrendelőre.\n(3) A kezelt vagyon terhére vállalt kötelezettségek a kezelt vagyon részeként háramlanak a további vagy új vagyonkezelőre, ilyen hiányában a vagyonrendelőre.\n(4) Több vagyonrendelő esetén a vagyonrendelők a kezelt vagyonhoz való hozzájárulás arányában válnak a visszaháramlott vagyon jogosultjává, és ugyanilyen arányban terhelik őket a kezelt vagyon részeként visszaháramlott kötelezettségek; a kezelt vagyon hitelezőivel szemben helytállási kötelezettségük egyetemleges.\n(5) Ha a vagyon kiadásáról a szerződés a vagyonkezelői tisztségben való jogutódlás formájában rendelkezik, a jogoknak és kötelezettségeknek a jogutód vagyonkezelőre való átszállására az (1)–(4) bekezdésben foglalt szabályokat kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:329. §",
+          "cim": "Bizalmi vagyonkezelés létesítése egyoldalú jogügylettel",
+          "tartalom": "(1) Ha a vagyonrendelő és a vagyonkezelő személye megegyezik, a bizalmi vagyonkezelés a vagyonrendelő közokiratba foglalt visszavonhatatlan egyoldalú nyilatkozatával jön létre.\n(2) Végrendelettel alapított bizalmi vagyonkezelési jogviszony a vagyonkezelővé való kijelölésnek a vagyonkezelő által a végrendeletben meghatározott tartalommal történő elfogadásával a vagyonrendelő halálának időpontjára visszamenő hatállyal jön létre.\n(3) Az egyoldalú jogügylettel létesített bizalmi vagyonkezelési jogviszonyokra a bizalmi vagyonkezelési szerződés szabályait kell megfelelően alkalmazni.",
+          "footnote": [
+            "1 Megállapította: 2017. évi LXI. törvény 25. §. Hatályos: 2017. VI. 23-tól."
+          ]
+        },
+        {
+          "szakasz": "6:330. §",
+          "cim": "A megbízás szabályainak alkalmazása",
+          "tartalom": "E fejezet eltérő rendelkezésének hiányában a bizalmi vagyonkezelésre a megbízási szerződés szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XVII.",
+      "megnevezes": "A HASZNÁLATI SZERZŐDÉSEK",
+      "szakaszok": [
+        {
+          "szakasz": "6:331. §",
+          "cim": "Bérleti szerződés",
+          "tartalom": "(1) Bérleti szerződés alapján a bérbeadó meghatározott dolog időleges használatának átengedésére, a bérlő a dolog átvételére és bérleti díj fizetésére köteles.\n(2) A jogok időleges gyakorlásának más személy részére ellenérték fejében történő átengedésére a dologbérlet szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:332. §",
+          "cim": "A bérbeadó szavatossága",
+          "tartalom": "(1) A bérbeadó szavatol azért, hogy a bérelt dolog a bérlet egész tartama alatt szerződésszerű használatra alkalmas, és megfelel a szerződés előírásainak. Erre a szavatosságra a hibás teljesítés miatti szavatosság szabályait azzal az eltéréssel kell alkalmazni, hogy a bérlőt az elállás helyett a felmondás joga illeti meg, kicserélést pedig nem követelhet.\n(2) A bérbeadó szavatol azért, hogy harmadik személynek nincs a bérelt dologra vonatkozóan olyan joga, amely a bérlőt a használatban korlátozza vagy megakadályozza. Erre a kötelezettségre a jogszavatosság szabályait azzal az eltéréssel kell alkalmazni, hogy a bérlő elállás helyett a szerződést felmondhatja.\n(3) Ha a bérelt dolog lakás vagy emberi tartózkodás céljára szolgáló más helyiség, és az olyan állapotban van, hogy használata az egészséget veszélyezteti, a bérlő a szerződést felmondhatja akkor is, ha erről a tényről a szerződés megkötésekor vagy a dolog birtokbavételének időpontjában tudott vagy tudnia kellett. Erről a jogról a bérlő érvényesen nem mondhat le.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:333. §",
+          "cim": "A dolog használata",
+          "tartalom": "(1) A bérlő a dolgot rendeltetésének és a szerződésnek megfelelően használhatja.\n(2) A bérbeadó a bérlő szükségtelen háborítása nélkül jogosult ellenőrizni a használatot.\n(3) Ha a bérlő a bérbeadó felhívása ellenére folytatja a nem rendeltetésszerű vagy a szerződésnek egyébként nem megfelelő használatot, a bérbeadó felmondhatja a szerződést.\n(4) Ha a bérlő a dolgot jogosulatlanul alakította át, a bérbeadó felhívására köteles az eredeti állapotot helyreállítani.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:334. §",
+          "cim": "A használat átengedése harmadik személy részére",
+          "tartalom": "(1) A bérelt dolgot a bérlő a bérbeadó hozzájárulásával jogosult albérletbe vagy harmadik személy használatába adni.\n(2) Ha a bérlő a dolgot a bérbeadó hozzájárulásával adta albérletbe vagy más használatába, az albérlő és a használó magatartásáért úgy felel, mintha a dolgot maga használta volna.\n(3) Ha a bérlő a dolgot a bérbeadó hozzájárulása nélkül adja albérletbe vagy engedi át másnak használatra, azokért a károkért is felel, amelyek e nélkül nem következtek volna be.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:335. §",
+          "cim": "Költségviselés",
+          "tartalom": "(1) A dolog fenntartásával járó kisebb költségeket a bérlő, a többi költséget és a dologgal kapcsolatos terheket a bérbeadó viseli.\n(2) A bérlő köteles a bérbeadót értesíteni, ha a dolgot károsodás veszélye fenyegeti vagy a bérbeadót terhelő munkálatok elvégzésének szükségessége merül fel.\n(3) A bérbeadó jogosult arra, hogy az őt terhelő munkákat elvégezze, és a dolgot fenyegető károk elhárításához szükséges intézkedéseket megtegye.\n(4) A bérlő a bérbeadót terhelő munkálatokat a bérbeadó helyett és költségére elvégezheti, ha azokat a bérbeadó nem végzi el.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:336. §",
+          "cim": "A bérleti díj",
+          "tartalom": "(1) A bérlő a bérleti díjat havonta előre köteles megfizetni. Ha a bérleti szerződés egy hónapnál rövidebb időre jön létre, a bérleti díj a szerződés megkötésekor esedékes.\n(2) Arra az időre, amely alatt a bérlő a dolgot a saját érdekkörén kívül felmerült okból nem használhatja, bérleti díj nem jár.\n(3) A bérleti díj vagy a bérlőt terhelő költségek és terhek megfizetésének elmulasztása esetén a bérbeadó jogosult a szerződést felmondani, ha a bérlőt megfelelő határidő tűzésével és a következményekre való figyelmeztetéssel a fizetésre felszólította, és a bérlő e határidő elteltéig sem fizetett.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:337. §",
+          "cim": "Törvényes zálogjog",
+          "tartalom": "(1) Ingatlan bérbeadóját zálogjog illeti a bérleti díj és a költségek erejéig a bérlőnek a bérlemény területén levő vagyontárgyain.\n(2) A bérbeadó mindaddig, amíg zálogjoga fennáll, megakadályozhatja a zálogjoggal terhelt vagyontárgyak elszállítását.\n(3) Ha a bérlő kifogásolja a zálogjog fennállását, terjedelmét vagy azt, hogy a bérbeadó a követelésére teljes fedezetet nyújtó vagyontárgyakon felül más vagyontárgyak elszállítását is megakadályozta, a bérbeadó nyolc napon belül köteles zálogjogát bírósági úton érvényesíteni. Ha ezt elmulasztja, zálogjoga megszűnik.\n(4) Ha a bérlő a zálogjoggal terhelt dolgot a bérbeadó engedélye nélkül elszállítja, és más megfelelő biztosítékot nem nyújt, a bérbeadó követelheti a dolognak a bérlő költségén való visszaszállítását. A dolog visszaszállításával a zálogjog feléled.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:338. §",
+          "cim": "A határozott idejű bérlet megszűnése és a dolog elpusztulása",
+          "tartalom": "(1) Ha a határozott időre kötött bérleti szerződésben megállapított idő eltelte után a bérlő a dolgot tovább használja, és ez ellen a bérbeadó a szerződésben megállapított idő elteltétől számított tizenöt napos jogvesztő határidőn belül nem tiltakozik, a határozott időre kötött szerződés határozatlan időtartamúvá alakul át.\n(2) Megszűnik a szerződés, ha a dolog elpusztul.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:339. §",
+          "cim": "A bérleti jogviszony megszüntetése rendes felmondással",
+          "tartalom": "(1) A határozatlan időre kötött szerződést bármelyik fél rendes felmondással felmondhatja\n\na) napi bérleti díj kikötése esetén bármikor, egyik napról a másikra;\n b) heti bérleti díj kikötése esetén a hét végére, legkésőbb a hét első napján;\n c) havi bérleti díj kikötése esetén a hónap végére, legkésőbb a hónap tizenötödik napjáig;\n d) hosszabb időszakra kikötött bérleti díj esetén a szerződésben meghatározott időszak végére, legkésőbb az azt megelőző harmincadik napig.\n(2) A határozott időre kötött szerződést bármelyik fél rendes felmondással felmondhatja a törvényes felmondási idő betartásával idő előtt gyakorolható felmondási jog esetén a hónap végére, legkésőbb a hónap tizenötödik napjáig.\n(3) Ha a felmondás nem az (1) bekezdésben meghatározott határidő betartásával történik, a bérleti jogviszonyt a felmondás közlését követő bérleti időszak végére felmondottnak kell tekinteni.\n(4) A bérlő örökösei a határozott időre kötött bérleti szerződést harminc napon belül rendes felmondással felmondhatják. A felmondási időt\n\na) ha hagyatéki eljárásra nem került sor, az örökhagyó halálától;\n b) hagyatéki eljárás esetén a teljes hatályú hagyatékátadó végzés jogerőre emelkedésének napjától;\n c) öröklési per esetén a bírósági ítélet jogerőre emelkedésének napjától\nkell számítani.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:340. §",
+          "cim": "A bérelt dolog átruházása",
+          "tartalom": "(1) A bérlő köteles megengedni, hogy aki a dolgot meg kívánja venni, azt a bérlő szükségtelen háborítása nélkül megtekinthesse.\n(2) Ha a bérbeadó a bérleti szerződés megkötését követően a bérbe adott dolog tulajdonjogát átruházza, a tulajdonos személyében bekövetkezett változással a bérleti szerződésből fakadó jogok és kötelezettségek tekintetében az új tulajdonos lép a bérbeadó helyébe. A bérbeadó és az új tulajdonos a bérlővel szemben egyetemlegesen kötelesek helytállni a bérbeadót a bérleti szerződés alapján terhelő kötelezettségek teljesítéséért.\n(3) A bérbe adott dolog új tulajdonosa a határozott időre kötött bérletet felmondhatja, ha őt a bérlő a bérleti viszony fennállása vagy lényeges feltételei tekintetében megtévesztette.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:341. §",
+          "cim": "A felek jogai és kötelezettségei a bérlet megszűnésénél",
+          "tartalom": "(1) A bérlő a bérlet megszűnése előtt köteles megengedni, hogy az, aki a dolgot bérbe kívánja venni, azt megfelelő időben és módon megtekinthesse.\n(2) A bérlet megszűnése után a bérlő köteles a dolgot a bérbeadónak visszaadni; a bérbeadóval szemben fennálló, a bérleti jogviszonyból keletkezett követeléseinek kiegyenlítéséig azonban a dolgot annak használata nélkül visszatarthatja.\n(3) Ha a bérlő a dolgot jogosulatlanul tartja vissza, a visszatartás idejére a szerződés alapján kikötött bérleti díjat köteles megfizetni, ezt meghaladóan pedig minden olyan kárért felel, amely e nélkül nem következett volna be.\n(4) A bérlő mindazt, amit a saját költségén a dologra felszerelt, a dolog épségének sérelme nélkül leszerelheti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "6:342. §",
+          "cim": "Lakásbérleti szerződés",
+          "tartalom": "Ha a szerződés tárgya lakás céljára szolgáló ingatlan, a bérleti szerződésre vonatkozó rendelkezéseket az alábbi eltérésekkel kell alkalmazni.",
+          "footnote": []
+        }
+      ]
+    }
+  ]
+}

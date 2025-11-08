@@ -1,0 +1,392 @@
+{
+  "joganyag_forrasa": "2012. évi C. törvény a Büntető Törvénykönyvről",
+  "szakaszok": [
+    {
+      "jel": "423. §",
+      "cim": "Információs rendszer vagy adat megsértése",
+      "tartalom": "(1) Aki információs rendszerbe az információs rendszer védelmét biztosító technikai intézkedés megsértésével vagy kijátszásával jogosulatlanul belép, vagy a belépési jogosultsága kereteit túllépve vagy azt megsértve bent marad, vétség miatt két évig terjedő szabadságvesztéssel büntetendő.\n(2) Aki\n a) az információs rendszer működését jogosulatlanul vagy jogosultsága kereteit megsértve akadályozza, vagy\n b) információs rendszerben lévő adatot jogosulatlanul vagy jogosultsága kereteit megsértve megváltoztat, töröl vagy hozzáférhetetlenné tesz,\n bűntett miatt három évig terjedő szabadságvesztéssel büntetendő.\n(3) A büntetés bűntett miatt egy évtől öt évig terjedő szabadságvesztés, ha a (2) bekezdésben meghatározott bűncselekmény jelentős számú információs rendszert érint, vagy jelentős érdeksérelmet okoz.\n(4) A büntetés két évtől nyolc évig terjedő szabadságvesztés, ha a bűncselekményt közérdekű üzem ellen követik el.\n(5) E § alkalmazásában adat: információs rendszerben tárolt, kezelt, feldolgozott vagy továbbított tények, információk vagy fogalmak minden olyan formában való megjelenése, amely információs rendszer általi feldolgozásra alkalmas, ideértve azon programot is, amely valamely funkciónak az információs rendszer által való végrehajtását biztosítja.",
+      "footnote": [
+        "Megállapította: 2014. évi LXXII. törvény 86. §. Hatályos: 2015. I. 1-től.",
+        "Megállapította: 2022. évi LX. törvény 43. §. Hatályos: 2023. I. 1-től."
+      ]
+    },
+    {
+      "jel": "424. §",
+      "cim": "Információs rendszer védelmét biztosító technikai intézkedés kijátszása",
+      "tartalom": "(1) Aki a 375. §-ban, a 422. § (1) bekezdés d) pontjában vagy a 423. §-ban meghatározott bűncselekmény elkövetése céljából az ehhez szükséges vagy ezt könnyítő\n a) jelszót vagy számítástechnikai programot készít, átad, hozzáférhetővé tesz, megszerez, vagy forgalomba hoz, illetve\n b) jelszó vagy számítástechnikai program készítésére vonatkozó gazdasági, műszaki, szervezési ismereteit más rendelkezésére bocsátja,\n vétség miatt két évig terjedő szabadságvesztéssel büntetendő.\n(2) Nem büntethető az (1) bekezdés a) pontjában meghatározott bűncselekmény elkövetője, ha – mielőtt a bűncselekmény elkövetéséhez szükséges vagy ezt megkönnyítő jelszó vagy számítástechnikai program készítése a büntetőügyekben eljáró hatóság tudomására jutott volna – tevékenységét a hatóság előtt felfedi, az elkészített dolgot a hatóságnak átadja, és lehetővé teszi a készítésben részt vevő más személy kilétének megállapítását.\n(3) E § alkalmazásában jelszó: az információs rendszerbe vagy annak egy részébe való belépést lehetővé tevő, számokból, betűkből, jelekből, biometrikus adatokból vagy ezek kombinációjából álló bármely azonosító.",
+      "footnote": [
+        "Módosította: 2014. évi LXXII. törvény 88. §.",
+        "Módosította: 2017. évi CXCVII. törvény 342. § 22."
+      ]
+    },
+    {
+      "jel": "425. §",
+      "cim": "Bevonulási kötelezettség megszegése",
+      "tartalom": "(1) Az a hadköteles, aki katonai bevonulási kötelezettségének nem tesz eleget, bűntett miatt egy évtől öt évig terjedő szabadságvesztéssel büntetendő.\n(2) Aki a bűncselekményt gondatlanságból követi el, vétség miatt három évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": []
+    },
+    {
+      "jel": "426. §",
+      "cim": "Kibúvás a katonai szolgálat alól",
+      "tartalom": "Az a hadköteles, aki abból a célból, hogy a katonai szolgálat alól kivonja magát,\n a) megjelenési vagy bevonulási kötelezettségének nem tesz eleget, illetve\n b) testét megcsonkítja, egészségét károsítja, vagy megtévesztő magatartást tanúsít,\n bűntett miatt öt évtől tíz évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": []
+    },
+    {
+      "jel": "427. §",
+      "cim": "Katonai szolgálat megtagadása",
+      "tartalom": "Az a hadköteles, aki katonai szolgálatának teljesítését megtagadja, bűntett miatt öt évtől tizenöt évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": []
+    },
+    {
+      "jel": "428. §",
+      "cim": "Hadkötelezettség teljesítésének akadályozása",
+      "tartalom": "(1) Aki olyan cselekményt követ el, amelynek célja annak meghiúsítása, hogy a hadköteles a bevonulási kötelezettségét teljesítse, bűntett miatt a 425. §-ban meghatározottak szerint büntetendő.\n(2) Aki olyan cselekményt követ el, amelynek célja, hogy hadkötelest\n a) a 426. § a) pontjában meghatározott módon vagy\n b) a 426. § b) pontjában meghatározott módon\n a katonai szolgálat alól kivonjon, az ott meghatározottak szerint büntetendő.",
+      "footnote": [
+        "Megállapította: 2022. évi VII. törvény 58. §. Hatályos: 2022. XI. 1-től."
+      ]
+    },
+    {
+      "jel": "429. §",
+      "cim": "Polgári védelmi kötelezettség megszegése",
+      "tartalom": "(1) Aki a polgári védelmi kötelezettségét nem teljesíti, bűntett miatt három évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés egy évtől öt évig terjedő szabadságvesztés, ha a bűncselekmény súlyos veszélyt idéz elő.\n(3) Aki a (2) bekezdésben meghatározott bűncselekményt gondatlanságból követi el, vétség miatt két évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 64. § e)."
+      ]
+    },
+    {
+      "jel": "430. §",
+      "cim": "Honvédelmi munkakötelezettség megsértése",
+      "tartalom": "Az a honvédelmi munkára kötelezett személy, aki e kötelezettségét távolmaradásával vagy más módon súlyosan megsérti, bűntett miatt három évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": []
+    },
+    {
+      "jel": "431. §",
+      "cim": "Szolgáltatási kötelezettség megszegése",
+      "tartalom": "Aki gazdasági és anyagi szolgáltatásban álló védelmi és biztonsági kötelezettségét súlyosan megszegi vagy kijátssza, bűntett miatt egy évtől öt évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": [
+        "Megállapította: 2022. évi VII. törvény 59. §. Hatályos: 2022. XI. 1-től."
+      ]
+    },
+    {
+      "jel": "432. §",
+      "cim": "A büntetés korlátlan enyhítése",
+      "tartalom": "A büntetés korlátlanul enyhíthető, ha az e fejezetben meghatározott bűncselekmény elkövetője az elmulasztott kötelezettségének önként eleget tesz.",
+      "footnote": []
+    },
+    {
+      "jel": "433. §",
+      "cim": "Értelmező rendelkezések",
+      "tartalom": "(1) E fejezet rendelkezéseit hadiállapotban kell alkalmazni.\n(1a) A 426. § b) pontját és a 428. § (2) bekezdés b) pontját a hadiállapot Kormány általi kezdeményezését követő időszakban is alkalmazni kell.\n(2) A polgári védelmi kötelezettség megszegése az (1) bekezdésben meghatározottakon kívül szükségállapotban és veszélyhelyzetben, a szolgáltatási kötelezettség megszegése veszélyhelyzetben is elkövethető.\n(3) A honvédelmi munkakötelezettség megsértése csak hadiállapotban követhető el.",
+      "footnote": [
+        "Megállapította: 2022. évi VII. törvény 60. §. Hatályos: 2022. XI. 1-től.",
+        "Beiktatta: 2022. évi VII. törvény 60. §. Hatályos: 2022. XI. 1-től.",
+        "A 2013. évi LXXVIII. törvény 19. § (12) szerinti szöveggel lép hatályba.",
+        "Módosította: 2022. évi VII. törvény 64. § f)."
+      ]
+    },
+    {
+      "jel": "434. §",
+      "cim": "Szökés",
+      "tartalom": "(1) Aki abból a célból, hogy katonai szolgálatának teljesítése alól végleg kivonja magát, szolgálati helyét önkényesen elhagyja, vagy attól távol marad, bűntett miatt három évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés egy évtől öt évig terjedő szabadságvesztés, ha a szökést\n a) fegyveresen,\n b) csoportosan,\n c) fontos szolgálat teljesítése közben vagy a szolgálat felhasználásával,\n d) személy elleni erőszak alkalmazásával vagy\n e) külföldre\n követik el.\n(3) Öt évtől tizenöt évig terjedő szabadságvesztéssel büntetendő, aki a (2) bekezdés a)–c) pontjában meghatározott módon külföldre szökik, illetve aki a szökést háború idején követi el.\n(4) Aki a (2) bekezdésben meghatározott szökésre irányuló előkészületet követ el, vétség miatt egy évig, a (3) bekezdésben meghatározott esetben bűntett miatt egy évtől öt évig terjedő szabadságvesztéssel büntetendő.\n(5) Korlátlanul enyhíthető a szökés elkövetőjének büntetése, ha a hatóságnál harminc napon belül önként jelentkezik. A határidőbe a szökés napja nem számít bele.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "435. §",
+      "cim": "Önkényes eltávozás",
+      "tartalom": "(1) Aki szolgálati helyéről önkényesen eltávozik, vagy attól távol marad, és távolléte a két napot meghaladja, vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.\n(2) Ha az önkényes távollét tartama meghaladja a kilenc napot, a büntetés bűntett miatt három évig terjedő szabadságvesztés.\n(3) Ha az önkényes eltávozást háború idején, külföldi hadműveleti területen végzett humanitárius tevékenység vagy békefenntartás során követik el, a büntetés\n a) az (1) bekezdésben meghatározott esetben bűntett miatt egy évtől öt évig,\n b) a (2) bekezdésben meghatározott esetben két évtől nyolc évig\n terjedő szabadságvesztés.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § b)."
+      ]
+    },
+    {
+      "jel": "436. §",
+      "cim": "Kibúvás a szolgálat alól",
+      "tartalom": "(1) Aki abból a célból, hogy katonai szolgálatának teljesítése alól végleg kivonja magát, testét megcsonkítja, egészségét károsítja, vagy megtévesztő magatartást tanúsít, bűntett miatt három évig terjedő szabadságvesztéssel büntetendő.\n(2) Aki az (1) bekezdésben meghatározott bűncselekményt azért követi el, hogy katonai szolgálatának teljesítése alól ideiglenesen kivonja magát, vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.\n(3) Ha az ideiglenes kivonás tartama meghaladja a hat napot, a büntetés két évig terjedő szabadságvesztés.\n(4) Ha a bűncselekményt háború idején követik el, a büntetés\n a) az (1) bekezdésben meghatározott esetben öt évtől tizenöt évig,\n b) a (2) bekezdésben meghatározott esetben bűntett miatt egy évtől öt évig,\n c) a (3) bekezdésben meghatározott esetben két évtől nyolc évig\n terjedő szabadságvesztés.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "437. §",
+      "cim": "A szolgálat megtagadása",
+      "tartalom": "(1) Aki a katonai szolgálat teljesítését kifejezetten megtagadja, bűntett miatt három évig terjedő szabadságvesztéssel büntetendő.\n(1a) A büntetés egy évtől öt évig terjedő szabadságvesztés, ha a szolgálat megtagadását honvédelmi válsághelyzet idején követik el.\n(2) A büntetés öt évtől tizenöt évig terjedő szabadságvesztés, ha a szolgálat megtagadását háború idején követik el.",
+      "footnote": [
+        "Beiktatta: 2022. évi VII. törvény 61. §. Hatályos: 2022. XI. 1-től.",
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "438. §",
+      "cim": "Kötelességszegés szolgálatban",
+      "tartalom": "(1) Aki őr-, ügyeleti vagy egyéb készenléti szolgálatban – az adott szolgálatra vonatkozó szolgálati intézkedés rendelkezéseit megszegve – elalszik, vagy a szolgálat ideje alatt szeszes italt, illetve kábítószert vagy kábítószernek nem minősülő kábító hatású anyagot vagy szert fogyaszt, rendeltetési helyét elhagyja, vagy a szolgálat ellátására vonatkozó rendelkezést más módon súlyosan megszegi, vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.\n(2) Ha a bűncselekmény a szolgálatra jelentős hátrány veszélyével jár, a büntetés bűntett miatt\n a) az (1) bekezdésben meghatározott esetben három évig,\n b) háború idején egy évtől öt évig\n terjedő szabadságvesztés.\n(3) A büntetés bűntett miatt öt évtől tizenöt évig terjedő szabadságvesztés, ha a bűncselekményt harchelyzetben, illetve külföldi hadműveleti területen végzett humanitárius tevékenység vagy békefenntartás során követik el, és abból különösen nagy hátrány származik.\n(4) Aki a bűncselekményt gondatlanságból követi el, vétség miatt a (2) bekezdésben meghatározott esetben az ott tett megkülönböztetés szerint elzárással, illetve egy évig terjedő szabadságvesztéssel, a (3) bekezdés esetén három évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "439. §",
+      "cim": "Szolgálati feladat alóli kibúvás",
+      "tartalom": "(1) Aki fontos szolgálati feladat alól megtévesztéssel vagy távolmaradással kivonja, vagy annak teljesítésére képtelenné teszi magát, vétséget követ el és egy évig terjedő szabadságvesztéssel büntetendő.\n(2) Ha az (1) bekezdésben meghatározott bűncselekmény a szolgálatra jelentős hátrány veszélyével jár, külföldi hadműveleti területen végzett humanitárius tevékenység vagy békefenntartás során követik el, a büntetés bűntett miatt három évig terjedő szabadságvesztés.\n(3) Ha a (2) bekezdésben meghatározott bűncselekményt háború idején követik el, a büntetés egy évtől öt évig terjedő szabadságvesztés.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "440. §",
+      "cim": "Jelentési kötelezettség megszegése",
+      "tartalom": "(1) Aki fontos szolgálati ügyben kellő időben nem tesz jelentést, vagy valótlan jelentést tesz, ha a bűncselekmény a szolgálatra jelentős hátrány veszélyével jár, vétség miatt két évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés bűntett miatt egy évtől öt évig terjedő szabadságvesztés, ha az (1) bekezdésben meghatározott bűncselekményt háború idején, külföldi hadműveleti területen végzett humanitárius tevékenység vagy békefenntartás során követik el.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § b)."
+      ]
+    },
+    {
+      "jel": "441. §",
+      "cim": "Szolgálati visszaélés",
+      "tartalom": "(1) Aki azért, hogy jogtalan hátrányt okozzon, illetve jogtalan előnyt szerezzen, szolgálati hatalmával vagy helyzetével visszaél, ha súlyosabb bűncselekmény nem valósul meg, bűntett miatt három évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés bűntett miatt egy évtől öt évig terjedő szabadságvesztés, ha a bűncselekményből jelentős hátrány származik.",
+      "footnote": []
+    },
+    {
+      "jel": "442. §",
+      "cim": "Zendülés",
+      "tartalom": "(1) Aki a szolgálati rend és fegyelem ellen irányuló olyan csoportos, nyílt ellenszegülésben vesz részt, amely a szolgálati feladatok teljesítését jelentősen zavarja, bűntett miatt egy évtől öt évig terjedő szabadságvesztéssel büntetendő.\n(2) Két évtől nyolc évig terjedő szabadságvesztéssel büntetendő a zendülés\n a) kezdeményezője, szervezője vagy vezetője,\n b) résztvevője, ha az elöljáró vagy a zendüléssel szemben fellépő ellen erőszakot alkalmaz.\n(3) A büntetés öt évtől tizenöt évig terjedő szabadságvesztés, ha a zendülés különösen súlyos következménnyel jár.\n(4) A büntetés öt évtől húsz évig terjedő vagy életfogytig tartó szabadságvesztés, ha a zendülés halált okoz.\n(5) A büntetés\n a) az (1) bekezdésben meghatározott esetben két évtől nyolc évig,\n b) a (2) bekezdésben meghatározott esetben öt évtől tizenöt évig\n terjedő szabadságvesztés, ha a zendülést háború idején követik el.\n(6) Ha az (1)–(2) bekezdésben meghatározott zendülést harchelyzetben követik el, a büntetés öt évtől tizenöt évig terjedő szabadságvesztés.\n(7) Aki zendülésre irányuló előkészületet követ el, bűntett miatt három évig, háború idején vagy harchelyzetben egy évtől öt évig terjedő szabadságvesztéssel büntetendő.\n(8) Az (1) bekezdésében meghatározott esetben korlátlanul enyhíthető annak a büntetése, aki a zendülést, mielőtt az súlyosabb következménnyel jár, vagy miután felszólították, abbahagyja.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a).",
+        "Módosította: 2022. évi VII. törvény 64. § g)."
+      ]
+    },
+    {
+      "jel": "443. §",
+      "cim": "Zendülés megakadályozásának elmulasztása",
+      "tartalom": "(1) Aki a tudomására jutott zendülést vagy annak előkészületét tőle telhetőleg nem akadályozza meg, illetve késedelem nélkül nem jelenti, vétség miatt két évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés bűntett miatt egy évtől öt évig terjedő szabadságvesztés, ha az (1) bekezdésben meghatározott bűncselekményt háború idején vagy harchelyzetben követik el.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 64. § g)."
+      ]
+    },
+    {
+      "jel": "444. §",
+      "cim": "Parancs iránti engedetlenség",
+      "tartalom": "(1) Aki a parancsot nem teljesíti, vétség miatt elzárással büntetendő.\n(2) Ha a parancs iránti engedetlenséget csoportosan követik el, a büntetés két évig terjedő szabadságvesztés.\n(3) A büntetés bűntett miatt három évig terjedő szabadságvesztés, ha a parancs iránti engedetlenség\n a) más alárendeltek jelenlétében vagy egyébként nyilvánosan, akár a parancs teljesítésének kifejezett megtagadásával, akár egyéb sértő módon történik,\n b) a szolgálatra vagy a fegyelemre jelentős hátrány veszélyével jár.\n(4) A büntetés egy évtől öt évig terjedő szabadságvesztés, ha a (3) bekezdésben meghatározott bűncselekményt háború idején követik el.\n(5) Aki háborúban a harci parancsot, külföldi hadműveleti területen végzett humanitárius tevékenység vagy békefenntartás során a fegyverhasználatra vonatkozó parancsot nem teljesíti, öt évtől tizenöt évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "445. §",
+      "cim": "Elöljáró vagy szolgálati közeg elleni erőszak",
+      "tartalom": "(1) Aki\n a) az elöljáróval szemben,\n b) a feljebbvalóval, az őrrel vagy más szolgálati közeggel szemben\n szolgálatának teljesítése közben vagy amiatt erőszakot alkalmaz, azzal fenyeget, vagy tettleges ellenállást tanúsít, bűntett miatt három évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés egy évtől öt évig terjedő szabadságvesztés, ha\n a) a bűncselekményt fegyveresen, felfegyverkezve vagy csoportosan követik el,\n b) a bűncselekmény egyben parancs iránti engedetlenség is,\n c) a bűncselekmény súlyos testi sértéssel, illetve a szolgálatra vagy a fegyelemre jelentős hátrány veszélyével jár.\n(3) A büntetés két évtől nyolc évig terjedő szabadságvesztés, ha a bűncselekmény maradandó fogyatékosságot, súlyos egészségromlást vagy életveszélyt okoz.\n(4) A büntetés öt évtől tizenöt évig terjedő szabadságvesztés, ha a bűncselekmény a sértett halálát okozza.\n(5) A büntetés tíz évtől húsz évig terjedő vagy életfogytig tartó szabadságvesztés, ha\n a) a bűncselekmény szándékos emberölést is megvalósít, vagy\n b) a bűncselekményt harchelyzetben követik el.\n(6) A büntetés\n a) az (1) bekezdésben meghatározott esetben egy évtől öt évig,\n b) a (2) bekezdésben meghatározott esetben két évtől nyolc évig,\n c) a (3) bekezdésben meghatározott esetben öt évtől tizenöt évig\n terjedő szabadságvesztés, ha a bűncselekményt háború idején követik el.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "446. §",
+      "cim": "Elöljáró vagy szolgálati közeg védelmére kelt vagy arra rendelt személy elleni erőszak",
+      "tartalom": "A 445. § szerint büntetendő, aki az ott meghatározott bűncselekményt elöljáró vagy szolgálati közeg védelmére kelt vagy erre rendelt személlyel szemben követi el.",
+      "footnote": []
+    },
+    {
+      "jel": "447. §",
+      "cim": "Szolgálati tekintély megsértése",
+      "tartalom": "(1) Aki\n a) az elöljáró,\n b) a szolgálatát teljesítő feljebbvaló, őr vagy más szolgálati közeg\n tekintélyét más előtt vagy feltűnően durván megsérti, vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés bűntett miatt három évig terjedő szabadságvesztés, ha a bűncselekményt több katona előtt vagy egyébként nyilvánosan követik el.",
+      "footnote": []
+    },
+    {
+      "jel": "448. §",
+      "cim": "Bujtogatás",
+      "tartalom": "(1) Aki katonák között az elöljáró, a parancs, a szolgálati rend vagy a fegyelem iránt elégedetlenséget szít, vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés bűntett miatt három évig terjedő szabadságvesztés, ha a bujtogatásból a szolgálatra vagy a fegyelemre jelentős hátrány származik.",
+      "footnote": []
+    },
+    {
+      "jel": "449. §",
+      "cim": "Alárendelt megsértése",
+      "tartalom": "(1) Aki alárendeltjét emberi méltóságában más előtt vagy feltűnően durván megsérti, vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés bűntett miatt három évig terjedő szabadságvesztés, ha a bűncselekményt\n a) aljas indokból,\n b) súlyos testi vagy lelki gyötrelmet okozva,\n c) több katona előtt,\n d) több alárendelt sérelmére\n követik el.\n(3) A büntetés egy évtől öt évig terjedő szabadságvesztés, ha a bűncselekmény súlyos testi sértést vagy a szolgálatra jelentős hátrányt okoz.",
+      "footnote": []
+    },
+    {
+      "jel": "450. §",
+      "cim": "Elöljárói hatalommal visszaélés",
+      "tartalom": "Aki elöljárói hatalmával visszaélve alárendeltjét\n a) fegyelmi fenyítéssel sújtja,\n b) panaszjogának gyakorlásában korlátozza,\n c) járandóságában megrövidíti, vagy anyagilag megterheli,\n d) magáncélra igénybe veszi,\n e) a többiekhez képest előnyösebb vagy hátrányosabb bánásmódban részesíti,\n vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": []
+    },
+    {
+      "jel": "451. §",
+      "cim": "Elöljárói gondoskodás elmulasztása",
+      "tartalom": "(1) Aki elöljárói kötelességét azáltal szegi meg, hogy az alárendeltjének anyagi ellátásához, fenyegető veszélytől megóvásához vagy megmentéséhez szükséges intézkedést elmulasztja, ha súlyosabb bűncselekmény nem valósul meg, vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.\n(2) Ha a bűncselekmény a szolgálatra vagy a fegyelemre jelentős hátránnyal jár, a büntetés bűntett miatt\n a) az (1) bekezdésben meghatározott esetben egy évtől öt évig,\n b) háború idején két évtől nyolc évig\n terjedő szabadságvesztés.\n(3) Aki a (2) bekezdésben meghatározott bűncselekményt gondatlanságból követi el, vétség miatt – az ott tett megkülönböztetés szerint – egy évig, illetve három évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "452. §",
+      "cim": "Elöljárói intézkedés elmulasztása",
+      "tartalom": "(1) Aki elöljárói kötelességét megszegve\n a) az alárendelt kötelességszegésének vagy bűncselekményének megakadályozásához, illetve felelősségre vonásához,\n b) a szolgálati rendet, a fegyelmet vagy a közbiztonságot fenyegető zavar leküzdéséhez\n szükséges intézkedést elmulasztja, ha emberiesség elleni vagy háborús bűncselekmény nem valósul meg, vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.\n(2) Ha a bűncselekmény a szolgálatra, a fegyelemre vagy a közbiztonságra jelentős hátránnyal jár, a büntetés bűntett miatt\n a) az (1) bekezdésben meghatározott esetben egy évtől öt évig,\n b) háború idején két évtől nyolc évig\n terjedő szabadságvesztés.\n(3) Aki a (2) bekezdésben meghatározott bűncselekményt gondatlanságból követi el, vétség miatt – az ott tett megkülönböztetés szerint – egy évig, illetve három évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "453. §",
+      "cim": "Ellenőrzés elmulasztása",
+      "tartalom": "(1) Aki elöljárói kötelességét azáltal szegi meg, hogy az alárendeltjét szolgálatának teljesítésében nem ellenőrzi, és ez a szolgálatra vagy a fegyelemre jelentős hátránnyal jár, vétség miatt egy évig terjedő szabadságvesztéssel büntetendő.\n(2) Ha a bűncselekmény a szolgálatra vagy a fegyelemre különösen nagy hátránnyal jár, a büntetés bűntett miatt\n a) az (1) bekezdésben meghatározott esetben egy évtől öt évig,\n b) háború idején két évtől nyolc évig\n terjedő szabadságvesztés.\n(3) Aki a (2) bekezdésben meghatározott bűncselekményt gondatlanságból követi el, vétség miatt – az ott tett megkülönböztetés szerint – egy évig, illetve három évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "454. §",
+      "cim": "Készenlét fokozásának veszélyeztetése",
+      "tartalom": "(1) Aki az alakulat készenlét fokozását közvetlenül veszélyezteti azáltal, hogy szolgálati kötelességének megszegésével\n a) nem gondoskodik a szükséges fegyverzet, harci felszerelés vagy más hadianyag biztosításáról vagy készletének megóvásáról,\n b) fontos fegyverzetet, harci felszerelést vagy más fontos hadianyagot megsemmisít, használhatatlanná tesz, vagy rendeltetésétől egyéb módon elvon,\n bűntettet követ el, és három évig, háború idején két évtől nyolc évig terjedő szabadságvesztéssel büntetendő.\n(2) Ha a bűncselekmény a szolgálatra különösen nagy hátránnyal jár, a büntetés egy évtől öt évig terjedő szabadságvesztés, háború idején öt évtől tizenöt évig terjedő szabadságvesztés.\n(3) Aki a bűncselekményt gondatlanságból követi el, vétség miatt az (1) bekezdés esetén – az ott tett megkülönböztetés szerint – egy évig, illetve három évig, a (2) bekezdés esetén – az ott tett megkülönböztetés szerint – két évig, illetve egy évtől öt évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "455. §",
+      "cim": "Parancsnoki kötelességszegés",
+      "tartalom": "Aki harchelyzetben, parancsnoki kötelességének megszegésével\n a) az alárendelt katonákat az ellenségnek megadja, vagy elfogni engedi,\n b) a rábízott fontos harcállást, berendezést, harceszközt vagy más hadianyagot kényszerítő szükség nélkül megsemmisíti, vagy az ellenségnek használható állapotban átengedi,\n c) nem fejti ki az ellenséggel szemben azt az ellenállást, amelyre képes,\n bűntett miatt öt évtől tizenöt évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": []
+    },
+    {
+      "jel": "456. §",
+      "cim": "Kibúvás a harci kötelesség teljesítése alól",
+      "tartalom": "Aki harci kötelességének teljesítése alól\n a) szolgálati helyének önkényes elhagyásával, elrejtőzéssel vagy megfutamodással,\n b) harcképtelenség szándékos előidézésével vagy megtévesztő magatartással,\n c) harceszköze elhagyásával, megrongálásával vagy alkalmazásának elmulasztásával,\n d) az ellenségnek önkéntes megadással, vagy\n e) szolgálati kötelességének egyéb súlyos megszegésével\n kivonja magát, bűntett miatt öt évtől tizenöt évig terjedő szabadságvesztéssel büntetendő.",
+      "footnote": []
+    },
+    {
+      "jel": "457. §",
+      "cim": "Harci szellem bomlasztása",
+      "tartalom": "(1) Aki háború idején a katonák között elégedetlenséget szít, vagy kishitűséget kelt, bűntett miatt egy évtől öt évig terjedő szabadságvesztéssel büntetendő.\n(2) A büntetés öt évtől tizenöt évig terjedő szabadságvesztés, ha a bűncselekmény\n a) harchelyzetben katonák elégedetlenségét vagy egyéb kötelességszegését váltja ki, vagy\n b) a szolgálatra más jelentős hátránnyal jár.",
+      "footnote": [
+        "Módosította: 2022. évi VII. törvény 65. § a)."
+      ]
+    },
+    {
+      "jel": "458. §",
+      "cim": "Értelmező rendelkezések",
+      "tartalom": "E fejezet alkalmazásában\n a) katonai szolgálaton a 127. § (1) bekezdésében megjelölt személyek által teljesített szolgálatot kell érteni,\n b) harchelyzet alatt a tényleges harctevékenység folytatását kell érteni.",
+      "footnote": []
+    },
+    {
+      "jel": "459. §",
+      "cim": "Értelmező rendelkezések",
+      "tartalom": "(1) E törvény alkalmazásában\n 1. bűnszervezet: legalább három személyből álló, hosszabb időre, hierarchikusan szervezett, konspiratívan működő csoport, amelynek célja ötévi vagy ezt meghaladó szabadságvesztéssel büntetendő szándékos bűncselekmények elkövetése;\n 2. bűnszövetség akkor létesül, ha két vagy több személy bűncselekményeket szervezetten követ el, vagy ebben megállapodik, és legalább egy bűncselekmény elkövetését megkísérlik, de nem jön létre bűnszervezet;\n 3. csoportosan követik el a bűncselekményt, ha az elkövetésben legalább három személy vesz részt;\n 4. erőszakos magatartásnak minősül a más személyre gyakorolt támadó jellegű fizikai ráhatás is, abban az esetben is, ha az nem alkalmas testi sérülés okozására;\n 5. fegyveresen követi el a bűncselekményt, aki\n  a) működőképes lőfegyvert,\n  b) robbanóanyagot,\n  c) robbantószert,\n  d) robbanóanyag vagy robbantószer felhasználására szolgáló készüléket\n  tart magánál, vagy a bűncselekményt az a)–d) pontban meghatározottak utánzatával fenyegetve követi el;\n 6. felfegyverkezve követi el a bűncselekményt, aki az ellenállás leküzdése vagy megakadályozása érdekében az élet kioltására alkalmas eszközt tart magánál;\n 7. fenyegetés: eltérő rendelkezés hiányában súlyos hátrány kilátásba helyezése, amely alkalmas arra, hogy a megfenyegetettben komoly félelmet keltsen;\n 8. gazdálkodó szervezet: a polgári perrendtartás szerinti gazdálkodó szervezeten kívül az a szervezet is, amelynek gazdálkodó tevékenységével összefüggő polgári jogi kapcsolataira a polgári perrendtartás szerint a gazdálkodó szervezetre vonatkozó rendelkezéseket kell alkalmazni;\n 9. hatóság a bíróság és az ügyészség is;\n 10. háború:\n  a) a háború áldozatainak védelmére vonatkozóan Genfben, az 1949. évi augusztus hó 12. napján kelt nemzetközi egyezmények közös 2. és 3. Cikkében, valamint ezen egyezmények I. Kiegészítő Jegyzőkönyve 1. Cikkének 4. bekezdésében meghatározott helyzetek,\n  b) az a) pontban említett egyezmények II. Kiegészítő Jegyzőkönyvének 1. Cikkében meghatározott helyzetek,\n  c) a hadiállapot,\n  d) a szükségállapot,\n  e) a háborús és a katonai bűncselekmények esetében a Magyar Honvédség külföldi alkalmazása is;\n 11. hivatalos személy:\n  a) a köztársasági elnök,\n  b) az országgyűlési képviselő, a nemzetiségi szószóló és a Magyarországon megválasztott európai parlamenti képviselő,\n  c) az alkotmánybíró,\n  d) a miniszterelnök, a miniszter, az államtitkár, a közigazgatási államtitkár, a helyettes államtitkár és a főispán,\n  e) a bíró, az ügyész és a választottbíró,\n  f) az alapvető jogok biztosa és helyettese,\n  g) a közjegyző és a közjegyzőhelyettes,\n  h) az önálló bírósági végrehajtó, az önálló bírósági végrehajtó-helyettes és a végrehajtói kézbesítésre felhatalmazott önálló bírósági végrehajtó jelölt,\n  i) a helyi önkormányzati és a nemzetiségi önkormányzati képviselő-testület tagja,\n  j) a Magyar Honvédség állományilletékes parancsnoka, és az úszólétesítmény vagy a légi jármű parancsnoka, ha a nyomozó hatóságra vonatkozó rendelkezések alkalmazására jogosult,\n  k) az Alkotmánybíróságnál, a Sándor-palotánál, az Országgyűlés Hivatalánál, az Alapvető Jogok Biztosának Hivatalánál, a Magyar Nemzeti Banknál, az Állami Számvevőszéknél, bíróságnál, ügyészségnél, központi államigazgatási szervnél, az Országgyűlési Őrségnél, fővárosi vagy vármegyei kormányhivatalnál, önkormányzati igazgatási szervnél vagy köztestületnél közhatalmi feladatot ellátó vagy szolgálatot teljesítő személy, akinek a tevékenysége a szerv rendeltetésszerű működéséhez tartozik,\n  l) a választási bizottság tagja;\n 12. közfeladatot ellátó személy:\n  a) a szolgálati feladatot teljesítő honvéd,\n  b) a polgári védelmi szervezetbe beosztott és polgári védelmi szolgálatot teljesítő személy,\n  c) a polgárőr a polgárőrségről és a polgárőri tevékenység szabályairól szóló törvényben meghatározott tevékenységének ellátása során,\n  d) az egyházi személy és a vallási egyesület vallásos szertartást hivatásszerűen végző tagja,\n  e) a bírósági vagy más hatósági eljárásban a védő, a jogi képviselő, a szakértő, és a hivatalos személynek nem minősülő kézbesítési végrehajtó,\n  f) az egészségügyi dolgozó, az egészségügyi szolgáltatóval munkavégzésre irányuló jogviszonyban álló más személy és a betegjogi képviselő az egészségügyről szóló törvényben meghatározott esetekben,\n  g) az állami mentőszolgálat, valamint a mentésre feljogosított más szervezet tagja a mentéssel és betegszállítással összefüggésben,\n  h) az önkormányzati és a létesítményi tűzoltóság, valamint az önkéntes tűzoltó egyesület tagja a tűzoltási és műszaki mentési feladatainak ellátása során,\n  i) a nemzeti köznevelésről szóló törvényben meghatározott esetben a pedagógus, valamint a nevelő és oktató munkát közvetlenül segítő alkalmazott, a szakképzésről szóló törvényben meghatározott esetben az oktató, továbbá a nemzeti felsőoktatásról szóló törvényben meghatározott esetben a felsőoktatási intézmény oktatója, tanára és tudományos kutatója,\n  j) a gyermekek védelméről és a gyámügyi igazgatásról szóló törvényben, valamint a szociális igazgatásról és a szociális ellátásokról szóló törvényben meghatározott munkakörben foglalkoztatott személy e tevékenységének gyakorlása során,\n  k) az erdészeti szakszemélyzet és a jogosult erdészeti szakszemélyzet tagja az erdőről, az erdő védelméről és az erdőgazdálkodásról szóló törvényben meghatározott tevékenysége körében,\n  l) a hivatásos vadász a vad védelméről, a vadgazdálkodásról, valamint a vadászatról szóló törvényben meghatározott tevékenysége körében,\n  m) a halőr a halgazdálkodásról és a hal védelméről szóló törvényben meghatározott tevékenysége körében,\n  n) a közösségi közlekedési eszközt működtető gazdálkodó szervezetnél végrehajtói feladatot ellátó személy e tevékenysége során,\n  o) az egyetemes postai szolgáltatónál ügyfélkapcsolati feladatot ellátó személy e tevékenysége során,\n  p) az iskolaőr a Rendőrségről szóló törvényben meghatározott tevékenysége körében,\n  q) a fegyveres biztonsági őr a szolgálatának teljesítése során,\n  r) az országos és a helyi közutakon, az állam vagy a helyi önkormányzat tulajdonában álló közforgalom elől el nem zárt magánutakon, valamint tereken, parkokban és egyéb közterületeken közúti járművel történő várakozás biztosítását célzó parkolási közszolgáltatást a közúti közlekedésről szóló törvény szerint ellátó szervezetnél a parkolóhelyek rendeltetésszerű működtetését és a parkolóhelyek rendeltetésszerű használatának ellenőrzését végző személy e tevékenysége során,\n  s) az útellenőr, és a kezelői ellenőr a közúti közlekedésről szóló törvényben meghatározott tevékenysége körében,\n  t) a kritikus szervezet által kritikus munkakörben foglalkoztatott személy a kritikus szervezetnél végzett tevékenysége körében,\n  u) a kritikus szervezet ellenálló képességéért felelős vezető a kritikus szervezetek ellenálló képességéről szóló törvényben meghatározott tevékenysége körében,\n  v) a létfontosságú szervezet kritikus munkakörben foglalkoztatott személye a létfontosságú szervezetnél végzett tevékenysége körében,\n  w) az ellenálló képességért felelős vezető a védelmi és biztonsági tevékenységek összehangolásáról szóló törvényben meghatározott tevékenysége körében.\n 13. külföldi hivatalos személy:\n  a) a külföldi államban jogalkotási, igazságszolgáltatási, közigazgatási vagy bűnüldözési feladatot ellátó személy, illetve külföldi államban közhatalmi feladatot ellátó vagy szolgálatot teljesítő személy, ideértve a köztestületben vagy az állami vagy önkormányzati vállalkozásban ilyen feladatot ellátó vagy szolgálatot teljesítő személyt is,\n  b) törvényben kihirdetett nemzetközi szerződéssel létrehozott nemzetközi szervezetnél szolgálatot teljesítő személy, akinek a tevékenysége a szervezet rendeltetésszerű működéséhez tartozik,\n  c) törvényben kihirdetett nemzetközi szerződéssel létrehozott nemzetközi szervezet közgyűlésébe, testületébe megválasztott személy, ideértve a külföldön megválasztott európai parlamenti képviselőt is,\n  d) a Magyarország területén, illetve állampolgárai felett joghatósággal rendelkező nemzetközi bíróság tagja, a nemzetközi bíróságnál szolgálatot teljesítő személy, akinek a tevékenysége a bíróság rendeltetésszerű működéséhez tartozik;\n 14. hozzátartozó:\n  a) az egyeneságbeli rokon és ennek házastársa vagy élettársa,\n  b) az örökbefogadó és a nevelőszülő (ideértve az együtt élő mostohaszülőt is), az örökbe fogadott és a nevelt gyermek (ideértve az együtt élő mostohagyermeket is),\n  c) a testvér és a testvér házastársa vagy élettársa,\n  d) a házastárs, az élettárs,\n  e) a házastárs vagy az élettárs egyeneságbeli rokona és testvére;\n 15. információs rendszer: az adatok automatikus feldolgozását, kezelését, tárolását, továbbítását biztosító berendezés, vagy az egymással kapcsolatban lévő ilyen berendezések összessége;\n 16. kár: e törvény eltérő rendelkezése hiányában a bűncselekménnyel a vagyonban okozott értékcsökkenés;\n 17. vagyoni hátrány: e törvény eltérő rendelkezése hiányában a vagyonban okozott kár és az elmaradt vagyoni előny;\n 18. —\n 19. készpénz-helyettesítő fizetési eszköz a hitelintézetekről szóló törvényben meghatározott készpénz-helyettesítő fizetési eszköz és a forgatható utalvány, a kincstári kártya, az utazási csekk, a kifizetőt terhelő adó mellett vagy adómentesen adható, korlátozott körű áruk vagy szolgáltatások ellenértékének kiegyenlítése céljából törvény alapján kibocsátott utalvány és a váltó, feltéve, hogy kivitelezése, kódolása vagy a rajta lévő aláírás folytán a másolás, a meghamisítás vagy a jogosulatlan felhasználás ellen védett;\n 20. elektronikus készpénz-helyettesítő fizetési eszköz a hitelintézetekről szóló törvényben meghatározott készpénz-helyettesítő fizetési eszköz mellett a kincstári kártya és a személyi jövedelemadóról szóló törvény felhatalmazása alapján kiadott elektronikus utalvány, feltéve, hogy ezek információs rendszer útján kerülnek felhasználásra;\n 21. közérdekű üzem:\n  a) a közmű,\n  b) a közösségi közlekedési üzem,\n  c) az elektronikus hírközlő hálózat,\n  d) az egyetemes postai szolgáltató közérdekű feladatainak teljesítése érdekében üzemeltetett logisztikai, pénzforgalmi és informatikai központok és üzemek,\n  e) a hadianyagot, haditechnikai eszközt termelő üzemet, energiát vagy üzemi felhasználásra szánt alapanyagot termelő üzem,\n  f) a kritikus szervezetek ellenálló képességéről szóló törvény alapján kijelölt kritikus infrastruktúra,\n  g) a védelmi és biztonsági tevékenységek összehangolásáról szóló törvény alapján kijelölt, az ország védelme és biztonsága szempontjából jelentős infrastruktúra;\n 22. nagy nyilvánosságon a bűncselekménynek a sajtótermék, médiaszolgáltatás, sokszorosítás vagy elektronikus hírközlő hálózaton való közzététel útján történő elkövetését is érteni kell;\n 23. nemzetközi szerződés által tiltott fegyver: a nemzetközi egyezményekben meghatározott, felsorolt fegyverek és eszközök köre;\n 24. gyűlés: a gyülekezési jogról szóló törvény hatálya alá tartozó gyűlés;\n 24a. nyilvános rendezvény: a gyűlés kivételével olyan rendezvény, amely mindenki számára azonos feltételek mellett nyitva áll;\n 25. prostitúció a rendszeres haszonszerzés céljából történő szexuális cselekmény végzése;\n 26. személy elleni erőszakos bűncselekmény: a felsorolt bűncselekmények köre;\n 27. szexuális cselekmény: a közösülés és minden súlyosan szeméremsértő cselekmény, amely a nemi vágy felkeltésére, fenntartására vagy kielégítésére alkalmas, vagy arra irányul;\n 28. üzletszerűen követi el a bűncselekményt, aki ugyanolyan vagy hasonló jellegű bűncselekmények elkövetése révén rendszeres haszonszerzésre törekszik;\n 29. védekezésre képtelennek kell tekinteni azt is, aki helyzeténél vagy állapotánál fogva ideiglenesen vagy véglegesen nem képes ellenállás kifejtésére;\n 30. védett kulturális javak alatt érteni kell a védetté nyilvánított kulturális javakat is;\n 31. visszaeső és alcsoportjai: visszaeső, különös visszaeső, többszörös visszaeső, erőszakos többszörös visszaeső meghatározása;\n 32. nemzetközileg védett személy: az a külföldi hivatalos személy, aki a rá vonatkozó nemzetközi szerződés alapján nemzetközi jogon alapuló mentességet élvez;\n 33. —\n 34. külföldi védelemben részesített kulturális örökségi elem: az Európa Tanács vonatkozó egyezménye szerinti elemek;\n 35. humanitárius művelet: a fogadó ország beleegyezésével vagy erre jogosult nemzetközi szervezet felhatalmazásával a Honvédség érdemi közreműködésével folytatott segítő tevékenység meghatározása;\n 36. külföldi hadműveleti területen végzett humanitárius tevékenység: a Honvédség részvétele a meghatározott célból;\n 37. tiltott külföldi támogatás: olyan külföldről származó támogatás, amelynek elfogadását vagy felhasználását a vonatkozó törvények tiltják;\n 38. felelős személy: a civil szervezetekről szóló törvényben meghatározott felelős személy.\n(1a) E törvény alkalmazásában kábítószer a 78/2022. (XII. 28.) BM rendelet 1. mellékletében a kábítószerek 1. vagy 2. jegyzékén szereplő anyag, 2. mellékletében a pszichotróp anyagok 1. vagy 2. jegyzékén szereplő anyag, valamint 3. mellékletében meghatározott anyag. A 160. §, a 164. §, a 184. §, a 339. §, a 340. §, a 365. §, a 366. §, a 370. §, a 371. § és a 380. § alkalmazása szempontjából kábítószernek minősül továbbá a bódult állapot előidézésére alkalmas, nem emberi fogyasztásra szánt anyag, ideértve a más szer hozzáadásával vagy szerkezete átalakításával előállított anyagokat, illetve a más tudatmódosító szereket is.\n(2) Ahol e törvény élettársat említ, azon a bejegyzett élettársat is érteni kell.\n(3) Ahol e törvény honvédet, műveleti területet, szövetséges fegyveres erőt vagy békefenntartást említ, azon a honvédelemről és a Magyar Honvédségről szóló törvényben meghatározott fogalmakat kell érteni.\n(3a) Ahol e törvény rendfokozatot említ, azon a honvéd és a polgári nemzetbiztonsági szolgálat hivatásos állományú tagja esetében a viselt rendfokozatot, a rendőrség, az Országgyűlési Őrség, a büntetés-végrehajtási szervezet és a hivatásos katasztrófavédelmi szerv hivatásos állományú tagja esetében a betöltött szolgálati beosztás besorolása és fizetési fokozata alapján meghatározott rendfokozatot kell érteni.\n(4) Ahol e törvény szigorúan titkos, titkos, bizalmas, illetve korlátozott terjesztésű minősítésű adatot említ, azon a minősített adat védelméről szóló törvényben meghatározott nemzeti vagy külföldi minősített adatot kell érteni.\n(5) E törvény alkalmazásában\n a) harmadik országbeli állampolgár alatt a harmadik országbeli állampolgárok beutazására és tartózkodására vonatkozó általános szabályokról szóló törvényben meghatározott fogalmat kell érteni,\n b) munkavégzési célból kiadott engedély: a felsorolt engedélyek köre.\n(6) E törvény alkalmazásában az érték, a kár, valamint a vagyoni hátrány\n a) ötvenezer-egy és ötszázezer forint között kisebb,\n b) ötszázezer-egy és ötmillió forint között nagyobb,\n c) ötmillió-egy és ötvenmillió forint között jelentős,\n d) ötvenmillió-egy és ötszázmillió forint között különösen nagy,\n e) ötszázmillió forint felett különösen jelentős.",
+      "footnote": [
+        "Megállapította: 2019. évi LXVI. törvény 107. §. Hatályos: 2019. VII. 10-től.",
+        "Módosította: 2020. évi XLIX. törvény 18. § b).",
+        "Megállapította: 2013. évi CCLII. törvény 131. § (2). Hatályos: 2014. III. 15-től.",
+        "Módosította: 2017. évi CXCVII. törvény 342. § 9.",
+        "Módosította: 2022. évi VII. törvény 64. § h).",
+        "Megállapította: 2012. évi CCXXIII. törvény 319. §. Hatályos: 2014. V. 6-tól.",
+        "Módosította: 2022. évi XXIV. törvény 113. §.",
+        "A 2013. évi LXXVIII. törvény 19. § (13) szerinti szöveggel lép hatályba.",
+        "Módosította: 2018. évi CXXV. törvény 324. §, 2021. évi CXXXIV. törvény 104. §, 2022. évi XXII. törvény 165. §, 2023. évi XXXI. törvény 85. § b).",
+        "A 2013. évi XXXVI. törvény 364. § szerinti szöveggel lép hatályba.",
+        "Módosította: 2022. évi VII. törvény 64. § i).",
+        "Megállapította: 2013. évi CXXXIII. törvény 157. §. Módosította: 2019. évi XXXVI. törvény 54. §.",
+        "Megállapította: 2020. évi XLIII. törvény 54. § (1). Hatályos: 2021. I. 1-től.",
+        "A 2013. évi XLV. törvény 3. § szerinti szöveggel lép hatályba.",
+        "Módosította: 2019. évi CXII. törvény 86. §.",
+        "Megállapította: 2020. évi XLIII. törvény 54. § (2). Hatályos: 2021. I. 1-től.",
+        "Beiktatta: 2020. évi LXXIV. törvény 7. § (1). Hatályos: 2020. VII. 16-tól.",
+        "Beiktatta: 2020. évi LXXIV. törvény 7. § (2). Hatályos: 2021. I. 1-től.",
+        "Beiktatta: 2020. évi LXXIV. törvény 7. § (2). Hatályos: 2021. I. 1-től.",
+        "Beiktatta: 2021. évi II. törvény 26. § (3). Hatályos: 2021. III. 1-től.",
+        "Beiktatta: 2024. évi LXXXIV. törvény 104. § (1). Hatályos: 2025. II. 19-től.",
+        "Beiktatta: 2024. évi LXXXIV. törvény 104. § (1). Hatályos: 2025. II. 19-től.",
+        "Beiktatta: 2024. évi LXXXIV. törvény 104. § (1). Hatályos: 2025. II. 19-től.",
+        "Megállapította: 2020. évi XLIII. törvény 54. § (4). Hatályos: 2021. I. 1-től.",
+        "Hatályon kívül helyezte: 2025. évi XIX. törvény 29. § c). Hatálytalan: 2025. VI. 15-től.",
+        "Megállapította: 2013. évi XCVIII. törvény 114. §. Hatályos: 2013. IX. 19-től.",
+        "Beiktatta: 2024. évi LXXXIV. törvény 104. § (2). Hatályos: 2025. II. 19-től.",
+        "Beiktatta: 2024. évi LXXXIV. törvény 104. § (2). Hatályos: 2025. II. 19-től.",
+        "Megállapította: 2018. évi LV. törvény 25. § (6). Hatályos: 2018. X. 1-től.",
+        "Beiktatta: 2018. évi LV. törvény 25. § (6). Hatályos: 2018. X. 1-től.",
+        "Módosította: 2020. évi V. törvény 13. § a), 14. § a).",
+        "Módosította: 2020. évi XLIII. törvény 58. § 17.",
+        "Megállapította: 2018. évi LV. törvény 25. § (7). Hatályos: 2018. X. 1-től.",
+        "Lásd: 2012. évi CCXXIII. törvény 4. § (2).",
+        "Lásd: 2012. évi CCXXIII. törvény 4. § (1).",
+        "Lásd: 2012. évi CCXXIII. törvény 4. § (3).",
+        "Beiktatta: 2017. évi XXXIX. törvény 64. §. Hatályos: 2018. I. 1-től. Módosította: 2017. évi CXCVII. törvény 343. § a).",
+        "Hatályon kívül helyezte: 2025. évi XIX. törvény 29. § d). Hatálytalan: 2025. VI. 15-től.",
+        "Beiktatta: 2021. évi CXXXIV. törvény 102. §. Hatályos: 2022. IV. 1-től.",
+        "Beiktatta: 2022. évi VII. törvény 62. §. Hatályos: 2022. XI. 1-től.",
+        "Beiktatta: 2022. évi VII. törvény 62. §. Hatályos: 2022. XI. 1-től.",
+        "Beiktatta: 2023. évi LXXXVIII. törvény 32. § (3). Hatályos: 2023. XII. 22-től.",
+        "Beiktatta: 2023. évi LXXXVIII. törvény 32. § (3). Hatályos: 2023. XII. 22-től.",
+        "Beiktatta: 2025. évi XIX. törvény 26. §. Hatályos: 2025. VI. 15-től.",
+        "Megállapította: 2022. évi VII. törvény 63. §. Hatályos: 2022. XI. 1-től.",
+        "Megállapította: 2024. évi LXIV. törvény 24. §. Hatályos: 2025. III. 1-től.",
+        "Megállapította: 2023. évi XC. törvény 368. §. Hatályos: 2024. I. 1-től."
+      ]
+    },
+    {
+      "jel": "460. §",
+      "cim": "Értelmező rendelkezések",
+      "tartalom": "(1) A XIV. Fejezet alkalmazásában védett személy az, aki az ellenségeskedésekben nem vesz közvetlenül részt, így különösen\n a) a fegyveres erőknek az a tagja, aki letette a fegyvert, és magát az ellenségeskedésekből kivonva megadta;\n b) aki betegség, sebesülés, elfogatás vagy más ok következtében egyértelműen harcképtelenné vált, vagy magát az ellenségeskedésekből egyértelműen kivonta;\n c) az Egyesült Nemzetek Alapokmánya szerint tevékenykedő humanitárius segély- vagy békefenntartó misszió személyzete, ha az jogosult a polgári személyeknek vagy polgári létesítményeknek a fegyveres konfliktusok nemzetközi joga által biztosított védelemre;\n d) a polgári személy, amennyiben és ameddig nem vesz közvetlenül részt az ellenségeskedésekben.\n(2) A XXVI. Fejezet alkalmazásában\n a) fegyelmi ügynek azt az eljárást kell tekinteni, amelyre törvény állapítja meg a fegyelmi vétségnek minősülő magatartást, az eljárás részletes szabályait és a kiszabható fegyelmi büntetéseket;\n b) polgári ügynek kell tekinteni a választottbíróság előtt folyamatban lévő ügyet is.",
+      "footnote": []
+    },
+    {
+      "jel": "461. §",
+      "cim": "Kábítószer mennyiségi fogalmai",
+      "tartalom": "(1) E törvény alkalmazásában a kábítószer csekély mennyiségű, ha\n a) annak bázis formában megadott tiszta hatóanyag-tartalma\n  aa) LSD esetén a 0,001 gramm,\n  ab) pszilocibin esetén a 0,1 gramm,\n  ac) pszilocin esetén a 0,2 gramm,\n  ad) amfetamin, metamfetamin, MDPV és alfa-PVP esetén a 0,5 gramm,\n  ae) dihidrokodein esetén a 0,8 gramm,\n  af) heroin esetén a 0,6 gramm,\n  ag) morfin esetén a 0,9 gramm,\n  ah) ketamin, kodein, MDA, MDMA, N-etil-MDA (MDE), MBDB, 1-PEA, N-metil–1-PEA, mCPP, metadon, 4-fluoramfetamin és petidin esetén az 1 gramm,\n  ai) mefedron, metilon és 4-MEC esetén az 1,5 gramm,\n  aj) kokain esetén a 2 gramm,\n  ak) BZP esetén a 3 gramm,\n  al) pentedron esetén a 0,4 gramm,\n b) GHB esetén annak sav formában megadott tiszta hatóanyag-tartalma a 7,5 gramm,\n c) tetrahidro-kannabinol (THC) esetén a tiszta és savformában együttesen jelen levő THC-tartalom (totál-THC) a 6 gramm,\n d) annak tiszta hatóanyag-tartalma\n  da) GBL esetén a 6,2 gramm,\n  db) AB–CHMINACA, MDMB–CHMICA, AM–2201, AB–PINACA, AB–FUBINACA, és ADB–FUBINACA esetén a 0,05 gramm\n mennyiséget nem haladja meg.\n(2) E törvény alkalmazásában a kábítószer csekély mennyiségű, ha kannabisz növény esetén a növényegyedek száma legfeljebb öt.\n(3) Az (1) és a (2) bekezdés szerinti kábítószer e törvény alkalmazásában\n a) jelentős mennyiségű, ha az adott kábítószerre meghatározott csekély mennyiség felső határának hússzoros,\n b) különösen jelentős mennyiségű, ha az adott kábítószerre meghatározott csekély mennyiség felső határának kétszázszoros mértékét meghaladja.\n(4) A 78/2022. (XII. 28.) BM rendelet 1. mellékletében a kábítószerek 1. vagy 2. jegyzékén, 2. mellékletében a pszichotróp anyagok 1. vagy 2. jegyzékén szereplő, azonban az (1) vagy a (2) bekezdésben nem szereplő kábítószer e törvény alkalmazásában\n a) csekély mennyiségű, ha annak tiszta hatóanyag-tartalma a hozzá nem szokott fogyasztó átlagos hatásos adagjának hétszeres mértékét nem haladja meg,\n b) jelentős mennyiségű, ha annak tiszta hatóanyag-tartalma a hozzá nem szokott fogyasztó átlagos hatásos adagjának száznegyvenszeres mértékét meghaladja,\n c) különösen jelentős mennyiségű, ha annak tiszta hatóanyag-tartalma a hozzá nem szokott fogyasztó átlagos hatásos adagjának ezernégyszázszoros mértékét meghaladja.\n(5) E törvény alkalmazásában a kábítószer csekély mennyiségű, ha annak tiszta hatóanyag-tartalma a 78/2022. (XII. 28.) BM rendelet 3. mellékletében szereplő jegyzék\n a) 1. pontja szerinti vegyületcsoport esetében a 0,5 gramm,\n b) 2. pontja szerinti vegyületcsoport esetében az 1,5 gramm,\n c) 3. pontja szerinti vegyületcsoport esetében a 2 gramm,\n d) 4. pontja szerinti vegyületcsoport esetében az 1 gramm,\n e) 5. pontja szerinti vegyületcsoport esetében a 0,1 gramm,\n f) 6. pontja szerinti anyagok esetében a 2 gramm\n mennyiséget nem haladja meg.\n(6) E törvény alkalmazásában az (5) bekezdés szerinti kábítószer jelentős mennyiségű, ha annak tiszta hatóanyag-tartalma a csekély mennyiség felső határának húszszoros mértékét meghaladja.\n(7) E törvény alkalmazásában az (5) bekezdés szerinti kábítószer különösen jelentős mennyiségű, ha annak tiszta hatóanyag-tartalma a csekély mennyiség felső határának kétszázszoros mértékét meghaladja.\n(8) E törvény alkalmazásában só formában előforduló vegyületek esetén tiszta hatóanyag-tartalom alatt a bázis formában megadott hatóanyag-tartalmat kell érteni.",
+      "footnote": [
+        "Megállapította: 2025. évi XIX. törvény 27. §. Hatályos: 2025. VI. 15-től."
+      ]
+    },
+    {
+      "jel": "462. §",
+      "cim": "Egyes bűncselekmények értékhatára és szabálysértési alakzata",
+      "tartalom": "(1) Nem valósul meg bűncselekmény, ha\n a) a hanyag kezelést százezer forintot meg nem haladó vagyoni hátrányt,\n b) a társadalombiztosítási, szociális vagy más jóléti juttatással visszaélést ötvenezer forintot meg nem haladó kárt\n okozva követik el.\n(2) Nem bűncselekmény, hanem szabálysértés valósul meg, ha\n a) a rongálást és a csalást ötvenezer forintot meg nem haladó kárt okozva,\n b) a lopást, a sikkasztást és a jogtalan elsajátítást ötvenezer forintot meg nem haladó értékre,\n c) a hűtlen kezelést ötvenezer forintot meg nem haladó vagyoni hátrányt okozva,\n d) a szerzői vagy szerzői joghoz kapcsolódó jogok megsértését százezer forintot meg nem haladó\n  da) üreshordozói díjra, illetve reprográfiai díjra nézve,\n  db) vagyoni hátrányt okozva,\n e) az iparjogvédelmi jogok megsértését százezer forintot meg nem haladó vagyoni hátrányt okozva,\n f) a rossz minőségű termék forgalomba hozatalát vagy a versenytárs utánzását százezer forintot meg nem haladó értékre,\n g) a pénzmosást ötvenezer forintot meg nem haladó értékre, a szabálysértésekről, a szabálysértési eljárásról és a szabálysértési nyilvántartási rendszerről szóló 2012. évi II. törvény 177. § (1a) bekezdésében meghatározottak szerint\n követik el.\n(3) Nem valósul meg bűncselekmény, illetve vámszabálysértés valósul meg, ha a költségvetési csalással okozott vagyoni hátrány az ötszázezer forintot nem haladja meg.\n(4) Bűncselekmény valósul meg, ha az ugyanazon elkövető által, egy éven belül elkövetett és együttesen elbírált\n a) ugyanolyan tulajdon elleni szabálysértés esetén a dolog értéke, az okozott kár, illetve az okozott vagyoni hátrány a (2) bekezdés a)–c) vagy g) pontjában meghatározott összeget,\n b) szerzői vagy szerzői joghoz kapcsolódó jogok megsértése esetén az üreshordozó díj, illetve a reprográfiai díj a (2) bekezdés d) pontjában meghatározott összeget,\n c) iparjogvédelmi jogok megsértése esetén a vagyoni hátrány a (2) bekezdés e) pontjában meghatározott összeget,\n d) rossz minőségű termék forgalomba hozatala vagy a versenytárs utánzása esetén a termék, illetve áru értéke a (2) bekezdés f) pontjában meghatározott összeget,\n e) vámszabálysértés esetén a vagyoni hátrány a (3) bekezdésben meghatározott összeget\n érték-egybefoglalás folytán meghaladja.\n(5) Bűncselekmény valósul meg ugyanazon elkövető által elkövetett és együttesen elbírált szerzői vagy szerzői joghoz kapcsolódó jogok megsértése szabálysértés esetén, ha az egyes cselekményekkel más vagy mások, a szerzői jogról szóló törvény alapján fennálló szerzői vagy ahhoz kapcsolódó jogát vagy jogait a (2) bekezdés d) pontjában meghatározott összeget meghaladó vagyoni hátrányt okozva sértik meg.",
+      "footnote": [
+        "Megállapította: 2020. évi XLIII. törvény 56. § (1). Hatályos: 2021. I. 1-től.",
+        "A 2012. évi CCXXIII. törvény 318. § (23) szerinti szöveggel lép hatályba.",
+        "Módosította: 2020. évi XLIII. törvény 58. § 18.",
+        "Beiktatta: 2015. évi LXXVI. törvény 34. §. Hatályos: 2015. VII. 1-től.",
+        "Megállapította: 2020. évi XLIII. törvény 56. § (3). Hatályos: 2021. I. 1-től.",
+        "Beiktatta: 2015. évi LXXVI. törvény 34. §. Hatályos: 2015. VII. 1-től."
+      ]
+    },
+    {
+      "jel": "463. §",
+      "cim": "Hatálybalépés",
+      "tartalom": "E törvény 2013. július 1-jén lép hatályba.",
+      "footnote": []
+    },
+    {
+      "jel": "464. §",
+      "cim": "Sarkalatossági záradék",
+      "tartalom": "A 104. § (3) bekezdése az Alaptörvény 9. cikk (8) bekezdése alapján sarkalatosnak minősül.",
+      "footnote": [
+        "Megállapította: 2024. évi XXX. törvény 66. §. Hatályos: 2024. VII. 1-től.",
+        "Megállapította: 2024. évi XXX. törvény 66. §. Hatályos: 2024. VII. 1-től."
+      ]
+    },
+    {
+      "jel": "465. §",
+      "cim": "Az Európai Unió jogának való megfelelés",
+      "tartalom": "(1) E törvény\n a) 26. § (2) bekezdése\n  aa) és XIX. Fejezete a 2011/93/EU irányelvnek,\n  ab) és 192. §-a a 2011/36/EU irányelvnek,\n b) 176–177. §-a a 2004/757/IB tanácsi kerethatározatnak,\n c) 209. és 356. §-a a 2009/52/EK irányelvnek,\n d) 241–243. és 249. §-a a 2008/99/EK irányelvnek,\n e) 290–291. §-a a 2003/568/EK tanácsi kerethatározatnak,\n f) 375. §-a és XLIII. Fejezete a 2013/40/EU irányelvnek,\n g) 389. §-a a 2000/383/IB tanácsi kerethatározat 3–6. cikkének,\n h) 392–394. §-a a 2001/413/IB tanácsi kerethatározat 2., 4. és 6. cikkének,\n i) 399–402. §-a az (EU) 2015/849 és az (EU) 2018/1673 irányelvnek,\n j) 410–411. §-a és 414. §-a a 2014/57/EU irányelvnek,\n k) 72–76. §-a a 2014/42/EU irányelvnek,\n l) 219. §-a a (EU) 2016/680 irányelvnek,\n m) 3., 10., 12., 14., 31., 63., 72–77., 80., 314–318/A., 319. és 331. §-a a (EU) 2017/541 irányelvnek,\n n) 185/A. §-a a 2011/62/EU és a 2017/2103/EU irányelvnek,\n o) 327–327/D. §-a a (EU) 2024/1226 irányelvnek,\n p) a (EU) 2023/2123 irányelvnek való megfelelést szolgálja.\n(2) E törvény\n a) 182–183. §-a a 273/2004/EK és a 111/2005/EK rendeletnek,\n b) 327. §-a a (EU) 2019/125 rendelet 33. cikkének és a (EU) 2021/821 rendelet 25. cikkének,\n c) 329–330. §-a a (EU) 2019/125 rendelet 33. cikkének és a (EU) 2021/821 rendelet 25. cikkének,\n d) 219. §-a a (EU) 2016/679 rendelet végrehajtásához szükséges rendelkezéseket állapít meg.\n(3) E törvény 216. § (1) és (4) bekezdése, valamint 332. és 333. §-a a 2008/913/IB tanácsi kerethatározat 1. cikkének való megfelelést szolgálja.\n(4) A 459. § (1) bekezdés 12. pont t)–w) alpontja, valamint 459. § (1) bekezdés 21. pont f) és g) alpontja a (EU) 2022/2557 irányelvnek való megfelelést szolgálja.",
+      "footnote": [
+        "Megállapította: 2014. évi LXXII. törvény 87. §. Hatályos: 2015. I. 1-től.",
+        "Megállapította: 2020. évi XLIII. törvény 57. § (1). Hatályos: 2021. I. 1-től.",
+        "Beiktatta: 2016. évi CIII. törvény 55. § (8). Hatályos: 2016. X. 28-tól.",
+        "Beiktatta: 2016. évi CIII. törvény 55. § (8). Hatályos: 2016. X. 28-tól.",
+        "Megállapította: 2017. évi CXLIV. törvény 59. § (1). Hatályos: 2018. V. 25-től.",
+        "Beiktatta: 2017. évi CXLIV. törvény 59. § (1). Hatályos: 2018. V. 25-től.",
+        "Megállapította: 2023. évi XCVII. törvény 16. §. Hatályos: 2024. III. 1-től.",
+        "Beiktatta: 2025. évi XLIX. törvény 97. § (1). Hatályos: 2025. IX. 1-től.",
+        "Beiktatta: 2025. évi LXXI. törvény 18. §. Hatályos: 2025. XI. 1-től.",
+        "Hatályon kívül helyezte: 2025. évi XLIX. törvény 99. § b). Hatálytalan: 2025. IX. 1-től.",
+        "Módosította: 2020. évi XLIII. törvény 58. § 19.",
+        "Beiktatta: 2025. évi XLIX. törvény 97. § (2). Hatályos: 2025. IX. 1-től.",
+        "Módosította: 2020. évi XLIII. törvény 58. § 20.",
+        "Megállapította: 2025. évi XLIX. törvény 97. § (3). Hatályos: 2025. IX. 1-től.",
+        "Beiktatta: 2017. évi CXLIV. törvény 59. § (2). Módosította: 2020. évi XLIII. törvény 59. § g).",
+        "Beiktatta: 2015. évi LXXVI. törvény 35. §. Hatályos: 2015. VII. 1-től.",
+        "Beiktatta: 2024. évi LXXXIV. törvény 105. §. Hatályos: 2025. II. 19-től."
+      ]
+    }
+  ]
+}

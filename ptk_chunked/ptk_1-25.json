@@ -1,0 +1,747 @@
+{
+  "joganyag_forrasa": "2013. évi V. törvény a Polgári Törvénykönyvről",
+  "cimek": [
+    {
+      "cim_sorszama": "I.",
+      "megnevezes": "A JOGKÉPESSÉG KEZDETE ÉS MEGSZŰNÉSE",
+      "szakaszok": [
+        {
+          "szakasz": "2:1. §",
+          "cim": "A jogképesség",
+          "tartalom": "(1) Minden ember jogképes: jogai és kötelezettségei lehetnek.\n(2) A jogképességet korlátozó jognyilatkozat semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:2. §",
+          "cim": "A jogképesség kezdete",
+          "tartalom": "(1) A jogképesség az embert, ha élve születik, fogamzásának időpontjától illeti meg.\n(2) A fogamzás időpontjának a születéstől visszafelé számított háromszázadik napot kell tekinteni; bizonyítani lehet, hogy a fogamzás korábbi vagy későbbi időpontban történt. A születés napja a határidőbe beleszámít.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:3. §",
+          "cim": "A magzat gyámja",
+          "tartalom": "(1) A gyámhatóság – kérelemre vagy hivatalból – gyámot rendel a magzat részére, ha ez a magzat jogainak megóvása érdekében szükséges.\n(2) Gyám rendelését a magzat szülője, nagyszülője, az ügyész és a jegyző kérheti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:4. §",
+          "cim": "A jogképesség megszűnése",
+          "tartalom": "A jogképesség a halállal szűnik meg.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "II.",
+      "megnevezes": "A HOLTNAK NYILVÁNÍTÁS",
+      "szakaszok": [
+        {
+          "szakasz": "2:5. §",
+          "cim": "A holtnak nyilvánítás",
+          "tartalom": "(1) Az eltűnt személyt a bíróság kérelemre holtnak nyilvánítja, ha eltűnésétől öt év eltelt anélkül, hogy életben létére utaló bármilyen adat ismert volna.\n(2) A holtnak nyilvánított személyt az ellenkező bizonyításáig halottnak kell tekinteni.\n(3) A holtnak nyilvánítást az eltűnt személy közeli hozzátartozója, az ügyész, a gyámhatóság és az kérheti, akinek az eltűnt holtnak nyilvánítása jogi érdekét érinti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:6. §",
+          "cim": "A halál időpontjának meghatározása",
+          "tartalom": "(1) A bíróság a halál időpontját a körülmények mérlegelése alapján határozza meg.\n(2) Ha a körülmények mérlegelése nem vezet eredményre, a halál időpontja az eltűnést követő hónap tizenötödik napja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:7. §",
+          "cim": "Változás a holtnak nyilvánítás alapjául vett körülményekben",
+          "tartalom": "(1) Ha bebizonyosodik, hogy a holtnak nyilvánított a határozatban alapul vett időpontnál korábbi vagy későbbi időpontban tűnt el, de a holtnak nyilvánítás feltételei egyébként fennállnak, a bíróság a holtnak nyilvánító határozatot módosítja. A jogkövetkezmények a módosított határozat szerint alakulnak.\n(2) Ha bebizonyosodik, hogy a holtnak nyilvánított a határozatban alapul vett időpontnál később tűnt el, és ezért a holtnak nyilvánítás feltételei nem állnak fenn, a bíróság a holtnak nyilvánító határozatot hatályon kívül helyezi, és az annak alapján beállott jogkövetkezmények semmisek.\n(3) A holtnak nyilvánító határozat módosítását és hatályon kívül helyezését ugyanazok kérhetik, mint a holtnak nyilvánítást.\n(4) Ha a holtnak nyilvánított előkerül, a holtnak nyilvánító határozat hatálytalan, és az annak alapján beállott jogkövetkezmények semmisek.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "III.",
+      "megnevezes": "A CSELEKVŐKÉPESSÉG ÁLTALÁNOS SZABÁLYAI",
+      "szakaszok": [
+        {
+          "szakasz": "2:8. §",
+          "cim": "A cselekvőképesség",
+          "tartalom": "(1) Minden ember cselekvőképes, akinek cselekvőképességét e törvény vagy a bíróság gondnokság alá helyezést elrendelő ítélete nem korlátozza.\n(2) Aki cselekvőképes, maga köthet szerződést vagy tehet más jognyilatkozatot.\n(3) A cselekvőképességet korlátozó jognyilatkozat semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:9. §",
+          "cim": "A cselekvőképtelen állapot",
+          "tartalom": "(1) Semmis annak a személynek a jognyilatkozata, aki a jognyilatkozat megtételekor olyan állapotban van, hogy az ügyei viteléhez szükséges belátási képessége teljesen hiányzik.\n(2) A cselekvőképtelen állapotban tett jognyilatkozat – a végintézkedés kivételével – a cselekvőképtelenség miatt nem semmis, ha tartalmából és megtételének körülményeiből arra lehet következtetni, hogy a jognyilatkozat megtétele a fél cselekvőképessége esetén is indokolt lett volna.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "IV.",
+      "megnevezes": "A KISKORÚSÁG MIATTI KORLÁTOZOTT CSELEKVŐKÉPESSÉG ÉS CSELEKVŐKÉPTELENSÉG",
+      "szakaszok": [
+        {
+          "szakasz": "2:10. §",
+          "cim": "A kiskorúság",
+          "tartalom": "(1) Kiskorú az, aki a tizennyolcadik életévét nem töltötte be. A kiskorú a házasságkötéssel nagykorúvá válik.\n(2) Ha a házasságot a bíróság a cselekvőképesség hiánya vagy a kiskorúság miatt szükséges gyámhatósági engedély hiánya miatt érvénytelennek nyilvánítja, a házasságkötéssel szerzett nagykorúság megszűnik.\n(3) A házasságkötéssel megszerzett nagykorúságot a házasság megszűnése nem érinti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:11. §",
+          "cim": "A korlátozottan cselekvőképes kiskorú",
+          "tartalom": "Korlátozottan cselekvőképes az a kiskorú, aki a tizennegyedik életévét betöltötte és nem cselekvőképtelen.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:12. §",
+          "cim": "A korlátozottan cselekvőképes kiskorú jognyilatkozata",
+          "tartalom": "(1) A korlátozottan cselekvőképes kiskorú jognyilatkozatának érvényességéhez – ha e törvény eltérően nem rendelkezik – törvényes képviselőjének hozzájárulása szükséges. Ha a korlátozottan cselekvőképes kiskorú cselekvőképessé válik, maga dönt függő jognyilatkozatainak érvényességéről.\n(2) A korlátozottan cselekvőképes kiskorú a törvényes képviselőjének közreműködése nélkül\na) tehet olyan személyes jellegű jognyilatkozatot, amelyre jogszabály feljogosítja;\nb) megkötheti a mindennapi élet szokásos szükségleteinek fedezése körébe tartozó kisebb jelentőségű szerződéseket;\nc) rendelkezhet munkával szerzett jövedelmével, annak erejéig kötelezettséget vállalhat;\nd) köthet olyan szerződéseket, amelyekkel kizárólag előnyt szerez; és\ne) ajándékozhat a szokásos mértékben.\n(3) A törvényes képviselő a korlátozottan cselekvőképes kiskorúnak ígért vagy adott ingyenes juttatást a gyámhatóság engedélyével visszautasíthatja. Ha a gyámhatóság a törvényes képviselő visszautasító nyilatkozatát nem hagyja jóvá, a határozat a törvényes képviselő elfogadó nyilatkozatát pótolja.\n(4) A törvényes képviselő a korlátozottan cselekvőképes kiskorú nevében maga is tehet jognyilatkozatot, kivéve azokat, amelyeknél jogszabály a korlátozottan cselekvőképes kiskorú saját nyilatkozatát kívánja meg, vagy amelyek a korlátozottan cselekvőképes kiskorú munkával szerzett jövedelmére vonatkoznak. A törvényes képviselőnek a kiskorú személyét és vagyonát érintő jognyilatkozata megtétele során a korlátozott cselekvőképességű kiskorú véleményét figyelembe kell vennie.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:13. §",
+          "cim": "A cselekvőképtelen kiskorú",
+          "tartalom": "Cselekvőképtelen az a kiskorú, aki a tizennegyedik életévét nem töltötte be.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:14. §",
+          "cim": "A cselekvőképtelen kiskorú jognyilatkozata",
+          "tartalom": "(1) A cselekvőképtelen kiskorú jognyilatkozata semmis; nevében a törvényes képviselője jár el.\n(2) A cselekvőképtelenség miatt nem semmis a cselekvőképtelen kiskorú által kötött és teljesített csekély jelentőségű szerződés, amelynek megkötése a mindennapi életben tömegesen fordul elő, és különösebb megfontolást nem igényel.\n(3) A törvényes képviselőnek a kiskorú személyét és vagyonát érintő jognyilatkozata megtétele során az ítélőképessége birtokában lévő cselekvőképtelen kiskorú véleményét – korának és érettségének megfelelően – figyelembe kell vennie.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:15. §",
+          "cim": "A gyámhatóság jóváhagyása a kiskorú törvényes képviselőjének jognyilatkozatához",
+          "tartalom": "(1) A kiskorú törvényes képviselőjének jognyilatkozata a gyámhatóság jóváhagyásával érvényes\n\na) a kiskorút megillető tartásról történő lemondás;\n\nb) a kiskorút öröklési jogviszony alapján megillető jogra vagy őt terhelő kötelezettségre vonatkozó jognyilatkozat és a külön is visszautasítható vagyontárgyak öröklésének visszautasítása;\n\nc) a kiskorú nem tehermentes ingatlanszerzése, ingatlana tulajdonjogának átruházása vagy megterhelése;\n\nd) a kiskorú gyámhatóságnak átadott vagyonáról való rendelkezés; vagy\n\ne) a kiskorú jogszabályban meghatározott összeget meghaladó értékű vagyontárgyáról való rendelkezés esetén.\n(2) Nincs szükség a gyámhatóság jóváhagyására, ha a kiskorú ingatlanvagyonának megterhelésére az ingatlan ellenérték nélküli megszerzésével egyidejűleg, az ingyenes juttatást nyújtó személy javára történő haszonélvezet alapításával kerül sor.\n(3) Nincs szükség a gyámhatóság jóváhagyására, ha a jognyilatkozat érvényességét bírósági vagy közjegyzői eljárásban elbírálták.\n(4) Nincs szükség a gyámhatóság jóváhagyására nem tehermentes ingatlanszerzés esetén, ha a teher kizárólag ingatlan-nyilvántartásba bejegyzett közérdekű használati jog.",
+          "footnote": [
+            "1 Beiktatta: 2023. évi XCVI. törvény 78. §. Hatályos: 2024. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "2:16. §",
+          "cim": "A kiskorú ellenérték nélküli kötelezettségvállalása",
+          "tartalom": "Semmis a kiskorú törvényes képviselőjének olyan jognyilatkozata, amellyel – a kiskorú vagyona terhére – ajándékoz, idegen kötelezettségért megfelelő ellenérték nélkül kötelezettséget vállal, vagy amellyel jogokról ellenérték nélkül lemond. Ezt a rendelkezést megfelelően alkalmazni kell a törvényes képviselőnek a korlátozottan cselekvőképes kiskorú jognyilatkozatához való hozzájárulására is.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:17. §",
+          "cim": "A kiskorú jognyilatkozatának relatív semmissége",
+          "tartalom": "A kiskorúság miatti korlátozott cselekvőképességen vagy cselekvőképtelenségen alapuló semmisségre annak érdekében lehet hivatkozni, akinek cselekvőképessége korlátozott vagy hiányzik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:18. §",
+          "cim": "A kiskorú cselekvőképességének korlátozása gondnokság alá helyezéssel",
+          "tartalom": "(1) A bíróság a kiskorút a tizenhetedik életévének betöltése után a nagykorúakra irányadó szabályok szerint cselekvőképességet részlegesen vagy teljesen korlátozó gondnokság alá helyezheti.\n(2) A gondnokság alá helyezést a kiskorú törvényes képviselője is kérheti.\n(3) Ha a bíróság kiskorút helyez a cselekvőképességet teljesen korlátozó gondnokság alá, a gondnokság hatálya a nagykorúság elérésével áll be, de a kiskorú már az ítélet jogerőre emelkedésével cselekvőképtelenné válik.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "V.",
+      "megnevezes": "A NAGYKORÚ CSELEKVŐKÉPESSÉGÉNEK KORLÁTOZÁSA",
+      "szakaszok": [
+        {
+          "szakasz": "2:19. §",
+          "cim": "A cselekvőképesség részleges korlátozása",
+          "tartalom": "(1) Cselekvőképességében részlegesen korlátozott az a nagykorú, akit a bíróság ilyen hatállyal gondnokság alá helyezett.\n(2) A bíróság cselekvőképességet részlegesen korlátozó gondnokság alá azt a nagykorút helyezi, akinek ügyei viteléhez szükséges belátási képessége – mentális zavara következtében – tartósan vagy időszakonként visszatérően nagymértékben csökkent, és emiatt – egyéni körülményeire, valamint családi és társadalmi kapcsolataira tekintettel – meghatározott ügycsoportban gondnokság alá helyezése indokolt.\n(3) A cselekvőképességet részlegesen korlátozó ítéletben a bíróságnak meg kell határoznia azokat a személyi, illetve vagyoni jellegű ügycsoportokat, amelyekben a cselekvőképességet korlátozza.\n(4) A cselekvőképesség részlegesen sem korlátozható, ha az érintett személy jogainak védelme a cselekvőképességet nem érintő más módon biztosítható.\n(5) A cselekvőképességében részlegesen korlátozott személy minden olyan ügyben önállóan tehet érvényes jognyilatkozatot, amely nem tartozik abba az ügycsoportba, amelyben cselekvőképességét a bíróság korlátozta.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:20. §",
+          "cim": "A cselekvőképességében részlegesen korlátozott személy jognyilatkozata",
+          "tartalom": "(1) A cselekvőképességében részlegesen korlátozott személynek a bíróság ítéletében meghatározott ügycsoportokra vonatkozó jognyilatkozatának érvényességéhez gondnokának hozzájárulása szükséges. Ha a cselekvőképességében részlegesen korlátozott személy cselekvőképessé válik, maga dönt függő jognyilatkozatainak érvényességéről.\n(2) A cselekvőképességében részlegesen korlátozott személy és gondnoka közötti vitában a gyámhatóság dönt.\n(3) A cselekvőképességében részlegesen korlátozott személy a bíróság ítéletében meghatározott ügycsoportok tekintetében a gondnoka hozzájárulása nélkül\n\na) tehet olyan személyes jellegű jognyilatkozatot, amelyre jogszabály feljogosítja;\n\nb) megkötheti a mindennapi élet szokásos szükségleteinek fedezése körébe tartozó kisebb jelentőségű szerződéseket;\n\nc) rendelkezhet jövedelme bíróság által meghatározott hányadával; annak erejéig kötelezettséget is vállalhat;\n\nd) köthet olyan szerződéseket, amelyekkel kizárólag előnyt szerez; és\n\ne) ajándékozhat a szokásos mértékben.\n(4) Ha a cselekvőképességében részlegesen korlátozott személy érdekeinek védelme, károsodástól való megóvása azonnali intézkedést igényel, a gondnok a hozzájárulását igénylő ügyekben önállóan eljárhat, az érintett személy helyett jognyilatkozatot tehet. Erről a cselekvőképességében részlegesen korlátozott személyt és a gyámhatóságot késedelem nélkül tájékoztatnia kell.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:21. §",
+          "cim": "A cselekvőképesség teljes korlátozása",
+          "tartalom": "(1) Cselekvőképtelen az a nagykorú, akit a bíróság cselekvőképességet teljesen korlátozó gondnokság alá helyezett.\n(2) A bíróság cselekvőképességet teljesen korlátozó gondnokság alá azt a nagykorút helyezi, akinek az ügyei viteléhez szükséges belátási képessége – mentális zavara következtében – tartósan, teljeskörűen hiányzik, és emiatt – egyéni körülményeire, valamint családi és társadalmi kapcsolataira tekintettel – gondnokság alá helyezése indokolt.\n(3) A bíróság a cselekvőképességet abban az esetben korlátozhatja teljesen, ha az érintett személy jogainak védelme a cselekvőképességet nem érintő módon vagy a cselekvőképesség részleges korlátozásával nem biztosítható.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:22. §",
+          "cim": "A cselekvőképtelen nagykorú jognyilatkozata",
+          "tartalom": "(1) A cselekvőképtelen nagykorú jognyilatkozata semmis, nevében gondnoka jár el.\n(2) A cselekvőképtelenség miatt nem semmis a cselekvőképtelen nagykorú által kötött és teljesített csekély jelentőségű szerződés, amelynek megkötése a mindennapi életben tömegesen fordul elő és különösebb megfontolást nem igényel.\n(3) A gondnoknak a véleménynyilvánításra képes cselekvőképtelen nagykorú kívánságát az őt érintő jognyilatkozata megtétele előtt meg kell hallgatnia és lehetőség szerint figyelembe kell vennie.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:23. §",
+          "cim": "A gyámhatóság jóváhagyásának szükségessége",
+          "tartalom": "(1) A cselekvőképességében részlegesen korlátozott személy és gondnoka jognyilatkozatának, továbbá a cselekvőképtelen nagykorú gondnoka jognyilatkozatának érvényességéhez a gyámhatóság jóváhagyása szükséges, ha a jognyilatkozat a cselekvőképességében részlegesen korlátozott vagy cselekvőképtelen nagykorú\n\na) tartására;\n\nb) öröklési jogviszony alapján őt megillető jogára vagy terhelő kötelezettségére;\n\nc) nem tehermentes ingatlanszerzésére, ingatlana tulajdonjogának átruházására vagy bármely módon történő megterhelésére;\n\nd) gyámhatóságnak átadott vagyonára; vagy\n\ne) a gondnokot kirendelő határozatban megállapított összeget meghaladó értékű vagyontárgyára vonatkozik.\n(2) A cselekvőképességében a vagyoni ügyeit érintően korlátozott személy és a gondnoka közös kérelmére a gyámhatóság kivételesen indokolt esetben hozzájárulhat az érintett személy vagyona terhére\n\na) az érintett személy leszármazója önálló háztartásának alapításához, fenntartásához vagy más fontos célja eléréséhez, ha a támogatás mértéke a leszármazó – a hozzájárulás időpontjában fennálló állapot és érték szerinti – törvényes örökrészének felét nem haladja meg; vagy\n\nb) ingyenes juttatáshoz, jogokról ellenérték nélküli lemondáshoz vagy közcélra történő felajánláshoz, ha a jogügylet az érintett személy megélhetését nem veszélyezteti.\n(3) A gyámhatóság kivételesen indokolt esetben hozzájárulhat a cselekvőképtelen nagykorú gondnoka kérelmére az érintett személy leszármazója önálló háztartásának alapításához, fenntartásához vagy más fontos célja eléréséhez az érintett személy vagyona terhére, ha a támogatás mértéke a leszármazó – a hozzájárulás időpontjában fennálló állapot és érték szerinti – törvényes örökrészének felét nem haladja meg.\n(4) Nincs szükség a gyámhatóság jóváhagyására, ha a cselekvőképességében részlegesen korlátozott vagy cselekvőképtelen nagykorú ingatlantulajdonának megterhelésére az ingatlan ellenérték nélküli megszerzésével egyidejűleg, az ingyenes juttatást nyújtó személy javára történő haszonélvezet alapításával kerül sor.\n(5) Nincs szükség a gyámhatóság jóváhagyására, ha a jognyilatkozat érvényességét bírósági vagy közjegyzői eljárásban elbírálták.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:24. §",
+          "cim": "A cselekvőképességében részlegesen korlátozott és a cselekvőképtelen nagykorú jognyilatkozatának relatív semmissége",
+          "tartalom": "A cselekvőképesség részleges korlátozásán és a cselekvőképtelenségen alapuló semmisségre annak érdekében lehet hivatkozni, aki a cselekvőképességében részlegesen korlátozott vagy cselekvőképtelen.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "VI.",
+      "megnevezes": "A GONDNOKSÁG ALÁ HELYEZÉSI ELJÁRÁST MEGELŐZŐ INTÉZKEDÉSEK",
+      "szakaszok": [
+        {
+          "szakasz": "2:25. §",
+          "cim": "A zárlat elrendelése és a zárgondnokrendelés",
+          "tartalom": "Ha cselekvőképességet érintő gondnokság alá helyezés látszik indokoltnak, és az érintett személy vagyonának védelme sürgős intézkedést igényel, a gyámhatóság a vagyonra vagy annak egy részére zárlatot rendel el, és ezzel egyidejűleg zárgondnokot rendel ki.",
+          "footnote": [
+            "1 Módosította: 2019. évi CX. törvény 84. § (3) a)."
+          ]
+        },
+        {
+          "szakasz": "2:26. §",
+          "cim": "Az ideiglenes gondnokrendelés",
+          "tartalom": "(1) Azonnali intézkedést igénylő esetben a gyámhatóság ideiglenes gondnokot rendelhet annak a nagykorúnak, akinek a cselekvőképességét érintő gondnokság alá helyezése látszik indokoltnak, és személyének vagy vagyonának védelme zárlat elrendelésével vagy más módon nem lehetséges.\n(2) A gyámhatóság az ideiglenes gondnokot kirendelő határozatában megjelöli, hogy az ideiglenes gondnok mely ügyekben vagy ügycsoportokban jogosult jognyilatkozatot tenni.\n(3) Az ideiglenes gondnok tevékenységére egyebekben a gondnokra vonatkozó rendelkezéseket kell alkalmazni.",
+          "footnote": [
+            "2 Módosította: 2019. évi CX. törvény 84. § (3) b)."
+          ]
+        },
+        {
+          "szakasz": "2:27. §",
+          "cim": "A zárlatra és az ideiglenes gondnokrendelésre vonatkozó közös szabályok",
+          "tartalom": "(1) A gyámhatóságnak a zárlat elrendelését vagy az ideiglenes gondnokrendelést követő nyolc napon belül a gondnokság alá helyezési pert meg kell indítania. A bíróságnak legkésőbb a keresetindítástól számított harminc napon belül a zárlatot vagy az ideiglenes gondnokrendelést hivatalból felül kell vizsgálnia.\n(2) A zárlat megszüntetéséről és a zárgondnok vagy az ideiglenes gondnok felmentéséről legkésőbb a gondnokot kirendelő határozatban rendelkezni kell.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "VII.",
+      "megnevezes": "A GONDNOKSÁG ALÁ HELYEZÉS",
+      "szakaszok": [
+        {
+          "szakasz": "2:28. §",
+          "cim": "A gondnokság alá helyezés kezdeményezése",
+          "tartalom": "(1) A gondnokság alá helyezést a bíróságtól\n\na) a nagykorú együtt élő házastársa, élettársa, egyenesági rokona, testvére;\n\nb) a kiskorú törvényes képviselője;\n\nc) a gyámhatóság; és\n\nd) az ügyész\nkérheti.\n(2) Ha a gondnokság alá helyezés szükségességéről a gyámhatóság tudomást szerez, a gondnokság alá helyezési eljárást meg kell indítania, ha ezt az (1) bekezdés a) és b) pontjában meghatározott személyek a gyámhatóságnak a keresetindítás szükségességéről való tájékoztatását követő hatvan napon belül nem teszik meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:29. §",
+          "cim": "A gondnokság alá helyezés kötelező felülvizsgálata",
+          "tartalom": "(1) A bíróságnak a cselekvőképesség korlátozását elrendelő, azt fenntartó vagy módosító ítéletében rendelkeznie kell a gondnokság alá helyezés kötelező felülvizsgálata iránti eljárás megindításának időpontjáról, amely\n\na) a cselekvőképesség részleges korlátozása esetén nem lehet későbbi, mint az ítélet jogerőre emelkedésétől számított öt év;\n\nb) a cselekvőképesség teljes korlátozása esetén nem lehet későbbi, mint az ítélet jogerőre emelkedésétől számított tíz év.\n(2) A felülvizsgálati eljárást a gyámhatóságnak hivatalból kell megindítania. A kereseti kérelem a cselekvőképességet részlegesen vagy teljesen korlátozó gondnokság alá helyezés megszüntetésére, annak hatályában való fenntartására, a cselekvőképességet részlegesen korlátozó gondnokság cselekvőképességet teljesen korlátozó gondnokságra változtatására, a cselekvőképességet teljesen korlátozó gondnokság cselekvőképességet részlegesen korlátozó gondnokság alá helyezésre történő módosítására, vagy cselekvőképességet részlegesen korlátozó gondnokság esetén a korlátozással érintett ügycsoportok módosítására irányulhat.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:30. §",
+          "cim": "A gondnokság alá helyezés megszüntetése vagy módosítása",
+          "tartalom": "(1) A cselekvőképességet érintő gondnokságot a bíróság megszünteti, ha elrendelésének oka már nem áll fenn.\n(2) A gondnokság alá helyezés megszüntetését a bíróságtól\n\na) a gondnokolt;\n\nb) a gondnokolt együtt élő házastársa, élettársa, egyenesági rokona, testvére;\n\nc) a gondnok;\n\nd) a gyámhatóság; vagy\n\ne) az ügyész\nkérheti.\n(3) A (2) bekezdésben felsoroltak a gondnokság alá helyezés módosítását is kérhetik. Ennek keretében kérhetik a cselekvőképességet részlegesen korlátozó gondnokság cselekvőképességet teljesen korlátozó gondnokságra változtatását, a cselekvőképességet teljesen korlátozó gondnokság cselekvőképességet részlegesen korlátozó gondnokság alá helyezésre történő módosítását vagy a cselekvőképességet részlegesen korlátozó gondnokság esetén a gondnokolt által önállóan nem gyakorolható ügycsoportok módosítását.\n(4) A gondnokság alá helyezés megszüntetésére vagy módosítására irányuló per megindításának a gondnokság alá helyezés kötelező felülvizsgálatának időpontját megelőzően is helye van.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "VIII.",
+      "megnevezes": "A GONDNOKRENDELÉS; A GONDNOK JOGAI ÉS KÖTELEZETTSÉGEI",
+      "szakaszok": [
+        {
+          "szakasz": "2:31. §",
+          "cim": "A gondnokrendelés",
+          "tartalom": "(1) A bíróság által gondnokság alá helyezett személy részére a gondnokot a gyámhatóság rendeli ki. Gondnok lehet minden cselekvőképes személy, aki a gondnoki tisztséget vállalja.\n(2) Nem lehet gondnokul rendelni azt,\n\na) akit a gondnokság alá helyezett személy előzetes jognyilatkozatában kizárt a gondnokul jelölhető személyek közül vagy akinek személye ellen egyéb módon kifejezetten tiltakozik; vagy\n\nb) akinek gondnokul rendelése a gondnokság alá helyezett személy érdekeivel ellentétes.\n(3) Gondnokul – ha ez az érdekeivel kifejezetten nem ellentétes – a gondnokság alá helyezett személy által az előzetes jognyilatkozatában megjelölt vagy a gondnok kirendelése iránti eljárásban az érintett által megnevezett személyt kell kirendelni. Ha ez nem lehetséges, elsősorban a gondnokság alá helyezett személlyel együtt élő házastársat, élettársat kell gondnokul kirendelni. Ha az érintettnek nincs ilyen hozzátartozója, vagy a házastárs, az élettárs kirendelése veszélyeztetné a gondnokság alá helyezett személy érdekeit, a gyámhatóság gondnokul olyan személyt rendel ki, aki a gondnokság ellátására az összes körülmény figyelembevételével alkalmas.\n(4) A gondnok rendelésénél az arra alkalmas személyek közül előnyben kell részesíteni a szülőket vagy a szülők által a haláluk esetére közokiratban vagy végrendeletben megnevezett személyt, ilyenek hiányában azokat a hozzátartozókat, akik szükség esetén a személyes gondoskodást is el tudják látni.\n(5) Ha a gondnok a (3)–(4) bekezdésben foglaltak alapján nem rendelhető ki, a gondnokság alá helyezett személy számára hivatásos gondnokot kell rendelni. Hivatásos gondnok az a büntetlen előéletű személy lehet, aki a hivatásos gondnokra vonatkozó képesítési előírásoknak megfelel. Hivatásos gondnokul mentális zavarban szenvedő személyekkel foglalkozó jogi személy is kirendelhető; a jogi személy köteles megjelölni azt a személyt, aki a gondnoki teendőket személyében ellátja. A kijelölt személynek meg kell felelnie a hivatásos gondnokra vonatkozó képesítési előírásoknak.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:32. §",
+          "cim": "Többes és helyettes gondnokrendelés",
+          "tartalom": "(1) A gondnokság alá helyezett személy részére kivételesen több gondnok is rendelhető. Többes gondnokrendelésre kerülhet sor, ha\n\na) a gondnokság alá helyezett személy mindkét szülője vagy két közeli hozzátartozója vállalja a gondnokságot; vagy\n\nb) a gondnokság alá helyezett személy vagyonának vagy vagyona meghatározott részének kezelése vagy egyes más ügyeinek intézése külön szakértelmet igényel.\n(2) Az (1) bekezdés a) pontja szerinti esetben a gyámhatóság a gondnokok közös kérelmére meghatározza a feladatkörük megosztását. Ennek hiányában a gondnokok jogköre azonos; együttesen és önállóan is eljárhatnak.\n(3) Az (1) bekezdés b) pontja szerinti esetben a gyámhatóság meghatározza a gondnokok feladatkörének megosztását.\n(4) A távol levő vagy más okból akadályozott gondnok mellé a gyámhatóság a gondnokolt részére szükség szerint helyettes gondnokot is rendelhet. A helyettes gondnok az azonnali intézkedést igénylő ügyekben járhat el.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:33. §",
+          "cim": "A gondnoki tisztség megszűnése",
+          "tartalom": "(1) A gyámhatóság a gondnokot a tisztségéből felmenti, ha\n\na) a gondnokság alá helyezést a bíróság megszüntette;\n\nb) a gondnokolt meghalt;\n\nc) a gondnok fontos okból a felmentését kéri; vagy\n\nd) utóbb keletkezik olyan kizáró ok, amely a gondnok kirendelésének akadályát jelentette volna.\n(2) A gyámhatóság a gondnokot a tisztségéből elmozdítja, ha a gondnok\n\na) a kötelezettségét nem teljesíti;\n\nb) nem az előzetes jognyilatkozatban foglaltak szerint jár el; vagy\n\nc) egyéb olyan cselekményt követ el, amellyel a gondnokolt érdekeit súlyosan sérti vagy veszélyezteti.\n(3) Azonnali intézkedést igénylő esetben a gyámhatóság a gondnokot az elmozdítást megelőzően a tisztségéből felfüggeszti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:34. §",
+          "cim": "A gondnok tevékenysége",
+          "tartalom": "(1) A gondnok a cselekvőképesség teljes korlátozása esetén vagy azon ügycsoportok tekintetében, amelyekben a bíróság a cselekvőképességet részlegesen korlátozta, a gondnokolt törvényes képviselője.\n(2) A gondnok a gondnokolt vagyonának kezelésére akkor jogosult, ha a bíróság az érintett személy cselekvőképességét teljesen vagy a jövedelméről vagy a vagyonáról való rendelkezésben korlátozta.\n(3) A gondnok indokolt esetben – vállalása szerint – a gondnokolt gondozását is ellátja.\n(4) Ha a gondnokolt előzetes jognyilatkozatában meghatározta, hogy a cselekvőképességének korlátozása esetén a gondnoka egyes személyes és vagyoni ügyeiben miként járjon el, a gondnoknak a feladatait ennek figyelembevételével kell ellátnia.\n(5) Ha a gondnok a jogkörét túllépve jár el, jognyilatkozata harmadik személlyel szemben hatályos, de köteles a gondnokoltnak okozott kárt a szerződésen kívül okozott károkért való felelősség szabályai szerint megtéríteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:35. §",
+          "cim": "A gondnok vagyonkezelése",
+          "tartalom": "(1) A gondnok vagyonkezelésének a gondnokolt érdekeit kell szolgálnia.\n(2) A cselekvőképesség teljes vagy a vagyoni ügyekre vonatkozó részleges korlátozása esetén a gondnok a gyámhatóság felhívására köteles a gondnokolt vagyontárgyait a gyámhatóságnak átadni, ha azokat a folyó kiadásokra nem kell készen tartania. A gyámhatóságnak átadott vagyonnal való rendelkezéshez a gyámhatóság jóváhagyása szükséges.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:36. §",
+          "cim": "A gondnok tevékenységének felügyelete",
+          "tartalom": "(1) A gondnok tevékenységét a gyámhatóság felügyeli.\n(2) A gondnok a működéséről és a gondnokolt állapotáról a gyámhatóság felhívására bármikor, egyébként az éves számadással együtt köteles beszámolni a gyámhatóságnak.\n(3) A gondnokolt jogosult a gondnok működéséről és a gondnokolt vagyonáról vezetett nyilvántartásokba betekinteni, és azokról másolatot készíteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:37. §",
+          "cim": "Számadás a gondnok vagyonkezeléséről",
+          "tartalom": "(1) A gondnok a vagyon kezeléséről évente köteles számadást készíteni a gyámhatóságnak. Ha a gondnok a gondnokolt közeli hozzátartozója, a gyámhatóság a rendes számadási kötelezettség alól felmentést adhat, és egyszerűsített számadást engedélyezhet.\n(2) A hivatásos gondnok kivételével nem köteles a gondnok rendes vagy egyszerűsített éves számadásra, ha a gondnokoltnak nincs vagyona, és jövedelme nem haladja meg a jogszabályban meghatározott mértéket.\n(3) A gyámhatóság a gondnokot indokolt esetben eseti számadásra kötelezheti. Eseti számadás előírásának a gondnokolt kérésére is helye lehet.\n(4) A gondnok a tisztségének megszűnését követő tizenöt napon belül köteles a gyámhatóságnak az általa kezelt vagyonról végszámadást előterjeszteni. Ha a gondnoki tisztség azért szűnik meg, mert a bíróság a gondnokság alá helyezést vagy a vagyoni ügyek tekintetében a cselekvőképesség korlátozását megszüntette, a gondnok annak tartozik végszámadással, aki a továbbiakban a vagyon felett rendelkezni jogosult.\n(5) A gondnokkal szemben számadási kötelezettsége alapján támasztható követelések a gondnokot a vagyonkezelés alól felmentő határozat közlésétől számított egy év alatt évülnek el. Ha a követelés alapjául szolgáló ok később jutott az érdekelt tudomására, a határidőt a tudomásszerzéstől kell számítani, ha a követelés még nem évült el.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "IX.",
+      "megnevezes": "A CSELEKVŐKÉPESSÉGET NEM ÉRINTŐ TÁMOGATOTT DÖNTÉSHOZATAL",
+      "szakaszok": [
+        {
+          "szakasz": "2:38. §",
+          "cim": "A támogató kirendelése",
+          "tartalom": "(1) A gyámhatóság az egyes ügyei intézésében, döntései meghozatalában belátási képességének kisebb mértékű csökkenése miatt segítségre szoruló nagykorú számára, annak kérelmére – cselekvőképessége korlátozásának elkerülése érdekében – támogató kirendeléséről határoz.\n(2) Ha a cselekvőképességet érintő gondnokság alá helyezési perben a bíróság úgy ítéli meg, hogy a cselekvőképesség részleges korlátozása sem indokolt, de az érintett személy meghatározott ügyei intézésében belátási képességének kisebb mértékű csökkenése miatt segítségre szorul, a gondnokság alá helyezés iránti keresetet elutasítja, és határozatát közli a gyámhatósággal. A támogatót a bíróság határozata alapján az érintettel egyetértésben a gyámhatóság rendeli ki.\n(3) A támogató kirendelése a nagykorú cselekvőképességét nem érinti.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "X.",
+      "megnevezes": "RENDELKEZÉS A CSELEKVŐKÉPESSÉG JÖVŐBELI KORLÁTOZÁSA ESETÉRE",
+      "szakaszok": [
+        {
+          "szakasz": "2:39. §",
+          "cim": "Az előzetes jognyilatkozat",
+          "tartalom": "(1) Nagykorú cselekvőképes személy cselekvőképességének jövőbeli részleges vagy teljes korlátozása esetére közokiratban, ügyvéd által ellenjegyzett magánokiratban vagy gyámhatóság előtt személyesen előzetes jognyilatkozatot tehet.\n(2) A nyilatkozatot tevő személy az előzetes jognyilatkozatban\n\na) megnevezheti azt az egy vagy több személyt, akit gondnokául rendelni javasol;\n\nb) kizárhat egy vagy több személyt a gondnokok köréből; és\n\nc) meghatározhatja, hogy egyes személyes és vagyoni ügyeiben a gondnok milyen módon járjon el.\n(3) Az előzetes jognyilatkozatot be kell jegyezni az előzetes jognyilatkozatok nyilvántartásába. Az előzetes jognyilatkozat nyilvántartásba való bejegyzésének elmaradása az előzetes jognyilatkozat érvényességét nem érinti.\n(4) Az előzetes jognyilatkozat megtételére vonatkozó rendelkezéseket a jognyilatkozat módosítására és visszavonására megfelelően alkalmazni kell. A visszavont előzetes jognyilatkozatot a nyilvántartásból törölni kell.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:40. §",
+          "cim": "Az előzetes jognyilatkozat hatályossá válása",
+          "tartalom": "(1) A bíróság a cselekvőképességet érintő gondnokság alá helyező határozatában elrendeli az előzetes jognyilatkozat alkalmazását, kivéve, ha\n\na) az előzetes jognyilatkozatban foglaltak teljesítése a gondnokság alá helyezett személy érdekeivel kifejezetten ellentétes; vagy\n\nb) a nagykorú személy által gondnokként megnevezett személy az előzetes jognyilatkozatban foglaltak teljesítését nem vállalja, vagy vele szemben jogszabályban meghatározott kizáró ok áll fenn.\n(2) Ha az előzetes jognyilatkozat több rendelkezése közül valamelyik nem alkalmazható, ez a többi rendelkezés alkalmazását nem érinti.\n(3) A gyámhatóság a gondnok kirendelése és tevékenységének meghatározása során az előzetes jognyilatkozatban foglaltak figyelembevételével jár el.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:41. §",
+          "cim": "Az előzetes jognyilatkozat felülvizsgálata",
+          "tartalom": "Ha a körülmények az előzetes jognyilatkozatot tevő személy cselekvőképességének korlátozását követően úgy változtak meg, hogy az előzetes jognyilatkozatban foglaltak teljesítése a gondnokolt érdekével ellentétes lenne, a bíróságtól a rendelkezés alkalmazásának mellőzését a gondnokolt, a gondnok, a gyámhatóság és az ügyész kérheti.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XI.",
+      "megnevezes": "ÁLTALÁNOS SZABÁLYOK ÉS EGYES SZEMÉLYISÉGI JOGOK",
+      "szakaszok": [
+        {
+          "szakasz": "2:42. §",
+          "cim": "A személyiségi jogok általános védelme",
+          "tartalom": "(1) Mindenkinek joga van ahhoz, hogy törvény és mások jogainak korlátai között személyiségét, így különösen a magán- és családi élet, az otthon, a másokkal való – bármilyen módon, illetve eszközzel történő – kapcsolattartás és a jóhírnév tiszteletben tartásához való jogát szabadon érvényesíthesse, és hogy abban őt senki ne gátolja.\n(2) Az emberi méltóságot és az abból fakadó személyiségi jogokat mindenki köteles tiszteletben tartani. A személyiségi jogok e törvény védelme alatt állnak.\n(3) Nem sért személyiségi jogot az a magatartás, amelyhez az érintett hozzájárult.",
+          "footnote": [
+            "1 Megállapította: 2016. évi LXXVII. törvény 1. §. Hatályos: 2016. VII. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §."
+          ]
+        },
+        {
+          "szakasz": "2:43. §",
+          "cim": "Nevesített személyiségi jogok",
+          "tartalom": "A személyiségi jogok sérelmét jelenti különösen\n\na) az élet, a testi épség és az egészség megsértése;\n\nb) a személyes szabadság, a magánélet, a magánlakás megsértése;\n\nc) a személy hátrányos megkülönböztetése;\n\nd) a becsület és a jóhírnév megsértése;\n\ne) a magántitokhoz és a személyes adatok védelméhez való jog megsértése;\n\nf) a névviseléshez való jog megsértése;\n\ng) a képmáshoz és a hangfelvételhez való jog megsértése.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:44. §",
+          "cim": "Közéleti szereplő személyiségi jogának védelme",
+          "tartalom": "(1) A közügyek szabad vitatását biztosító alapjogok gyakorlása a közéleti szereplő személyiségi jogainak védelmét szükséges és arányos mértékben, az emberi méltóság sérelme nélkül korlátozhatja; azonban az nem járhat a magán- és családi életének, valamint otthonának sérelmével.\n(2) A közéleti szereplőt a közügyek szabad vitatásának körén kívül eső közléssel vagy magatartással szemben a nem közéleti szereplővel azonos védelem illeti meg.\n(3) Nem minősül közügynek a közéleti szereplő magán- vagy családi életével kapcsolatos tevékenység, illetve adat.",
+          "footnote": [
+            "1 Megállapította: 2018. évi LIII. törvény 16. §. Hatályos: 2018. VIII. 1-től."
+          ]
+        },
+        {
+          "szakasz": "2:45. §",
+          "cim": "A becsülethez és jóhírnévhez való jog",
+          "tartalom": "(1) A becsület megsértését jelenti különösen a más személy társadalmi megítélésének hátrányos befolyásolására alkalmas, kifejezésmódjában indokolatlanul bántó véleménynyilvánítás.\n(2) A jóhírnév megsértését jelenti különösen, ha valaki más személyre vonatkozó és e személyt sértő, valótlan tényt állít vagy híresztel, vagy valós tényt hamis színben tüntet fel.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:46. §",
+          "cim": "A magántitokhoz való jog",
+          "tartalom": "(1) A magántitok védelme kiterjed különösen a levéltitok és hivatásbeli titok oltalmára.\n(2) A magántitok megsértését jelenti különösen a magántitok jogosulatlan megszerzése és felhasználása, nyilvánosságra hozatala vagy illetéktelen személlyel való közlése.",
+          "footnote": [
+            "2 Módosította: 2018. évi LIV. törvény 35. § (1) a)."
+          ]
+        },
+        {
+          "szakasz": "2:47. §",
+          "cim": "",
+          "tartalom": "",
+          "footnote": [
+            "3 Hatályon kívül helyezte: 2018. évi LIV. törvény 35. § (2). Hatálytalan: 2018. VIII. 8-tól."
+          ]
+        },
+        {
+          "szakasz": "2:48. §",
+          "cim": "A képmáshoz és a hangfelvételhez való jog",
+          "tartalom": "(1) Képmás vagy hangfelvétel elkészítéséhez és felhasználásához az érintett személy hozzájárulása szükséges.\n(2) Nincs szükség az érintett hozzájárulására a felvétel elkészítéséhez és az elkészített felvétel felhasználásához tömegfelvétel és nyilvános közéleti szereplésről készült felvétel esetén.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:49. §",
+          "cim": "Névviseléshez való jog",
+          "tartalom": "(1) Irodalmi, művészeti, tudományos vagy közéleti szerepléssel járó tevékenységet felvett névvel is lehet folytatni, ha ez nem jár mások lényes jogi érdekének sérelmével.\n(2) Ha az irodalmi, művészeti, tudományos vagy közéleti szerepléssel járó tevékenységet folytató személy neve összetéveszthető a már korábban is hasonló tevékenységet folytató személy nevével, az érintett személy kérelmére a név – e tevékenység gyakorlása során – megkülönböztető toldással vagy elhagyással használható.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:50. §",
+          "cim": "Kegyeleti jog",
+          "tartalom": "(1) Meghalt ember emlékének megsértése miatt bírósághoz fordulhat a hozzátartozó vagy az, akit az elhunyt végrendeleti juttatásban részesített.\n(2) A kegyeleti jogsértéssel elért vagyoni előny átengedését bármelyik örökös kérheti. Több örökös esetén az elvont vagyoni előny az örökösöket a hagyatékból való részesedésük arányában illeti meg.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XII.",
+      "megnevezes": "A SZEMÉLYISÉGI JOGOK MEGSÉRTÉSÉNEK SZANKCIÓI",
+      "szakaszok": [
+        {
+          "szakasz": "2:51. §",
+          "cim": "Felróhatóságtól független szankciók",
+          "tartalom": "(1) Akit személyiségi jogában megsértenek, a jogsértés ténye alapján – az elévülési időn belül – az eset körülményeihez képest követelheti\n\na) a jogsértés megtörténtének bírósági megállapítását;\n\nb) a jogsértés abbahagyását és a jogsértő eltiltását a további jogsértéstől;\n\nc) azt, hogy a jogsértő adjon megfelelő elégtételt, és ennek biztosítson saját költségén megfelelő nyilvánosságot;\n\nd) a sérelmes helyzet megszüntetését, a jogsértést megelőző állapot helyreállítását és a jogsértéssel előállított dolog megsemmisítését vagy jogsértő mivoltától való megfosztását;\n\ne) azt, hogy a jogsértő vagy jogutódja a jogsértéssel elért vagyoni előnyt engedje át javára a jogalap nélküli gazdagodás szabályai szerint.\n(2) Ha közigazgatási jogkörben eljáró személy sért személyiségi jogot, az (1) bekezdésben foglalt szankciókat a közhatalmi jogkört gyakorló jogi személlyel szemben kell érvényesíteni. Ha a közhatalmi jogkör gyakorlója nem jogi személy, a szankciókat azzal a jogi személyiséggel rendelkező közigazgatási szervvel szemben kell érvényesíteni, amelynek keretében az eljárt közigazgatási szerv működik.\n(3) Ha bírósági vagy ügyészségi jogkörben eljáró személy sért személyiségi jogot, az (1) bekezdésben foglalt szankciókat bírósági jogkörben eljárt személy esetén a bírósággal, ügyészségi jogkörben eljárt személy esetén a Legfőbb Ügyészséggel szemben kell érvényesíteni. Ha az eljárt bíróság nem jogi személy, az igényt azzal a bírósággal szemben kell érvényesíteni, amelynek elnöke a nem jogi személy bíróság bírái tekintetében az általános munkáltatói jogkört gyakorolja.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 184. § szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "2:52. §",
+          "cim": "Sérelemdíj",
+          "tartalom": "(1) Akit személyiségi jogában megsértenek, sérelemdíjat követelhet az őt ért nem vagyoni sérelemért.\n(2) A sérelemdíj fizetésére kötelezés feltételeire – különösen a sérelemdíjra köteles személy meghatározására és a kimentés módjára – a kártérítési felelősség szabályait kell alkalmazni, azzal, hogy a sérelemdíjra való jogosultsághoz a jogsértés tényén kívül további hátrány bekövetkeztének bizonyítása nem szükséges.\n(3) A sérelemdíj mértékét a bíróság az eset körülményeire – különösen a jogsértés súlyára, ismétlődő jellegére, a felróhatóság mértékére, a jogsértésnek a sértettre és környezetére gyakorolt hatására – tekintettel, egy összegben határozza meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:53. §",
+          "cim": "Kártérítési felelősség",
+          "tartalom": "Aki személyiségi jogainak megsértéséből eredően kárt szenved, a jogellenesen okozott károkért való felelősség szabályai szerint követelheti a jogsértőtől kárának megtérítését.",
+          "footnote": []
+        },
+        {
+          "szakasz": "2:54. §",
+          "cim": "A személyiségi jogok érvényesítése",
+          "tartalom": "(1) A személyiségi jogokat személyesen lehet érvényesíteni.\n(2) A korlátozottan cselekvőképes kiskorú és a cselekvőképességében részlegesen korlátozott személy a személyiségi jogai védelmében önállóan felléphet. A cselekvőképtelen személyiségi jogainak védelmében törvényes képviselője léphet fel.\n(3) Az ismeretlen helyen távollévő személyiségi jogának védelmében a hozzátartozója vagy gondnoka léphet fel.\n(4) Ha a személyiségi jog megsértése közérdekbe ütközik, a jogosult hozzájárulásával az ügyész keresetet indíthat, és érvényesítheti a jogsértés felróhatóságtól független szankcióit. Az ügyész keresete alapján a jogsértéssel elért vagyoni előnyt közérdekű célra kell átengedni. E bekezdést az (5) bekezdésben foglalt jogsértés esetén azzal az eltéréssel kell alkalmazni, hogy az ügyész a jogosult hozzájárulása nélkül is – az elévülési időn belül – keresetet indíthat.\n(5) A közösség bármely tagja jogosult a személyisége lényeges vonásának minősülő, a magyar nemzethez, illetve valamely nemzeti, etnikai, faji vagy vallási közösséghez tartozásával összefüggésben a közösséget nagy nyilvánosság előtt súlyosan sértő vagy kifejezésmódjában indokolatlanul bántó jogsérelem esetén a jogsértés megtörténtétől számított harmincnapos jogvesztő határidőn belül személyiségi jogát érvényesíteni. A közösség bármely tagja a jogsértéssel elért vagyoni előny átengedésének kivételével a személyiségi jogok megsértésének valamennyi szankcióját érvényesítheti.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XIII.",
+      "megnevezes": "SZERZŐI JOG ÉS IPARJOGVÉDELEM",
+      "szakaszok": [
+        {
+          "szakasz": "2:55. §",
+          "cim": "Kisegítő alkalmazás",
+          "tartalom": "E törvényt kell alkalmazni a hatálya alá tartozó olyan kérdésekben, amelyeket a szerzői jogról és az iparjogvédelemről, valamint az üzleti titok védelméről rendelkező törvények nem szabályoznak.",
+          "footnote": [
+            "1 Módosította: 2018. évi LIV. törvény 35. § (1) b)."
+          ]
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "I.",
+      "megnevezes": "ÁLTALÁNOS RENDELKEZÉSEK",
+      "szakaszok": [
+        {
+          "szakasz": "3:1. §",
+          "cim": "A jogi személy jogképessége",
+          "tartalom": "(1) A jogi személy jogképes: jogai és kötelezettségei lehetnek.\n(2) A jogi személy jogképessége kiterjed minden olyan jogra és kötelezettségre, amely jellegénél fogva nem csupán az emberhez fűződhet.\n(3) A jogi személy személyhez fűződő jogaira a személyiségi jogokra vonatkozó szabályokat kell alkalmazni, kivéve, ha a védelem jellegénél fogva csupán az embert illetheti meg.\n(4) A jogi személy törvényben meghatározott típusban, törvény által nem tiltott tevékenység folytatására és cél elérése érdekében alapítható és működtethető.\n(5) A jogi személynek saját névvel, székhellyel, tagjaitól, illetve alapítójától elkülönített vagyonnal, valamint az ügyvezetését és képviseletét ellátó szervezettel kell rendelkeznie.",
+          "footnote": [
+            "1 Módosította: 2021. évi XCV. törvény 47. § 1."
+          ]
+        },
+        {
+          "szakasz": "3:2. §",
+          "cim": "Helytállás a jogi személy tartozásaiért",
+          "tartalom": "(1) A jogi személy kötelezettségeiért saját vagyonával köteles helytállni; a jogi személy tagjai és alapítója a jogi személy tartozásaiért nem felelnek.\n(2) Ha a jogi személy tagja vagy alapítója korlátolt felelősségével visszaélt, és emiatt a jogi személy jogutód nélküli megszűnésekor kielégítetlen hitelezői követelések maradtak fenn, e tartozásokért a tag vagy az alapító korlátlanul köteles helytállni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:3. §",
+          "cim": "A jogi személyek általános szabályainak alkalmazása",
+          "tartalom": "(1) A jogi személy általános szabályait kell alkalmazni, ha e törvény az egyes jogi személy típusokkal kapcsolatban eltérően nem rendelkezik.\n(2) A jogi személy általános szabályait megfelelően alkalmazni kell az e törvényben nem szabályozott típusú jogi személyre.\n(3) Ha jogszabály nem jogi személy szervezeteket polgári jogi jogalanyisággal ruház fel, e jogalanyokra a jogi személyek általános szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "II.",
+      "megnevezes": "A JOGI SZEMÉLY LÉTESÍTÉSE",
+      "szakaszok": [
+        {
+          "szakasz": "3:4. §",
+          "cim": "A jogi személy létrehozásának szabadsága",
+          "tartalom": "(1) A jogi személy létrehozásáról a személyek szerződésben, alapító okiratban vagy alapszabályban (a továbbiakban együtt: létesítő okirat) szabadon rendelkezhetnek, a jogi személy szervezetét és működési szabályait maguk állapíthatják meg.\n(2) A jogi személy tagjai, illetve alapítói az egymás közötti és a jogi személyhez fűződő viszonyuk, valamint a jogi személy szervezetének és működésének szabályozása során a létesítő okiratban – a (3) bekezdésben foglaltak kivételével – eltérhetnek e törvénynek a jogi személyekre vonatkozó szabályaitól.\n(3) A jogi személy tagjai, illetve alapítói nem térhetnek el az e törvényben foglaltaktól, ha\n\na) az eltérést e törvény tiltja; vagy\n\nb) az eltérés a jogi személy hitelezőinek, munkavállalóinak vagy a tagok kisebbségének jogait nyilvánvalóan sérti, vagy a jogi személyek törvényes működése feletti felügyelet érvényesülését akadályozza.\n(4) A jogi személy a jogi személy típusnak megfelelő létesítő okiratán alapuló bírósági nyilvántartásba vétellel jön létre. A jogi személy nyilvántartásba való bejegyzését a nyilvántartó bíróság jogszabályban meghatározott okból tagadhatja meg.\n(5) A jogi személy határozott vagy határozatlan időre jöhet létre. Ha a létesítő okirat a jogi személy fennállásának időtartamáról nem rendelkezik, a jogi személy határozatlan időre jön létre.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:5. §",
+          "cim": "A létesítő okirat tartalma",
+          "tartalom": "A jogi személy létesítő okiratában a jogi személy létesítésére irányuló akarat kifejezésén túl meg kell határozni\n\na) a jogi személy nevét;\n\nb) a jogi személy székhelyét;\n\nc) a jogi személy célját vagy fő tevékenységét;\n\nd) a jogi személyt létesítő személy vagy személyek nevét, valamint azok lakóhelyét vagy székhelyét;\n\ne) a jogi személy részére teljesítendő vagyoni hozzájárulásokat, azok értékét, továbbá a vagyon rendelkezésre bocsátásának módját és idejét; és\n\nf) a jogi személy első vezető tisztségviselőjét.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:6. §",
+          "cim": "A jogi személy neve",
+          "tartalom": "(1) A jogi személy nevének olyan mértékben kell különböznie a korábban nyilvántartásba vett más jogi személy elnevezésétől, hogy azzal ne legyen összetéveszthető. Ha több jogi személy nyilvántartásba vételét kérik azonos vagy összetéveszthető név alatt, a név viselésének joga azt illeti meg, aki kérelmét elsőként nyújtotta be.\n(2) A jogi személy neve nem kelthet a valósággal ellentétes látszatot. A jogi személy típusára vagy formájára vonatkozó elnevezést a jogi személy nevében fel kell tüntetni.\n(3) A jogi személy nevében a jogi személy típusát, ha a név a jogi személy tevékenységét is tartalmazza, akkor a tevékenységet is magyar nyelven, a magyar helyesírás követelményeinek megfelelően kell feltüntetni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:7. §",
+          "cim": "A jogi személy székhelye",
+          "tartalom": "A jogi személy székhelye a jogi személy bejegyzett irodája, ahol a jogi személynek biztosítania kell a részére címzett jognyilatkozatok fogadását és a jogi személy jogszabályban meghatározott iratainak elérhetőségét.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:8. §",
+          "cim": "A jogi személy tevékenysége",
+          "tartalom": "A jogi személy minden olyan tevékenységet folytathat, amelyet jogszabály nem tilt vagy nem korlátoz.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:9. §",
+          "cim": "A vagyoni hozzájárulás kötelezettsége",
+          "tartalom": "(1) A jogi személy alapítója vagy tagja a jogi személy alapításakor vagy a tagsági jogok keletkezésének más eseteiben köteles a jogi személy részére vagyoni hozzájárulást teljesíteni. A jogi személy részére teljesített vagyoni hozzájárulást vagy annak értékét nem lehet visszakövetelni.\n(2) Ha a jogi személy alapítója vagy tagja nem köteles vagyoni hozzájárulást teljesíteni, a jogi személy tartozásaiért a jogi személy tagja, tagság nélküli jogi személy esetén az alapítói jogok gyakorlója köteles helytállni. Ha a helytállási kötelezettség több személyt terhel, kötelezettségük egyetemleges.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:10. §",
+          "cim": "A vagyoni hozzájárulás tárgya és mértéke",
+          "tartalom": "(1) Az alapító vagy a tag által a jogi személy rendelkezésére bocsátott vagyon pénzből és nem pénzbeli vagyoni hozzájárulásból állhat.\n(2) Nem pénzbeli vagyoni hozzájárulásként az alapító vagy a tag dolog tulajdonjogát vagy vagyoni értékű jogot ruházhat át a jogi személyre.\n(3) Ha a nem pénzbeli vagyoni hozzájárulás átruházáskor fennálló értéke nem éri el a létesítő okiratban megjelölt értéket, a különbözet megfizetését a jogi személy az átruházástól számított öt éven belül követelheti a nem pénzbeli vagyoni hozzájárulást szolgáltató személytől.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:11. §",
+          "cim": "Tagsági jogokról értékpapír kibocsátásának tilalma",
+          "tartalom": "A részvénytársaság kivételével tagsági jogokról nem lehet értékpapírt kibocsátani.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:12. §",
+          "cim": "A nyilvántartásba vételi kérelem benyújtása",
+          "tartalom": "(1) A létesítendő jogi személy nyilvántartásba való bejegyzése iránti kérelmének benyújtására a jogi személy képviseletére kijelölt személy köteles.\n(2) A kérelem benyújtásának elmulasztásából vagy késedelméből, valamint a hiányos vagy hibás bejelentésből eredő károkért a képviselő az alapítókkal szemben a szerződésszegéssel okozott károkért való felelősség szabályai szerint felel.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:13. §",
+          "cim": "A jogi személyek nyilvántartásának alapelvei",
+          "tartalom": "(1) A nyilvántartásba jogot, tényt vagy adatot bejegyezni jogszabályban meghatározott okirat vagy bírósági, hatósági határozat alapján lehet.\n(2) A nyilvántartás közhiteles: vélelmezni kell, hogy a nyilvántartott jogok, tények és adatok (a továbbiakban együtt: nyilvántartott adatok) fennállnak és valósak. Senki sem hivatkozhat arra, hogy nyilvántartott adatról nem tudott. A jogi személy jóhiszemű személyekkel szemben nem hivatkozhat arra, hogy valamely általa bejelentett nyilvántartott adat nem felel meg a valóságnak. Az ellenkező bizonyításáig vélelmezni kell annak jóhiszeműségét, aki a nyilvántartásban bízva, ellenérték fejében szerez jogot.\n(3) A nyilvántartásba bárki betekinthet, a nyilvántartott adatról feljegyzést készíthet, valamint hiteles másolatot vagy kivonatot kérhet.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:14. §",
+          "cim": "A jognyilatkozatok közzététele",
+          "tartalom": "Ha e törvény jogi személyre vonatkozó szabálya közzétételi kötelezettséget ír elő, e kötelezettségnek – ha e törvény eltérően nem rendelkezik – a Cégközlönyben történő közzététel útján kell eleget tenni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:15. §",
+          "cim": "A jogi személy létesítésének érvénytelensége",
+          "tartalom": "(1) A jogi személy létesítő okiratának érvénytelenségére a jogi személynek a nyilvántartásba való bejegyzését elrendelő határozat jogerőre emelkedéséig a szerződések érvénytelenségének szabályait kell megfelelően alkalmazni.\n(2) A jogi személynek a nyilvántartásba való jogerős bejegyzését követően a jogi személy létesítő okiratának érvénytelenségére nem lehet hivatkozni a nyilvántartásból való törlés érdekében. Ha a létesítő okirat valamely rendelkezése jogszabályba ütközik, a törvényes működés biztosítására szolgáló eszközöket igénybe lehet venni.\n(3) Az (1) és a (2) bekezdés rendelkezéseit a létesítő okirat módosítása esetén megfelelően alkalmazni kell.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "III.",
+      "megnevezes": "A JOGI SZEMÉLY SZERVEZETE ÉS KÉPVISELETE",
+      "szakaszok": [
+        {
+          "szakasz": "3:16. §",
+          "cim": "A döntéshozó szerv",
+          "tartalom": "(1) A tagok vagy az alapítók az e törvény vagy a létesítő okirat alapján őket megillető döntési jogköröket a tagok összességéből vagy a tagok által maguk közül választott küldöttekből álló testületben (a továbbiakban: küldöttgyűlés), vagy az alapítói jogokat gyakorló személyek összességéből álló testületben gyakorolják.\n(2) A döntéshozó szerv a döntéseit ülés tartásával vagy ülés tartása nélkül hozza.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:17. §",
+          "cim": "A döntéshozó szerv ülésének összehívása",
+          "tartalom": "(1) A döntéshozó szerv ülését a vezető tisztségviselő meghívó küldésével vagy közzétételével hívja össze.\n(2) A meghívónak tartalmaznia kell\n\na) a jogi személy nevét és székhelyét;\n\nb) az ülés idejének és helyszínének megjelölését;\n\nc) az ülés napirendjét.\n(3) A napirendet a meghívóban olyan részletességgel kell feltüntetni, hogy a szavazásra jogosultak a tárgyalni kívánt témakörökben álláspontjukat kialakíthassák.\n(4) A döntéshozó szerv az ülését a jogi személy székhelyén tartja.\n(5) Ha a döntéshozó szerv ülését nem szabályszerűen hívták össze, az ülést akkor lehet megtartani, ha az ülésen valamennyi részvételre jogosult jelen van, és egyhangúlag hozzájárul az ülés megtartásához.\n(6) A döntéshozó szerv ülésén a szabályszerűen közölt napirenden szereplő kérdésben hozható határozat, kivéve, ha valamennyi részvételre jogosult jelen van és a napirenden nem szereplő kérdés megtárgyalásához egyhangúlag hozzájárul.",
+          "footnote": [
+            "1 A veszélyhelyzet ideje alatt eltérő rendelkezéseket kell alkalmazni. Lásd: 502/2020. (XI. 16.) Korm. rendelet 4. § (1) a).",
+            "2 A veszélyhelyzet ideje alatt eltérő rendelkezéseket kell alkalmazni. Lásd: 2021. évi XCIX. törvény 16. § (2)."
+          ]
+        },
+        {
+          "szakasz": "3:18. §",
+          "cim": "Határozatképesség",
+          "tartalom": "(1) A döntéshozó szerv ülése akkor határozatképes, ha azon a leadható szavazatok több mint felét képviselő szavazásra jogosult részt vesz. A határozatképességet minden határozathozatalnál vizsgálni kell.\n(2) Ha egy tag vagy alapító valamely ügyben nem szavazhat, őt az adott határozat meghozatalánál a határozatképesség megállapítása során figyelmen kívül kell hagyni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:19. §",
+          "cim": "Határozathozatal",
+          "tartalom": "(1) A tagok vagy az alapítók a döntéshozó szerv ülésén szavazással hozzák meg határozataikat.\n(2) A határozat meghozatalakor nem szavazhat az,\n\na) akit a határozat kötelezettség vagy felelősség alól mentesít vagy a jogi személy terhére másfajta előnyben részesít;\n\nb) akivel a határozat szerint szerződést kell kötni;\n\nc) aki ellen a határozat alapján pert kell indítani;\n\nd) akinek olyan hozzátartozója érdekelt a döntésben, aki a jogi személynek nem tagja vagy alapítója;\n\ne) aki a döntésben érdekelt más szervezettel többségi befolyáson alapuló kapcsolatban áll; vagy\n\nf) aki egyébként személyesen érdekelt a döntésben.\n(3) A tagok vagy az alapítók határozatukat a határozatképesség megállapításánál figyelembe vett szavazatok többségével hozzák meg. Ha e törvény egyszerű vagy azt meghaladó szótöbbséget ír elő a határozat meghozatalához, a létesítő okirat egyszerű szótöbbségnél alacsonyabb határozathozatali arányt előíró rendelkezése semmis. Ha e törvény egyhangúságot ír elő a határozat meghozatalához, a létesítő okirat ettől eltérő rendelkezése semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:20. §",
+          "cim": "Határozathozatal ülés tartása nélkül",
+          "tartalom": "(1) Ha a létesítő okirat a határozathozatalt ülés tartása nélkül is lehetővé teszi, az ilyen határozathozatalt az ügyvezetés a határozat tervezetének a tagok vagy alapítók részére történő megküldésével kezdeményezi. A tagok vagy alapítók számára a tervezet kézhezvételétől számított legalább nyolcnapos határidőt kell biztosítani arra, hogy szavazatukat megküldjék az ügyvezetés részére.\n(2) Az ülés tartása nélküli döntéshozatal során e törvénynek a határozatképességre és szavazásra vonatkozó rendelkezéseit azzal az eltéréssel kell alkalmazni, hogy a határozathozatali eljárás akkor eredményes, ha legalább annyi szavazatot megküldenek az ügyvezetés részére, amennyi szavazati jogot képviselő tag vagy alapító jelenléte a határozatképességéhez szükséges lenne ülés tartása esetén.\n(3) Ha bármely tag vagy alapító az ülés megtartását kívánja, a döntéshozó szerv ülését az ügyvezetésnek össze kell hívnia.\n(4) A szavazásra megszabott határidő utolsó napját követő három napon belül – ha valamennyi tag vagy alapító szavazata ezt megelőzően érkezik meg, akkor az utolsó szavazat beérkezésének napjától számított három napon belül – az ügyvezetés megállapítja a szavazás eredményét, és azt további három napon belül közli a tagokkal vagy az alapítókkal. A határozathozatal napja a szavazási határidő utolsó napja, ha valamennyi szavazat korábban beérkezik, akkor az utolsó szavazat beérkezésének napja.",
+          "footnote": [
+            "1 A veszélyhelyzet ideje alatt eltérő rendelkezéseket kell alkalmazni. Lásd: 502/2020. (XI. 16.) Korm. rendelet 4. § (1) c) cb).",
+            "2 Módosította: 2021. évi XCV. törvény 46. § 1.",
+            "3 A veszélyhelyzet ideje alatt eltérő rendelkezéseket kell alkalmazni. Lásd: 502/2020. (XI. 16.) Korm. rendelet 4. § (1) c) cb)."
+          ]
+        },
+        {
+          "szakasz": "3:21. §",
+          "cim": "Az ügyvezetés fogalma és a vezető tisztségviselői megbízatás keletkezése",
+          "tartalom": "(1) A jogi személy irányításával kapcsolatos olyan döntések meghozatalára, amelyek nem tartoznak a tagok vagy az alapítók hatáskörébe, egy vagy több vezető tisztségviselő vagy a vezető tisztségviselőkből álló testület jogosult.\n(2) A vezető tisztségviselő ügyvezetési tevékenységét a jogi személy érdekének megfelelően köteles ellátni.\n(3) A jogi személy első vezető tisztségviselőit a jogi személy létesítő okiratában kell kijelölni. A jogi személy létrejöttét követően a vezető tisztségviselőket a jogi személy tagjai, tagság nélküli jogi személyek esetén a jogi személy alapítói választják meg, nevezik ki vagy hívják vissza. A vezető tisztségviselői megbízás a tisztségnek a kijelölt, megválasztott vagy kinevezett személy által történő elfogadásával jön létre.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:22. §",
+          "cim": "A vezető tisztségviselővel szembeni követelmények és kizáró okok",
+          "tartalom": "(1) Vezető tisztségviselő az a nagykorú személy lehet, akinek cselekvőképességét a tevékenysége ellátásához szükséges körben nem korlátozták.\n(2) Ha a vezető tisztségviselő jogi személy, a jogi személy köteles kijelölni azt a természetes személyt, aki a vezető tisztségviselői feladatokat nevében ellátja. A vezető tisztségviselőkre vonatkozó szabályokat a kijelölt személyre is alkalmazni kell.\n(3) A vezető tisztségviselő ügyvezetési feladatait személyesen köteles ellátni.\n(4) Nem lehet vezető tisztségviselő az, akit bűncselekmény elkövetése miatt jogerősen szabadságvesztés büntetésre ítéltek, amíg a büntetett előélethez fűződő hátrányos következmények alól nem mentesült.\n(5) Nem lehet vezető tisztségviselő az, akit e foglalkozástól jogerősen eltiltottak. Akit valamely foglalkozástól jogerős bírói ítélettel eltiltottak, az eltiltás hatálya alatt az ítéletben megjelölt tevékenységet folytató jogi személy vezető tisztségviselője nem lehet.\n(6) Az eltiltást kimondó határozatban megszabott időtartamig nem lehet vezető tisztségviselő az, akit eltiltottak a vezető tisztségviselői tevékenységtől.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:23. §",
+          "cim": "Titoktartási és felvilágosítási kötelezettség",
+          "tartalom": "(1) A vezető tisztségviselő a jogi személy tagjai, tagság nélküli jogi személy esetén a jogi személy alapítói részére köteles a jogi személyre vonatkozóan felvilágosítást adni, és számukra a jogi személyre vonatkozó iratokba és nyilvántartásokba betekintést biztosítani. A felvilágosítást és az iratbetekintést a vezető tisztségviselő a jogosult által tett írásbeli titoktartási nyilatkozat tételéhez kötheti.\n(2) A vezető tisztségviselő megtagadhatja a felvilágosítást és az iratokba való betekintést, ha ez a jogi személy üzleti titkát sértené, ha a felvilágosítást kérő a jogát visszaélésszerűen gyakorolja, vagy felhívás ellenére nem tesz titoktartási nyilatkozatot. Ha a felvilágosítást kérő a felvilágosítás megtagadását indokolatlannak tartja, a nyilvántartó bíróságtól kérheti a jogi személy kötelezését a felvilágosítás megadására és az iratbetekintés biztosítására.",
+          "footnote": [
+            "2 Módosította: 2021. évi XCV. törvény 46. § 2."
+          ]
+        },
+        {
+          "szakasz": "3:24. §",
+          "cim": "A vezető tisztségviselő felelőssége",
+          "tartalom": "(1) A vezető tisztségviselő az ügyvezetési tevékenysége során a jogi személynek okozott károkért a szerződésszegéssel okozott kárért való felelősség szabályai szerint felel a jogi személlyel szemben.\n(2) A vezető tisztségviselő által e jogkörében eljárva harmadik személynek okozott károkért a jogi személy felel. A vezető tisztségviselő a jogi személlyel egyetemlegesen felel, ha a kárt szándékosan okozta.",
+          "footnote": [
+            "2 Megállapította: 2016. évi LXXVII. törvény 2. §. Hatályos: 2016. VII. 1-től. Lásd: 2016. évi LXXVII. törvény 26. §.",
+            "3 A veszélyhelyzet ideje alatt eltérő rendelkezéseket kell alkalmazni. Lásd: 102/2020. (IV. 10.) Korm. rendelet 5. § (6), 5. § (6)."
+          ]
+        },
+        {
+          "szakasz": "3:25. §",
+          "cim": "A vezető tisztségviselői megbízatás megszűnése",
+          "tartalom": "(1) Megszűnik a vezető tisztségviselői megbízatás\n\na) határozott idejű megbízatás esetén a megbízás időtartamának lejártával;\n\nb) megszüntető feltételhez kötött megbízatás esetén a feltétel bekövetkezésével;\n\nc) visszahívással;\n\nd) lemondással;\n\ne) a vezető tisztségviselő halálával vagy jogutód nélküli megszűnésével;\n\nf) a vezető tisztségviselő cselekvőképességének a tevékenysége ellátásához szükséges körben történő korlátozásával;\n\ng) a vezető tisztségviselővel szembeni kizáró ok bekövetkeztével.\n(2) A jogi személy tagjai, tagság nélküli jogi személy esetén a jogi személy alapítói a vezető tisztségviselőt bármikor, indokolás nélkül visszahívhatják.\n(3) A vezető tisztségviselő megbízatásáról a jogi személyhez címzett, a jogi személy másik vezető tisztségviselőjéhez vagy döntéshozó szervéhez intézett nyilatkozattal bármikor lemondhat.\n(4) Ha a jogi személy működőképessége ezt megkívánja, a lemondás az új vezető tisztségviselő kijelölésével vagy megválasztásával, ennek hiányában legkésőbb a bejelentéstől számított hatvanadik napon válik hatályossá.",
+          "footnote": [
+            "1 Módosította: 2021. évi XCV. törvény 47. § 4."
+          ]
+        },
+        {
+          "szakasz": "3:26. §",
+          "cim": "A felügyelőbizottság létrehozása és tagsága",
+          "tartalom": "(1) A tagok vagy az alapítók a létesítő okiratban három tagból álló felügyelőbizottság létrehozását rendelhetik el azzal a feladattal, hogy az ügyvezetést a jogi személy érdekeinek megóvása céljából ellenőrizze.\n(2) A felügyelőbizottság tagja az a nagykorú személy lehet, akinek cselekvőképességét a tevékenysége ellátásához szükséges körben nem korlátozták. Ha a felügyelőbizottsági tag jogi személy, a jogi személy köteles kijelölni azt a természetes személyt, aki a felügyelőbizottsági tagi feladatokat a nevében ellátja. A felügyelőbizottsági tagokra vonatkozó szabályokat a kijelölt személyre is alkalmazni kell. Nem lehet a felügyelőbizottság tagja, akivel szemben a vezető tisztségviselőkre vonatkozó kizáró ok áll fenn, továbbá aki vagy akinek a hozzátartozója a jogi személy vezető tisztségviselője.\n(3) A felügyelőbizottság tagjai a felügyelőbizottság munkájában személyesen kötelesek részt venni. A felügyelőbizottság tagjai a jogi személy ügyvezetésétől függetlenek, tevékenységük során nem utasíthatóak.\n(4) Az első felügyelőbizottság tagjait a létesítő okiratban kell kijelölni, ezt követően a döntéshozó szerv választja a felügyelőbizottsági tagokat. A felügyelőbizottsági tagsági jogviszony az elfogadással jön létre.\n(5) A felügyelőbizottsági tagság megszűnésére a vezető tisztségviselői megbízatás megszűnésére vonatkozó szabályokat kell alkalmazni, azzal, hogy a felügyelőbizottsági tag lemondó nyilatkozatát a jogi személy vezető tisztségviselőjéhez intézi.",
+          "footnote": [
+            "2 Megállapította: 2021. évi XCV. törvény 2. §. Hatályos: 2022. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "3:27. §",
+          "cim": "A felügyelőbizottság működése",
+          "tartalom": "(1) A felügyelőbizottság köteles a tagok vagy az alapítók döntéshozó szerve elé kerülő előterjesztéseket megvizsgálni, és ezekkel kapcsolatos álláspontját a döntéshozó szerv ülésén ismertetni.\n(2) A felügyelőbizottság a jogi személy irataiba, számviteli nyilvántartásaiba, könyveibe betekinthet, a vezető tisztségviselőktől és a jogi személy munkavállalóitól felvilágosítást kérhet, a jogi személy fizetési számláját, pénztárát, értékpapír- és áruállományát, valamint szerződéseit megvizsgálhatja és szakértővel megvizsgáltathatja.\n(3) A felügyelőbizottság határozatait a jelenlévők szótöbbségével hozza.",
+          "footnote": [
+            "3 Megállapította: 2021. évi XCV. törvény 3. §. Hatályos: 2022. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "3:28. §",
+          "cim": "A felügyelőbizottság tagjainak felelőssége",
+          "tartalom": "A felügyelőbizottsági tagok az ellenőrzési kötelezettségük elmulasztásával vagy nem megfelelő teljesítésével a jogi személynek okozott károkért a szerződésszegéssel okozott kárért való felelősség szabályai szerint felelnek a jogi személlyel szemben.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:29. §",
+          "cim": "A jogi személy törvényes képviselete",
+          "tartalom": "(1) A jogi személy törvényes képviseletét a vezető tisztségviselő látja el.\n(2) A vezető tisztségviselő képviseleti jogát önállóan gyakorolja.\n(3) A vezető tisztségviselő köteles a jogi személy jogszabályban előírt adatait a nyilvántartó bíróságnak bejelenteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:30. §",
+          "cim": "Szervezeti képviselet",
+          "tartalom": "(1) Ha a jogi személy létesítő okirata vagy szervezetére és működésére vonatkozó belső szabályzata a jogi személy szervezetén belül képviseleti joggal járó tisztséget határoz meg, e tisztség betöltője a jogi személy önálló képviselője.\n(2) A jogi személy önálló jogi személyiséggel nem rendelkező szervezeti egységének vezetője az egység rendeltetésszerű működéséhez szükséges körben a jogi személy önálló képviselője.\n(3) Az ügyvezetés az ügyek meghatározott csoportjára nézve a jogi személy munkavállalóit írásbeli nyilatkozattal a jogi személy képviseletének jogával ruházhatja fel; a képviseleti jogot a munkavállaló az ügyvezetés írásbeli nyilatkozatában meghatározott, képviseleti joggal rendelkező más személlyel együttesen gyakorolhatja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:31. §",
+          "cim": "A képviseleti jog korlátozása",
+          "tartalom": "A jogi személynek a jogi személyek nyilvántartásába bejegyzett képviselője képviseleti jogának korlátozása és nyilatkozatának feltételhez vagy jóváhagyáshoz kötése harmadik személyekkel szemben nem hatályos, kivéve, ha a harmadik személy a korlátozásról vagy a feltétel bekövetkeztének vagy a jóváhagyásnak a szükségességéről és annak hiányáról tudott vagy tudnia kellett volna.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:32. §",
+          "cim": "A jogi személy szervezeti egységének jogalanyisága",
+          "tartalom": "(1) Ha e törvény lehetővé teszi, a létesítő okirat rendelkezhet a jogi személy egyes szervezeti egységeinek jogi személlyé nyilvánításáról, feltéve, hogy a szervezeti egység az alapítóktól és a jogi személytől elkülöníthető szervezettel és vagyonnal rendelkezik.\n(2) A jogi személy szervezeti egységére a jogi személy általános szabályait megfelelően alkalmazni kell azzal az eltéréssel, hogy a jogi személy szervezeti egység elkülönített vagyonából ki nem elégíthető hitelezői igényekért a jogi személy a szervezeti egység jogi személyiségének fennállása alatt és ezt követően is köteles helytállni.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 185. § (30) a) szerint módosított szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "3:33. §",
+          "cim": "A szervezeti egység jogalanyiságának megszűnésével kapcsolatos rendelkezések",
+          "tartalom": "(1) A szervezeti egység jogi személyiségének megszűnése esetén jogai és kötelezettségei a jogi személyre szállnak át.\n(2) Ha a jogi személy a szervezeti egység jogi személyiségének megszűnéséről döntött, e döntést köteles közzétenni. Az a hitelező, akinek követelése a döntés közzététele előtt keletkezett, a közzétételtől számított harmincnapos jogvesztő határidőn belül a jogi személytől megfelelő biztosítékot követelhet, ha a szervezeti egység jogi személyiségének megszűnése követelésének kielégítését veszélyezteti. A szervezeti egység törlésére akkor kerülhet sor, ha a jogi személy a jogosult kérésére megfelelő biztosítékot ad.\n(3) Ha a jogi személy megszüntetésére irányuló eljárás lefolytatását rendelik el, a jogi személy szervezeti egységének jogi személyisége megszűnik.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "IV.",
+      "megnevezes": "A JOGI SZEMÉLY TÖRVÉNYES MŰKÖDÉSÉNEK BIZTOSÍTÉKAI",
+      "szakaszok": [
+        {
+          "szakasz": "3:34. §",
+          "cim": "A jogi személy törvényességi felügyelete",
+          "tartalom": "(1) A jogi személyek feletti általános törvényességi felügyeletet a jogi személyt nyilvántartó bíróság látja el. A törvényességi felügyeleti jogkör nem terjed ki olyan ügyekre, amelyekben más bírósági vagy közigazgatási hatósági eljárásnak van helye. A törvényességi felügyelet nem irányulhat a jogi személy döntéseinek gazdaságossági, célszerűségi szempontból való felülvizsgálatára.\n(2) Ha a törvényes működés helyreállítása érdekében tett intézkedések nem vezetnek eredményre, a nyilvántartó bíróság megszünteti a jogi személyt.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:35. §",
+          "cim": "A felülvizsgálat oka és a kezdeményezésre jogosultak",
+          "tartalom": "A jogi személy tagja, tagság nélküli jogi személy esetén az alapítói jogok gyakorlója, a jogi személy vezető tisztségviselője és felügyelőbizottsági tagja kérheti a bíróságtól a tagok vagy az alapítók és a jogi személy szervei által hozott határozat hatályon kívül helyezését, ha a határozat jogszabálysértő vagy a létesítő okiratba ütközik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:36. §",
+          "cim": "A határozat hatályon kívül helyezése iránti kereset",
+          "tartalom": "(1) A határozat hatályon kívül helyezése iránt attól az időponttól számított harminc napon belül lehet keresetet indítani a jogi személy ellen, amikor a jogosult a határozatról tudomást szerzett vagy a határozatról tudomást szerezhetett volna. A határozat meghozatalától számított egyéves, jogvesztő határidő elteltével per nem indítható.\n(2) Nem jogosult perindításra az, aki a határozat meghozatalához szavazatával hozzájárult, kivéve, ha tévedés, megtévesztés vagy jogellenes fenyegetés miatt szavazott a határozat mellett.\n(3) Ha a határozatot a jogi személy vezető tisztségviselője támadja meg, és a jogi személynek nincs más olyan vezető tisztségviselője, aki a jogi személy képviseletét elláthatná, a perben a jogi személyt a felügyelőbizottság által kijelölt felügyelőbizottsági tag képviseli. Ha a jogi személynek nincs felügyelőbizottsága, vagy a felügyelőbizottság valamennyi tagja felperesként perben áll, a bíróság a jogi személy perbeli képviseletére ügygondnokot rendel ki.\n(4) A határozat hatályon kívül helyezése iránti per megindításának a határozat végrehajtására halasztó hatálya nincs. A bíróság indokolt esetben a felperes kérelmére a határozat végrehajtását felfüggesztheti. A felfüggesztést elrendelő végzés ellen nincs helye fellebbezésnek. A perben bírósági meghagyás nem bocsátható ki.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:37. §",
+          "cim": "A határozat hatályon kívül helyezése",
+          "tartalom": "(1) Ha a határozat jogszabályt sért vagy a létesítő okiratba ütközik, a bíróság a határozatot hatályon kívül helyezi és szükség esetén új határozat meghozatalát rendeli el.\n(2) A határozat hatályon kívül helyezését kimondó bírósági ítélet hatálya a határozat felülvizsgálatának kezdeményezésére jogosult, de perben nem álló más személyekre is kiterjed.\n(3) Ha a jogszabálysértés vagy a létesítő okiratba ütközés nem jelentős és nem veszélyezteti a jogi személy jogszerű működését, a bíróság a jogsértés tényét állapítja meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:38. §",
+          "cim": "Állandó könyvvizsgáló",
+          "tartalom": "(1) Ha a jogi személy a könyvvizsgálat ellátására állandó könyvvizsgálót vesz igénybe, az állandó könyvvizsgáló feladatai ellátása érdekében betekinthet a jogi személy irataiba, számviteli nyilvántartásaiba, könyveibe, a vezető tisztségviselőktől, a felügyelőbizottság tagjaitól és a jogi személy munkavállalóitól felvilágosítást kérhet, a jogi személy fizetési számláját, pénztárát, értékpapír- és áruállományát, valamint szerződéseit megvizsgálhatja.\n(2) Ha az állandó könyvvizsgáló a jogi személy vagyonának olyan változását észleli, amely veszélyezteti a jogi személlyel szembeni követelések kielégítését, vagy ha olyan körülményt észlel, amely a vezető tisztségviselők vagy a felügyelőbizottsági tagok e minőségükben kifejtett tevékenységükért való felelősségét vonja maga után, késedelem nélkül köteles az ügyvezetésnél kezdeményezni a tagok – tagság nélküli jogi személyek esetén az alapítói jogkör gyakorlójának – döntéshozatalához szükséges intézkedések megtételét. Ha a kezdeményezés nem vezet eredményre, a könyvvizsgáló köteles a feltárt körülményekről a jogi személy törvényességi felügyeletét ellátó nyilvántartó bíróságot értesíteni.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "I.",
+      "megnevezes": "BEVEZETŐ RENDELKEZÉSEK",
+      "szakaszok": [
+        {
+          "szakasz": "1:1. §",
+          "cim": "A törvény hatálya",
+          "tartalom": "E törvény a mellérendeltség és egyenjogúság elve szerint szabályozza a személyek alapvető vagyoni és személyi viszonyait.",
+          "footnote": []
+        },
+        {
+          "szakasz": "1:2. §",
+          "cim": "Értelmezési alapelv",
+          "tartalom": "(1) E törvény rendelkezéseit Magyarország alkotmányos rendjével összhangban kell értelmezni.\n(2) A polgári jogi viszonyokra vonatkozó jogszabályokat e törvénnyel összhangban kell értelmezni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "1:3. §",
+          "cim": "A jóhiszeműség és tisztesség elve",
+          "tartalom": "(1) A jogok gyakorlása és a kötelezettségek teljesítése során a felek a jóhiszeműség és tisztesség követelményének megfelelően kötelesek eljárni.\n(2) A jóhiszeműség és tisztesség követelményét sérti az is, akinek joggyakorlása szemben áll olyan korábbi magatartásával, amelyben a másik fél okkal bízhatott.",
+          "footnote": []
+        },
+        {
+          "szakasz": "1:4. §",
+          "cim": "Az elvárható magatartás elve. Felróhatóság",
+          "tartalom": "(1) Ha e törvény eltérő követelményt nem támaszt, a polgári jogi viszonyokban úgy kell eljárni, ahogy az az adott helyzetben általában elvárható.\n(2) Felróható magatartására előnyök szerzése végett senki nem hivatkozhat.\n(3) A másik fél felróható magatartására hivatkozhat az is, aki maga felróhatóan járt el.",
+          "footnote": []
+        },
+        {
+          "szakasz": "1:5. §",
+          "cim": "A joggal való visszaélés tilalma",
+          "tartalom": "(1) A törvény tiltja a joggal való visszaélést.\n(2) Ha a joggal való visszaélés jogszabály által megkívánt nyilatkozat megtagadásában áll, és ez a magatartás nyomós közérdeket vagy különös méltánylást érdemlő magánérdeket sért, a bíróság a nyilatkozatot ítéletével pótolhatja, feltéve, hogy az érdeksérelem másképpen nem hárítható el.",
+          "footnote": []
+        },
+        {
+          "szakasz": "1:6. §",
+          "cim": "Bírói út",
+          "tartalom": "Az e törvényben biztosított jogok érvényesítése – ha törvény eltérően nem rendelkezik – bírói útra tartozik.",
+          "footnote": []
+        }
+      ]
+    }
+  ]
+}

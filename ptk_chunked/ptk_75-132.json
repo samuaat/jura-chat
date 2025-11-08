@@ -1,0 +1,483 @@
+{
+  "joganyag_forrasa": "2013. évi V. törvény a Polgári Törvénykönyvről",
+  "cimek": [
+    {
+      "cim_sorszama": "I.",
+      "megnevezes": "Ideiglenes részvény",
+      "szakaszok": [
+        {
+          "szakasz": "3:243. §",
+          "cim": "Az ideiglenes részvény előállítása és tartalma",
+          "tartalom": "(1) Az ideiglenes részvény az alapszabály rendelkezésének megfelelően nyomdai úton vagy dematerializált formában egyaránt előállítható függetlenül attól, hogy a részvény milyen formában kerül előállításra.\n(2) Ha az ideiglenes részvény dematerializált formában kerül előállításra, a részvényes értékpapírszámláján akkor lehet az ideiglenes részvényt jóváírni, amikor a részvényes az alapszabálynak megfelelően teljesíti vagyoni hozzájárulását vagy annak első részletét.\n(3) A nyomdai úton előállított ideiglenes részvényen vagy dematerializált ideiglenes részvény esetén az értékpapírszámlán fel kell tüntetni a részvényes által az ideiglenes részvény kibocsátásáig befizetett összeget. Az ideiglenes részvény kibocsátását követően a részvényes által teljesített további vagyoni hozzájárulás összegét a részvényes kérésére az ideiglenes részvényen fel kell tüntetni, vagy az ideiglenes részvény érvénytelenné nyilvánításával egyidejűleg új ideiglenes részvényt kell kibocsátani.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:244. §",
+          "cim": "Az ideiglenes részvény alapján gyakorolható jogok",
+          "tartalom": "(1) Az ideiglenes részvénnyel a részvényes részvényesi jogait az általa már teljesített vagyoni hozzájárulás mértékével arányosan gyakorolja. Elsőbbségi részvény esetén nem illeti meg elsőbbségi jog a részvényest mindaddig, amíg teljes vagyoni hozzájárulását nem teljesíti. Ilyen esetben az elsőbbségi részvényes a törzsrészvények tulajdonosait megillető részvényesi jogok gyakorlására jogosult.\n(2) Ha a részvényes az ideiglenes részvényt másra átruházza, a részvénytársasággal szemben az általa átvenni vállalt vagy jegyzett részvényekre teljesítendő vagyoni hozzájárulásából eredő tartozásáért készfizető kezesként felel. Az ideiglenes részvény többszöri átruházása esetén a készfizető kezesi felelősség valamennyi volt részvényest egyetemlegesen terheli.\n(3) A részvények előállításakor az igazgatóság határidő kitűzésével felszólítja a részvényeseket a nyomdai úton előállított ideiglenes részvényeik benyújtására és a nyomdai úton előállított részvények átvételére. A határidőben be nem nyújtott ideiglenes részvényeket a társaság az igazgatóság határozatával érvénytelennek nyilvánítja. A nyomdai úton előállított részvények kiadására és a dematerializált részvényeknek a részvényes értékpapírszámláján való jóváírására az ideiglenes részvény benyújtása vagy az ideiglenes részvény érvénytelenné nyilvánítása után kerülhet sor.\n(4) Dematerializált formában előállított ideiglenes részvények esetén a részvények előállításakor az ügyvezetés köteles eljárni az ideiglenes részvényeknek a központi értékpapírszámláról és az értékpapírszámlákról történő törlése érdekében.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "VI.",
+      "megnevezes": "Részvénykönyv",
+      "szakaszok": [
+        {
+          "szakasz": "3:245. §",
+          "cim": "A részvénykönyv fogalma",
+          "tartalom": "(1) A részvénytársaság a részvényesekről – ideértve az ideiglenes részvények tulajdonosait is – részvénykönyvet vezet, amelyben nyilvántartja a részvényes – közös tulajdonban álló részvény esetén a közös képviselő – nevét, lakóhelyét vagy székhelyét, részvénysorozatonként a részvényes részvényeinek vagy ideiglenes részvényeinek darabszámát, tulajdoni részesedésének mértékét.\n(2) Ha a kibocsátott részvényben rögzített olyan adat változik meg, amelyet a részvénykönyvben is nyilvántartanak, a részvénykönyv adatait az ügyvezetés módosítja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:246. §",
+          "cim": "A részvénykönyvi bejegyzés és törlés, valamint ezek joghatásai",
+          "tartalom": "(1) A részvényes a részvénytársasággal szemben részvényesi jogait akkor gyakorolhatja, ha őt a részvénykönyvbe bejegyezték. A részvénykönyvbe történő bejegyzés elmaradása a részvényesnek a részvény feletti tulajdonjogát nem érinti.\n(2) Az alakilag igazolt részvényest a részvénykönyv vezetőjénél előterjesztett kérelmére be kell jegyezni a részvénykönyvbe. A bejegyzett részvényest kérelme alapján törölni kell a részvénykönyvből.\n(3) A részvénykönyv vezetője akkor tagadhatja meg az alakilag igazolt részvényes bejegyzési kérelmének teljesítését, ha a részvényes a részvényét jogszabálynak vagy az alapszabálynak a részvény átruházására vonatkozó szabályait sértő módon szerezte meg.\n(4) A részvénykönyvből törölt adatoknak megállapíthatónak kell maradniuk.\n(5) A részvénykönyv vezetése során hozott határozatok társasági határozatoknak minősülnek.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:247. §",
+          "cim": "A részvénykönyvi adatok nyilvánossága",
+          "tartalom": "(1) A részvénykönyvbe bárki betekinthet. A betekintés lehetőségét a részvénytársaság vagy a részvénykönyv vezetésével megbízott személy a székhelyén munkaidőben folyamatosan biztosítani köteles.\n(2) Akire vonatkozóan a részvénykönyv fennálló vagy törölt adatot tartalmaz, a részvénykönyv rá vonatkozó részéről a részvénykönyv vezetőjétől másolatot igényelhet. A másolatot öt napon belül, ingyenesen kell kiadni a jogosultnak.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:248. §",
+          "cim": "A tulajdonosi megfeleltetés átvezetése a részvénykönyvben",
+          "tartalom": "A nyilvánosan működő részvénytársaságnál a társaság kezdeményezésére történő tulajdonosi megfeleltetés esetén a részvénykönyv vezetője a részvénykönyvben szereplő, a tulajdonosi megfeleltetés időpontjában hatályos valamennyi adatot törli, és ezzel egyidejűleg a tulajdonosi megfeleltetés eredményének megfelelő adatokat a részvénykönyvbe bejegyzi.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XXXIII.",
+      "megnevezes": "A részvénytársaság alapítása",
+      "szakaszok": [
+        {
+          "szakasz": "3:249. §",
+          "cim": "Az alapítás zártkörűsége",
+          "tartalom": "Tilos a részvénytársaság alapítása során a részvénytársaság részvényeseit és alaptőkéjét nyilvános felhívás útján gyűjteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:250. §",
+          "cim": "Az alapszabály tartalma",
+          "tartalom": "(1) Az alapszabálynak – az általánosan kötelező tartalmi elemeken túl – tartalmaznia kell\na) az alapítók nyilatkozatát az összes részvény átvételére vonatkozó kötelezettségvállalásról és a részvényeknek az alapítók közötti megoszlásáról;\nb) 1 az alaptőke összegét, az alapítás során kibocsátandó részvények számát, névértékét, illetve kibocsátási értékét, valamint a részvények előállításának módját;\nc) 2 a közgyűlés összehívásának módját, a szavazati jog gyakorlásának feltételét és módját.\nd) 1",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 185. § (30) d) szerint módosított szöveggel lép hatályba.",
+            "2 Módosította: 2021. évi XCV. törvény 46. § 18.",
+            "1 Hatályon kívül helyezte: 2021. évi XCV. törvény 47. § 15. Hatálytalan: 2022. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "3:251. §",
+          "cim": "Nem pénzbeli vagyoni hozzájárulás",
+          "tartalom": "(1) 3 Nem pénzbeli vagyoni hozzájárulás szolgáltatása esetén az alapszabályhoz mellékelni kell könyvvizsgáló vagy az adott vagyontárgy értékeléséhez szükséges szakértelemmel rendelkező szakértő jelentését, amely tartalmazza a nem pénzbeli vagyoni hozzájárulás leírását, értékét, értékelését, az alkalmazott értékelési módszer ismertetését és azt, hogy az értékelést érintő új befolyásoló körülmény nem merült fel. A könyvvizsgálónak vagy szakértőnek a jelentésben nyilatkoznia kell arról, hogy a nem pénzbeli vagyoni hozzájárulásnak az alapítók által előzetesen megállapított értéke egyensúlyban van-e az ellenében adandó részvények számával, névértékével.\n(2) Nincs szükség könyvvizsgálói vagy szakértői jelentésre, ha a nem pénzbeli vagyoni hozzájárulást nyújtó részvényes a szolgáltatás időpontjához képest három hónapnál nem régebbi, könyvvizsgáló által ellenőrzött beszámolóval rendelkezik, amely a hozzájárulás tárgyát képező vagyontárgy értékét tartalmazza, vagy ha a nem pénzbeli vagyoni hozzájárulás olyan vagyontárgyakból áll, amelyeknek tőzsdén jegyzett ára van.",
+          "footnote": [
+            "3 A 2013. évi CCLII. törvény 185. § (30) e) szerint módosított szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "3:252. §",
+          "cim": "A nyilvántartásba vétel feltételei",
+          "tartalom": "(1) A részvénytársaság nyilvántartásba vételére azt követően kerülhet sor, ha a nyilvántartásbavételi kérelem benyújtásáig\na) a pénzbeli hozzájárulás teljesítését vállaló alapítók az alapszabályban átvenni vállalt részvény névértékének, illetve kibocsátási értékének legalább huszonöt százalékát befizették; és\nb) a nem pénzbeli vagyoni hozzájárulást – kivéve, ha a nem pénzbeli vagyoni hozzájárulás értéke az alaptőke huszonöt százalékát nem éri el – a részvénytársaság rendelkezésére bocsátották.\n(2) A részvényes legkésőbb a részvénytársaság nyilvántartásba vételétől számított egy éven belül köteles a részvények teljes névértékét, illetve kibocsátási értékét a részvénytársaság részére befizetni és a nyilvántartásba vételtől számított három éven belül köteles a nem pénzbeli vagyoni hozzájárulást teljes egészében a részvénytársaság rendelkezésére bocsátani.\n(3) Semmis az alapszabály olyan rendelkezése, amely a vagyoni hozzájárulásokkal kapcsolatban az e §-ban meghatározottnál későbbi teljesítési határidőt ír elő.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XXXIV.",
+      "megnevezes": "Részvényesi jogok és kötelezettségek",
+      "szakaszok": [
+        {
+          "szakasz": "3:253. §",
+          "cim": "A részvényesek egyenlősége",
+          "tartalom": "Tilos a részvényesi jogok gyakorlásával összefüggésben az azonos részvénysorozatba tartozó részvényekkel rendelkező részvényesek közötti hátrányos különbségtétel.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:254. §",
+          "cim": "A részvényesi minőség igazolása",
+          "tartalom": "(1) A részvényes a részvényesi jogok gyakorlására a társasággal szemben a részvény vagy letéti, illetve tulajdonosi igazolás alapján, a részvénykönyvbe történő bejegyzést követően jogosult.\n(2) Értékpapírletétbe helyezett, nyomdai úton előállított részvény esetén az értékpapírletét-kezelő köteles a részvényes kérésére a részvényről letéti igazolást kiállítani.\n(3) Dematerializált részvény esetén az értékpapírszámla-vezető köteles a részvényes kérésére a részvényről tulajdonosi igazolást kiállítani.\n(4) A letéti és a tulajdonosi igazolásnak tartalmaznia kell a részvénytársaság cégnevét, a részvényfajtát, a részvény darabszámát, az értékpapír-letéti számla vagy értékpapírszámla vezetőjének cégnevét és cégszerű aláírását, a részvényes nevét, valamint lakóhelyét vagy székhelyét. A közgyűlésen való részvételi jog gyakorlásához kiállított letéti és tulajdonosi igazolás a közgyűlés vagy a megismételt közgyűlés napjáig érvényes.\n(5) A tulajdonosi igazolás kiállítását követően az értékpapírszámla-vezető az értékpapírszámlán a részvényre vonatkozó változást a tulajdonosi igazolás egyidejű visszavonása mellett vezethet át. A letéti igazolást az értékpapírletét-kezelőnek vissza kell vonnia, ha annak kiállítását követően a részvényt a tulajdonos vagy képviselője rendelkezésére bocsátja.\n(6) A nyilvánosan működő részvénytársaságnál a részvényesi jogok gyakorlásához nincs szükség tulajdonosi igazolásra, ha a jogosultság megállapítására tulajdonosi megfeleltetés útján kerül sor.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:255. §",
+          "cim": "A részvényes képviselete",
+          "tartalom": "(1) A részvényes részvényesi jogait képviselő útján is gyakorolhatja. Nem láthatja el a részvényes képviseletét a vezető tisztségviselő, a felügyelőbizottsági tag és a könyvvizsgáló.\n(2) Ha a részvényest több képviselő képviseli, és ezek egymástól eltérően szavaznak vagy nyilatkoznak, valamennyiük által leadott szavazat, illetve megtett nyilatkozat semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:256. §",
+          "cim": "A részvényesi meghatalmazott",
+          "tartalom": "A részvényes jogainak a társasággal szemben való gyakorlására részvényesi meghatalmazottat bízhat meg, aki a részvénytársasággal szemben a részvénykönyvbe való bejegyzést követően a részvényesi jogokat saját nevében, a részvényes javára gyakorolja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:257. §",
+          "cim": "Közgyűlésen való részvétel joga",
+          "tartalom": "A részvényes jogosult a közgyűlésen részt venni, felvilágosítást kérni, valamint észrevételt és indítványt tenni, szavazati joggal rendelkező részvény birtokában szavazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:258. §",
+          "cim": "Tájékoztatáshoz való jog",
+          "tartalom": "(1) A közgyűlés napirendjére tűzött ügyre vonatkozóan az igazgatóság köteles minden részvényesnek a napirendi pont tárgyalásához a szükséges tájékoztatást megadni, úgy, hogy a részvényes – a közgyűlés napja előtt legalább nyolc nappal benyújtott írásbeli kérelmére – a szükséges felvilágosítást legkésőbb a közgyűlés napja előtt három nappal megkapja.\n(2) Az igazgatóság a beszámolónak és az igazgatóság, valamint a felügyelőbizottság jelentésének lényeges adatait a közgyűlést megelőzően legalább tizenöt nappal köteles a részvényesek tudomására hozni.\n(3) Semmis az alapszabály olyan rendelkezése, amely a részvényesek tájékoztatáshoz való jogát korlátozza vagy kizárja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:259. §",
+          "cim": "Napirend kiegészítésére való jog",
+          "tartalom": "(1) Ha a zártkörűen működő részvénytársaságban együttesen a szavazatok legalább öt százalékával rendelkező részvényesek a napirend kiegészítésére – a napirend részletezettségére vonatkozó szabályoknak megfelelő – javaslatot tesznek, a megjelölt kérdést napirendre tűzöttnek kell tekinteni, ha a javaslatot a közgyűlési meghívó kézhezvételétől számított nyolc napon belül közlik a tagokkal és az igazgatósággal.\n(2) 1 Ha a nyilvánosan működő részvénytársaságban együttesen a szavazatok legalább egy százalékával rendelkező részvényesek a napirend kiegészítésére vonatkozó – a napirend részletezettségére vonatkozó szabályoknak megfelelő – javaslatot vagy a napirenden szereplő vagy arra felveendő napirendi ponttal kapcsolatos határozattervezetet a közgyűlés összehívásáról szóló hirdetmény megjelenésétől számított nyolc napon belül közlik az igazgatósággal, az igazgatóság a kiegészített napirendről, a részvényesek által előterjesztett határozattervezetekről a javaslat vele való közlését követően hirdetményt tesz közzé. A hirdetményben megjelölt kérdést napirendre tűzöttnek kell tekinteni.\n(3) Semmis az alapszabály olyan rendelkezése, amely a napirend kiegészítését az e törvényben meghatározottnál nagyobb arányú szavazati joghoz köti vagy amely e jog gyakorlására az e törvényben meghatározottnál rövidebb határidőt szab.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 185. § (9) szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "3:260. §",
+          "cim": "Szavazáshoz való jog",
+          "tartalom": "(1) A részvény a névértékével arányos mértékű szavazati jogot biztosít. Semmis az alapszabály olyan rendelkezése, amely az e törvényben meghatározott eseteken kívül egyes részvényekhez többletszavazati jogot fűz.\n(2) Nem gyakorolhatja szavazati jogát a részvényes, amíg esedékes vagyoni hozzájárulását nem teljesítette.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:261. §",
+          "cim": "Részvényesek részére történő kifizetés feltételei",
+          "tartalom": "(1) 2 A részvénytársaság saját tőkéjéből a részvényes javára, annak tagsági jogviszonyára figyelemmel kifizetést a részvénytársaság fennállása során az e törvényben meghatározott esetekben és – az alaptőke leszállításának esetét kivéve – az előző üzleti évi adózott eredménnyel kiegészített szabad eredménytartalékból teljesíthet. Nem kerülhet sor kifizetésre, ha a részvénytársaság saját tőkéje nem éri el vagy a kifizetés következtében nem érné el a részvénytársaság alaptőkéjét, továbbá ha a kifizetés veszélyeztetné a társaság fizetőképességét.\n(2) Az (1) bekezdés alkalmazásában kifizetésnek minősül minden pénzbeli és nem pénzbeli vagyoni juttatás, kivéve az ingyenesen vagy kedvezményesen juttatott dolgozói részvény, valamint az alaptőkén felüli vagyon alaptőkévé alakításával felemelt alaptőkéből ellenérték nélkül juttatott részvény juttatása.\n(3) Kamatozó részvény kivételével a részvénytársaság kamatot a részvény után nem fizethet.\n(4) 1 A zártkörűen működő részvénytársaságnak együttesen a szavazatok legalább öt százalékával rendelkező részvényesei, a nyilvánosan működő részvénytársaságnak együttesen a szavazatok legalább egy százalékával rendelkező részvényesei, valamint a részvénytársaság azon hitelezői, akiknek a kifizetés időpontjában még nem esedékes követelése eléri az alaptőke tíz százalékát, a kifizetéstől számított egyéves jogvesztő határidő lejártáig a költségek megelőlegezésével egyidejűleg kérhetik a nyilvántartó bíróságtól könyvvizsgáló kirendelését a kifizetés jogszerűségének megvizsgálása céljából.\n(5) 2 Azokat a kifizetéseket, amelyeket az (1) bekezdés rendelkezései ellenére teljesítettek, a részvénytársaság felszólítására a társaság részére vissza kell fizetni, feltéve, hogy a társaság bizonyítja, hogy a részvényes a kifizetés feltételei fennállásának hiányáról tudott vagy tudnia kellett.\n(6) E § rendelkezéseit megfelelően alkalmazni kell a részvényes javára nem tagsági viszonyon alapuló kifizetésekre is, ha azok összeegyeztethetetlenek a felelős társasági gazdálkodás követelményeivel.",
+          "footnote": [
+            "2 Módosította: 2015. évi CI. törvény 50. § b).",
+            "1 A 2013. évi CCLII. törvény 185. § (10) szerinti szöveggel lép hatályba.",
+            "2 A 2013. évi CCLII. törvény 185. § (10) szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "3:262. §",
+          "cim": "Osztalék",
+          "tartalom": "(1) A részvénytársaságnak a felosztható és a közgyűlés által felosztani rendelt eredményéből a részvényest részvénye névértékével arányos osztalék illeti meg. Osztalékra az a részvényes jogosult, aki az osztalékfizetésről döntő közgyűlés időpontjában a részvénykönyvben szerepel. Az osztalék akkor teljesíthető nem pénzbeli juttatás formájában, ha erre az alapszabály lehetőséget ad. A részvényes az osztalékra a már teljesített vagyoni hozzájárulása alapján jogosult.\n(2) Az (1) bekezdésben foglaltak alkalmazására az alapszabályban az egyes részvényosztályokra meghatározott jogok figyelembevételével kerülhet sor.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:263. §",
+          "cim": "Osztalékelőleg",
+          "tartalom": "(1) A közgyűlés vagy az alapszabály felhatalmazása alapján az igazgatóság két, egymást követő beszámoló elfogadása közötti időszakban osztalékelőleg fizetéséről határozhat, ha\na) a közbenső mérleg alapján megállapítható, hogy a társaság rendelkezik osztalék fizetéséhez szükséges fedezettel;\nb) 3 a kifizetés nem haladja meg a közbenső mérlegben kimutatott adózott eredménnyel kiegészített szabad eredménytartalék összegét; és\nc) a társaságnak a helyesbített saját tőkéje a kifizetés folytán nem csökken az alaptőke összege alá.\n(2) Osztalékelőleg fizetéséről az igazgatóság javaslata alapján lehet határozni. Ha a társaságnál felügyelőbizottság működik, az igazgatóság javaslatához a felügyelőbizottság jóváhagyása szükséges.\n(3) Ha az osztalékelőleg kifizetését követően elkészülő éves beszámolóból az állapítható meg, hogy osztalékfizetésre nincs lehetőség, az osztalékelőleget a részvényesek a társaság felhívására kötelesek visszafizetni.",
+          "footnote": [
+            "3 Módosította: 2015. évi CI. törvény 50. § c), 2016. évi LXXVII. törvény 23. §."
+          ]
+        },
+        {
+          "szakasz": "3:264. §",
+          "cim": "A vagyonszerzés feltételei",
+          "tartalom": "(1) A nyilvánosan működő részvénytársaság nyilvántartásba vételétől számított két éven belül a társaság és a részvényes közötti vagyonátruházási szerződés létrejöttéhez – feltéve, hogy a társaság által teljesítendő ellenszolgáltatás elérné az alaptőke egytizedét – a közgyűlés előzetes jóváhagyó határozatára van szükség. Ennek során a nem pénzbeli vagyoni hozzájárulás szabályait megfelelően kell alkalmazni azzal, hogy a könyvvizsgálói vagy szakértői jelentést közzé kell tenni.\n(2) A közgyűlés előzetes jóváhagyó határozatára van szükség abban az esetben is, ha a társasággal a részvényes, illetve közeli hozzátartozója, továbbá olyan személy köt szerződést, amelyben a részvényes többségi befolyással rendelkezik.\n(3) Nincs szükség a közgyűlés előzetes jóváhagyására a társaság tevékenységi körébe tartozó szokásos nagyságrendű szerződésekkel, a hatósági határozattal és hatósági árverés útján történő tulajdonszerzéssel, valamint a tőzsdei ügyletekkel kapcsolatban.\n(4) E § alkalmazásában részvényesnek minősül, aki a nyilvánosan működő részvénytársasággá alakulásról szóló határozat meghozatalának időpontjában a társaság részvényese, valamint a nyilvánosan működő részvénytársaság bejegyzését követően az a részvényes, aki a szavazati jogok legalább tíz százalékával rendelkezik.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:265. §",
+          "cim": "Az eltérő szabályozás tilalma",
+          "tartalom": "Semmis az alapszabály olyan rendelkezése, amely a társaság által teljesített kifizetésekre az e fejezetben foglaltaknál a részvényesekre nézve kedvezőbb szabályokat állapít meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:266. §",
+          "cim": "Kisebbségi jogok gyakorlása",
+          "tartalom": "A nyilvánosan működő részvénytársaságban a kisebbségi jogok gyakorlására együttesen a szavazatok legalább egy százalékával rendelkező részvényesek jogosultak.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:267. §",
+          "cim": "A részvényes kötelezettségei",
+          "tartalom": "(1) A részvényes köteles az általa átvett, illetve jegyzett részvények névértékének, illetve kibocsátási értékének megfelelő pénzbeli és nem pénzbeli vagyoni hozzájárulást a részvénytársaság rendelkezésére bocsátani. A részvényes e kötelezettségek alól – az alaptőke leszállítás esetét kivéve – érvényesen nem mentesíthető.\n(2) A részvényes az alapszabályban meghatározott határidőn belül a részvény névértékének, illetve kibocsátási értékének befizetésére akkor köteles, amikor az igazgatóság az alapszabályban meghatározott feltételek szerint erre felszólítja. A részvényes fizetési kötelezettségének a felszólítást megelőzően is eleget tehet.\n(3) Ha a részvényes részvényesi jogviszonya a vállalt vagyoni hozzájárulás határidőben való teljesítésének elmulasztása miatt szűnt meg, és a részvényes által átvenni vállalt, illetve jegyzett részvényekre jutó vagyoni hozzájárulás teljesítésének kötelezettségét más személy nem vállalja át, az alaptőkét a volt részvényes által vállalt vagyoni hozzájárulás mértékével le kell szállítani.\n(4) A késedelembe esett részvényest az általa teljesített vagyoni hozzájárulás értéke az alaptőke leszállítását követően, illetve akkor illeti meg, amikor a helyébe lépő részvényes vagyoni hozzájárulását a részvénytársasággal szemben teljesíti.\nXXXV. Fejezet\nA részvénytársaság szervezete\n1. A közgyűlés",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XXXV.",
+      "megnevezes": "A részvénytársaság szervezete",
+      "szakaszok": [
+        {
+          "szakasz": "3:268. §",
+          "cim": "A közgyűlés",
+          "tartalom": "(1) A részvénytársaság legfőbb szerve a közgyűlés.\n(2) 1 Nyilvánosan működő részvénytársaság esetén a közgyűlés kizárólagos hatáskörébe tartozik a javadalmazási politikáról való véleménynyilvánító szavazás. A javadalmazási politikát annak jelentős változása esetén, de legalább négyévente a közgyűlés napirendjére kell tűzni.\n(3) 2 Nyilvánosan működő részvénytársaság esetén az előző üzleti évre vonatkozó javadalmazási jelentést véleménynyilvánító szavazás céljából a közgyűlés napirendjére kell tűzni.\n(4) 3 Nyilvánosan működő részvénytársaság esetén a közgyűlés hatáskörébe tartozó kérdésekről nem lehet közgyűlés tartása nélkül határozatot hozni.",
+          "footnote": [
+            "1 Megállapította: 2019. évi LXVII. törvény 123. §. Hatályos: 2019. VII. 17-től. Lásd: 2019. évi LXVII. törvény 29. § (6).",
+            "2 Megállapította: 2019. évi LXVII. törvény 123. §. Hatályos: 2019. VII. 17-től.  Lásd: 2019. évi LXVII. törvény 29. § (6).",
+            "3 Beiktatta: 2019. évi LXVII. törvény 123. §. Hatályos: 2019. VII. 17-től.  Lásd: 2019. évi LXVII. törvény 29. § (6)."
+          ]
+        },
+        {
+          "szakasz": "3:269. §",
+          "cim": "A közgyűlés összehívásának általános szabályai",
+          "tartalom": "A közgyűlésre szóló meghívó az általánosan kötelező tartalmi elemeken túl tartalmazza\na) a közgyűlés megtartásának módját;\nb) a szavazati jog gyakorlásához az alapszabályban előírt feltételeket;\nc) a közgyűlés határozatképtelensége esetén a megismételt közgyűlés helyét és idejét.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:270. §",
+          "cim": "A közgyűlés kötelező összehívásának esetei",
+          "tartalom": "(1) Az igazgatóság köteles nyolc napon belül – a felügyelőbizottság egyidejű értesítése mellett – a szükséges intézkedések megtétele céljából a közgyűlést összehívni vagy közgyűlés tartása nélkül történő határozathozatalt kezdeményezni, ha bármely tagjának tudomására jut, hogy\na) a részvénytársaság saját tőkéje veszteség következtében az alaptőke kétharmadára csökkent;\nb) a részvénytársaság saját tőkéje az alaptőke törvényben meghatározott minimális összege alá csökkent;\nc) a részvénytársaságot fizetésképtelenség fenyegeti vagy fizetéseit megszüntette; vagy\n\nd) a részvénytársaság vagyona a tartozásait nem fedezi.\n(2) Az (1) bekezdésben meghatározott esetekben a részvényesek kötelesek a közgyűlésen vagy közgyűlés tartása nélkül olyan határozatot hozni, amely alkalmas az (1) bekezdésben megjelölt okok megszüntetésére; vagy dönteniük kell a társaság átalakulásáról, egyesüléséről vagy szétválásáról; ezek hiányában a társaság megszüntetéséről. A közgyűlés ezzel kapcsolatos határozatait három hónapon belül végre kell hajtani.\n(3) 5 Ha a közgyűlés befejezését követő három hónapon belül az összehívására okot adó, az (1) bekezdés a) pontja szerinti körülmény változatlanul fennáll, az alaptőkét le kell szállítani. Ha az alaptőke leszállítására nincs mód, a részvénytársaságnak az alaptőke-leszállítás meghiúsulására előírt rendelkezéseket kell alkalmaznia.\n(4) 6 Semmis az alapszabály olyan rendelkezése, amely az (1)–(3) bekezdésben foglalt szabályoknál a részvénytársaságra nézve enyhébb követelményeket ír elő.",
+          "footnote": [
+            "4 A veszélyhelyzet ideje alatt eltérő rendelkezéseket kell alkalmazni. Lásd: 102/2020. (IV. 10.) Korm. rendelet 8. § (3), 502/2020. (XI. 16.) Korm. rendelet 8. § (3), 2021. évi XCIX. törvény 15. § (4).",
+            "5 Megállapította: 2021. évi XCV. törvény 33. §. Hatályos: 2022. I. 1-től.",
+            "6 Beiktatta: 2021. évi XCV. törvény 33. §. Hatályos: 2022. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "3:271. §",
+          "cim": "A közgyűlés összehívásának speciális szabályai zártkörűen működő részvénytársaságnál",
+          "tartalom": "(1) Zártkörűen működő részvénytársaság esetén a közgyűlést annak kezdőnapját legalább tizenöt nappal megelőzően, a részvényeseknek küldött meghívó útján kell összehívni.\n(2) Azoknak a részvényeseknek, akik ezt kívánják, a közgyűlésre szóló meghívót elektronikus úton kell megküldeni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:272. §",
+          "cim": "A közgyűlés összehívásának speciális szabályai nyilvánosan működő részvénytársaságoknál",
+          "tartalom": "(1) 1 Nyilvánosan működő részvénytársaság esetén a közgyűlésre szóló meghívót a közgyűlés kezdő napját legalább harminc nappal megelőzően, a társaság honlapján kell közzétenni. A közgyűlésre szóló meghívó tartalmazza a napirend kiegészítésére való jog gyakorlásának feltételeit is, továbbá feltünteti a határozattervezetek és a közgyűlés elé terjesztendő dokumentumok eredeti és teljes terjedelmű szövege elérhetőségének helyét.\n(2) Ha a nyilvánosan működő részvénytársaság részvényeire tett nyilvános vételi ajánlattal kapcsolatos részvényesi állásfoglalás miatt vagy az eredményes nyilvános vételi ajánlattételi eljárást követően a befolyásszerző kezdeményezésére rendkívüli közgyűlés összehívására kerül sor, a közgyűlést annak kezdőnapját legalább tizenöt nappal megelőzően kell összehívni.\n(3) 2 A nyilvánosan működő részvénytársaság a társaság honlapján, a közgyűlést megelőzően legalább huszonegy nappal nyilvánosságra hozza:\na) az összehívás időpontjában meglévő részvények számára és a szavazati jogok arányára vonatkozó összesített adatokat, ideértve az egyes részvényosztályokra vonatkozó külön összesítéseket;\nb) a napirenden szereplő ügyekkel kapcsolatos előterjesztéseket, az azokra vonatkozó felügyelőbizottsági jelentéseket, valamint a határozati javaslatokat; 3\nc) a képviselő útján, illetve levélben történő szavazáshoz használandó nyomtatványokat, ha azokat közvetlenül nem küldték meg a részvényeseknek.\n(4) 4 Azoknak a részvényeseknek, akik ezt kívánják, a közzéteendő közgyűlési anyagokat a közgyűlési anyagok nyilvánosságra hozatalával egy időben elektronikus úton is meg kell küldeni.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 185. § (11) szerinti szöveggel lép hatályba.",
+            "2 A 2013. évi CCLII. törvény 185. § (12) szerinti szöveggel lép hatályba.",
+            "3 A veszélyhelyzet ideje alatt eltérő rendelkezéseket kell alkalmazni. Lásd: 102/2020. (IV. 10.) Korm. rendelet 9. § (2),  502/2020. (XI. 16.) Korm. rendelet 9. § (2).",
+            "4 A 2013. évi CCLII. törvény 185. § (13) szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "3:273. §",
+          "cim": "Részvétel a közgyűlésen",
+          "tartalom": "(1) A zártkörűen működő részvénytársaság közgyűlésén az a részvényes, illetve részvényesi meghatalmazott vehet részt, akit a közgyűlés megkezdéséig a részvénykönyvbe bejegyeztek. Ha az alapszabály rendelkezik arról az időpontról, ameddig a fenti bejegyzésre sor kerülhet, ezt az időpontot nem lehet a közgyűlés kezdő napját megelőző második munkanapnál korábban meghatározni; semmis az alapszabály ettől eltérő rendelkezése.\n(2) Nyilvánosan működő részvénytársaság közgyűlésén az a részvényes, illetve részvényesi meghatalmazott vehet részt, akit legkésőbb a közgyűlés kezdőnapját megelőző második munkanapon bejegyeztek a részvénykönyvbe. Az alapszabály ettől eltérő rendelkezése semmis.\n(3) A közgyűlésen a részvényesi jogok gyakorlására az a személy jogosult, akinek nevét – lezárásának időpontjában – a részvénykönyv tartalmazza. A részvénynek a közgyűlés kezdőnapját megelőző átruházása nem érinti a részvénykönyvbe bejegyzett személynek azt a jogát, hogy a közgyűlésen részt vegyen és az őt mint részvényest megillető jogokat gyakorolja.\n(4) 1 Ha a nyilvánosan működő részvénytársaság alapszabálya megengedi, hogy a részvényes szavazati jogát a közgyűlést megelőzően postai úton gyakorolja, e jog gyakorlását érvényesen csak olyan feltételhez kötheti, amely a részvényes személyazonossága megállapításához szükséges.\n(5) 2 A részvényes kérelmére a részvényesnek vagy az általa megjelölt személynek az igazgatóság köteles visszaigazolni, hogy a részvényes szavazatát a közgyűlésen szabályszerűen rögzítették és azt beszámították, kivéve, ha a szükséges tájékoztatás a részvényes rendelkezésére áll.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 185. § (14) szerinti szöveggel lép hatályba.",
+            "2 Beiktatta: 2019. évi LXVII. törvény 124. §. Hatályos: 2020. IX. 3-tól. Lásd: 2019. évi LXVII. törvény 29. § (5)."
+          ]
+        },
+        {
+          "szakasz": "3:274. §",
+          "cim": "Jelenléti ív",
+          "tartalom": "(1) A közgyűlésen megjelent részvényesekről jelenléti ívet kell készíteni, amelyen fel kell tüntetni a részvényes, illetve képviselője nevét és lakóhelyét vagy székhelyét, részvényei számát és az őt megillető szavazatok számát, valamint a közgyűlés időtartama alatt a jelenlévők személyében bekövetkezett változásokat.\n(2) A jelenléti ívet a közgyűlés elnöke és a jegyzőkönyvvezető aláírásával hitelesíti.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:275. §",
+          "cim": "Határozatképesség",
+          "tartalom": "(1) 3 Ha a közgyűlés nem határozatképes, a megismételt közgyűlés az eredeti napirenden szereplő ügyekben a jelenlévők által képviselt szavazati jog mértékétől függetlenül határozatképes, ha azt az eredeti időpontot zártkörű részvénytársaság esetén legalább három, nyilvánosan működő részvénytársaság esetén legalább tíz nappal és legfeljebb huszonegy nappal követő időpontra hívják össze.\n(2) A közgyűlés egy alkalommal, legfeljebb harminc napra felfüggesztheti ülését.\n(3) A felfüggesztett ülés folytatásaként megtartott közgyűlésen a határozatképességet ugyanúgy kell vizsgálni, mint a közgyűlés megkezdésekor. Nyilvánosan működő részvénytársaságok esetén az alapszabály ettől eltérő rendelkezése semmis.\n(4) A felfüggesztett ülés folytatásaként megtartott közgyűlés esetén a közgyűlés összehívására és a közgyűlés tisztségviselőinek megválasztására vonatkozó szabályokat nem kell alkalmazni.",
+          "footnote": [
+            "3 Megállapította: 2021. évi XCV. törvény 34. §. Hatályos: 2022. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "3:276. §",
+          "cim": "A határozathoz szükséges többség",
+          "tartalom": "(1) A közgyűlés legalább háromnegyedes szótöbbséggel határozhat az alapszabály módosításáról, a társaság működési formájának megváltoztatásáról, a társaság átalakulásáról, egyesüléséről, szétválásáról, jogutód nélküli megszűnéséről, valamint az alaptőke leszállításáról.\n(2) Ha az alapszabály módosítására az alaptőke felemeléséről vagy leszállításáról hozott közgyűlési határozat végrehajtásával összefüggésben, az alaptőke nagyságának meghatározása céljából kerül sor, a közgyűlésnek az alapszabály módosítására vonatkozó jóváhagyó határozata az alaptőke felemelésével vagy leszállításával összefüggő közgyűlési határozat elfogadásával megadottnak tekintendő.\n(3) A nyilvánosan működő részvénytársaság esetében a létesítő okirat módosításához szükséges egyhangú határozathozatalra vonatkozó rendelkezést nem kell alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:277. §",
+          "cim": "Közgyűlési határozathoz való hozzájárulás",
+          "tartalom": "(1) A közgyűlés olyan határozata, amely valamely részvénysorozathoz kapcsolódó jogot hátrányosan módosít, akkor hozható meg, ha ahhoz az érintett részvénysorozatok részvényesei az alapszabályban meghatározott módon külön is hozzájárulnak. Ennek során a részvényhez fűződő szavazati jog esetleges korlátozására vagy kizárására vonatkozó rendelkezések – ide nem értve a saját részvényhez kapcsolódó szavazati jog gyakorlásának tilalmát – nem alkalmazhatók.\n(2) Semmis a nyilvánosan működő részvénytársaság alapszabályának az (1) bekezdésben foglalt szabálytól eltérő rendelkezése.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:278. §",
+          "cim": "Jegyzőkönyv",
+          "tartalom": "(1) A közgyűlésről jegyzőkönyvet kell készíteni, amely tartalmazza\na) a részvénytársaság cégnevét és székhelyét;\nb) a közgyűlés megtartásának módját, helyét és idejét;\nc) a közgyűlés levezető elnökének, a jegyzőkönyvvezetőnek, a jegyzőkönyv hitelesítőjének és a szavazatszámlálóknak a nevét;\nd) a közgyűlésen lezajlott fontosabb eseményeket, az elhangzott indítványokat;\ne) 1 a határozati javaslatokat, minden határozat esetében azon részvények számát, amelyek tekintetében érvényes szavazat leadására került sor, az ezen szavazatok által képviselt alaptőke részesedés mértékét, a leadott szavazatok és ellenszavazatok, valamint a szavazástól tartózkodók számát.\n(2) A jegyzőkönyvet a jegyzőkönyvvezető és a közgyűlés levezető elnöke írja alá, és egy erre megválasztott, jelen lévő részvényes hitelesíti.\n(3) A részvénytársaság igazgatósága köteles a közgyűlési jegyzőkönyvet, valamint a jelenléti ívet saját dokumentumai között elhelyezni és megőrizni.\n(4) 2 A nyilvánosan működő részvénytársaság igazgatósága a közgyűlési jegyzőkönyvet (kivonatát) és a jelenléti ívet a közgyűlés befejezését követő harminc napon belül köteles a nyilvántartó bíróságnak benyújtani.\n(5) Bármely részvényes a közgyűlési jegyzőkönyv másolatának vagy a jegyzőkönyv egy részét tartalmazó kivonatának a kiadását kérheti az igazgatóságtól.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 185. § (15) szerinti szöveggel lép hatályba.",
+            "2 Módosította: 2021. évi XCV. törvény 46. § 19."
+          ]
+        },
+        {
+          "szakasz": "3:279. §",
+          "cim": "Határozatok nyilvánosságra hozatala",
+          "tartalom": "(1) A nyilvánosan működő részvénytársaság a közgyűlésen hozott határozatokat köteles honlapján nyilvánosságra hozni.\n(2) A nyilvánosan működő részvénytársaság a javadalmazási politikáját és a javadalmazási jelentést köteles honlapján nyilvánosságra hozni.",
+          "footnote": [
+            "3 Megállapította: 2019. évi LXVII. törvény 125. §. Hatályos: 2019. VII. 17-től.",
+            "4 A veszélyhelyzet ideje alatt eltérő rendelkezéseket kell alkalmazni. Lásd: 102/2020. (IV. 10.) Korm. rendelet 9. § (2), 502/2020. (XI. 16.) Korm. rendelet 9. § (2).",
+            "5 Lásd: 2019. évi LXVII. törvény 29. § (6)."
+          ]
+        },
+        {
+          "szakasz": "3:280. §",
+          "cim": "Konferencia-közgyűlés feltételei",
+          "tartalom": "(1) Ha az alapszabály lehetővé teszi, hogy a részvényesek személyes megjelenés helyett elektronikus hírközlő eszköz igénybevételével vegyenek részt a közgyűlésen, a részvényesek szabadon döntenek saját részvételük módjáról. Azoknak a részvényeseknek, akik a közgyűlésen történő megjelenéssel vesznek részt, e szándékukat legalább öt nappal a közgyűlés napja előtt be kell jelenteniük a részvénytársaságnak. Azokat a részvényeseket, akik e szándékukról a részvénytársaságot határidőben nem tájékoztatják, úgy kell tekinteni, mint akik a közgyűlésen elektronikus hírközlő eszköz igénybe vételével vesznek részt.\n(2) Az elektronikus hírközlő eszköz igénybe vételével összefüggésben a részvénytársaságnál felmerülő költségeket a részvénytársaság viseli, azok a részvényesekre nem háríthatók át.\n(3) Nem tartható konferencia-közgyűlés, ha az ellen a szavazatok legalább öt százalékával együttesen rendelkező részvényesek a közgyűlési meghívó kézhezvételétől vagy a hirdetmény közzétételétől számított öt napon belül – az ok megjelölésével – írásban tiltakoznak, és egyben kérik a közgyűlés hagyományos módon történő megtartását.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:281. §",
+          "cim": "Konferencia-közgyűlés lebonyolítása",
+          "tartalom": "(1) A konferencia-közgyűlés megnyitása előtt a közgyűlésen közvetlen személyes jelenléttel részt venni kívánó részvényesek részvényesi jogosultságát a részvénykönyv adatai alapján ellenőrizni kell. Alapszabályban vagy annak felhatalmazása alapján közgyűlési határozatban kell rendelkezni arról, hogy a közgyűlésen telekommunikációs kapcsolat útján részt vevő részvényesek személyazonossága miként ellenőrizendő, rendelkezni kell továbbá a szavazás módjáról és eredményének hiteles megállapításáról, a közgyűlés tisztségviselőinek megválasztásáról, valamint a részvényest megillető felszólalási és javaslattételi jog gyakorlásának feltételeiről.\n(2) A konferencia-közgyűlésen elhangzottakat és a hozott határozatokat hiteles módon úgy kell rögzíteni, hogy azok utóbb is ellenőrizhetőek legyenek. Ha a közgyűlésen elhangzottakról felvétel készült, a felvétel alapján jegyzőkönyvet kell készíteni, amelyet az igazgatóság hitelesít.\n(3) 1 Ha a konferencia-közgyűlésen elektronikus hírközlő eszközök igénybevételével történő szavazásra kerül sor, biztosítani kell, hogy az elektronikus hírközlő eszközzel szavazó részvényes elektronikus visszaigazolást kapjon a szavazat leadásáról.",
+          "footnote": [
+            "1 Beiktatta: 2019. évi LXVII. törvény 126. §. Hatályos: 2020. IX. 3-tól. Lásd: 2019. évi LXVII. törvény 29. § (5)."
+          ]
+        },
+        {
+          "szakasz": "3:282. §",
+          "cim": "Az igazgatóság összetétele, eljárása",
+          "tartalom": "(1) A részvénytársaság ügyvezetését az igazgatóság látja el. Az igazgatóság három természetes személy tagból áll. Semmis az alapszabály azon rendelkezése, amely háromnál kevesebb tagú igazgatóság felállítását írja elő.\n(2) Az igazgatóság elnökét maga választja tagjai közül.\n(3) 2 Az igazgatóság jogait és feladatait testületként gyakorolja. Az igazgatóság tagjai képviseleti jogának korlátozása, megosztása, és nyilatkozatának feltételhez vagy jóváhagyáshoz kötése harmadik személyekkel szemben nem hatályos.\n(4) 3 Az igazgatóság határozatait a jelenlévők szótöbbségével hozza.",
+          "footnote": [
+            "2 A 2013. évi CCLII. törvény 185. § (16) szerinti szöveggel lép hatályba.",
+            "3 Megállapította: 2021. évi XCV. törvény 35. §. Hatályos: 2022. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "3:283. §",
+          "cim": "Igazgatóság jogait gyakorló vezérigazgató",
+          "tartalom": "Zártkörűen működő részvénytársaság alapszabályának rendelkezése esetén az igazgatóság jogait vezető tisztségviselőként vezérigazgató gyakorolja.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:284. §",
+          "cim": "Jelentés előterjesztése",
+          "tartalom": "(1) Az igazgatóság az ügyvezetésről, a társaság vagyoni helyzetéről és üzletpolitikájáról legalább évente egyszer a közgyűlés, ha a részvénytársaságnál felügyelőbizottság működik, legalább háromhavonta a felügyelőbizottság részére jelentést készít.\n(2) Semmis az alapszabály olyan rendelkezése, amely az igazgatóság jelentés előterjesztésére irányuló kötelezettségét kizárja vagy korlátozza.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:285. §",
+          "cim": "Nyilvánosan működő részvénytársaságok egységes irányítási rendszerben",
+          "tartalom": "(1) Nyilvánosan működő részvénytársaság alapszabályának rendelkezése esetén igazgatóság és felügyelőbizottság helyett egységes irányítási rendszert megvalósító igazgatótanács működhet. Az igazgatótanács látja el az igazgatóság és a felügyelőbizottság törvényben meghatározott feladatait.\n(2) E törvénynek az igazgatóságra vonatkozó szabályait az igazgatótanácsra megfelelően alkalmazni kell.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:286. §",
+          "cim": "Az igazgatótanács összetétele",
+          "tartalom": "(1) 1 Az igazgatótanács legalább öt természetes személy tagból áll. Ha az igazgatótanács elnökét a közgyűlés nem jelöli ki, elnökét maga választja tagjai közül. Semmis az alapszabály azon rendelkezése, amely ötnél kevesebb tagú igazgatótanács felállítását írja elő.\n(2) Az igazgatótanács tagjai többségének – a (3) bekezdésben foglalt kivétellel – független személynek kell lennie. Semmis az alapszabály olyan rendelkezése, amely a független tagok arányát alacsonyabban határozza meg.\n(3) Ha a részvénytársaság elismert vállalatcsoporthoz tartozó ellenőrzött társaság, az igazgatótanács tagjai többségének függetlenségére vonatkozó előírást nem kell alkalmazni.",
+          "footnote": [
+            "1 Megállapította: 2021. évi XCV. törvény 36. §. Hatályos: 2022. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "3:287. §",
+          "cim": "Az igazgatótanács tagjainak függetlensége",
+          "tartalom": "(1) Függetlennek minősül az igazgatótanács tagja, ha a részvénytársasággal az igazgatótanácsi tagságán és a társaság szokásos tevékenységébe tartozó, az igazgatótanácsi tag szükségleteit kielégítő ügyleten alapuló jogviszonyon kívül más jogviszonyban nem áll.\n(2) Nem minősül függetlennek az igazgatótanács tagja, ha\na) a részvénytársaság munkavállalója vagy volt munkavállalója, e jogviszonyának megszűnésétől számított öt évig;\nb) a részvénytársaság vagy vezető tisztségviselői számára és javára ellenérték fejében szakértői vagy más megbízási jogviszony alapján tevékenységet folytat;\nc) a részvénytársaság olyan részvényese, aki közvetve vagy közvetlenül a leadható szavazatok legalább harminc százalékát birtokolja vagy ilyen személynek közeli hozzátartozója vagy élettársa;\nd) közeli hozzátartozója vagy élettársa a részvénytársaság nem független vezető tisztségviselőjének vagy vezető állású munkavállalójának;\ne) a részvénytársaság eredményes működése esetén igazgatótanácsi tagsága alapján vagyoni juttatásra jogosult, vagy az igazgatótanácsi tagságért járó díjon kívül bármilyen javadalmazásban részesül a részvénytársaságtól, illetve a részvénytársasághoz kapcsolt vállalkozástól;\nf) az igazgatótanács nem független tagjával egy másik gazdasági társaságban olyan jogviszonyban áll, amely alapján a nem független tagnak irányítási, ellenőrzési joga van;\ng) a részvénytársaság könyvvizsgálója vagy a könyvvizsgáló társaság tagja, illetve alkalmazottja e jogviszony megszűnésétől számított három évig;\nh) vezető tisztségviselő vagy vezető állású munkavállaló egy olyan gazdasági társaságban, amelynek független igazgatótanácsi tagja egyben a nyilvánosan működő részvénytársaság vezető tisztségviselője.\n(3) Semmis az alapszabály olyan rendelkezése, amely a függetlenség követelményeit az (1)–(2) bekezdésben meghatározottaknál enyhébben határozza meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:288. §",
+          "cim": "Munkavállalói részvétel az igazgatótanácsban",
+          "tartalom": "(1) Ha a nyilvánosan működő részvénytársaságnál igazgatótanács működik, az igazgatótanácsnak és az üzemi tanácsnak kell megállapodnia a munkavállalói részvételből eredő jogok gyakorlásának módjáról.\n(2) Az (1) bekezdés alapján létrejött megállapodásra a szerződések általános szabályait kell megfelelően alkalmazni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:289. §",
+          "cim": "Felelős társaságirányítási jelentés",
+          "tartalom": "(1) A nyilvánosan működő részvénytársaság igazgatósága köteles az éves rendes közgyűlés elé terjeszteni a részvénytársaság társaságirányítási gyakorlatát bemutató, az adott tőzsde szereplői számára előírt módon elkészített jelentést.\n(2) 1 A jelentés elfogadásáról a közgyűlés dönt. Ha a részvénytársaságnál felügyelőbizottság működik, a jelentés a felügyelőbizottság jóváhagyása nélkül nem terjeszthető a közgyűlés elé. A közgyűlés határozatát és az elfogadott jelentést a részvénytársaság honlapján közzé kell tenni.\n(3) Semmis az alapszabály azon rendelkezése, amely e § rendelkezéseitől eltér.",
+          "footnote": [
+            "1 Megállapította: 2021. évi XCV. törvény 37. §. Hatályos: 2022. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "3:290. §",
+          "cim": "A részvénytársaság felügyelőbizottsága",
+          "tartalom": "(1) Nyilvánosan működő részvénytársaságnál – a gazdasági társaságok közös szabályaiban meghatározott eseteken kívül – felügyelőbizottság választása akkor is kötelező, ha a társaság nem egységes irányítási rendszerben működik. Az igazgatótanács független tagjainak arányára és függetlenségére vonatkozó szabályokat ebben az esetben a felügyelőbizottságra kell alkalmazni.\n(2) Nyilvánosan működő részvénytársaságnál ügydöntő felügyelőbizottság nem működhet.\n(3) Zártkörűen működő részvénytársaságnál, ha a szavazati jogok legalább öt százalékával együttesen rendelkező részvényesek ezt kérik, a felügyelőbizottságot létre kell hozni.\n(4) Az alapszabály e §-ba ütköző rendelkezése semmis.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:291. §",
+          "cim": "Auditbizottság",
+          "tartalom": "(1) Nyilvánosan működő részvénytársaságnál kötelező auditbizottság létrehozása, amely a felügyelőbizottságot, illetve az igazgatótanácsot a pénzügyi beszámolórendszer ellenőrzésében, a könyvvizsgáló kiválasztásában és a könyvvizsgálóval való együttműködésben segíti.\n(2) Az auditbizottságot a közgyűlés a felügyelőbizottság vagy az igazgatótanács független tagjai közül választja. Az auditbizottság legalább egy tagjának számviteli vagy könyvvizsgálói szakképesítéssel kell rendelkeznie.\n(3) Semmis az alapszabály azon rendelkezése, amely az (1) és a (2) bekezdésben foglalt szabályoktól eltér.\n(4) 2 Az auditbizottság legalább három tagból áll. Semmis az alapszabály azon rendelkezése, amely háromnál kevesebb tagú auditbizottság felállítását írja elő.",
+          "footnote": [
+            "2 Módosította: 2021. évi XCV. törvény 46. § 20."
+          ]
+        },
+        {
+          "szakasz": "3:292. §",
+          "cim": "Könyvvizsgáló",
+          "tartalom": "Részvénytársaságnál állandó könyvvizsgáló működik; nyilvánosan működő részvénytársaság alapszabályának ettől eltérő rendelkezése semmis.",
+          "footnote": []
+        }
+      ]
+    },
+    {
+      "cim_sorszama": "XXXVI.",
+      "megnevezes": "Az alaptőke felemelése",
+      "szakaszok": [
+        {
+          "szakasz": "3:293. §",
+          "cim": "Alaptőke-emelésről szóló határozat",
+          "tartalom": "(1) A részvénytársaság alaptőkéjének felemeléséről a közgyűlés határoz. Különböző alaptőke-emelési módok szerinti alaptőke-emelés egyidejűleg is elhatározható.\n(2) Az alaptőke felemelését elhatározó közgyűlési határozat érvényességének feltétele, hogy a tőkeemeléssel – az alapszabályban foglaltak szerint – érintettnek minősülő részvényfajta, illetve részvényosztály részvényesei az alapszabályban meghatározott módon az alaptőke felemeléséhez külön hozzájáruljanak. Ennek során a részvényhez fűződő szavazati jog esetleges korlátozására vagy kizárására vonatkozó rendelkezések – ide nem értve a saját részvényhez kapcsolódó szavazati jog gyakorlásának tilalmát – nem alkalmazhatók.\n(3) Semmis a nyilvánosan működő részvénytársaság alapszabályának a (2) bekezdésbe ütköző rendelkezése.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:294. §",
+          "cim": "Az igazgatóság felhatalmazása alaptőke-emelésre",
+          "tartalom": "(1) A részvénytársaság közgyűlése felhatalmazhatja az igazgatóságot az alaptőke felemelésére. A felhatalmazásban meg kell határozni a legmagasabb összeget, amelyre az igazgatóság a részvénytársaság alaptőkéjét felemelheti, és azt a legfeljebb öt éves időtartamot, amely alatt az alaptőke-emelésre sor kerülhet.\n(2) Az igazgatóságnak az alaptőke felemelésére történő felhatalmazása esetén az igazgatóság dönt az alaptőke felemelésével kapcsolatos, e törvény vagy az alapszabály szerint egyébként a közgyűlés hatáskörébe tartozó kérdésekről is.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:295. §",
+          "cim": "Az alaptőke-emelés előfeltétele",
+          "tartalom": "A részvénytársaság alaptőkéjét új részvények forgalomba hozatalával akkor emelheti fel, ha korábban forgalomba hozott valamennyi részvényének névértékét, illetve kibocsátási értékét befizették, és a nem pénzbeli vagyoni hozzájárulást maradéktalanul a részvénytársaság rendelkezésére bocsátották.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:296. §",
+          "cim": "A közgyűlési határozat",
+          "tartalom": "(1) Az alaptőkének új részvények forgalomba hozatalával történő felemeléséről szóló közgyűlési határozatban meg kell határozni\na) az alaptőke-emelés módját;\nb) az alaptőke-emelés összegét vagy legkisebb tervezett összegét;\nc) az alaptőke-emeléshez kapcsolódó alapszabály-módosítás tervezetét, ezen belül a kibocsátandó új részvények számát, sorozatát, illetve a sorozatba tartozó részvények fajtájához, részvényosztályához, részvénysorozatához kapcsolódó jogokat, a részvények előállításának módját, névértékét, illetve kibocsátási értékét, és a részvények névértéke vagy kibocsátási értéke befizetésének feltételeit;\nd) a nem pénzbeli vagyoni hozzájárulás tárgyát, értékét, az ellenében adandó részvények számát és egyéb jellemzőit, a hozzájárulást szolgáltató nevét (cégét), lakóhelyét, székhelyét és az előzetes értékelést végző könyvvizsgáló nevét, székhelyét (lakóhelyét), a szolgáltatás időpontját;\ne) a részvények átvételére vonatkozó nyilatkozat megtételére rendelkezésre álló időtartamot vagy jegyzési határidőt.\n(2) Az új részvények zártkörű forgalomba hozatalával történő alaptőke-emelést elrendelő közgyűlési határozatban meg kell jelölni azokat a személyeket, akiket a közgyűlés feljogosít a részvények átvételére azzal a feltétellel, hogy az arra jogosultak jegyzési elsőbbségükkel nem élnek. A közgyűlési határozatban meg kell jelölni az egyes személyek által átvehető részvények számát.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:297. §",
+          "cim": "Elsőbbségi jog gyakorlása",
+          "tartalom": "(1) A közgyűlés az alapszabályban meghatározott feltételek szerint jogosult jegyzési jogot biztosító kötvények kibocsátásáról határozni, amelyek az alaptőke új részvények forgalomba hozatalával történő felemelése esetén a részvények átvételére, illetve jegyzésére vonatkozó elsőbbséget biztosítanak a kötvény jogosultjának.\n(2) Az alaptőke pénzbeli hozzájárulás ellenében történő felemelése esetén a részvényesek, valamint az átváltoztatható, illetve jegyzési jogot biztosító kötvények tulajdonosai a részvények átvételére elsőbbségi joggal rendelkeznek. Az elsőbbségi jog gyakorlására jogosultak sorrendjét és az elsőbbségi jog gyakorlására rendelkezésre álló időtartamot az alapszabályban kell szabályozni.\n(3) Az elsőbbségi jog gyakorlására a részvénytársaság legalább tizenöt napos határidőt köteles biztosítani.\n(4) A részvénytársaság köteles az alapszabályban meghatározott módon tájékoztatni a részvényeseket, továbbá az átváltoztatható és a jegyzési jogot biztosító kötvények tulajdonosait a megszerezhető részvények névértékéről, illetve kibocsátási értékéről, a jog érvényesítésére nyitva álló időszak kezdő- és záró napjáról és a jog gyakorlásának módjáról.\n(5) Az átváltozó kötvény előre meghatározott objektív ok alapján alakul át részvénnyé, ennek megfelelően tulajdonosa számára elsőbbségi jogot nem biztosít",
+          "footnote": [
+            "1 A 2013. évi CXXXV. törvény 41. § szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "3:298. §",
+          "cim": "Alapszabály-módosítás",
+          "tartalom": "(1) Ha az alaptőke-emelést elhatározó közgyűlés az alapszabályt az alaptőkeemeléssel összefüggésben – a részvények átvételére vonatkozó kötelezettségvállalások, illetve a részvényjegyzés eredményétől függően – a nyilatkozat megtételére rendelkezésre álló határidő lejártának, illetve a jegyzés lezárásának napján beálló hatállyal módosítja, az alaptőkeemeléssel kapcsolatban újabb közgyűlés tartására nincs szükség.\n(2) Ha feltételes alapszabály módosításra nem került sor, vagy az alaptőke-emelés során olyan kérdésben kell a közgyűlésnek határoznia, amelyre vonatkozóan a feltételes alapszabály-módosítás nem vagy nem megfelelő rendelkezést tartalmaz, az alapszabály módosításáról a közgyűlésnek a részvények átvételére vonatkozó nyilatkozat megtételére rendelkezésre álló határidő leteltét vagy a jegyzés eredményes lezárását követő hatvan napon belül kell határoznia.\n(3) Az alaptőke felemelésével forgalomba hozott új részvény első ízben az alaptőke-emelés bejegyzésének üzleti éve után járó osztalékra jogosít.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:299. §",
+          "cim": "Alaptőke-emelés meghiúsulása",
+          "tartalom": "(1) Az alaptőke-emelés meghiúsul, ha az alaptőke-emelés tervezett összegének, illetve legkisebb összegének megfelelő névértékű, illetve kibocsátási értékű részvények átvételére az arra jogosultak nem vállaltak kötelezettséget, illetve a részvényeket nem jegyezték le.\n(2) Az alaptőke-emelés meghiúsulását a részvény átvételére vonatkozó kötelezettségvállalás teljesítésére előírt határidő (a továbbiakban: jegyzési határidő) lejártát követő harminc napon belül be kell jelenteni a nyilvántartó bíróságnak.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:300. §",
+          "cim": "Az alaptőke-emelés előfeltételei",
+          "tartalom": "A részvénytársaság alaptőkéjét alaptőkén felüli vagyonával vagy annak egy részével felemelheti, ha az előző üzleti évre vonatkozó beszámolójának mérlege vagy a tárgyévi közbenső mérlege szerint a társaság rendelkezik olyan alaptőkén felüli vagyonnal, amely alaptőke-emelésre fordítható, és a részvénytársaság alaptőkéje a tőkeemelést követően sem haladja meg a – lekötött tartalékkal, értékelési tartalékkal csökkentett – saját tőke összegét.",
+          "footnote": [
+            "1 Megállapította: 2021. évi XCV. törvény 38. §. Hatályos: 2022. I. 1-től."
+          ]
+        },
+        {
+          "szakasz": "3:301. §",
+          "cim": "Az alaptőke-emelés végrehajtása",
+          "tartalom": "(1) Az alaptőke-emelésről szóló közgyűlési határozatban módosítani kell az alapszabályt, és meg kell határozni, hogy az alaptőke-emelés végrehajtása új részvények előállításával, a részvények felülbélyegzésével vagy kicserélésével történik.\n(2) A felemelt alaptőkét megtestesítő részvények a részvénytársaság részvényeseit ellenérték nélkül, részvényeik névértékének arányában illetik meg.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:302. §",
+          "cim": "A dolgozói részvény kibocsátásának szabályai",
+          "tartalom": "(1) Dolgozói részvény kibocsátása esetén a részvénytársaság által fedezendő ellenértéket a részvénytársaság alaptőkén felüli vagyonából kell fedezni.\n(2) A dolgozói részvények forgalomba hozatalával történő tőkeemelésre az új részvények zártkörű fogalomba hozatalával kapcsolatos, illetve az alaptőkén felüli vagyon terhére történő tőkeemelés szabályait megfelelően alkalmazni kell.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:303. §",
+          "cim": "Feltételes alaptőke-emelés",
+          "tartalom": "(1) A részvénytársaság feltételes alaptőke-emelést határozhat el átváltoztatható vagy átváltozó kötvények forgalomba hozatalával.\n(2) A forgalomba hozott átváltoztatható vagy átváltozó kötvények névértékének összege nem haladhatja meg a részvénytársaság alaptőkéjének felét.\n(3) Az átváltoztatható kötvényt az alapszabályban meghatározott feltételek szerint a kötvényes kérésére részvénnyé kell átalakítani. Az átváltozó kötvény a kötvényben meghatározott feltétel bekövetkezése esetén alakul át részvénnyé.\n(4) A feltételes alaptőke-emelést elhatározó közgyűlési határozatban meg kell határozni\na) azt, hogy a kötvény kibocsátása zártkörűen vagy nyilvánosan történik;\nb) a kibocsátandó kötvények számát, névértékét, illetve kibocsátási értékét, a kötvények sorozatát, a jegyzés helyét és idejét;\nc) a kötvények részvénnyé történő átalakításának vagy átalakulásának feltételeit, időpontját;\nd) a kötvény futamidejét, a kamat vagy egyéb hozam megfizetésének feltételeit;\ne) kötvény zártkörű kibocsátása esetén a kötvények átvételére jogosult személyeket és az általuk jegyezhető kötvények számát, névértékét, kibocsátási értékét és sorozatát.",
+          "footnote": [
+            "2 A 2013. évi CCLII. törvény 185. § (17) szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "3:304. §",
+          "cim": "A kötvénykibocsátás következményei",
+          "tartalom": "(1) Eredményes kötvénykibocsátás esetén a közgyűlés köteles a kötvényjegyzésre rendelkezésre állt határidő lejártát követő hatvan napon belül módosítani az alapszabályt.\n(2) Ha a kötvényjegyzés eredménytelen volt, az igazgatóság köteles a kötvényjegyzés lezárásától számított harminc napon belül e tényt a nyilvántartó bíróságnak bejelenteni.",
+          "footnote": []
+        },
+        {
+          "szakasz": "3:305. §",
+          "cim": "Kötvény helyett részvény igénylése és a kötvény részvénnyé történő átváltozása",
+          "tartalom": "(1) Az átváltoztatható kötvény tulajdonosa a kötvény futamidején belül, a közgyűlés által meghatározott időtartam alatt írásban – nyomdai úton előállított kötvények esetén a kötvényeknek az igazgatóság részére történő benyújtásával – kötvényei helyébe részvényt igényelhet.\n(2) Az átváltoztatható kötvény átváltoztatásáról szóló nyilatkozat megtételével, az átváltozó kötvény átváltozására előírt feltétel bekövetkeztével a kötvénytulajdonos jogosulttá válik részvényutalványra.\n(3) Az (1) bekezdés szerinti bejelentés megtételére rendelkezésre álló időtartam lejártát vagy az átváltozó kötvény átváltozására előírt feltétel bekövetkeztét követően az igazgatóság – az átváltozó kötvény esetén a feltétel bekövetkeztének megállapítása mellett – haladéktalanul intézkedik az alaptőke-emelés nyilvántartásba történő bejegyzése iránt azzal, hogy az alapszabály módosítására nincs szükség. Az alaptőke-emelés során a nyilvántartásba vételre és a részvény kiadására, jóváírására vonatkozó rendelkezéseket megfelelően alkalmazni kell.",
+          "footnote": [
+            "1 A 2013. évi CCLII. törvény 185. § (18) szerinti szöveggel lép hatályba."
+          ]
+        },
+        {
+          "szakasz": "3:306. §",
+          "cim": "Alaptőke-emelés nyomdai úton előállított részvényekkel",
+          "tartalom": "(1) Nyomdai úton előállított részvények esetén, az alaptőke-emelés bejegyzését követő hatvan napon belül az igazgatóságnak az alapszabályban meghatározott módon, erre vonatkozó felhívásban kell tájékoztatnia a részvényeseket – a tőkeemelés végrehajtásának módjától függően – a felülbélyegzendő, illetve kicserélendő részvények átvételének és az új, kicserélt vagy felülbélyegzett részvények átadásának helyéről és kezdő időpontjáról.\n(2) A részvények részvénytársaságnak történő átadására legalább harminc napot kell biztosítani. A kicserélésre átadott részvényeket az igazgatóság, az értékpapírokra vonatkozó rendelkezések szerint eljárva, a határidő leteltét követően érvényteleníti.\n(3) Ha a részvényes a felülbélyegzendő vagy kicserélendő részvényeket a felhívásban megjelölt határidőn belül az igazgatóságnak nem adja át, az igazgatóság a részvényeket érvénytelenné nyilvánítja. A részvények érvénytelenítéséről szóló határozatot közzé kell tenni. Az érvénytelenné nyilvánított részvényekkel részvényesi jogok a határozat keltétől kezdve nem gyakorolhatók.\n(4) Az érvénytelenné nyilvánított részvények helyett a részvénytársaság új részvényeket állít elő, amelyek az érvénytelen...",
+          "footnote": []
+        }
+      ]
+    }
+  ]
+}
