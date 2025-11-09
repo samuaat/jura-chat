@@ -1,0 +1,44 @@
+/* Tailwind 4 bekötése */
+@import "tailwindcss";
+
+/* Alap reset / layout */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+}
+
+/* Linkek */
+
+a {
+  @apply text-blue-600 hover:text-blue-500 underline-offset-2;
+}
+
+/* Scrollbar egy kicsit kulturáltabban (desktopon) */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
