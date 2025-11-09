@@ -1,0 +1,26 @@
+# Node / Next.js
+node_modules
+.next
+out
+
+# Build / log fájlok
+dist
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel
+.vercel
+
+# Környezeti változók
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+node_modules
+node_modules
