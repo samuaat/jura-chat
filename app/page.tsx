@@ -120,7 +120,7 @@ export default function HomePage() {
                 title="Érthetőbbé teszi a jogi szövegeket"
                 text="Segít rövid, közérthető összefoglalót készíteni jogi szakaszokról és fogalmakról."
               />
-              <Feature
+            <Feature
                 icon="✅"
                 title="Releváns szakaszokat keres"
                 text="Gyorsan megtalálja a joganyagból a témához leginkább kapcsolódó szakaszokat."
@@ -207,7 +207,7 @@ export default function HomePage() {
           </p>
         </section>
 
-        {/* Footer – középre igazítva, jogi nyilatkozat linkkel */}
+        {/* Footer – középre igazítva, jogi nyilatkozat + projekt / modellkártya linkkel */}
         <section className="border-t border-slate-200 pt-6 text-center text-xs leading-relaxed text-slate-500">
           <p className="mb-1">
             © {new Date().getFullYear()} JURA – Kísérleti jogi AI-asszisztens
@@ -221,7 +221,14 @@ export default function HomePage() {
               href="/jogi-nyilatkozat"
               className="underline-offset-4 hover:text-slate-900 hover:underline"
             >
-              Jogi nyilatkozat megtekintése →
+              Jogi nyilatkozat →
+            </Link>
+            <span className="mx-2 text-slate-400">·</span>
+            <Link
+              href="/projekt"
+              className="underline-offset-4 hover:text-slate-900 hover:underline"
+            >
+              Projekt / modellkártya →
             </Link>
           </p>
         </section>
