@@ -142,7 +142,7 @@ export default function ChatPage() {
                   </div>
                 )}
                 <div
-                  className={`max-w-[80%] rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
+                  className={`max-w-[80%] whitespace-pre-line break-words rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
                     msg.role === "user"
                       ? "rounded-br-none bg-slate-900 text-slate-50"
                       : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
