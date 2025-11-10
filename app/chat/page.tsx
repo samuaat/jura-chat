@@ -48,10 +48,14 @@ export default function ChatPage() {
     setLoading(true);
 
     try {
+      // 🔧 Itt a lényeg: a Lambda { message, history } formát vár
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: updatedMessages }),
+        body: JSON.stringify({
+          message: trimmed,
+          history: updatedMessages,
+        }),
       });
 
       if (!res.ok) throw new Error("API hiba");
@@ -66,6 +70,7 @@ export default function ChatPage() {
 
       setMessages([...updatedMessages, reply]);
     } catch (error) {
+      console.error("Chat hiba:", error);
       setMessages([
         ...updatedMessages,
         {
