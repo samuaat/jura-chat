@@ -21,10 +21,14 @@ export default function ChatPage() {
   const footerRef = useRef<HTMLDivElement | null>(null);
   const [footerHeight, setFooterHeight] = useState(0);
 
+  // Gyakori/kardinális jogi témák – javasolt kérdések
   const suggestions = [
-    "Mit ír elő a Ptk. 6:519. §?",
-    "Milyen feltételekkel lehet szerződést módosítani?",
-    "Mi a különbség a kártérítés és a sérelemdíj között?",
+    "Mit tehetek, ha a munkáltatóm azonnali hatállyal felmondott?",
+    "Milyen jogaid vannak online vásárlás elállásakor 14 napon belül?",
+    "Mikor követelhetek kártérítést szerződésszegés miatt?",
+    "Milyen jogai vannak a bérlőnek lakásbérleti szerződésnél?",
+    "Hogyan oszlik meg a hagyaték a törvényes öröklés szabályai szerint?",
+    "Mik a személyiségi jogi jogsértés feltételei a Ptk. szerint?",
   ];
 
   // Scroll automatikusan a legutolsó üzenetre
@@ -42,7 +46,7 @@ export default function ChatPage() {
     }
   }, [input]);
 
-  // Footer magasság követése (input + jogi nyilatkozat) – csak akkor fontos, ha van chat
+  // Footer magasság követése (input + jogi nyilatkozat)
   useEffect(() => {
     if (!footerRef.current) return;
     const observer = new ResizeObserver(() => {
@@ -151,11 +155,11 @@ export default function ChatPage() {
         <section className="flex flex-1 flex-col items-center justify-center px-4">
           <div className="flex max-w-2xl flex-col items-center text-center">
             <h1 className="mb-4 text-2xl sm:text-3xl font-semibold text-slate-900">
-              Üdvözöllek a JURA-ban, Mark!
+              Üdvözöllek a JURA-ban!
             </h1>
             <p className="mb-8 max-w-md text-sm text-slate-500">
-              Kérdezz tőlem bármit a magyar jogról – jogszabályokról, jogintézményekről
-              vagy konkrét szakaszok értelmezéséről. A válaszok nem
+              Kérdezz a magyar jogról – például munkajogról, fogyasztóvédelemről,
+              szerződésekről, bérletről vagy öröklésről. A válaszok nem
               minősülnek jogi tanácsadásnak.
             </p>
 
