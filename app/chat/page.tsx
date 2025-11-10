@@ -151,14 +151,14 @@ export default function ChatPage() {
               minősülnek jogi tanácsadásnak.
             </p>
 
-            {/* Javasolt kérdések */}
-            <div className="mb-6 flex w-full flex-wrap justify-center gap-3">
+            {/* Javasolt kérdések – „szétszórt” grid layout */}
+            <div className="mb-6 grid w-full gap-3 sm:grid-cols-2">
               {suggestions.map((tip) => (
                 <button
                   key={tip}
                   type="button"
                   onClick={() => handleSuggestionClick(tip)}
-                  className="w-full rounded-full border border-slate-300 bg-white px-4 py-2 text-xs sm:text-sm text-slate-700 shadow-sm transition hover:bg-slate-50 md:w-auto"
+                  className="rounded-3xl border border-slate-300 bg-white px-4 py-2 text-left text-xs sm:text-sm text-slate-700 shadow-sm transition hover:bg-slate-50"
                 >
                   {tip}
                 </button>
