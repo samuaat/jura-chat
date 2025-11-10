@@ -18,8 +18,6 @@ export default function ChatPage() {
 
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
-  const footerRef = useRef<HTMLDivElement | null>(null);
-  const [footerHeight, setFooterHeight] = useState(0);
 
   // Gyakori/kardinális jogi témák – javasolt kérdések
   const suggestions = [
@@ -45,16 +43,6 @@ export default function ChatPage() {
       textarea.style.height = `${textarea.scrollHeight}px`;
     }
   }, [input]);
-
-  // Footer magasság követése (input + jogi nyilatkozat)
-  useEffect(() => {
-    if (!footerRef.current) return;
-    const observer = new ResizeObserver(() => {
-      setFooterHeight(footerRef.current?.offsetHeight || 0);
-    });
-    observer.observe(footerRef.current);
-    return () => observer.disconnect();
-  }, []);
 
   async function sendMessage(overrideText?: string) {
     const raw = overrideText ?? input;
@@ -221,10 +209,7 @@ export default function ChatPage() {
       ) : (
         <>
           {/* CHAT CONTENT – klasszikus chat nézet */}
-          <section
-            className="flex flex-1 justify-center"
-            style={{ paddingBottom: `${footerHeight + 12}px` }}
-          >
+          <section className="flex flex-1 justify-center pb-32">
             <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
               {messages.map((msg, index) => (
                 <div
@@ -271,10 +256,7 @@ export default function ChatPage() {
           </section>
 
           {/* INPUT + LEGAL NOTICE – fixen alul, ha már van beszélgetés */}
-          <footer
-            ref={footerRef}
-            className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur"
-          >
+          <footer className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur">
             <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 pb-4 pt-2">
               <form
                 onSubmit={handleSubmit}
