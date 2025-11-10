@@ -21,6 +21,8 @@ export default function ChatPage() {
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
+  const footerRef = useRef<HTMLDivElement | null>(null);
+  const [footerHeight, setFooterHeight] = useState(0);
 
   // Scroll automatikusan a legutolsó üzenetre
   useEffect(() => {
@@ -36,6 +38,16 @@ export default function ChatPage() {
     }
   }, [input]);
 
+  // Footer magasság követése (input + jogi nyilatkozat)
+  useEffect(() => {
+    if (!footerRef.current) return;
+    const observer = new ResizeObserver(() => {
+      setFooterHeight(footerRef.current?.offsetHeight || 0);
+    });
+    observer.observe(footerRef.current);
+    return () => observer.disconnect();
+  }, []);
+
   async function sendMessage() {
     const trimmed = input.trim();
     if (!trimmed || loading) return;
@@ -48,7 +60,6 @@ export default function ChatPage() {
     setLoading(true);
 
     try {
-      // 🔧 Itt a lényeg: a Lambda { message, history } formát vár
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -112,8 +123,11 @@ export default function ChatPage() {
       </header>
 
       {/* CHAT CONTENT */}
-      <section className="flex flex-1 justify-center">
-        <div className="flex w-full max-w-3xl flex-col px-4 pb-24 pt-4">
+      <section
+        className="flex flex-1 justify-center"
+        style={{ paddingBottom: `${footerHeight + 12}px` }}
+      >
+        <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
           {messages.map((msg, index) => (
             <div
               key={index}
@@ -159,7 +173,10 @@ export default function ChatPage() {
       </section>
 
       {/* INPUT + LEGAL NOTICE */}
-      <footer className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur">
+      <footer
+        ref={footerRef}
+        className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur"
+      >
         <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 pb-4 pt-2">
           <form
             onSubmit={handleSubmit}
