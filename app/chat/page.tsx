@@ -140,8 +140,8 @@ export default function ChatPage() {
 
       {/* EMPTY STATE – ChatGPT-szerű kezdőképernyő */}
       {showEmptyState ? (
-        <section className="flex flex-1 flex-col items-center justify-center px-4">
-          <div className="flex max-w-2xl flex-col items-center text-center">
+        <section className="flex flex-1 flex-col items-center justify-start px-4 pb-4 pt-10 lg:justify-center lg:pt-0">
+          <div className="flex w-full max-w-2xl flex-col items-center text-center">
             <h1 className="mb-4 text-2xl sm:text-3xl font-semibold text-slate-900">
               Üdvözöllek a JURA-ban!
             </h1>
@@ -152,13 +152,13 @@ export default function ChatPage() {
             </p>
 
             {/* Javasolt kérdések */}
-            <div className="mb-10 flex flex-wrap justify-center gap-3">
+            <div className="mb-6 flex w-full flex-wrap justify-center gap-3">
               {suggestions.map((tip) => (
                 <button
                   key={tip}
                   type="button"
                   onClick={() => handleSuggestionClick(tip)}
-                  className="rounded-full border border-slate-300 bg-white px-4 py-2 text-xs sm:text-sm text-slate-700 shadow-sm transition hover:bg-slate-50"
+                  className="w-full rounded-full border border-slate-300 bg-white px-4 py-2 text-xs sm:text-sm text-slate-700 shadow-sm transition hover:bg-slate-50 md:w-auto"
                 >
                   {tip}
                 </button>
@@ -209,7 +209,7 @@ export default function ChatPage() {
       ) : (
         <>
           {/* CHAT CONTENT – klasszikus chat nézet */}
-          <section className="flex flex-1 justify-center pb-32">
+          <section className="flex flex-1 justify-center overflow-y-auto pb-4 md:pb-32">
             <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
               {messages.map((msg, index) => (
                 <div
@@ -255,8 +255,8 @@ export default function ChatPage() {
             </div>
           </section>
 
-          {/* INPUT + LEGAL NOTICE – fixen alul, ha már van beszélgetés */}
-          <footer className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur">
+          {/* INPUT + LEGAL NOTICE – mobilon nem fixed, desktopon fixed */}
+          <footer className="border-t border-slate-200 bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur md:fixed md:inset-x-0 md:bottom-0">
             <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 pb-4 pt-2">
               <form
                 onSubmit={handleSubmit}
