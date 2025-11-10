@@ -55,8 +55,8 @@ export default function ProjektPage() {
             <strong>Magyar Agrár- és Élettudományi Egyetem</strong> (MATE){" "}
             Proof of Concept innovációs finanszírozási programjának
             keretében valósul meg. A támogatás célja egy olyan kísérleti
-            rendszer létrehozása, amely a magyar joganyag egy kiválasztott
-            részhalmazán bemutatja, hogyan lehet a modern nagy nyelvi
+            rendszer létrehozása, amely a magyar joganyaganyagon
+            bemutatja, hogyan lehet a modern nagy nyelvi
             modelleket jogi szövegértelmezésre és információszolgáltatásra
             használni.
           </p>
@@ -232,16 +232,9 @@ export default function ProjektPage() {
             </li>
             <li>
               hosszabb távon: jogi nyelvezetre finomhangolt, dedikált modell
-              és oltalmazható know-how kialakítása.
+              és reprodukálható know-how kialakítása.
             </li>
           </ul>
-          <p className="text-sm leading-relaxed text-slate-700">
-            A projekt eredményeként létrejövő strukturált adatbázis, a
-            feldolgozási pipeline és a finomhangolt modell{" "}
-            <strong>szellemi tulajdonként és know-how-ként is
-            oltalmazható</strong>, ami alapot adhat későbbi intézményi vagy
-            piaci hasznosításnak.
-          </p>
         </section>
 
         {/* Vissza / call to action */}
