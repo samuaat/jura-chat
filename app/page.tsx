@@ -207,14 +207,22 @@ export default function HomePage() {
           </p>
         </section>
 
-        {/* Footer – középre igazítva */}
+        {/* Footer – középre igazítva, jogi nyilatkozat linkkel */}
         <section className="border-t border-slate-200 pt-6 text-center text-xs leading-relaxed text-slate-500">
           <p className="mb-1">
             © {new Date().getFullYear()} JURA – Kísérleti jogi AI-asszisztens
           </p>
-          <p>
+          <p className="mb-1">
             A szolgáltatás használata a felelősségkizáró nyilatkozat
-            elfogadását jelenti. Részletes leírás a „modellkártya” oldalon.
+            elfogadását jelenti.
+          </p>
+          <p>
+            <Link
+              href="/jogi-nyilatkozat"
+              className="underline-offset-4 hover:text-slate-900 hover:underline"
+            >
+              Jogi nyilatkozat megtekintése →
+            </Link>
           </p>
         </section>
       </div>
