@@ -151,18 +151,29 @@ export default function ChatPage() {
               minősülnek jogi tanácsadásnak.
             </p>
 
-            {/* Javasolt kérdések – „szétszórt” grid layout */}
-            <div className="mb-6 grid w-full gap-3 sm:grid-cols-2">
-              {suggestions.map((tip) => (
-                <button
-                  key={tip}
-                  type="button"
-                  onClick={() => handleSuggestionClick(tip)}
-                  className="rounded-3xl border border-slate-300 bg-white px-4 py-2 text-left text-xs sm:text-sm text-slate-700 shadow-sm transition hover:bg-slate-50"
-                >
-                  {tip}
-                </button>
-              ))}
+            {/* Javasolt kérdések – „gondolatbuborék” layout */}
+            <div className="mb-6 flex w-full flex-col gap-3">
+              {suggestions.map((tip, index) => {
+                const alignment =
+                  index % 2 === 0 ? "sm:self-start" : "sm:self-end";
+                const width =
+                  index % 3 === 0
+                    ? "sm:max-w-xs"
+                    : index % 3 === 1
+                    ? "sm:max-w-sm"
+                    : "sm:max-w-md";
+
+                return (
+                  <button
+                    key={tip}
+                    type="button"
+                    onClick={() => handleSuggestionClick(tip)}
+                    className={`w-full rounded-3xl border border-slate-300 bg-white px-4 py-2 text-left text-xs sm:text-sm text-slate-700 shadow-sm transition hover:bg-slate-50 sm:w-auto ${alignment} ${width}`}
+                  >
+                    {tip}
+                  </button>
+                );
+              })}
             </div>
 
             {/* Középre helyezett input mező */}
