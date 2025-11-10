@@ -9,23 +9,27 @@ type ChatMessage = {
   content: string;
 };
 
+const HISTORY_LIMIT = 10;
+
 export default function ChatPage() {
-  const [messages, setMessages] = useState<ChatMessage[]>([
-    {
-      role: "assistant",
-      content:
-        "Üdvözöllek! Én vagyok a JURA kísérleti jogi AI-asszisztens. Miben segíthetek ma?",
-    },
-  ]);
+  const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
   const footerRef = useRef<HTMLDivElement | null>(null);
   const [footerHeight, setFooterHeight] = useState(0);
 
+  const suggestions = [
+    "Mit ír elő a Ptk. 6:519. §?",
+    "Milyen feltételekkel lehet szerződést módosítani?",
+    "Mi a különbség a kártérítés és a sérelemdíj között?",
+  ];
+
   // Scroll automatikusan a legutolsó üzenetre
   useEffect(() => {
+    if (messages.length === 0) return;
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, loading]);
 
@@ -38,7 +42,7 @@ export default function ChatPage() {
     }
   }, [input]);
 
-  // Footer magasság követése (input + jogi nyilatkozat)
+  // Footer magasság követése (input + jogi nyilatkozat) – csak akkor fontos, ha van chat
   useEffect(() => {
     if (!footerRef.current) return;
     const observer = new ResizeObserver(() => {
@@ -48,8 +52,9 @@ export default function ChatPage() {
     return () => observer.disconnect();
   }, []);
 
-  async function sendMessage() {
-    const trimmed = input.trim();
+  async function sendMessage(overrideText?: string) {
+    const raw = overrideText ?? input;
+    const trimmed = raw.trim();
     if (!trimmed || loading) return;
 
     const newMessage: ChatMessage = { role: "user", content: trimmed };
@@ -60,16 +65,27 @@ export default function ChatPage() {
     setLoading(true);
 
     try {
+      const limitedHistory = updatedMessages.slice(-HISTORY_LIMIT);
+
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           message: trimmed,
-          history: updatedMessages,
+          history: limitedHistory,
         }),
       });
 
-      if (!res.ok) throw new Error("API hiba");
+      if (!res.ok) {
+        let backendError = "Ismeretlen API hiba";
+        try {
+          const errData = await res.json();
+          if (typeof errData?.error === "string") backendError = errData.error;
+        } catch {
+          // ha nem JSON, marad a default
+        }
+        throw new Error(backendError);
+      }
 
       const data = await res.json();
       const reply: ChatMessage = {
@@ -80,13 +96,14 @@ export default function ChatPage() {
       };
 
       setMessages([...updatedMessages, reply]);
-    } catch (error) {
+    } catch (error: any) {
       console.error("Chat hiba:", error);
       setMessages([
         ...updatedMessages,
         {
           role: "assistant",
           content:
+            error?.message ||
             "⚠️ Hiba történt a válasz feldolgozása közben. Kérlek, próbáld meg újra később.",
         },
       ]);
@@ -99,6 +116,13 @@ export default function ChatPage() {
     e.preventDefault();
     sendMessage();
   }
+
+  function handleSuggestionClick(text: string) {
+    // azonnal küldjük a javasolt kérdést
+    sendMessage(text);
+  }
+
+  const showEmptyState = messages.length === 0;
 
   return (
     <main className="flex min-h-screen flex-col bg-slate-50">
@@ -122,102 +146,174 @@ export default function ChatPage() {
         </div>
       </header>
 
-      {/* CHAT CONTENT */}
-      <section
-        className="flex flex-1 justify-center"
-        style={{ paddingBottom: `${footerHeight + 12}px` }}
-      >
-        <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
-          {messages.map((msg, index) => (
-            <div
-              key={index}
-              className={`mb-3 flex ${
-                msg.role === "user" ? "justify-end" : "justify-start"
-              }`}
+      {/* EMPTY STATE – ChatGPT-szerű kezdőképernyő */}
+      {showEmptyState ? (
+        <section className="flex flex-1 flex-col items-center justify-center px-4">
+          <div className="flex max-w-2xl flex-col items-center text-center">
+            <h1 className="mb-4 text-2xl sm:text-3xl font-semibold text-slate-900">
+              Üdvözöllek a JURA-ban, Mark!
+            </h1>
+            <p className="mb-8 max-w-md text-sm text-slate-500">
+              Kérdezz tőlem bármit a magyar jogról – jogszabályokról, jogintézményekről
+              vagy konkrét szakaszok értelmezéséről. A válaszok nem
+              minősülnek jogi tanácsadásnak.
+            </p>
+
+            {/* Javasolt kérdések */}
+            <div className="mb-10 flex flex-wrap justify-center gap-3">
+              {suggestions.map((tip) => (
+                <button
+                  key={tip}
+                  type="button"
+                  onClick={() => handleSuggestionClick(tip)}
+                  className="rounded-full border border-slate-300 bg-white px-4 py-2 text-xs sm:text-sm text-slate-700 shadow-sm transition hover:bg-slate-50"
+                >
+                  {tip}
+                </button>
+              ))}
+            </div>
+
+            {/* Középre helyezett input mező */}
+            <form
+              onSubmit={handleSubmit}
+              className="flex w-full max-w-2xl items-end gap-2 rounded-2xl border border-slate-300 bg-white px-3 py-2 shadow-sm"
             >
-              <div className="flex max-w-full gap-3">
-                {msg.role === "assistant" && (
-                  <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-900 text-center text-xs font-semibold leading-7 text-white">
-                    J
-                  </div>
-                )}
+              <textarea
+                ref={textareaRef}
+                rows={1}
+                placeholder="Írd be a kérdésed... (pl. Mit ír elő a Ptk. 6:519. §?)"
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" && !e.shiftKey) {
+                    e.preventDefault();
+                    sendMessage();
+                  }
+                }}
+                className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent pb-1 text-sm text-slate-900 outline-none placeholder:text-slate-400"
+              />
+              <button
+                type="submit"
+                disabled={loading || !input.trim()}
+                className="flex h-9 items-center rounded-xl bg-slate-900 px-4 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                Küldés
+              </button>
+            </form>
+
+            <p className="mt-3 text-[11px] leading-relaxed text-slate-500">
+              A JURA egy kísérleti jogi AI-asszisztens. A válaszok{" "}
+              <strong>nem minősülnek jogi tanácsadásnak</strong>, és nem
+              helyettesítik ügyvéd véleményét. Részletek:{" "}
+              <Link
+                href="/jogi-nyilatkozat"
+                className="underline-offset-2 hover:text-slate-700 hover:underline"
+              >
+                jogi nyilatkozat →
+              </Link>
+            </p>
+          </div>
+        </section>
+      ) : (
+        <>
+          {/* CHAT CONTENT – klasszikus chat nézet */}
+          <section
+            className="flex flex-1 justify-center"
+            style={{ paddingBottom: `${footerHeight + 12}px` }}
+          >
+            <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
+              {messages.map((msg, index) => (
                 <div
-                  className={`max-w-[80%] whitespace-pre-line break-words rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
-                    msg.role === "user"
-                      ? "rounded-br-none bg-slate-900 text-slate-50"
-                      : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
+                  key={index}
+                  className={`mb-3 flex ${
+                    msg.role === "user" ? "justify-end" : "justify-start"
                   }`}
                 >
-                  {msg.content}
-                </div>
-                {msg.role === "user" && (
-                  <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-200 text-center text-xs font-semibold leading-7 text-slate-700">
-                    Én
+                  <div className="flex max-w-full gap-3">
+                    {msg.role === "assistant" && (
+                      <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-900 text-center text-xs font-semibold leading-7 text-white">
+                        J
+                      </div>
+                    )}
+                    <div
+                      className={`max-w-[80%] whitespace-pre-line break-words rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
+                        msg.role === "user"
+                          ? "rounded-br-none bg-slate-900 text-slate-50"
+                          : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
+                      }`}
+                    >
+                      {msg.content}
+                    </div>
+                    {msg.role === "user" && (
+                      <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-200 text-center text-xs font-semibold leading-7 text-slate-700">
+                        Én
+                      </div>
+                    )}
                   </div>
-                )}
-              </div>
+                </div>
+              ))}
+
+              {loading && (
+                <div className="mb-3 flex justify-start">
+                  <div className="flex max-w-[80%] items-center gap-2 rounded-2xl rounded-bl-none border border-slate-200 bg-white px-4 py-3 text-sm text-slate-600 shadow-sm">
+                    <span className="inline-flex h-2 w-2 animate-pulse rounded-full bg-slate-400" />
+                    <span>A JURA gondolkodik…</span>
+                  </div>
+                </div>
+              )}
+
+              <div ref={messagesEndRef} />
             </div>
-          ))}
+          </section>
 
-          {loading && (
-            <div className="mb-3 flex justify-start">
-              <div className="flex max-w-[80%] items-center gap-2 rounded-2xl rounded-bl-none border border-slate-200 bg-white px-4 py-3 text-sm text-slate-600 shadow-sm">
-                <span className="inline-flex h-2 w-2 rounded-full bg-slate-400 animate-pulse" />
-                <span>A JURA gondolkodik…</span>
-              </div>
-            </div>
-          )}
-
-          <div ref={messagesEndRef} />
-        </div>
-      </section>
-
-      {/* INPUT + LEGAL NOTICE */}
-      <footer
-        ref={footerRef}
-        className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur"
-      >
-        <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 pb-4 pt-2">
-          <form
-            onSubmit={handleSubmit}
-            className="flex items-end gap-2 rounded-2xl border border-slate-300 bg-white px-3 py-2 shadow-sm"
+          {/* INPUT + LEGAL NOTICE – fixen alul, ha már van beszélgetés */}
+          <footer
+            ref={footerRef}
+            className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur"
           >
-            <textarea
-              ref={textareaRef}
-              rows={1}
-              placeholder="Írd be a kérdésed... (pl. Mit ír elő a Ptk. 6:519. §?)"
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" && !e.shiftKey) {
-                  e.preventDefault();
-                  sendMessage();
-                }
-              }}
-              className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent pb-1 text-sm text-slate-900 outline-none placeholder:text-slate-400"
-            />
-            <button
-              type="submit"
-              disabled={loading || !input.trim()}
-              className="flex h-9 items-center rounded-xl bg-slate-900 px-4 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
-            >
-              Küldés
-            </button>
-          </form>
+            <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 pb-4 pt-2">
+              <form
+                onSubmit={handleSubmit}
+                className="flex items-end gap-2 rounded-2xl border border-slate-300 bg-white px-3 py-2 shadow-sm"
+              >
+                <textarea
+                  ref={textareaRef}
+                  rows={1}
+                  placeholder="Írd be a kérdésed... (pl. Mit ír elő a Ptk. 6:519. §?)"
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" && !e.shiftKey) {
+                      e.preventDefault();
+                      sendMessage();
+                    }
+                  }}
+                  className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent pb-1 text-sm text-slate-900 outline-none placeholder:text-slate-400"
+                />
+                <button
+                  type="submit"
+                  disabled={loading || !input.trim()}
+                  className="flex h-9 items-center rounded-xl bg-slate-900 px-4 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  Küldés
+                </button>
+              </form>
 
-          <p className="pb-1 text-center text-[11px] leading-relaxed text-slate-500">
-            A JURA egy kísérleti jogi AI-asszisztens. A válaszok{" "}
-            <strong>nem minősülnek jogi tanácsadásnak</strong>, és nem
-            helyettesítik ügyvéd véleményét. Részletek:{" "}
-            <Link
-              href="/jogi-nyilatkozat"
-              className="underline-offset-2 hover:text-slate-700 hover:underline"
-            >
-              jogi nyilatkozat →
-            </Link>
-          </p>
-        </div>
-      </footer>
+              <p className="pb-1 text-center text-[11px] leading-relaxed text-slate-500">
+                A JURA egy kísérleti jogi AI-asszisztens. A válaszok{" "}
+                <strong>nem minősülnek jogi tanácsadásnak</strong>, és nem
+                helyettesítik ügyvéd véleményét. Részletek:{" "}
+                <Link
+                  href="/jogi-nyilatkozat"
+                  className="underline-offset-2 hover:text-slate-700 hover:underline"
+                >
+                  jogi nyilatkozat →
+                </Link>
+              </p>
+            </div>
+          </footer>
+        </>
+      )}
     </main>
   );
 }
