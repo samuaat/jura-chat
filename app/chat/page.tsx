@@ -191,10 +191,14 @@ export default function ChatPage() {
       {/* HEADER */}
       <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-          <div className="flex items-center gap-2">
-            <span className="text-lg font-semibold tracking-tight text-slate-900">
-              JURA Chat
-            </span>
+          <div className="flex items-center gap-3">
+            <Link href="/" className="flex items-center gap-2">
+              <img
+                src="/images/jura-logo.png"
+                alt="JURA logó"
+                className="h-8 w-auto"
+              />
+            </Link>
             <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700">
               kísérleti
             </span>
