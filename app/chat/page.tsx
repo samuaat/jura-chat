@@ -290,7 +290,7 @@ export default function ChatPage() {
       ) : (
         <>
           {/* CHAT CONTENT – klasszikus chat nézet */}
-          <section className="flex flex-1 justify-center overflow-y-auto pb-4 md:pb-32">
+          <section className="flex flex-1 justify-center overflow-y-auto pb-32 md:pb-40">
             <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
               {messages.map((msg, index) => {
                 const isUser = msg.role === "user";
@@ -377,7 +377,7 @@ export default function ChatPage() {
           </section>
 
           {/* INPUT + LEGAL NOTICE – mobilon nem fixed, desktopon fixed */}
-          <footer className="border-t border-slate-200 bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur md:fixed md:inset-x-0 md:bottom-0">
+          <footer className="bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur md:fixed md:inset-x-0 md:bottom-0">
             <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 pb-4 pt-2">
               <form
                 onSubmit={handleSubmit}
