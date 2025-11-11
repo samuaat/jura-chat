@@ -16,8 +16,18 @@ export default function ChatPage() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
+  // Válaszidő visszajelzéshez
+  const [loadingSeconds, setLoadingSeconds] = useState(0);
+  const [totalResponseMs, setTotalResponseMs] = useState(0);
+  const [responseCount, setResponseCount] = useState(0);
+
+  // Másolás visszajelzéséhez
+  const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
+
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
+  const loadingTimerRef = useRef<number | null>(null);
+  const requestStartRef = useRef<number | null>(null);
 
   // Gyakori/kardinális jogi témák – javasolt kérdések
   const suggestions = [
@@ -44,6 +54,15 @@ export default function ChatPage() {
     }
   }, [input]);
 
+  // Interval takarítás unmountkor
+  useEffect(() => {
+    return () => {
+      if (loadingTimerRef.current !== null) {
+        window.clearInterval(loadingTimerRef.current);
+      }
+    };
+  }, []);
+
   async function sendMessage(overrideText?: string) {
     const raw = overrideText ?? input;
     const trimmed = raw.trim();
@@ -55,6 +74,20 @@ export default function ChatPage() {
     setMessages(updatedMessages);
     setInput("");
     setLoading(true);
+
+    // Válaszidő mérés indítása
+    requestStartRef.current = Date.now();
+    setLoadingSeconds(0);
+    if (loadingTimerRef.current !== null) {
+      window.clearInterval(loadingTimerRef.current);
+    }
+    loadingTimerRef.current = window.setInterval(() => {
+      if (!requestStartRef.current) return;
+      const diffSec = Math.floor(
+        (Date.now() - requestStartRef.current) / 1000
+      );
+      setLoadingSeconds(diffSec);
+    }, 1000);
 
     try {
       const limitedHistory = updatedMessages.slice(-HISTORY_LIMIT);
@@ -101,6 +134,18 @@ export default function ChatPage() {
       ]);
     } finally {
       setLoading(false);
+      // Timer leállítása + stat frissítés
+      if (loadingTimerRef.current !== null) {
+        window.clearInterval(loadingTimerRef.current);
+        loadingTimerRef.current = null;
+      }
+      if (requestStartRef.current !== null) {
+        const duration = Date.now() - requestStartRef.current;
+        setTotalResponseMs((prev) => prev + duration);
+        setResponseCount((prev) => prev + 1);
+        requestStartRef.current = null;
+      }
+      setLoadingSeconds(0);
     }
   }
 
@@ -115,6 +160,31 @@ export default function ChatPage() {
   }
 
   const showEmptyState = messages.length === 0;
+  const avgSeconds =
+    responseCount > 0
+      ? Math.round(totalResponseMs / responseCount / 1000)
+      : null;
+
+  // Legutóbbi asszisztens üzenet indexe – erre tesszük a copy gombot
+  const lastAssistantIndex = (() => {
+    let idx = -1;
+    for (let i = 0; i < messages.length; i++) {
+      if (messages[i].role === "assistant") idx = i;
+    }
+    return idx;
+  })();
+
+  async function handleCopy(content: string, index: number) {
+    try {
+      await navigator.clipboard.writeText(content);
+      setCopiedIndex(index);
+      window.setTimeout(() => {
+        setCopiedIndex((current) => (current === index ? null : current));
+      }, 1500);
+    } catch (err) {
+      console.error("Copy error:", err);
+    }
+  }
 
   return (
     <main className="flex min-h-screen flex-col bg-slate-50">
@@ -142,7 +212,7 @@ export default function ChatPage() {
       {showEmptyState ? (
         <section className="flex flex-1 flex-col items-center justify-start px-4 pb-4 pt-10 lg:justify-center lg:pt-0">
           <div className="flex w-full max-w-2xl flex-col items-center text-center">
-            <h1 className="mb-4 text-2xl sm:text-3xl font-semibold text-slate-900">
+            <h1 className="mb-4 text-2xl font-semibold text-slate-900 sm:text-3xl">
               Üdvözöllek a JURA-ban!
             </h1>
             <p className="mb-8 max-w-md text-sm text-slate-500">
@@ -168,7 +238,7 @@ export default function ChatPage() {
                     key={tip}
                     type="button"
                     onClick={() => handleSuggestionClick(tip)}
-                    className={`w-full rounded-3xl border border-slate-300 bg-white px-4 py-2 text-left text-xs sm:text-sm text-slate-700 shadow-sm transition hover:bg-slate-50 sm:w-auto ${alignment} ${width}`}
+                    className={`w-full rounded-3xl border border-slate-300 bg-white px-4 py-2 text-left text-xs text-slate-700 shadow-sm transition hover:bg-slate-50 sm:w-auto sm:text-sm ${alignment} ${width}`}
                   >
                     {tip}
                   </button>
@@ -179,7 +249,7 @@ export default function ChatPage() {
             {/* Középre helyezett input mező */}
             <form
               onSubmit={handleSubmit}
-              className="flex w-full max-w-2xl items-end gap-2 rounded-2xl border border-slate-300 bg-white px-3 py-2 shadow-sm"
+              className="flex w-full max-w-2xl items-end gap-2 rounded-2xl border border-slate-300 bg-white px-4 py-2.5 shadow-sm"
             >
               <textarea
                 ref={textareaRef}
@@ -193,12 +263,12 @@ export default function ChatPage() {
                     sendMessage();
                   }
                 }}
-                className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent pb-1 text-sm text-slate-900 outline-none placeholder:text-slate-400"
+                className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent py-3 text-base text-slate-900 outline-none placeholder:text-slate-400 placeholder:leading-normal"
               />
               <button
                 type="submit"
                 disabled={loading || !input.trim()}
-                className="flex h-9 items-center rounded-xl bg-slate-900 px-4 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
+                className="flex items-center rounded-xl bg-slate-900 px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 Küldés
               </button>
@@ -222,42 +292,82 @@ export default function ChatPage() {
           {/* CHAT CONTENT – klasszikus chat nézet */}
           <section className="flex flex-1 justify-center overflow-y-auto pb-4 md:pb-32">
             <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
-              {messages.map((msg, index) => (
-                <div
-                  key={index}
-                  className={`mb-3 flex ${
-                    msg.role === "user" ? "justify-end" : "justify-start"
-                  }`}
-                >
-                  <div className="flex max-w-full gap-3">
-                    {msg.role === "assistant" && (
-                      <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-900 text-center text-xs font-semibold leading-7 text-white">
-                        J
+              {messages.map((msg, index) => {
+                const isUser = msg.role === "user";
+                const isLastAssistant =
+                  !isUser && index === lastAssistantIndex;
+
+                return (
+                  <div
+                    key={index}
+                    className={`mb-3 flex ${
+                      isUser ? "justify-end" : "justify-start"
+                    }`}
+                  >
+                    <div className="group flex max-w-full gap-3">
+                      {!isUser && (
+                        <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-900 text-center text-xs font-semibold leading-7 text-white">
+                          J
+                        </div>
+                      )}
+                      <div className="relative max-w-[80%]">
+                        <div
+                          className={`whitespace-pre-line break-words rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
+                            isUser
+                              ? "rounded-br-none bg-slate-900 text-slate-50"
+                              : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
+                          }`}
+                        >
+                          {msg.content}
+                        </div>
+
+                        {/* Másolás gomb – csak a legutóbbi asszisztens válasznál */}
+                        {isLastAssistant && (
+                          <button
+                            type="button"
+                            onClick={() => handleCopy(msg.content, index)}
+                            className="absolute -top-2 right-3 inline-flex items-center rounded-full border border-slate-200 bg-white/90 px-2 py-0.5 text-[11px] font-medium text-slate-500 shadow-sm opacity-0 transition group-hover:opacity-100 hover:bg-slate-50"
+                          >
+                            {copiedIndex === index ? "Másolva" : "Másolás"}
+                          </button>
+                        )}
                       </div>
-                    )}
-                    <div
-                      className={`max-w-[80%] whitespace-pre-line break-words rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
-                        msg.role === "user"
-                          ? "rounded-br-none bg-slate-900 text-slate-50"
-                          : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
-                      }`}
-                    >
-                      {msg.content}
+                      {isUser && (
+                        <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-200 text-center text-xs font-semibold leading-7 text-slate-700">
+                          Én
+                        </div>
+                      )}
                     </div>
-                    {msg.role === "user" && (
-                      <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-200 text-center text-xs font-semibold leading-7 text-slate-700">
-                        Én
-                      </div>
-                    )}
                   </div>
-                </div>
-              ))}
+                );
+              })}
 
               {loading && (
                 <div className="mb-3 flex justify-start">
-                  <div className="flex max-w-[80%] items-center gap-2 rounded-2xl rounded-bl-none border border-slate-200 bg-white px-4 py-3 text-sm text-slate-600 shadow-sm">
-                    <span className="inline-flex h-2 w-2 animate-pulse rounded-full bg-slate-400" />
-                    <span>A JURA gondolkodik…</span>
+                  <div className="flex max-w-[80%] flex-col gap-1 rounded-2xl rounded-bl-none border border-slate-200 bg-white px-4 py-3 text-xs text-slate-600 shadow-sm">
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex h-2 w-2 animate-pulse rounded-full bg-slate-400" />
+                      <span className="text-sm">A JURA gondolkodik…</span>
+                      <span className="ml-auto text-[11px] tabular-nums text-slate-400">
+                        {loadingSeconds}s
+                      </span>
+                    </div>
+                    <div className="flex items-center text-[11px] text-slate-400">
+                      {avgSeconds !== null ? (
+                        <span className="flex-1">
+                          Korábbi átlag ebben a beszélgetésben: ~{avgSeconds} mp
+                        </span>
+                      ) : (
+                        <span className="flex-1">
+                          Válaszidő jellemzően 1–2 perc.
+                        </span>
+                      )}
+                      <div className="ml-3 flex items-center gap-1.5">
+                        <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-300" />
+                        <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-300 [animation-delay:0.15s]" />
+                        <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-300 [animation-delay:0.3s]" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               )}
@@ -271,7 +381,7 @@ export default function ChatPage() {
             <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 pb-4 pt-2">
               <form
                 onSubmit={handleSubmit}
-                className="flex items-end gap-2 rounded-2xl border border-slate-300 bg-white px-3 py-2 shadow-sm"
+                className="flex items-end gap-2 rounded-2xl border border-slate-300 bg-white px-4 py-2.5 shadow-sm"
               >
                 <textarea
                   ref={textareaRef}
@@ -285,12 +395,12 @@ export default function ChatPage() {
                       sendMessage();
                     }
                   }}
-                  className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent pb-1 text-sm text-slate-900 outline-none placeholder:text-slate-400"
+                  className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent py-3 text-base text-slate-900 outline-none placeholder:text-slate-400 placeholder:leading-normal"
                 />
                 <button
                   type="submit"
                   disabled={loading || !input.trim()}
-                  className="flex h-9 items-center rounded-xl bg-slate-900 px-4 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
+                  className="flex items-center rounded-xl bg-slate-900 px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
                 >
                   Küldés
                 </button>
