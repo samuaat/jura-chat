@@ -11,6 +11,26 @@ type ChatMessage = {
 
 const HISTORY_LIMIT = 10;
 
+const SITE_URL = "https://jura-chat.vercel.app";
+const CANONICAL = SITE_URL;
+
+const CHAT_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": ["WebPage", "QAPage"],
+  "@id": `${CANONICAL}/chat/#page`,
+  url: `${CANONICAL}/chat`,
+  name: "JURA – jogi chatfelület",
+  inLanguage: "hu-HU",
+  isPartOf: {
+    "@id": `${CANONICAL}/#website`,
+  },
+  about: {
+    "@id": `${CANONICAL}/#jura`,
+  },
+  description:
+    "Interaktív jogi információs chatfelület, ahol a JURA segít a magyar jogszabályok és jogi fogalmak jobb megértésében. A válaszok nem minősülnek jogi tanácsadásnak.",
+} as const;
+
 export default function ChatPage() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
@@ -187,205 +207,78 @@ export default function ChatPage() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col bg-slate-50">
-      {/* HEADER */}
-      <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-          <div className="flex items-center gap-3">
-            <Link href="/" className="flex items-center gap-2">
-              <img
-                src="/images/jura-logo.png"
-                alt="JURA logó"
-                className="h-8 w-auto"
-              />
-            </Link>
-            <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700">
-              kísérleti
-            </span>
-          </div>
-          <Link
-            href="/"
-            className="text-sm font-medium text-slate-700 underline-offset-4 hover:text-slate-900 hover:underline"
-          >
-            ← Vissza a főoldalra
-          </Link>
-        </div>
-      </header>
-
-      {/* EMPTY STATE – ChatGPT-szerű kezdőképernyő */}
-      {showEmptyState ? (
-        <section className="flex flex-1 flex-col items-center justify-start px-4 pb-4 pt-10 lg:justify-center lg:pt-0">
-          <div className="flex w-full max-w-2xl flex-col items-center text-center">
-            <h1 className="mb-4 text-2xl font-semibold text-slate-900 sm:text-3xl">
-              Üdvözöllek a JURA-ban!
-            </h1>
-            <p className="mb-8 max-w-md text-sm text-slate-500">
-              Kérdezz a magyar jogról – például munkajogról, fogyasztóvédelemről,
-              szerződésekről, bérletről vagy öröklésről. A válaszok nem
-              minősülnek jogi tanácsadásnak.
-            </p>
-
-            {/* Javasolt kérdések – „gondolatbuborék” layout */}
-            <div className="mb-6 flex w-full flex-col gap-3">
-              {suggestions.map((tip, index) => {
-                const alignment =
-                  index % 2 === 0 ? "sm:self-start" : "sm:self-end";
-                const width =
-                  index % 3 === 0
-                    ? "sm:max-w-xs"
-                    : index % 3 === 1
-                    ? "sm:max-w-sm"
-                    : "sm:max-w-md";
-
-                return (
-                  <button
-                    key={tip}
-                    type="button"
-                    onClick={() => handleSuggestionClick(tip)}
-                    className={`w-full rounded-3xl border border-slate-300 bg-white px-4 py-2 text-left text-xs text-slate-700 shadow-sm transition hover:bg-slate-50 sm:w-auto sm:text-sm ${alignment} ${width}`}
-                  >
-                    {tip}
-                  </button>
-                );
-              })}
-            </div>
-
-            {/* Középre helyezett input mező */}
-            <form
-              onSubmit={handleSubmit}
-              className="flex w-full max-w-2xl items-end gap-2 rounded-2xl border border-slate-300 bg-white px-4 py-2.5 shadow-sm"
-            >
-              <textarea
-                ref={textareaRef}
-                rows={1}
-                placeholder="Írd be a kérdésed... (pl. Mit ír elő a Ptk. 6:519. §?)"
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" && !e.shiftKey) {
-                    e.preventDefault();
-                    sendMessage();
-                  }
-                }}
-                className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent py-3 text-base text-slate-900 outline-none placeholder:text-slate-400 placeholder:leading-normal"
-              />
-              <button
-                type="submit"
-                disabled={loading || !input.trim()}
-                className="flex items-center rounded-xl bg-slate-900 px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
-              >
-                Küldés
-              </button>
-            </form>
-
-            <p className="mt-3 text-[11px] leading-relaxed text-slate-500">
-              A JURA egy kísérleti jogi AI-asszisztens. A válaszok{" "}
-              <strong>nem minősülnek jogi tanácsadásnak</strong>, és nem
-              helyettesítik ügyvéd véleményét. Részletek:{" "}
-              <Link
-                href="/jogi-nyilatkozat"
-                className="underline-offset-2 hover:text-slate-700 hover:underline"
-              >
-                jogi nyilatkozat →
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(CHAT_JSON_LD) }}
+      />
+      <main className="flex min-h-screen flex-col bg-slate-50">
+        {/* HEADER */}
+        <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
+          <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+            <div className="flex items-center gap-3">
+              <Link href="/" className="flex items-center gap-2">
+                <img
+                  src="/images/jura-logo.png"
+                  alt="JURA logó"
+                  className="h-8 w-auto"
+                />
               </Link>
-            </p>
-          </div>
-        </section>
-      ) : (
-        <>
-          {/* CHAT CONTENT – klasszikus chat nézet */}
-          <section className="flex flex-1 justify-center overflow-y-auto pb-32 md:pb-40">
-            <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
-              {messages.map((msg, index) => {
-                const isUser = msg.role === "user";
-                const isLastAssistant =
-                  !isUser && index === lastAssistantIndex;
-
-                return (
-                  <div
-                    key={index}
-                    className={`mb-3 flex ${
-                      isUser ? "justify-end" : "justify-start"
-                    }`}
-                  >
-                    <div className="group flex max-w-full gap-3">
-                      {!isUser && (
-                        <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-900 text-center text-xs font-semibold leading-7 text-white">
-                          J
-                        </div>
-                      )}
-                      <div className="relative max-w-[80%]">
-                        <div
-                          className={`whitespace-pre-line break-words rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
-                            isUser
-                              ? "rounded-br-none bg-slate-900 text-slate-50"
-                              : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
-                          }`}
-                        >
-                          {msg.content}
-                        </div>
-
-                        {/* Másolás gomb – csak a legutóbbi asszisztens válasznál */}
-                        {isLastAssistant && (
-                          <button
-                            type="button"
-                            onClick={() => handleCopy(msg.content, index)}
-                            className="absolute -top-2 right-3 inline-flex items-center rounded-full border border-slate-200 bg-white/90 px-2 py-0.5 text-[11px] font-medium text-slate-500 shadow-sm opacity-0 transition group-hover:opacity-100 hover:bg-slate-50"
-                          >
-                            {copiedIndex === index ? "Másolva" : "Másolás"}
-                          </button>
-                        )}
-                      </div>
-                      {isUser && (
-                        <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-200 text-center text-xs font-semibold leading-7 text-slate-700">
-                          Én
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
-
-              {loading && (
-                <div className="mb-3 flex justify-start">
-                  <div className="flex max-w-[80%] flex-col gap-1 rounded-2xl rounded-bl-none border border-slate-200 bg-white px-4 py-3 text-xs text-slate-600 shadow-sm">
-                    <div className="flex items-center gap-2">
-                      <span className="inline-flex h-2 w-2 animate-pulse rounded-full bg-slate-400" />
-                      <span className="text-sm">A JURA gondolkodik…</span>
-                      <span className="ml-auto text-[11px] tabular-nums text-slate-400">
-                        {loadingSeconds}s
-                      </span>
-                    </div>
-                    <div className="flex items-center text-[11px] text-slate-400">
-                      {avgSeconds !== null ? (
-                        <span className="flex-1">
-                          Korábbi átlag ebben a beszélgetésben: ~{avgSeconds} mp
-                        </span>
-                      ) : (
-                        <span className="flex-1">
-                          Válaszidő jellemzően 1–2 perc.
-                        </span>
-                      )}
-                      <div className="ml-3 flex items-center gap-1.5">
-                        <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-300" />
-                        <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-300 [animation-delay:0.15s]" />
-                        <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-300 [animation-delay:0.3s]" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              <div ref={messagesEndRef} />
+              <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700">
+                kísérleti
+              </span>
             </div>
-          </section>
+            <Link
+              href="/"
+              className="text-sm font-medium text-slate-700 underline-offset-4 hover:text-slate-900 hover:underline"
+            >
+              ← Vissza a főoldalra
+            </Link>
+          </div>
+        </header>
 
-          {/* INPUT + LEGAL NOTICE – mobilon nem fixed, desktopon fixed */}
-          <footer className="bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur md:fixed md:inset-x-0 md:bottom-0">
-            <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 pb-4 pt-2">
+        {/* EMPTY STATE – ChatGPT-szerű kezdőképernyő */}
+        {showEmptyState ? (
+          <section className="flex flex-1 flex-col items-center justify-start px-4 pb-4 pt-10 lg:justify-center lg:pt-0">
+            <div className="flex w-full max-w-2xl flex-col items-center text-center">
+              <h1 className="mb-4 text-2xl font-semibold text-slate-900 sm:text-3xl">
+                Üdvözöllek a JURA-ban!
+              </h1>
+              <p className="mb-8 max-w-md text-sm text-slate-500">
+                Kérdezz a magyar jogról – például munkajogról, fogyasztóvédelemről,
+                szerződésekről, bérletről vagy öröklésről. A válaszok nem
+                minősülnek jogi tanácsadásnak.
+              </p>
+
+              {/* Javasolt kérdések – „gondolatbuborék” layout */}
+              <div className="mb-6 flex w-full flex-col gap-3">
+                {suggestions.map((tip, index) => {
+                  const alignment =
+                    index % 2 === 0 ? "sm:self-start" : "sm:self-end";
+                  const width =
+                    index % 3 === 0
+                      ? "sm:max-w-xs"
+                      : index % 3 === 1
+                      ? "sm:max-w-sm"
+                      : "sm:max-w-md";
+
+                  return (
+                    <button
+                      key={tip}
+                      type="button"
+                      onClick={() => handleSuggestionClick(tip)}
+                      className={`w-full rounded-3xl border border-slate-300 bg-white px-4 py-2 text-left text-xs text-slate-700 shadow-sm transition hover:bg-slate-50 sm:w-auto sm:text-sm ${alignment} ${width}`}
+                    >
+                      {tip}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Középre helyezett input mező */}
               <form
                 onSubmit={handleSubmit}
-                className="flex items-end gap-2 rounded-2xl border border-slate-300 bg-white px-4 py-2.5 shadow-sm"
+                className="flex w-full max-w-2xl items-end gap-2 rounded-2xl border border-slate-300 bg-white px-4 py-2.5 shadow-sm"
               >
                 <textarea
                   ref={textareaRef}
@@ -410,7 +303,7 @@ export default function ChatPage() {
                 </button>
               </form>
 
-              <p className="pb-1 text-center text-[11px] leading-relaxed text-slate-500">
+              <p className="mt-3 text-[11px] leading-relaxed text-slate-500">
                 A JURA egy kísérleti jogi AI-asszisztens. A válaszok{" "}
                 <strong>nem minősülnek jogi tanácsadásnak</strong>, és nem
                 helyettesítik ügyvéd véleményét. Részletek:{" "}
@@ -422,9 +315,143 @@ export default function ChatPage() {
                 </Link>
               </p>
             </div>
-          </footer>
-        </>
-      )}
-    </main>
+          </section>
+        ) : (
+          <>
+            {/* CHAT CONTENT – klasszikus chat nézet */}
+            <section className="flex flex-1 justify-center overflow-y-auto pb-32 md:pb-40">
+              <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
+                {messages.map((msg, index) => {
+                  const isUser = msg.role === "user";
+                  const isLastAssistant =
+                    !isUser && index === lastAssistantIndex;
+
+                  return (
+                    <div
+                      key={index}
+                      className={`mb-3 flex ${
+                        isUser ? "justify-end" : "justify-start"
+                      }`}
+                    >
+                      <div className="group flex max-w-full gap-3">
+                        {!isUser && (
+                          <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-900 text-center text-xs font-semibold leading-7 text-white">
+                            J
+                          </div>
+                        )}
+                        <div className="relative max-w-[80%]">
+                          <div
+                            className={`whitespace-pre-line break-words rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
+                              isUser
+                                ? "rounded-br-none bg-slate-900 text-slate-50"
+                                : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
+                            }`}
+                          >
+                            {msg.content}
+                          </div>
+
+                          {/* Másolás gomb – csak a legutóbbi asszisztens válasznál */}
+                          {isLastAssistant && (
+                            <button
+                              type="button"
+                              onClick={() => handleCopy(msg.content, index)}
+                              className="absolute -top-2 right-3 inline-flex items-center rounded-full border border-slate-200 bg-white/90 px-2 py-0.5 text-[11px] font-medium text-slate-500 shadow-sm opacity-0 transition group-hover:opacity-100 hover:bg-slate-50"
+                            >
+                              {copiedIndex === index ? "Másolva" : "Másolás"}
+                            </button>
+                          )}
+                        </div>
+                        {isUser && (
+                          <div className="mt-1 h-7 w-7 flex-shrink-0 rounded-full bg-slate-200 text-center text-xs font-semibold leading-7 text-slate-700">
+                            Én
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+
+                {loading && (
+                  <div className="mb-3 flex justify-start">
+                    <div className="flex max-w-[80%] flex-col gap-1 rounded-2xl rounded-bl-none border border-slate-200 bg-white px-4 py-3 text-xs text-slate-600 shadow-sm">
+                      <div className="flex items-center gap-2">
+                        <span className="inline-flex h-2 w-2 animate-pulse rounded-full bg-slate-400" />
+                        <span className="text-sm">A JURA gondolkodik…</span>
+                        <span className="ml-auto text-[11px] tabular-nums text-slate-400">
+                          {loadingSeconds}s
+                        </span>
+                      </div>
+                      <div className="flex items-center text-[11px] text-slate-400">
+                        {avgSeconds !== null ? (
+                          <span className="flex-1">
+                            Korábbi átlag ebben a beszélgetésben: ~{avgSeconds}{" "}
+                            mp
+                          </span>
+                        ) : (
+                          <span className="flex-1">
+                            Válaszidő jellemzően 1–2 perc.
+                          </span>
+                        )}
+                        <div className="ml-3 flex items-center gap-1.5">
+                          <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-300" />
+                          <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-300 [animation-delay:0.15s]" />
+                          <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-300 [animation-delay:0.3s]" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                <div ref={messagesEndRef} />
+              </div>
+            </section>
+
+            {/* INPUT + LEGAL NOTICE – mobilon nem fixed, desktopon fixed */}
+            <footer className="bg-gradient-to-t from-slate-50 via-slate-50/95 to-slate-50/80 backdrop-blur md:fixed md:inset-x-0 md:bottom-0">
+              <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 pb-4 pt-2">
+                <form
+                  onSubmit={handleSubmit}
+                  className="flex items-end gap-2 rounded-2xl border border-slate-300 bg-white px-4 py-2.5 shadow-sm"
+                >
+                  <textarea
+                    ref={textareaRef}
+                    rows={1}
+                    placeholder="Írd be a kérdésed... (pl. Mit ír elő a Ptk. 6:519. §?)"
+                    value={input}
+                    onChange={(e) => setInput(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" && !e.shiftKey) {
+                        e.preventDefault();
+                        sendMessage();
+                      }
+                    }}
+                    className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent py-3 text-base text-slate-900 outline-none placeholder:text-slate-400 placeholder:leading-normal"
+                  />
+                  <button
+                    type="submit"
+                    disabled={loading || !input.trim()}
+                    className="flex items-center rounded-xl bg-slate-900 px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
+                  >
+                    Küldés
+                  </button>
+                </form>
+
+                <p className="pb-1 text-center text-[11px] leading-relaxed text-slate-500">
+                  A JURA egy kísérleti jogi AI-asszisztens. A válaszok{" "}
+                  <strong>nem minősülnek jogi tanácsadásnak</strong>, és nem
+                  helyettesítik ügyvéd véleményét. Részletek:{" "}
+                  <Link
+                    href="/jogi-nyilatkozat"
+                    className="underline-offset-2 hover:text-slate-700 hover:underline"
+                  >
+                    jogi nyilatkozat →
+                  </Link>
+                </p>
+              </div>
+            </footer>
+          </>
+        )}
+      </main>
+    </>
   );
 }
