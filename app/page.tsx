@@ -50,7 +50,7 @@ export default function HomePage() {
                 A JURA Chat egy mesterséges intelligencián alapuló{" "}
                 <strong>jogi információs eszköz</strong>, amely magyar
                 jogszabályok és jogi szövegek kiválasztott köre alapján segít a
-                szakasok, jogintézmények és jogesetek jobb megértésében. Célja,
+                szakaszok, jogintézmények és jogesetek jobb megértésében. Célja,
                 hogy gyorsabbá tegye a <strong>tájékozódást</strong> – nem pedig
                 az, hogy kiváltsa az ügyvédi tanácsadást.
               </p>

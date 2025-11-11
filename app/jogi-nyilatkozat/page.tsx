@@ -197,7 +197,7 @@ export default function JogiNyilatkozatPage() {
                 A rendszer üzemeltetője és fejlesztője a jogszabályok által
                 megengedett{" "}
                 <strong>
-                  legt eljesebb mértékben kizár minden felelősséget
+                legteljesebb mértékben kizár minden felelősséget
                 </strong>{" "}
                 a JURA használatából eredő károkért, különösen a pontatlan,
                 hiányos vagy félreértelmezett információk alapján hozott döntések
