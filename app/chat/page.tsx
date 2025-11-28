@@ -247,9 +247,9 @@ export default function ChatPage() {
                 Üdvözöllek a JURA-ban!
               </h1>
               <p className="mb-8 max-w-md text-sm text-slate-500">
-                Kérdezz a magyar jogról – például munkajogról, fogyasztóvédelemről,
-                szerződésekről, bérletről vagy öröklésről. A válaszok nem
-                minősülnek jogi tanácsadásnak.
+                Kérdezz a magyar jogról – például munkajogról,
+                fogyasztóvédelemről, szerződésekről, bérletről vagy öröklésről.
+                A válaszok nem minősülnek jogi tanácsadásnak.
               </p>
 
               {/* Javasolt kérdések – „gondolatbuborék” layout */}
@@ -355,8 +355,12 @@ export default function ChatPage() {
                               <div
                                 className={
                                   "prose prose-slate prose-sm max-w-none " +
-                                  "[&_ul]:list-disc [&_ul]:pl-5 " +
-                                  "[&_ol]:list-decimal [&_ol]:pl-5 " +
+                                  // Headingek (## 1., ## 2., …) finom hangolása
+                                  "[&_h2]:mt-3 [&_h2]:mb-2 [&_h2]:text-base [&_h2]:font-semibold " +
+                                  // Felsorolások
+                                  "[&_ul]:mt-1 [&_ul]:mb-2 [&_ul]:list-disc [&_ul]:pl-5 " +
+                                  "[&_ol]:mt-1 [&_ol]:mb-2 [&_ol]:list-decimal [&_ol]:pl-5 " +
+                                  // Félkövér kiemelések
                                   "[&_strong]:font-semibold"
                                 }
                               >
