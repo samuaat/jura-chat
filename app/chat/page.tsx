@@ -32,6 +32,53 @@ const CHAT_JSON_LD = {
     "Interaktív jogi információs chatfelület, ahol a JURA segít a magyar jogszabályok és jogi fogalmak jobb megértésében. A válaszok nem minősülnek jogi tanácsadásnak.",
 } as const;
 
+// Asszisztens válaszainak formázása – a „… – pontokban” blokkokból Markdown listát csinál
+function formatAssistantContent(raw: string): string {
+  const lines = raw.split(/\r?\n/);
+  let inBulletSection = false;
+
+  return lines
+    .map((line) => {
+      const trimmed = line.trim();
+
+      // Üres sor: kilépünk az aktuális bullet blokkból
+      if (trimmed === "") {
+        inBulletSection = false;
+        return "";
+      }
+
+      // Fő szekciócímek – ezek ne legyenek bulletpontok
+      if (
+        trimmed.startsWith("Rövid összefoglaló") ||
+        trimmed.startsWith("Normatív jogi háttér") ||
+        trimmed.startsWith("Bírósági gyakorlat") ||
+        trimmed.startsWith("Gyakorlati javaslat") ||
+        trimmed.startsWith("Diszklémer")
+      ) {
+        // „– pontokban” címek után kezdődik a bullet szakasz
+        inBulletSection = trimmed.includes("pontokban");
+        return trimmed;
+      }
+
+      // Ha bármilyen más sor tartalmazza, hogy „pontokban”, azt címként kezeljük,
+      // és a következő soroktól bullet szakaszba lépünk
+      if (trimmed.includes("pontokban")) {
+        inBulletSection = true;
+        return trimmed;
+      }
+
+      // Ha bullet szakaszban vagyunk és a sor még nem bullet,
+      // tegyünk elé Markdown „- ” jelet
+      if (inBulletSection && !/^[\-\*\•]/.test(trimmed)) {
+        return `- ${trimmed}`;
+      }
+
+      // Egyébként hagyjuk változatlanul
+      return line;
+    })
+    .join("\n");
+}
+
 export default function ChatPage() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
@@ -349,14 +396,14 @@ export default function ChatPage() {
                             }`}
                           >
                             {isUser ? (
-                                msg.content
-                              ) : (
-                                <div className="prose prose-slate prose-sm max-w-none">
-                                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                                    {msg.content}
-                                  </ReactMarkdown>
-                                </div>
-                              )}
+                              msg.content
+                            ) : (
+                              <div className="prose prose-slate prose-sm max-w-none">
+                                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                  {formatAssistantContent(msg.content)}
+                                </ReactMarkdown>
+                              </div>
+                            )}
                           </div>
 
                           {/* Másolás gomb – csak a legutóbbi asszisztens válasznál */}
