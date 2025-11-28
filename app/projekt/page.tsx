@@ -51,7 +51,7 @@ export default function ProjektPage() {
           {/* Cím + meta infó */}
           <header className="mb-8">
             <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-slate-900/5 px-3 py-1 text-xs font-medium uppercase tracking-wide text-slate-600">
-              <span>Kutatási projekt</span>
+              <span>Kísérleti projekt</span>
               <span className="h-1 w-1 rounded-full bg-slate-400" />
               <span>Modellkártya</span>
             </div>
@@ -59,12 +59,12 @@ export default function ProjektPage() {
               JURA – Jogi Utasításokat Rendszerező Asszisztens
             </h1>
             <p className="max-w-3xl text-sm text-slate-600">
-              Proof of Concept innovációs projekt a Magyar Agrár- és
-              Élettudományi Egyetem támogatásával. A JURA egy kísérleti, GPT-5
-              architektúrára épülő jogi információs asszisztens, amely
-              retrieval-augmented generation (RAG) megközelítést alkalmaz a{" "}
+              A JURA egy kísérleti, GPT-5 architektúrára épülő jogi információs
+              asszisztens, amely retrieval-augmented generation (RAG)
+              megközelítést alkalmaz a{" "}
               <strong>
-                magyar jogszabályok és jogi szövegek kiválasztott körén
+                magyar jogszabályok, bírósági határozatok és kapcsolódó jogi
+                szövegek kiválasztott körén
               </strong>
               .
             </p>
@@ -73,28 +73,27 @@ export default function ProjektPage() {
             </p>
           </header>
 
-          {/* Finanszírozás / projekt kontextus – EGYSZERŰ DOBOZ, nincs külön stats card */}
+          {/* Finanszírozás / projekt kontextus */}
           <section className="mb-8 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
             <h2 className="mb-2 text-lg font-semibold tracking-tight">
               Finanszírozás és projektkörnyezet
             </h2>
             <p className="mb-2 text-sm leading-relaxed text-slate-700">
-              A JURA projekt a{" "}
-              <strong>Magyar Agrár- és Élettudományi Egyetem</strong> (MATE){" "}
-              Proof of Concept innovációs finanszírozási programjának
-              keretében valósul meg. A támogatás célja egy olyan kísérleti
-              rendszer létrehozása, amely a magyar joganyaganyagon
-              bemutatja, hogyan lehet a modern nagy nyelvi
-              modelleket jogi szövegértelmezésre és információszolgáltatásra
-              használni.
+              A JURA egy <strong>független, kísérleti fejlesztési projekt</strong>,
+              amelynek célja egy olyan prototípus kialakítása, amely a teljes
+              magyar joganyag – különösen a jogszabályok és a{" "}
+              <strong>bírósági határozatok</strong> – alapján mutatja be, hogyan
+              használhatók a modern nagy nyelvi modellek jogi
+              szövegértelmezésre és információszolgáltatásra.
             </p>
             <p className="text-sm leading-relaxed text-slate-700">
               A projekt fókusza{" "}
               <strong>nem egyetlen intézmény belső joganyagára</strong>, hanem a
-              magyar jogszabályok és kapcsolódó jogi szövegek szélesebb körére
-              irányul. A cél egy olyan prototípus megalkotása, amely később
-              különböző intézményi és társadalmi felhasználási környezetekhez is
-              adaptálható.
+              magyar jogszabályok, bírósági határozatok és kapcsolódó jogi
+              szövegek szélesebb körére irányul. A cél egy olyan{" "}
+              <strong>jogi AI-prototípus</strong> megalkotása, amely később
+              különböző intézményi, üzleti és társadalmi felhasználási
+              környezetekhez is adaptálható.
             </p>
           </section>
 
@@ -106,22 +105,25 @@ export default function ProjektPage() {
             <p className="mb-2 text-sm leading-relaxed text-slate-700">
               A JURA elsődleges célja, hogy{" "}
               <strong>jogi információs eszközként</strong> segítse a magyar
-              jogszabályok, jogintézmények és alapfogalmak jobb megértését. A
-              rendszer támogatja a szakaszok közötti eligazodást, a fogalmak
-              tisztázását és a kapcsolódó joganyag feltárását, ezáltal gyorsítja
-              a <strong>tájékozódást</strong>.
+              jogszabályok, bírósági határozatok, jogintézmények és alapfogalmak
+              jobb megértését. A rendszer támogatja a szakaszok közötti
+              eligazodást, a fogalmak tisztázását és a kapcsolódó joganyag
+              feltárását, ezáltal gyorsítja a{" "}
+              <strong>joganyagban való tájékozódást</strong>.
             </p>
             <p className="mb-2 text-sm leading-relaxed text-slate-700">
               A JURA <strong>nem minősül jogi tanácsadásnak</strong>, és nem hoz
               létre ügyvéd–ügyfél viszonyt. Kifejezetten{" "}
-              <strong>oktatási, kutatási és tájékoztató</strong> céllal működik:
-              joghallgatók, jogi érdeklődők és a jogszabályi környezet iránt
-              érdeklődő felhasználók számára nyújt támogatást.
+              <strong>oktatási, kutatási, fejlesztési és tájékoztató</strong>{" "}
+              céllal működik: joghallgatók, jogi és gazdasági szakemberek, illetve
+              a jogszabályi és bírósági gyakorlat iránt érdeklődő felhasználók
+              számára nyújt támogatást.
             </p>
             <p className="text-sm leading-relaxed text-slate-700">
-              A JURA válaszai minden esetben a jogszabályok hiteles forrásból
-              történő ellenőrzésével együtt értelmezendők, a rendszer pedig nem
-              helyettesíti hivatásos jogász szakmai véleményét vagy képviseletét.
+              A JURA válaszai minden esetben a jogszabályok és bírósági
+              határozatok <strong>hiteles forrásból történő ellenőrzésével</strong>{" "}
+              együtt értelmezendők; a rendszer nem helyettesíti hivatásos jogász
+              szakmai véleményét vagy képviseletét.
             </p>
           </section>
 
@@ -150,19 +152,22 @@ export default function ProjektPage() {
                 </h3>
                 <ul className="space-y-1.5 text-slate-700">
                   <li>
-                    • Jogszabály- és kapcsolódó jogi szövegkorpuszt feldolgozó
+                    • Jogszabály- és{" "}
+                    <strong>bírósági határozat-korpuszt</strong> feldolgozó
                     ETL-pipeline
                   </li>
                   <li>
-                    • Embedding modell és vektortár (szakasz- és chunk-szintű
-                    indexelés)
+                    • Embedding modell és vektortár (szakasz-, bekezdés- és
+                    chunk-szintű indexelés)
                   </li>
                   <li>
                     • Re-ranker / cross-encoder a releváns találatok
                     újrasorrendezésére
                   </li>
                   <li>• GPT-5 alapú LLM a válaszgeneráláshoz</li>
-                  <li>• JURA webes felület (Next.js + serverless API, chat UI)</li>
+                  <li>
+                    • JURA webes felület (Next.js + serverless API, chat UI)
+                  </li>
                 </ul>
               </div>
 
@@ -173,12 +178,12 @@ export default function ProjektPage() {
                 <ol className="list-decimal space-y-1.5 pl-5 text-slate-700">
                   <li>
                     A felhasználói kérdést embeddinggé alakítjuk, és a
-                    vektortárban megkeressük a legrelevánsabb jogi
-                    szövegrészleteket.
+                    vektortárban megkeressük a legrelevánsabb jogszabályi és
+                    bírósági szövegrészleteket.
                   </li>
                   <li>
                     A találatokat re-ranker rendezi sorba, elsősorban jogi
-                    relevancia és kontextus szerint.
+                    relevancia, hierarchia és kontextus szerint.
                   </li>
                   <li>
                     A GPT-5 alapú modell csak ezeket a releváns részleteket kapja
@@ -188,7 +193,7 @@ export default function ProjektPage() {
                   <li>
                     A válaszban törekszünk a{" "}
                     <strong>források jelölésére</strong>, hogy a felhasználó az
-                    eredeti szöveget is meg tudja nézni.
+                    eredeti jogszabály- vagy határozatszöveget is meg tudja nézni.
                   </li>
                 </ol>
               </div>
@@ -202,12 +207,14 @@ export default function ProjektPage() {
             </h2>
             <p className="mb-2 text-sm leading-relaxed text-slate-700">
               A rendszer alapját magyar{" "}
-              <strong>jogszabályok, kapcsolódó jogi szövegek és magyarázó
-              anyagok</strong>{" "}
+              <strong>
+                jogszabályok, bírósági határozatok, kapcsolódó jogi szövegek és
+                magyarázó anyagok
+              </strong>{" "}
               korpusza adja. Ezeket egységes formátumra hozzuk, tisztítjuk és
               strukturáljuk, majd szöveg-chunkokra bontjuk, amelyeket
-              metaadatokkal (forrás, szakaszszám, fejezet, bekezdés stb.) látunk
-              el.
+              metaadatokkal (forrás, ügy- vagy jogszabályszám, szakaszszám,
+              fejezet, bekezdés, döntés éve stb.) látunk el.
             </p>
             <p className="mb-2 text-sm leading-relaxed text-slate-700">
               A feldolgozott korpusz és a hozzá tartozó metaadatok lokális és
@@ -215,13 +222,14 @@ export default function ProjektPage() {
               igényel természetes személyek azonosítására alkalmas adatokat a
               működéséhez; a felhasználókat kifejezetten kérjük, hogy{" "}
               <strong>ne osszanak meg érzékeny vagy személyes adatokat</strong>{" "}
-              a rendszerrel.
+              a rendszerrel (pl. konkrét ügyfélneveket, részletes tényállást,
+              személyes azonosítókat).
             </p>
             <p className="text-sm leading-relaxed text-slate-700">
               A rendszer használatáról anonimizált naplóadatok keletkezhetnek
               (pl. kérdések típusa, időbélyeg), amelyeket kizárólag{" "}
-              <strong>kutatási és rendszerfejlesztési</strong> célból használunk
-              fel.
+              <strong>kutatási, fejlesztési és rendszerhangolási</strong> célból
+              használunk fel.
             </p>
           </section>
 
@@ -232,11 +240,13 @@ export default function ProjektPage() {
             </h2>
             <p className="mb-2 text-sm leading-relaxed text-slate-700">
               A projekt <strong>teljes mértékben MI-alapú</strong> megközelítésre
-              épül: a jogi szövegek feldolgozását, chunkolását és a releváns
-              szakaszok kiválasztását embedding modellek, re-rankerek és egy
-              GPT-5 architektúrára épülő nagy nyelvi modell támogatja. A kód egy
-              része is MI-asszisztált módon készült, azonban minden lépés emberi
-              kontroll mellett kerül be a produkciós rendszerbe.
+              épül: a jogi szövegek (jogszabályok és bírósági határozatok)
+              feldolgozását, chunkolását és a releváns szakaszok kiválasztását
+              embedding modellek, re-rankerek és egy GPT-5 architektúrára épülő
+              nagy nyelvi modell támogatja. A kód egy része is MI-asszisztált
+              módon készült, azonban minden lépés{" "}
+              <strong>emberi kontroll</strong> mellett kerül be a produkciós
+              rendszerbe.
             </p>
             <p className="text-sm leading-relaxed text-slate-700">
               A cél nem az, hogy a modell „helyettesítse” a jogászt, hanem hogy{" "}
@@ -254,19 +264,20 @@ export default function ProjektPage() {
             <p className="mb-2 text-sm leading-relaxed text-slate-700">
               A projekt jelenleg egy{" "}
               <strong>működő, tesztelhető béta rendszerrel</strong> rendelkezik,
-              amely a magyar jogszabályok egy kiválasztott részhalmazára ad
-              kísérleti válaszokat. A korpusz strukturálása és indexelése
-              elkészült; a Proof of Concept célkitűzései teljesíthetők, és
-              további többletfejlesztések is reálisak.
+              amely a magyar jogszabályok és bírósági határozatok egy
+              kiválasztott részhalmazára ad kísérleti válaszokat. A korpusz
+              strukturálása és indexelése elkészült; a prototípus szintű
+              célkitűzések teljesíthetők, és további többletfejlesztések is
+              reálisak.
             </p>
             <p className="mb-2 text-sm leading-relaxed text-slate-700">
               A hátralévő szakasz kulcsfeladatai:
             </p>
             <ul className="mb-2 list-disc pl-5 text-sm text-slate-700">
               <li>
-                jogszabály-változások{" "}
-                <strong>automatizált követése és szinkronizálása</strong> a
-                korpusszal;
+                jogszabály- és{" "}
+                <strong>bírósági határozat-változások automatizált követése és
+                szinkronizálása</strong> a korpusszal;
               </li>
               <li>
                 a chunkolási eljárás finomítása, hogy a jogi szövegek
@@ -274,11 +285,16 @@ export default function ProjektPage() {
               </li>
               <li>
                 a rendszer <strong>megbízhatóságának és UX-ének</strong> további
-                javítása (pl. forráshivatkozások, magyarázó panelek);
+                javítása (pl. forráshivatkozások, magyarázó panelek, joganyag
+                struktúrájának jobb vizualizációja);
               </li>
               <li>
-                hosszabb távon: jogi nyelvezetre finomhangolt, dedikált modell
-                és reprodukálható know-how kialakítása.
+                hosszabb távon:{" "}
+                <strong>
+                  jogi nyelvezetre finomhangolt, dedikált modell és
+                  dokumentált, reprodukálható know-how
+                </strong>{" "}
+                kialakítása.
               </li>
             </ul>
           </section>
@@ -286,8 +302,8 @@ export default function ProjektPage() {
           {/* Vissza / call to action */}
           <section className="text-center text-sm text-slate-600">
             <p className="mb-3">
-              A JURA jelenleg kísérleti fázisban működik. A rendszer kipróbálásához
-              térj vissza a főoldalra, és indíts új beszélgetést.
+              A JURA jelenleg kísérleti fázisban működik. A rendszer
+              kipróbálásához térj vissza a főoldalra, és indíts új beszélgetést.
             </p>
             <Link
               href="/"
