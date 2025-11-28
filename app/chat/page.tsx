@@ -1,8 +1,9 @@
-// app/chat/page.tsx
 "use client";
 
 import { useState, useRef, useEffect, FormEvent } from "react";
 import Link from "next/link";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 type ChatMessage = {
   role: "user" | "assistant";
@@ -341,13 +342,21 @@ export default function ChatPage() {
                         )}
                         <div className="relative max-w-[80%]">
                           <div
-                            className={`whitespace-pre-line break-words rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
+                            className={`rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
                               isUser
-                                ? "rounded-br-none bg-slate-900 text-slate-50"
+                                ? "whitespace-pre-line rounded-br-none bg-slate-900 text-slate-50"
                                 : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
                             }`}
                           >
-                            {msg.content}
+                            {isUser ? (
+                                msg.content
+                              ) : (
+                                <div className="prose prose-slate prose-sm max-w-none">
+                                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                    {msg.content}
+                                  </ReactMarkdown>
+                                </div>
+                              )}
                           </div>
 
                           {/* Másolás gomb – csak a legutóbbi asszisztens válasznál */}
