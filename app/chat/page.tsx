@@ -284,6 +284,8 @@ export default function ChatPage() {
               >
                 <textarea
                   ref={textareaRef}
+                  id="chat-input-empty"
+                  aria-label="Írd be a kérdésed"
                   rows={1}
                   placeholder="Írd be a kérdésed... (pl. Mit ír elő a Ptk. 6:519. §?)"
                   value={input}
@@ -436,6 +438,8 @@ export default function ChatPage() {
                 >
                   <textarea
                     ref={textareaRef}
+                    id="chat-input"
+                    aria-label="Írd be a kérdésed"
                     rows={1}
                     placeholder="Írd be a kérdésed... (pl. Mit ír elő a Ptk. 6:519. §?)"
                     value={input}
