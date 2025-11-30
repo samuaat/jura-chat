@@ -1,4 +1,3 @@
-// app/chat/page.tsx
 "use client";
 
 import { useState, useRef, useEffect, FormEvent } from "react";
@@ -208,6 +207,24 @@ export default function ChatPage() {
     }
   }
 
+  // --- ÚJ KOMPONENS: Figyelmeztető üzenet ---
+  const UpgradeAlert = () => (
+    <div className="mb-6 w-full rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900 shadow-sm">
+      <div className="flex gap-3">
+        <span className="text-lg">🚧</span>
+        <div>
+          <p className="font-semibold">Technikai tájékoztatás</p>
+          <p className="mt-1 leading-relaxed text-amber-800">
+            A <strong>bírósági határozatkereső</strong> modul jelenleg átfogó
+            technikai frissítésen (upgrade) esik át. A funkció végleges,
+            stabil verziója pár napon belül elérhetővé válik. Köszönjük a
+            türelmedet!
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <>
       <script
@@ -246,6 +263,12 @@ export default function ChatPage() {
               <h1 className="mb-4 text-2xl font-semibold text-slate-900 sm:text-3xl">
                 Üdvözöllek a JURA-ban!
               </h1>
+              
+              {/* ITT JELENIK MEG AZ ALERTE (Üres állapotban) */}
+              <div className="w-full text-left">
+                <UpgradeAlert />
+              </div>
+
               <p className="mb-8 max-w-md text-sm text-slate-500">
                 Kérdezz a magyar jogról – például munkajogról,
                 fogyasztóvédelemről, szerződésekről, bérletről vagy öröklésről.
@@ -325,6 +348,10 @@ export default function ChatPage() {
             {/* CHAT CONTENT – klasszikus chat nézet */}
             <section className="flex flex-1 justify-center overflow-y-auto pb-32 md:pb-40">
               <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
+                
+                {/* ITT JELENIK MEG AZ ALERTE (Chat közben is) */}
+                <UpgradeAlert />
+
                 {messages.map((msg, index) => {
                   const isUser = msg.role === "user";
                   const isLastAssistant =
