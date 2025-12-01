@@ -1,136 +1,162 @@
 // src/app/api/chat/route.ts
-import { NextRequest, NextResponse } from "next/server";
 
-// Use environment variable for upstream Lambda URL. Configure in .env.local as CHAT_UPSTREAM_URL
-const DEFAULT_TIMEOUT_MS = 500000; // 20s
+import { NextRequest } from "next/server";
+
+const UPSTREAM_URL = process.env.CHAT_UPSTREAM_URL;
+const MAX_MESSAGE_LENGTH = 10000;
+const MAX_HISTORY_LIMIT = 30;
+const PROXY_TIMEOUT_MS = 500_000; // ~8,3 perc – a Vercel/Lambda még bírja
 
 export const runtime = "nodejs";
+export const dynamic = "force-dynamic"; // mindig friss, ne cache-elje a Vercel
 
 // CORS preflight
 export function OPTIONS(req: NextRequest) {
-  const allowedOrigins = (process.env.ALLOWED_ORIGIN || "*")
+  const origin = req.headers.get("origin") || "*";
+  const allowed = (process.env.ALLOWED_ORIGIN || "*")
     .split(",")
-    .map(o => o.trim());
-  const requestOrigin = req.headers.get("origin");
-  let allowOrigin = "*";
-  if (requestOrigin && allowedOrigins.includes(requestOrigin)) {
-    allowOrigin = requestOrigin;
-  } else if (allowedOrigins.length === 1 && allowedOrigins[0] !== "*") {
-    allowOrigin = allowedOrigins[0];
-  }
-  return new NextResponse(null, {
+    .map((o) => o.trim())
+    .filter(Boolean);
+
+  const allowOrigin =
+    allowed.includes(origin) || allowed.includes("*") ? origin : allowed[0] || "*";
+
+  return new Response(null, {
     status: 204,
     headers: {
       "Access-Control-Allow-Origin": allowOrigin,
       "Access-Control-Allow-Methods": "POST, OPTIONS",
       "Access-Control-Allow-Headers": "Content-Type, Authorization",
+      "Vary": "Origin",
     },
   });
 }
 
 export async function POST(req: NextRequest) {
-  const allowedOrigins = (process.env.ALLOWED_ORIGIN || "*")
+  // CORS meghatározása (ugyanaz, mint az OPTIONS-nél)
+  const origin = req.headers.get("origin") || "*";
+  const allowed = (process.env.ALLOWED_ORIGIN || "*")
     .split(",")
-    .map(o => o.trim());
-  const requestOrigin = req.headers.get("origin");
-  let allowOrigin = "*";
-  if (requestOrigin && allowedOrigins.includes(requestOrigin)) {
-    allowOrigin = requestOrigin;
-  } else if (allowedOrigins.length === 1 && allowedOrigins[0] !== "*") {
-    allowOrigin = allowedOrigins[0];
-  }
+    .map((o) => o.trim())
+    .filter(Boolean);
+  const corsOrigin =
+    allowed.includes(origin) || allowed.includes("*") ? origin : allowed[0] || "*";
 
-  const upstreamUrl = process.env.CHAT_UPSTREAM_URL;
-  if (!upstreamUrl) {
-    return NextResponse.json(
-      { error: "Upstream chat URL not configured on the server." },
-      { status: 500, headers: { "Access-Control-Allow-Origin": allowOrigin } }
+  // Upstream ellenőrzés
+  //500-as hiba esetén
+  if (!UPSTREAM_URL) {
+    return new Response(
+      JSON.stringify({ error: "Upstream chat URL not configured on the server." }),
+      {
+        status: 500,
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": corsOrigin,
+        },
+      }
     );
   }
 
-  // Basic body parsing & validation
-  let body: any;
+  // Body beolvasása + validáció
+  let payload: any;
   try {
-    body = await req.json();
-  } catch (e) {
-    return NextResponse.json(
-      { error: "Invalid JSON body." },
-      { status: 400, headers: { "Access-Control-Allow-Origin": allowOrigin } }
-    );
+    payload = await req.json();
+  } catch {
+    return new Response(JSON.stringify({ error: "Invalid JSON body." }), {
+      status: 400,
+      headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": corsOrigin },
+    });
   }
 
-  // Validate message
-  if (!body || typeof body.message !== "string") {
-    return NextResponse.json(
-      { error: "Missing or invalid 'message' field (must be string)." },
-      { status: 400, headers: { "Access-Control-Allow-Origin": allowOrigin } }
-    );
+  if (!payload || typeof payload.message !== "string") {
+    return new Response(JSON.stringify({ error: "Missing or invalid 'message' field (must be string)." }), {
+      status: 400,
+      headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": corsOrigin },
+    });
   }
 
-  if (body.message.length > 10000) {
-    return NextResponse.json(
-      { error: "Message too long (max 10000 characters)." },
-      { status: 413, headers: { "Access-Control-Allow-Origin": allowOrigin } }
-    );
+  if (payload.message.length > MAX_MESSAGE_LENGTH) {
+    return new Response(JSON.stringify({ error: `Message too long (max ${MAX_MESSAGE_LENGTH} characters).` }), {
+      status: 413,
+      headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": corsOrigin },
+    });
   }
 
-  // Validate history if provided
-  if (body.history !== undefined) {
-    if (!Array.isArray(body.history)) {
-      return NextResponse.json(
-        { error: "Invalid 'history' field (must be an array)." },
-        { status: 400, headers: { "Access-Control-Allow-Origin": allowOrigin } }
-      );
+  // History validálása + korlátozása
+  if (payload.history !== undefined) {
+    if (!Array.isArray(payload.history)) {
+      return new Response(JSON.stringify({ error: "'history' must be an array." }), {
+        status: 400,
+        headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": corsOrigin },
+      });
     }
-    if (body.history.length > 30) {
-      // Truncate long history to a safe length (server-side enforcement)
-      body.history = body.history.slice(-30);
-    }
+    // Legutóbbi 30 üzenet megtartása
+    payload.history = payload.history.slice(-MAX_HISTORY_LIMIT);
   }
 
-  // Forward to upstream with timeout
+  // Timeout controller (max ~8 perc)
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), DEFAULT_TIMEOUT_MS);
+  const timeoutId = setTimeout(() => controller.abort(), PROXY_TIMEOUT_MS);
 
   try {
-    const upstream = await fetch(upstreamUrl, {
+    const upstreamResponse = await fetch(UPSTREAM_URL, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
+      headers: {
+        "Content-Type": "application/json",
+        // Ha a Lambda-nak is kell Authorization vagy API-key, ide tedd
+        // "Authorization": `Bearer ${process.env.LAMBDA_API_KEY}`,
+      },
+      body: JSON.stringify(payload),
       signal: controller.signal,
     });
 
-    clearTimeout(timeout);
+    clearTimeout(timeoutId);
 
-    const text = await upstream.text();
-    let data: any = null;
-    try {
-      data = JSON.parse(text);
-    } catch {
-      data = null;
+    // Ha a Lambda hibát dob (pl. 500, 429, stb.)
+    if (!upstreamResponse.ok) {
+      const text = await upstreamResponse.text();
+      let errorMessage = `Upstream error: ${upstreamResponse.status}`;
+      try {
+        const json = JSON.parse(text);
+        errorMessage = json.error || errorMessage;
+      } catch {}
+      return new Response(JSON.stringify({ error: errorMessage }), {
+        status: 502,
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": corsOrigin,
+        },
+      });
     }
 
-    if (!upstream.ok) {
-      const errMsg = data?.error || `Upstream error: ${upstream.status} ${upstream.statusText}`;
-      return NextResponse.json(
-        { error: errMsg },
-        { status: 502, headers: { "Access-Control-Allow-Origin": allowOrigin } }
-      );
-    }
+    // FONTOS RÉSZ: azonnal streameljük a választ – a header-ek 1-2 ms alatt kimennek!
+    const stream = upstreamResponse.body;
 
-    return NextResponse.json(data, {
+    return new Response(stream, {
+      status: 200,
       headers: {
-        "Access-Control-Allow-Origin": allowOrigin,
         "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Cache-Control": "no-cache, no-transform",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": corsOrigin,
+        // Ha SSE-t akarsz a frontendnek, itt állítsd át: "text/event-stream"
       },
     });
   } catch (err: any) {
-    clearTimeout(timeout);
-    console.error("API /chat error:", err);
-    const message = err.name === 'AbortError' ? 'Upstream request timed out.' : 'Server error while forwarding request.';
-    return NextResponse.json(
-      { error: message },
-      { status: 500, headers: { "Access-Control-Allow-Origin": allowOrigin } }
-    );
+    clearTimeout(timeoutId);
+
+    if (err.name === "AbortError") {
+      return new Response(JSON.stringify({ error: "Request timeout after 500s." }), {
+        status: 504,
+        headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": corsOrigin },
+      });
+    }
+
+    console.error("Chat proxy error:", err);
+    return new Response(JSON.stringify({ error: "Internal proxy error." }), {
+      status: 500,
+      headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": corsOrigin },
+    });
   }
 }
