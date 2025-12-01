@@ -2,7 +2,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 // Use environment variable for upstream Lambda URL. Configure in .env.local as CHAT_UPSTREAM_URL
-const DEFAULT_TIMEOUT_MS = 300000; // 20s
+const DEFAULT_TIMEOUT_MS = 500000; // 20s
 
 export const runtime = "nodejs";
 
