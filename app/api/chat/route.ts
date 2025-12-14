@@ -1,14 +1,32 @@
 // src/app/api/chat/route.ts
-
+import { Agent, setGlobalDispatcher } from "undici";
 import { NextRequest } from "next/server";
 
 const UPSTREAM_URL = process.env.CHAT_UPSTREAM_URL;
 const MAX_MESSAGE_LENGTH = 10000;
 const MAX_HISTORY_LIMIT = 30;
-const PROXY_TIMEOUT_MS = 500_000; // ~8,3 perc – a Vercel/Lambda még bírja
+const PROXY_TIMEOUT_MS = 540_000; // Cloud Functions max ~9 perc (540s)
+const HEARTBEAT_INTERVAL_MS = 25_000; // küldjünk életjelet, hogy a kapcsolat ne záródjon le
+
+// Kapcsoljuk ki az alapértelmezett headers/body timeoutot, a saját abort controllerünk szab határt
+setGlobalDispatcher(
+  new Agent({
+    connectTimeout: 60_000,
+    headersTimeout: 0,
+    bodyTimeout: 0,
+  })
+);
+
+const upstreamDispatcher = new Agent({
+  connectTimeout: 60_000,
+  headersTimeout: 0,
+  bodyTimeout: 0,
+  keepAliveTimeout: 120_000,
+});
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic"; // mindig friss, ne cache-elje a Vercel
+export const maxDuration = 540; // Cloud Functions max engedélyezett timeout másodpercben
 
 // CORS preflight
 export function OPTIONS(req: NextRequest) {
@@ -33,7 +51,7 @@ export function OPTIONS(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  // CORS meghatározása (ugyanaz, mint az OPTIONS-nél)
+  // CORS meghatározása
   const origin = req.headers.get("origin") || "*";
   const allowed = (process.env.ALLOWED_ORIGIN || "*")
     .split(",")
@@ -43,7 +61,6 @@ export async function POST(req: NextRequest) {
     allowed.includes(origin) || allowed.includes("*") ? origin : allowed[0] || "*";
 
   // Upstream ellenőrzés
-  //500-as hiba esetén
   if (!UPSTREAM_URL) {
     return new Response(
       JSON.stringify({ error: "Upstream chat URL not configured on the server." }),
@@ -57,7 +74,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  // Body beolvasása + validáció
+  // Request body validálás (még a stream előtt, szinkron)
   let payload: any;
   try {
     payload = await req.json();
@@ -82,7 +99,6 @@ export async function POST(req: NextRequest) {
     });
   }
 
-  // History validálása + korlátozása
   if (payload.history !== undefined) {
     if (!Array.isArray(payload.history)) {
       return new Response(JSON.stringify({ error: "'history' must be an array." }), {
@@ -90,73 +106,104 @@ export async function POST(req: NextRequest) {
         headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": corsOrigin },
       });
     }
-    // Legutóbbi 30 üzenet megtartása
     payload.history = payload.history.slice(-MAX_HISTORY_LIMIT);
   }
 
-  // Timeout controller (max ~8 perc)
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), PROXY_TIMEOUT_MS);
+  // --- STREAM START ---
+  // Azonnal visszatérünk egy ReadableStream-mel, hogy a Load Balancer lássa a 200 OK-t és a headereket.
+  // A "thinking" idő alatt Heartbeat-et küldünk.
 
-  try {
-    const upstreamResponse = await fetch(UPSTREAM_URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        // Ha a Lambda-nak is kell Authorization vagy API-key, ide tedd
-        // "Authorization": `Bearer ${process.env.LAMBDA_API_KEY}`,
-      },
-      body: JSON.stringify(payload),
-      signal: controller.signal,
-    });
+  const encoder = new TextEncoder();
 
-    clearTimeout(timeoutId);
+  const stream = new ReadableStream({
+    async start(controller) {
+      // 1. Azonnali "életjel" kiküldése, hogy a TTFB < 60s legyen.
+      // Egy "space" karaktert küldünk, ami a UI-on nem látszik, de fenntartja a kapcsolatot.
+      controller.enqueue(encoder.encode(" "));
 
-    // Ha a Lambda hibát dob (pl. 500, 429, stb.)
-    if (!upstreamResponse.ok) {
-      const text = await upstreamResponse.text();
-      let errorMessage = `Upstream error: ${upstreamResponse.status}`;
+      // 2. Heartbeat timer indítása (25 mp-enként space)
+      const heartbeat = setInterval(() => {
+        controller.enqueue(encoder.encode(" "));
+      }, HEARTBEAT_INTERVAL_MS);
+
+      // Timeout controller a fetch-hez
+      const fetchController = new AbortController();
+      const fetchTimeoutId = setTimeout(() => fetchController.abort(), PROXY_TIMEOUT_MS);
+
       try {
-        const json = JSON.parse(text);
-        errorMessage = json.error || errorMessage;
-      } catch {}
-      return new Response(JSON.stringify({ error: errorMessage }), {
-        status: 502,
-        headers: {
-          "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": corsOrigin,
-        },
-      });
+        // 3. Upstream hívás
+        const upstreamResponse = await fetch(UPSTREAM_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+          // @ts-expect-error – undici dispatcher
+          dispatcher: upstreamDispatcher,
+          signal: fetchController.signal,
+        });
+
+        clearTimeout(fetchTimeoutId);
+
+        if (!upstreamResponse.ok) {
+          // HIBA KEZELÉS: Mivel a status code 200-at már elküldtük a kliensnek (a response elején),
+          // itt már nem tudunk 500-as status code-ot adni.
+          // Ezért a hibaüzenetet szövegesen írjuk a streambe ("JSON" formátumban vagy sima szövegként),
+          // amit a kliens majd megjelenít (vagy kezel).
+          const text = await upstreamResponse.text();
+          let errText = `Upstream error: ${upstreamResponse.status}`;
+          try {
+            const json = JSON.parse(text);
+            if (json.error) errText = json.error;
+          } catch { }
+
+          // JSON hibaként küldjük, hátha a kliens okos, vagy csak simán szövegként.
+          // A kliens oldali kód: tryParse -> ha nem megy, akkor display text.
+          controller.enqueue(encoder.encode(JSON.stringify({ error: errText })));
+          return; // Kilépés, stream lezárás a finally-ban
+        }
+
+        if (!upstreamResponse.body) {
+          controller.enqueue(encoder.encode(JSON.stringify({ error: "Upstream response has no body" })));
+          return;
+        }
+
+        const reader = upstreamResponse.body.getReader();
+
+        // 4. Upstream stream áttöltése (pump)
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          controller.enqueue(value);
+        }
+
+      } catch (err: any) {
+        clearTimeout(fetchTimeoutId);
+        console.error("Chat proxy stream error:", err);
+
+        if (err.name === "AbortError") {
+          controller.enqueue(encoder.encode(JSON.stringify({ error: "Request timeout after 540s." })));
+        } else {
+          controller.enqueue(encoder.encode(JSON.stringify({ error: "Internal proxy error during streaming." })));
+        }
+      } finally {
+        // Mindenképp leállítjuk a heartbeatet és lezárjuk a streamet
+        clearInterval(heartbeat);
+        controller.close();
+      }
+    },
+    cancel() {
+      // Ha a kliens megszakítja a kapcsolatot (pl. bezárja az ablakot), ide futunk
     }
+  });
 
-    // FONTOS RÉSZ: azonnal streameljük a választ – a header-ek 1-2 ms alatt kimennek!
-    const stream = upstreamResponse.body;
-
-    return new Response(stream, {
-      status: 200,
-      headers: {
-        "Content-Type": "application/json",
-        "Transfer-Encoding": "chunked",
-        "Cache-Control": "no-cache, no-transform",
-        "Connection": "keep-alive",
-        "Access-Control-Allow-Origin": corsOrigin,
-        // Ha SSE-t akarsz a frontendnek, itt állítsd át: "text/event-stream"
-      },
-    });
-  } catch (err: any) {
-    clearTimeout(timeoutId);
-
-    if (err.name === "AbortError") {
-      return new Response(JSON.stringify({ error: "Request timeout after 500s." }), {
-        status: 504,
-        headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": corsOrigin },
-      });
-    }
-
-    console.error("Chat proxy error:", err);
-    return new Response(JSON.stringify({ error: "Internal proxy error." }), {
-      status: 500,
-      headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": corsOrigin },
-    });
-  }
+  return new Response(stream, {
+    status: 200,
+    headers: {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "no-cache, no-transform",
+      "Connection": "keep-alive",
+      "Access-Control-Allow-Origin": corsOrigin,
+    },
+  });
 }

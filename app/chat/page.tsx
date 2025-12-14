@@ -89,8 +89,9 @@ export default function ChatPage() {
     const trimmed = raw.trim();
     if (!trimmed || loading) return;
 
-    const newMessage: ChatMessage = { role: "user", content: trimmed };
-    const updatedMessages = [...messages, newMessage];
+    const userMessage: ChatMessage = { role: "user", content: trimmed };
+    const assistantPlaceholder: ChatMessage = { role: "assistant", content: "" };
+    const updatedMessages = [...messages, userMessage, assistantPlaceholder];
 
     setMessages(updatedMessages);
     setInput("");
@@ -133,26 +134,70 @@ export default function ChatPage() {
         throw new Error(backendError);
       }
 
-      const data = await res.json();
-      const reply: ChatMessage = {
-        role: "assistant",
-        content:
-          data.reply ||
-          "⚠️ Nem érkezett válasz a modelltől. Kérlek, próbáld meg újra egy kicsit később.",
-      };
+      // Stream olvasása – folyamatosan frissítjük az utolsó assistant üzenetet
+      const reader = res.body?.getReader();
+      const decoder = new TextDecoder();
+      let acc = "";
 
-      setMessages([...updatedMessages, reply]);
+      if (!reader) {
+        const text = await res.text();
+        acc = text;
+      } else {
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          acc += decoder.decode(value, { stream: true });
+
+          setMessages((prev) => {
+            const next = [...prev];
+            const last = next[next.length - 1];
+            if (last && last.role === "assistant") {
+              next[next.length - 1] = { ...last, content: acc };
+            }
+            return next;
+          });
+        }
+      }
+
+      // Végső finomhangolás: ha JSON-t kaptunk, próbáljuk parse-olni
+      const finalText = acc.trim();
+      let content = finalText;
+      try {
+        const parsed = JSON.parse(finalText);
+        if (typeof parsed?.reply === "string") content = parsed.reply;
+        else if (typeof parsed?.content === "string") content = parsed.content;
+      } catch {
+        // ha nem JSON, hagyjuk szövegként
+      }
+
+      setMessages((prev) => {
+        const next = [...prev];
+        const last = next[next.length - 1];
+        if (last && last.role === "assistant") {
+          next[next.length - 1] = {
+            ...last,
+            content:
+              content ||
+              "⚠️ Nem érkezett válasz a modelltől. Kérlek, próbáld meg újra egy kicsit később.",
+          };
+        }
+        return next;
+      });
     } catch (error: any) {
       console.error("Chat hiba:", error);
-      setMessages([
-        ...updatedMessages,
-        {
-          role: "assistant",
-          content:
-            error?.message ||
-            "⚠️ Hiba történt a válasz feldolgozása közben. Kérlek, próbáld meg újra később.",
-        },
-      ]);
+      setMessages((prev) => {
+        // ha már volt placeholder, azt írjuk felül, különben új assistant üzi
+        const next = [...prev];
+        const last = next[next.length - 1];
+        const errorContent =
+          error?.message ||
+          "⚠️ Hiba történt a válasz feldolgozása közben. Kérlek, próbáld meg újra később.";
+        if (last && last.role === "assistant" && last.content === "") {
+          next[next.length - 1] = { role: "assistant", content: errorContent };
+          return next;
+        }
+        return [...next, { role: "assistant", content: errorContent }];
+      });
     } finally {
       setLoading(false);
       // Timer leállítása + stat frissítés
