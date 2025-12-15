@@ -30,20 +30,35 @@ export const maxDuration = 540; // Cloud Functions max engedélyezett timeout m�
 
 // CORS preflight
 export function OPTIONS(req: NextRequest) {
-  // Preflight kérés esetén is mindent engedünk (*) a hibakereséshez
+  const origin = req.headers.get("origin") || "*";
+  const allowed = (process.env.ALLOWED_ORIGIN || "*")
+    .split(",")
+    .map((o) => o.trim())
+    .filter(Boolean);
+
+  const allowOrigin =
+    allowed.includes(origin) || allowed.includes("*") ? origin : allowed[0] || "*";
+
   return new Response(null, {
     status: 204,
     headers: {
-      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Origin": allowOrigin,
       "Access-Control-Allow-Methods": "POST, OPTIONS",
       "Access-Control-Allow-Headers": "Content-Type, Authorization",
+      "Vary": "Origin",
     },
   });
 }
 
 export async function POST(req: NextRequest) {
-  // CORS: Hardcode "*"-ra a hibakeresés idejére, hogy biztosan átmenjen
-  const corsOrigin = "*";
+  // CORS meghatározása
+  const origin = req.headers.get("origin") || "*";
+  const allowed = (process.env.ALLOWED_ORIGIN || "*")
+    .split(",")
+    .map((o) => o.trim())
+    .filter(Boolean);
+  const corsOrigin =
+    allowed.includes(origin) || allowed.includes("*") ? origin : allowed[0] || "*";
 
   // Upstream ellenőrzés
   if (!UPSTREAM_URL) {
