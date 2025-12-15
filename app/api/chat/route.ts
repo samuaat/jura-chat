@@ -6,7 +6,7 @@ const UPSTREAM_URL = process.env.CHAT_UPSTREAM_URL;
 const MAX_MESSAGE_LENGTH = 10000;
 const MAX_HISTORY_LIMIT = 30;
 const PROXY_TIMEOUT_MS = 540_000; // Cloud Functions max ~9 perc (540s)
-const HEARTBEAT_INTERVAL_MS = 25_000; // küldjünk életjelet, hogy a kapcsolat ne záródjon le
+const HEARTBEAT_INTERVAL_MS = 2000; // 2 másodpercenként küldjünk életjelet (agresszív keep-alive)
 
 // Kapcsoljuk ki az alapértelmezett headers/body timeoutot, a saját abort controllerünk szab határt
 setGlobalDispatcher(
