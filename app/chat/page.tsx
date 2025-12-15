@@ -114,7 +114,13 @@ export default function ChatPage() {
     try {
       const limitedHistory = updatedMessages.slice(-HISTORY_LIMIT);
 
-      const res = await fetch("/api/chat", {
+      // FIX: Közvetlen backend URL használata production-ben a Firebase Hosting Timeot (60s) kikerülése miatt
+      const API_URL =
+        process.env.NODE_ENV === "production"
+          ? "https://europe-west1-jura-v2.cloudfunctions.net/ssrjurav2/api/chat"
+          : "/api/chat";
+
+      const res = await fetch(API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -308,7 +314,7 @@ export default function ChatPage() {
               <h1 className="mb-4 text-2xl font-semibold text-slate-900 sm:text-3xl">
                 Üdvözöllek a JURA-ban!
               </h1>
-              
+
               {/* ITT JELENIK MEG AZ ALERTE (Üres állapotban) */}
               <div className="w-full text-left">
                 <UpgradeAlert />
@@ -329,8 +335,8 @@ export default function ChatPage() {
                     index % 3 === 0
                       ? "sm:max-w-xs"
                       : index % 3 === 1
-                      ? "sm:max-w-sm"
-                      : "sm:max-w-md";
+                        ? "sm:max-w-sm"
+                        : "sm:max-w-md";
 
                   return (
                     <button
@@ -393,7 +399,7 @@ export default function ChatPage() {
             {/* CHAT CONTENT – klasszikus chat nézet */}
             <section className="flex flex-1 justify-center overflow-y-auto pb-32 md:pb-40">
               <div className="flex w-full max-w-3xl flex-col px-4 pt-4">
-                
+
                 {/* ITT JELENIK MEG AZ ALERTE (Chat közben is) */}
                 <UpgradeAlert />
 
@@ -405,9 +411,8 @@ export default function ChatPage() {
                   return (
                     <div
                       key={index}
-                      className={`mb-3 flex ${
-                        isUser ? "justify-end" : "justify-start"
-                      }`}
+                      className={`mb-3 flex ${isUser ? "justify-end" : "justify-start"
+                        }`}
                     >
                       <div className="group flex max-w-full gap-3">
                         {!isUser && (
@@ -417,11 +422,10 @@ export default function ChatPage() {
                         )}
                         <div className="relative max-w-[80%]">
                           <div
-                            className={`rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
-                              isUser
+                            className={`rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${isUser
                                 ? "whitespace-pre-line rounded-br-none bg-slate-900 text-slate-50"
                                 : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
-                            }`}
+                              }`}
                           >
                             {isUser ? (
                               msg.content
