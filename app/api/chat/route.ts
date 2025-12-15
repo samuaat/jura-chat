@@ -51,14 +51,8 @@ export function OPTIONS(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  // CORS meghatározása
-  const origin = req.headers.get("origin") || "*";
-  const allowed = (process.env.ALLOWED_ORIGIN || "*")
-    .split(",")
-    .map((o) => o.trim())
-    .filter(Boolean);
-  const corsOrigin =
-    allowed.includes(origin) || allowed.includes("*") ? origin : allowed[0] || "*";
+  // CORS: Hardcode "*"-ra a hibakeresés idejére, hogy biztosan átmenjen
+  const corsOrigin = "*";
 
   // Upstream ellenőrzés
   if (!UPSTREAM_URL) {

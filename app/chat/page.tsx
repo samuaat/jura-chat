@@ -114,10 +114,10 @@ export default function ChatPage() {
     try {
       const limitedHistory = updatedMessages.slice(-HISTORY_LIMIT);
 
-      // FIX: Közvetlen backend URL használata production-ben a Firebase Hosting Timeot (60s) kikerülése miatt
+      // FIX: Közvetlen Cloud Run URL (.run.app), ami stabilabb mint a cloudfunctions.net
       const API_URL =
         process.env.NODE_ENV === "production"
-          ? "https://europe-west1-jura-v2.cloudfunctions.net/ssrjurav2/api/chat"
+          ? "https://ssrjurav2-74elkdduqa-ew.a.run.app/api/chat"
           : "/api/chat";
 
       const res = await fetch(API_URL, {
@@ -423,8 +423,8 @@ export default function ChatPage() {
                         <div className="relative max-w-[80%]">
                           <div
                             className={`rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${isUser
-                                ? "whitespace-pre-line rounded-br-none bg-slate-900 text-slate-50"
-                                : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
+                              ? "whitespace-pre-line rounded-br-none bg-slate-900 text-slate-50"
+                              : "rounded-bl-none border border-slate-200 bg-white text-slate-900"
                               }`}
                           >
                             {isUser ? (
