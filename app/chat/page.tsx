@@ -112,7 +112,7 @@ export default function ChatPage() {
     }, 1000);
 
     try {
-      const limitedHistory = updatedMessages.slice(-HISTORY_LIMIT);
+      const limitedHistory = messages.slice(-HISTORY_LIMIT);
 
       // FIX: Közvetlen Cloud Run URL (.run.app), ami stabilabb mint a cloudfunctions.net
       const API_URL =
