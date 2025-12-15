@@ -115,29 +115,35 @@ export async function POST(req: NextRequest) {
   const encoder = new TextEncoder();
 
   // --- STREAM START ---
-  let heartbeat: NodeJS.Timeout | null = null;
+  let isClosed = false;
 
   const stream = new ReadableStream({
     async start(controller) {
-      // 1. Azonnali "életjel" (space)
-      try {
-        controller.enqueue(encoder.encode(" "));
-      } catch (err) {
-        // Ha valamiért már itt zárt a stream (nagyon gyors disconnect), ne omoljon össze
-        return;
-      }
-
-      // 2. Heartbeat timer indítása (25 mp-enként space)
-      heartbeat = setInterval(() => {
+      // Helper a biztonságos íráshoz
+      const safelyEnqueue = (chunk: Uint8Array) => {
+        if (isClosed) return;
         try {
-          // Csak akkor küldjünk, ha még nyitva van (sajna nincs direkt .closed check, de a try-catch megfogja)
-          controller.enqueue(encoder.encode(" "));
-        } catch (err) {
-          // Ha a controller már lezárt, állítsuk le a tickert
-          if (heartbeat) clearInterval(heartbeat);
-          // Nem dobunk hibát, hogy ne omoljon össze a Node process
+          controller.enqueue(chunk);
+        } catch (e) {
+          isClosed = true; // Ha már nem tudunk írni, tekintsük lezártnak
+          console.warn("Stream enqueue failed, marking closed.", e);
         }
-      }, HEARTBEAT_INTERVAL_MS);
+      };
+
+      // 1. Azonnali "életjel"
+      safelyEnqueue(encoder.encode(" "));
+
+      // 2. Heartbeat loop (recursive timeout a biztonságért)
+      const startHeartbeat = () => {
+        if (isClosed) return;
+        setTimeout(() => {
+          if (isClosed) return;
+          safelyEnqueue(encoder.encode(" "));
+          startHeartbeat(); // következő ütem
+        }, HEARTBEAT_INTERVAL_MS);
+      };
+
+      startHeartbeat();
 
       // Timeout controller a fetch-hez
       const fetchController = new AbortController();
@@ -159,10 +165,6 @@ export async function POST(req: NextRequest) {
         clearTimeout(fetchTimeoutId);
 
         if (!upstreamResponse.ok) {
-          // HIBA KEZELÉS: Mivel a status code 200-at már elküldtük a kliensnek (a response elején),
-          // itt már nem tudunk 500-as status code-ot adni.
-          // Ezért a hibaüzenetet szövegesen írjuk a streambe ("JSON" formátumban vagy sima szövegként),
-          // amit a kliens majd megjelenít (vagy kezel).
           const text = await upstreamResponse.text();
           let errText = `Upstream error: ${upstreamResponse.status}`;
           try {
@@ -170,56 +172,45 @@ export async function POST(req: NextRequest) {
             if (json.error) errText = json.error;
           } catch { }
 
-          // JSON hibaként küldjük, hátha a kliens okos, vagy csak simán szövegként.
-          // A kliens oldali kód: tryParse -> ha nem megy, akkor display text.
-          controller.enqueue(encoder.encode(JSON.stringify({ error: errText })));
-          return; // Kilépés, stream lezárás a finally-ban
+          safelyEnqueue(encoder.encode(JSON.stringify({ error: errText })));
+          return;
         }
 
         if (!upstreamResponse.body) {
-          controller.enqueue(encoder.encode(JSON.stringify({ error: "Upstream response has no body" })));
+          safelyEnqueue(encoder.encode(JSON.stringify({ error: "Upstream response has no body" })));
           return;
         }
 
         const reader = upstreamResponse.body.getReader();
 
-        // 4. Upstream stream áttöltése (pump)
+        // 4. Pump logic
         while (true) {
           const { done, value } = await reader.read();
           if (done) break;
-          controller.enqueue(value);
+          if (isClosed) break; // Ha a kliens közben lecsatlakozott
+          safelyEnqueue(value);
         }
 
       } catch (err: any) {
         clearTimeout(fetchTimeoutId);
         console.error("Chat proxy stream error:", err);
 
-        // Csak akkor próbáljunk írni, ha még nem zárt a controller
-        try {
-          if (err.name === "AbortError") {
-            controller.enqueue(encoder.encode(JSON.stringify({ error: "Request timeout after 540s." })));
-          } else {
-            controller.enqueue(encoder.encode(JSON.stringify({ error: "Internal proxy error during streaming." })));
-          }
-        } catch (e) {
-          // Nem gond, ha már zárva van
+        if (err.name === "AbortError") {
+          safelyEnqueue(encoder.encode(JSON.stringify({ error: "Request timeout after 540s." })));
+        } else {
+          safelyEnqueue(encoder.encode(JSON.stringify({ error: "Internal proxy error during streaming." })));
         }
       } finally {
-        // Mindenképp leállítjuk a heartbeatet és lezárjuk a streamet
-        if (heartbeat) clearInterval(heartbeat);
+        isClosed = true; // Stop heartbeat
         try {
           controller.close();
         } catch (e) {
-          // Már zárva
+          // Ignored
         }
       }
     },
     cancel(reason) {
-      // Ha a kliens megszakítja a kapcsolatot (pl. bezárja az ablakot), ide futunk
-      if (heartbeat) clearInterval(heartbeat);
-      // Opcionális: upstream cancel, bár a signal nem érhető el könnyen innen, ha nincs kiszervezve
-      // De mivel a start async véget érhet, a fetchController scope-ja megszűnik.
-      // A böngésző bontása miatt a `while` loop a reader.read()-nél elhasalhat vagy a következő enqueue-nál.
+      isClosed = true; // Stop heartbeat immediately
     }
   });
 
