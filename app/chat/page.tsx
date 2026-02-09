@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { toast } from "sonner";
 import {
+  Menu,
   ArrowUp,
   Copy,
   Check,
@@ -15,8 +16,7 @@ import {
 } from "lucide-react";
 
 import { ChatSidebar } from "@/components/chat-sidebar";
-import { ThemeToggle } from "@/components/theme-toggle";
-import { SmartCitation } from "@/components/smart-citation";
+import { ThemeToggle } from "@/components/theme-toggle"; // Using existing
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { db } from "@/lib/firebase";
 import { getAnonymousUserId } from "@/lib/anonymous-user";
@@ -35,7 +35,6 @@ type ChatMessage = {
 };
 
 const HISTORY_LIMIT = 10;
-
 const SITE_URL = "https://jura-chat.vercel.app";
 const CANONICAL = SITE_URL;
 
@@ -80,10 +79,13 @@ export default function ChatPage() {
   // Copy feedback
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
 
-  // Feedback tracking (which messages have been liked/disliked)
+  // Feedback tracking
   const [feedbackGiven, setFeedbackGiven] = useState<
     Record<number, "like" | "dislike">
   >({});
+
+  // Upgrade alert
+  const [showUpgradeAlert, setShowUpgradeAlert] = useState(true);
 
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
@@ -110,7 +112,7 @@ export default function ChatPage() {
     }
   }, [input]);
 
-  // Cleanup timer on unmount
+  // Cleanup timer
   useEffect(() => {
     return () => {
       if (loadingTimerRef.current !== null) {
@@ -119,9 +121,7 @@ export default function ChatPage() {
     };
   }, []);
 
-  // ---------------------------------------------------------------
-  // Firestore persistence
-  // ---------------------------------------------------------------
+  // Firestore save
   async function saveToFirestore(
     allMessages: ChatMessage[],
     userQuery: string
@@ -164,6 +164,7 @@ export default function ChatPage() {
         setMessages(data.messages || []);
         setCurrentChatId(chatId);
         setFeedbackGiven({});
+        setShowUpgradeAlert(false); // Hide alert on selecting a chat
       }
     } catch (err) {
       console.error("Failed to load chat:", err);
@@ -176,17 +177,14 @@ export default function ChatPage() {
     setCurrentChatId(null);
     setInput("");
     setFeedbackGiven({});
+    setShowUpgradeAlert(true); // Show alert on new chat
   }
 
-  // ---------------------------------------------------------------
-  // Feedback (like/dislike)
-  // ---------------------------------------------------------------
   async function handleFeedback(
     type: "like" | "dislike",
     msgIndex: number,
     assistantContent: string
   ) {
-    // Find the user query that preceded this assistant message
     const userQuery =
       msgIndex > 0 && messages[msgIndex - 1]?.role === "user"
         ? messages[msgIndex - 1].content
@@ -214,13 +212,14 @@ export default function ChatPage() {
     }
   }
 
-  // ---------------------------------------------------------------
-  // Send message (streaming logic preserved from original)
-  // ---------------------------------------------------------------
   async function sendMessage(overrideText?: string) {
     const raw = overrideText ?? input;
     const trimmed = raw.trim();
     if (!trimmed || loading) return;
+
+    if (messages.length === 0) {
+      setShowUpgradeAlert(false); // Hide alert on first message
+    }
 
     const userMessage: ChatMessage = { role: "user", content: trimmed };
     const assistantPlaceholder: ChatMessage = {
@@ -233,7 +232,6 @@ export default function ChatPage() {
     setInput("");
     setLoading(true);
 
-    // Start response timer
     requestStartRef.current = Date.now();
     setLoadingSeconds(0);
     if (loadingTimerRef.current !== null) {
@@ -249,13 +247,7 @@ export default function ChatPage() {
 
     try {
       const limitedHistory = messages.slice(-HISTORY_LIMIT);
-
-      // Production: direct Cloud Run URL (Firebase Hosting buffers streaming)
-      // Dev: local Next.js proxy
-      const API_URL =
-        process.env.NODE_ENV === "production"
-          ? "https://ssrjurav2-74elkdduqa-ew.a.run.app/api/chat"
-          : "/api/chat";
+      const API_URL = "/api/chat"; // Local API URL
 
       const res = await fetch(API_URL, {
         method: "POST",
@@ -271,13 +263,10 @@ export default function ChatPage() {
         try {
           const errData = await res.json();
           if (typeof errData?.error === "string") backendError = errData.error;
-        } catch {
-          // not JSON
-        }
+        } catch { }
         throw new Error(backendError);
       }
 
-      // Stream reading
       const reader = res.body?.getReader();
       const decoder = new TextDecoder();
       let content = "";
@@ -300,7 +289,7 @@ export default function ChatPage() {
         content = text.replace(/\0/g, "");
         flushToUI(
           content ||
-            "Nem érkezett válasz a modelltől. Kérlek, próbáld meg újra egy kicsit később."
+          "Nem érkezett válasz a modelltől. Kérlek, próbáld meg újra egy kicsit később."
         );
       } else {
         while (true) {
@@ -328,27 +317,22 @@ export default function ChatPage() {
             });
           }
         }
-
         flushToUI(
           content ||
-            "Nem érkezett válasz a modelltől. Kérlek, próbáld meg újra egy kicsit később."
+          "Nem érkezett válasz a modelltől. Kérlek, próbáld meg újra egy kicsit később."
         );
       }
 
-      // STREAM_ERROR marker handling
       const errorMatch = content.match(
         /\[STREAM_ERROR\]([\s\S]*?)\[\/STREAM_ERROR\]/
       );
       if (errorMatch) {
-        const cleanContent = content
-          .replace(/\[STREAM_ERROR\][\s\S]*?\[\/STREAM_ERROR\]/, "")
-          .trim();
         content =
-          cleanContent || `Hiba a válasz közben: ${errorMatch[1]}`;
+          content.replace(/\[STREAM_ERROR\][\s\S]*?\[\/STREAM_ERROR\]/, "").trim() ||
+          `Hiba a válasz közben: ${errorMatch[1]}`;
         flushToUI(content);
       }
 
-      // Save to Firestore after successful response
       const finalMessages = [...updatedMessages];
       finalMessages[finalMessages.length - 1] = {
         role: "assistant",
@@ -412,382 +396,277 @@ export default function ChatPage() {
       ? Math.round(totalResponseMs / responseCount / 1000)
       : null;
 
-  // ---------------------------------------------------------------
-  // Render
-  // ---------------------------------------------------------------
+  const UpgradeAlert = () => {
+    if (!showUpgradeAlert) return null;
+    return (
+      <div className="mb-6 w-full rounded-xl border border-blue-300 dark:border-blue-900/30 bg-blue-50 dark:bg-[#1a1d2e] p-4 text-sm text-neutral-900 dark:text-[#E3E3E3] shadow-sm dark:shadow-[0_0_15px_rgba(59,130,246,0.08)] text-left">
+        <div className="flex gap-3">
+          <span className="text-lg">🚧</span>
+          <div>
+            <p className="font-semibold text-blue-600 dark:text-blue-400">Technikai tájékoztatás</p>
+            <p className="mt-1 leading-relaxed text-neutral-800 dark:text-[#E3E3E3]/90">
+              A <strong>bírósági határozatkereső</strong> modul jelenleg átfogó
+              technikai frissítésen (upgrade) esik át. A funkció végleges,
+              stabil verziója pár napon belül elérhetővé válik. Köszönjük a
+              türelmedet!
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(CHAT_JSON_LD) }}
       />
-
-      <div className="flex h-screen overflow-hidden bg-[var(--background)]">
-        {/* Sidebar */}
+      <div className="flex h-screen w-full overflow-hidden bg-white dark:bg-[#131314]">
         <ChatSidebar
-          isOpen={isSidebarOpen}
-          onToggle={() => setIsSidebarOpen(false)}
+          userId={anonymousUserId}
           currentChatId={currentChatId}
-          anonymousUserId={anonymousUserId}
           onSelectChat={handleSelectChat}
           onNewChat={handleNewChat}
+          isOpen={isSidebarOpen}
+          onToggle={() => setIsSidebarOpen(!isSidebarOpen)}
+          className="hidden md:flex"
         />
 
-        {/* Main area */}
-        <div className="flex flex-1 flex-col min-w-0">
-          {/* Header */}
-          <header className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 bg-[var(--background)] px-4 py-3">
-            <div className="flex items-center gap-3">
-              {!isSidebarOpen && (
-                <button
-                  onClick={() => setIsSidebarOpen(true)}
-                  className="flex h-9 w-9 items-center justify-center rounded-lg text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800 transition"
-                  aria-label="Oldalsáv megnyitása"
-                >
-                  <PanelLeft className="h-5 w-5" />
-                </button>
-              )}
-              <Link href="/" className="flex items-center gap-2">
-                <img
-                  src="/images/jura-logo.png"
-                  alt="JURA logó"
-                  className="h-8 w-auto"
-                />
-              </Link>
-              <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400">
-                kísérleti
-              </span>
+        <div className="flex flex-1 flex-col h-full min-w-0 relative">
+          {!isSidebarOpen && (
+            <div className="absolute top-3 left-4 z-50 hidden md:block">
+              <button
+                onClick={() => setIsSidebarOpen(true)}
+                className="p-2 rounded-full hover:bg-neutral-200 dark:hover:bg-[#2c2d2e] transition-colors text-neutral-600 dark:text-[#E3E3E3]"
+                title="Menü kinyitása"
+              >
+                <Menu className="w-5 h-5" />
+              </button>
             </div>
-            <div className="flex items-center gap-2">
-              <ThemeToggle />
+          )}
+
+          <header className="shrink-0 border-b border-neutral-200 dark:border-[#131314] bg-white dark:bg-[#131314] z-20">
+            <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
+              <div className="flex items-center gap-3">
+                <button
+                  className="md:hidden p-2 text-neutral-600 dark:text-neutral-400"
+                  onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+                >
+                  <Menu className="w-6 h-6" />
+                </button>
+                <Link href="/" className="flex items-center gap-2">
+                  <img
+                    src="/images/jura-logo.png"
+                    alt="JURA logó"
+                    className="h-8 w-auto"
+                  />
+                </Link>
+              </div>
+              <div className="flex items-center gap-3">
+                <ThemeToggle />
+              </div>
             </div>
           </header>
 
-          {/* Content */}
-          {showEmptyState ? (
-            /* ---------- EMPTY STATE ---------- */
-            <div className="flex flex-1 flex-col items-center justify-center px-4 pb-4">
-              <div className="flex w-full max-w-2xl flex-col items-center text-center">
-                <img
-                  src="/images/jura-logo.png"
-                  alt="JURA"
-                  className="mb-6 h-12 w-auto"
-                />
-                <h1 className="mb-2 text-2xl font-semibold text-[var(--foreground)] sm:text-3xl">
-                  Miben segíthetek?
-                </h1>
-                <p className="mb-8 max-w-md text-sm text-neutral-500 dark:text-neutral-400">
-                  Kérdezz a magyar jogról – például munkajogról,
-                  fogyasztóvédelemről, szerződésekről, bérletről vagy öröklésről.
-                </p>
+          <main className="flex flex-1 flex-col relative w-full overflow-hidden bg-white dark:bg-[#131314]">
+            {showEmptyState ? (
+              <ScrollArea className="flex-1 w-full h-full">
+                <section className="flex flex-col items-center justify-start px-6 pb-4 pt-10 min-h-full lg:justify-center lg:pt-0">
+                  <div className="flex w-full max-w-4xl flex-col items-center text-center">
+                    <h1 className="mb-4 text-2xl font-semibold text-neutral-900 dark:text-[#E3E3E3] sm:text-3xl">
+                      Üdvözöllek a JURA-ban!
+                    </h1>
 
-                {/* Suggestion pills */}
-                <div className="mb-8 flex w-full flex-wrap justify-center gap-2">
-                  {suggestions.map((tip) => (
-                    <button
-                      key={tip}
-                      type="button"
-                      onClick={() => handleSuggestionClick(tip)}
-                      className="rounded-full border border-neutral-300 bg-white px-4 py-2 text-left text-sm text-neutral-700 shadow-sm transition hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-700"
+                    <UpgradeAlert />
+
+                    <p className="mb-8 max-w-3xl text-sm text-neutral-900 dark:text-[#E3E3E3]">
+                      Kérdezz a magyar jogról – például munkajogról, fogyasztóvédelemről, szerződésekről, bérletről vagy öröklésről.<br />A válaszok nem minősülnek jogi tanácsadásnak.
+                    </p>
+
+                    <div className="mb-8 w-full flex flex-wrap justify-center gap-6">
+                      {suggestions.map((tip) => (
+                        <button
+                          key={tip}
+                          type="button"
+                          onClick={() => handleSuggestionClick(tip)}
+                          className="rounded-2xl border border-neutral-300 dark:border-neutral-700 bg-neutral-100 dark:bg-[#282A2C] px-5 py-3 text-left text-xs text-neutral-900 dark:text-[#E3E3E3] shadow-xs transition hover:shadow-sm hover:border-neutral-400 dark:hover:border-neutral-600 hover:bg-neutral-200 dark:hover:bg-neutral-700 sm:text-sm"
+                        >
+                          {tip}
+                        </button>
+                      ))}
+                    </div>
+
+                    <form
+                      onSubmit={handleSubmit}
+                      className="flex w-full max-w-4xl items-end gap-2 rounded-2xl border border-neutral-300 dark:border-neutral-800 bg-white dark:bg-[#131314] px-6 py-2.5 shadow-[0_0_15px_rgba(16,185,129,0.05)] hover:shadow-[0_0_20px_rgba(16,185,129,0.08)] focus-within:shadow-[0_0_25px_rgba(16,185,129,0.1)] transition-shadow duration-300"
                     >
-                      {tip}
-                    </button>
-                  ))}
-                </div>
+                      <textarea
+                        ref={textareaRef}
+                        id="chat-input-empty"
+                        aria-label="Írd be a kérdésed"
+                        rows={1}
+                        placeholder="Írd be a kérdésed... (pl. Mit ír elő a Ptk. 6:519. §?)"
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter" && !e.shiftKey) {
+                            e.preventDefault();
+                            sendMessage();
+                          }
+                        }}
+                        className="max-h-40 flex-1 resize-none overflow-y-auto border-none bg-transparent py-3 pr-3 text-base text-neutral-900 dark:text-[#E3E3E3] outline-none placeholder:text-neutral-500 placeholder:leading-normal"
+                      />
+                      <button
+                        type="submit"
+                        disabled={loading || !input.trim()}
+                        className="flex items-center rounded-xl bg-neutral-200 px-5 py-3 text-base font-semibold text-neutral-900 shadow-sm transition hover:-translate-y-0.5 hover:bg-neutral-300 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
+                      >
+                        Küldés
+                      </button>
+                    </form>
 
-                {/* Input in empty state */}
-                <form
-                  onSubmit={handleSubmit}
-                  className="flex w-full max-w-2xl items-end gap-2 rounded-2xl border border-neutral-300 bg-white px-4 py-2.5 shadow-sm dark:border-neutral-700 dark:bg-neutral-800"
-                >
-                  <textarea
-                    ref={textareaRef}
-                    id="chat-input-empty"
-                    aria-label="Írd be a kérdésed"
-                    rows={1}
-                    placeholder="Írd be a kérdésed..."
-                    value={input}
-                    onChange={(e) => setInput(e.target.value)}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter" && !e.shiftKey) {
-                        e.preventDefault();
-                        sendMessage();
-                      }
-                    }}
-                    className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent py-3 text-base text-[var(--foreground)] outline-none placeholder:text-neutral-400 dark:placeholder:text-neutral-500"
-                  />
-                  <button
-                    type="submit"
-                    disabled={loading || !input.trim()}
-                    className="flex h-10 w-10 items-center justify-center rounded-xl bg-neutral-900 text-white shadow-sm transition hover:bg-neutral-800 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200"
-                  >
-                    <ArrowUp className="h-5 w-5" />
-                  </button>
-                </form>
-
-                <p className="mt-3 text-[11px] leading-relaxed text-neutral-500 dark:text-neutral-400">
-                  A JURA egy kísérleti jogi AI-asszisztens. A válaszok{" "}
-                  <strong>nem minősülnek jogi tanácsadásnak</strong>.{" "}
-                  <Link
-                    href="/jogi-nyilatkozat"
-                    className="underline-offset-2 hover:underline"
-                  >
-                    Jogi nyilatkozat
-                  </Link>
-                </p>
-              </div>
-            </div>
-          ) : (
-            /* ---------- CHAT VIEW ---------- */
-            <>
-              <ScrollArea className="flex-1">
-                <div className="mx-auto w-full max-w-3xl px-4 pt-4 pb-32">
-                  {messages.map((msg, index) => {
-                    const isUser = msg.role === "user";
-                    const isAssistant = !isUser;
-
-                    return (
-                      <div key={index} className="mb-4">
-                        {isUser ? (
-                          /* User message */
-                          <div className="flex justify-end">
-                            <div className="max-w-[80%] rounded-2xl rounded-tr-none bg-neutral-200 px-4 py-3 text-sm leading-relaxed text-neutral-900 dark:bg-[#282A2C] dark:text-[#E3E3E3]">
-                              <span className="whitespace-pre-line">
-                                {msg.content}
-                              </span>
-                            </div>
-                          </div>
-                        ) : (
-                          /* Assistant message */
-                          <div className="group">
-                            <div className="flex items-start gap-3">
-                              <div className="mt-1 flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-neutral-900 text-xs font-semibold text-white dark:bg-neutral-100 dark:text-neutral-900">
-                                J
-                              </div>
-                              <div className="min-w-0 flex-1">
+                    <p className="mt-3 text-[11px] leading-relaxed text-neutral-900 dark:text-[#E3E3E3]">
+                      A JURA egy kísérleti jogi AI-asszisztens. A válaszok{" "}
+                      <strong>nem minősülnek jogi tanácsadásnak</strong>, és nem
+                      helyettesítik ügyvéd véleményét. Részletek:{" "}
+                      <Link
+                        href="/jogi-nyilatkozat"
+                        className="underline-offset-2 hover:text-neutral-900 dark:text-[#E3E3E3] hover:underline"
+                      >
+                        jogi nyilatkozat →
+                      </Link>
+                    </p>
+                  </div>
+                </section>
+              </ScrollArea>
+            ) : (
+              <>
+                <section className="flex flex-1 justify-center relative min-h-0">
+                  <div className="w-full h-full overflow-y-auto px-6 pt-4 pb-32 md:pb-40">
+                    <div className="mx-auto max-w-4xl flex flex-col">
+                      <UpgradeAlert />
+                      {messages.map((msg, index) => {
+                        const isUser = msg.role === "user";
+                        return (
+                          <div
+                            key={index}
+                            className={`mb-3 flex ${isUser ? "justify-end" : "justify-start"}`}
+                          >
+                            <div className="group flex max-w-full">
+                              <div className={`relative ${isUser ? "max-w-[80%] ml-auto" : "max-w-full"} break-words`}>
                                 <div
-                                  className={
-                                    "prose prose-sm max-w-none text-[var(--foreground)] " +
-                                    "prose-headings:text-[var(--foreground)] " +
-                                    "prose-strong:text-[var(--foreground)] " +
-                                    "prose-a:text-blue-600 dark:prose-a:text-blue-400 " +
-                                    "[&_h2]:mt-3 [&_h2]:mb-2 [&_h2]:text-base [&_h2]:font-semibold " +
-                                    "[&_ul]:mt-1 [&_ul]:mb-2 [&_ul]:list-disc [&_ul]:pl-5 " +
-                                    "[&_ol]:mt-1 [&_ol]:mb-2 [&_ol]:list-decimal [&_ol]:pl-5 " +
-                                    "[&_strong]:font-semibold " +
-                                    "[&_p]:text-[var(--foreground)] " +
-                                    "[&_li]:text-[var(--foreground)]"
-                                  }
+                                  className={`px-6 py-3 text-base leading-loose break-words ${isUser
+                                    ? "rounded-2xl rounded-tr-none bg-neutral-200 dark:bg-[#282A2C] text-neutral-900 dark:text-[#E3E3E3]"
+                                    : "pb-10 text-neutral-900 dark:text-[#E3E3E3]"
+                                    }`}
                                 >
-                                  <ReactMarkdown
-                                    remarkPlugins={[remarkGfm]}
-                                    components={{
-                                      p: ({ children }) => (
-                                        <p>
-                                          {Array.isArray(children)
-                                            ? children.map((child, i) =>
-                                                typeof child === "string" ? (
-                                                  <SmartCitation key={i}>
-                                                    {child}
-                                                  </SmartCitation>
-                                                ) : (
-                                                  child
-                                                )
-                                              )
-                                            : typeof children === "string" ? (
-                                                <SmartCitation>
-                                                  {children}
-                                                </SmartCitation>
-                                              ) : (
-                                                children
-                                              )}
-                                        </p>
-                                      ),
-                                      li: ({ children }) => (
-                                        <li>
-                                          {Array.isArray(children)
-                                            ? children.map((child, i) =>
-                                                typeof child === "string" ? (
-                                                  <SmartCitation key={i}>
-                                                    {child}
-                                                  </SmartCitation>
-                                                ) : (
-                                                  child
-                                                )
-                                              )
-                                            : typeof children === "string" ? (
-                                                <SmartCitation>
-                                                  {children}
-                                                </SmartCitation>
-                                              ) : (
-                                                children
-                                              )}
-                                        </li>
-                                      ),
-                                    }}
-                                  >
-                                    {msg.content}
-                                  </ReactMarkdown>
+                                  {isUser ? (
+                                    msg.content
+                                  ) : (
+                                    <div className="prose prose-slate prose-sm max-w-none [&_h1]:font-bold [&_h2]:font-bold [&_h2]:text-lg [&_h3]:font-bold [&_h3]:text-base [&_h2]:mt-3 [&_h2]:mb-2 [&_ul]:mt-1 [&_ul]:mb-2 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:mt-1 [&_ol]:mb-2 [&_ol]:list-decimal [&_ol]:pl-5 [&_strong]:font-semibold dark:prose-invert">
+                                      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                        {msg.content}
+                                      </ReactMarkdown>
+                                    </div>
+                                  )}
                                 </div>
-
-                                {/* Action buttons (copy, like, dislike) */}
-                                {msg.content && !loading && (
-                                  <div className="mt-2 flex items-center gap-1 opacity-0 transition group-hover:opacity-100">
-                                    {/* Copy */}
+                                {!isUser && (
+                                  <div className="absolute left-6 bottom-2 flex items-center gap-2 opacity-0 group-hover:opacity-100 transition">
                                     <button
                                       type="button"
-                                      onClick={() =>
-                                        handleCopy(msg.content, index)
-                                      }
-                                      className="flex h-7 w-7 items-center justify-center rounded-full text-neutral-400 transition hover:bg-neutral-100 hover:text-neutral-600 dark:hover:bg-neutral-800 dark:hover:text-neutral-300"
-                                      aria-label="Másolás"
+                                      onClick={() => handleFeedback("like", index, msg.content)}
+                                      className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-neutral-200 dark:bg-neutral-800 text-neutral-900 dark:text-white text-base font-bold transition hover:bg-green-200 dark:hover:bg-green-900"
+                                      title="Tetszik"
                                     >
-                                      {copiedIndex === index ? (
-                                        <Check className="h-3.5 w-3.5" />
-                                      ) : (
-                                        <Copy className="h-3.5 w-3.5" />
-                                      )}
+                                      <ThumbsUp className="w-3.5 h-3.5" />
                                     </button>
-                                    {/* Like */}
                                     <button
                                       type="button"
-                                      onClick={() =>
-                                        handleFeedback(
-                                          "like",
-                                          index,
-                                          msg.content
-                                        )
-                                      }
-                                      disabled={
-                                        feedbackGiven[index] !== undefined
-                                      }
-                                      className={`flex h-7 w-7 items-center justify-center rounded-full transition ${
-                                        feedbackGiven[index] === "like"
-                                          ? "bg-emerald-100 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-400"
-                                          : "text-neutral-400 hover:bg-neutral-100 hover:text-neutral-600 dark:hover:bg-neutral-800 dark:hover:text-neutral-300"
-                                      } disabled:cursor-default`}
-                                      aria-label="Tetszik"
+                                      onClick={() => handleFeedback("dislike", index, msg.content)}
+                                      className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-neutral-200 dark:bg-neutral-800 text-neutral-900 dark:text-white text-base font-bold transition hover:bg-red-200 dark:hover:bg-red-900"
+                                      title="Nem tetszik"
                                     >
-                                      <ThumbsUp className="h-3.5 w-3.5" />
+                                      <ThumbsDown className="w-3.5 h-3.5" />
                                     </button>
-                                    {/* Dislike */}
                                     <button
                                       type="button"
-                                      onClick={() =>
-                                        handleFeedback(
-                                          "dislike",
-                                          index,
-                                          msg.content
-                                        )
-                                      }
-                                      disabled={
-                                        feedbackGiven[index] !== undefined
-                                      }
-                                      className={`flex h-7 w-7 items-center justify-center rounded-full transition ${
-                                        feedbackGiven[index] === "dislike"
-                                          ? "bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400"
-                                          : "text-neutral-400 hover:bg-neutral-100 hover:text-neutral-600 dark:hover:bg-neutral-800 dark:hover:text-neutral-300"
-                                      } disabled:cursor-default`}
-                                      aria-label="Nem tetszik"
+                                      onClick={() => handleCopy(msg.content, index)}
+                                      className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-neutral-200 dark:bg-neutral-800 text-neutral-900 dark:text-white text-base font-bold transition hover:bg-neutral-300 dark:hover:bg-neutral-700"
+                                      title="Másolás"
                                     >
-                                      <ThumbsDown className="h-3.5 w-3.5" />
+                                      {copiedIndex === index ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                                     </button>
                                   </div>
                                 )}
                               </div>
                             </div>
                           </div>
-                        )}
-                      </div>
-                    );
-                  })}
-
-                  {/* Loading indicator */}
-                  {loading &&
-                    messages[messages.length - 1]?.content === "" && (
-                      <div className="mb-4">
-                        <div className="flex items-start gap-3">
-                          <div className="mt-1 flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-neutral-900 text-xs font-semibold text-white dark:bg-neutral-100 dark:text-neutral-900">
-                            J
-                          </div>
-                          <div className="flex flex-col gap-1 py-3 text-sm">
+                        );
+                      })}
+                      {loading && (
+                        <div className="mb-3 flex justify-start">
+                          <div className="flex max-w-[80%] flex-col gap-1 rounded-2xl rounded-bl-none border border-neutral-300 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 px-6 py-3 text-xs text-neutral-900 dark:text-[#E3E3E3] shadow-sm">
                             <div className="flex items-center gap-2">
-                              <span className="inline-flex h-2 w-2 animate-pulse rounded-full bg-neutral-400 dark:bg-neutral-500" />
-                              <span className="text-neutral-600 dark:text-neutral-400">
-                                A JURA gondolkodik…
-                              </span>
-                              <span className="ml-2 text-[11px] tabular-nums text-neutral-400 dark:text-neutral-500">
+                              <span className="inline-flex h-2 w-2 animate-pulse rounded-full bg-neutral-500" />
+                              <span className="text-sm">A JURA gondolkodik…</span>
+                              <span className="ml-auto text-[11px] tabular-nums text-neutral-900 dark:text-[#E3E3E3]">
                                 {loadingSeconds}s
                               </span>
                             </div>
-                            <div className="flex items-center text-[11px] text-neutral-400 dark:text-neutral-500">
-                              {avgSeconds !== null ? (
-                                <span>
-                                  Korábbi átlag: ~{avgSeconds} mp
-                                </span>
-                              ) : (
-                                <span>Válaszidő jellemzően 1–2 perc.</span>
-                              )}
-                              <div className="ml-3 flex items-center gap-1.5">
-                                <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-neutral-300 dark:bg-neutral-600" />
-                                <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-neutral-300 dark:bg-neutral-600 [animation-delay:0.15s]" />
-                                <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-neutral-300 dark:bg-neutral-600 [animation-delay:0.3s]" />
-                              </div>
-                            </div>
                           </div>
                         </div>
-                      </div>
-                    )}
-
-                  <div ref={messagesEndRef} />
-                </div>
-              </ScrollArea>
-
-              {/* Input footer */}
-              <div className="border-t border-neutral-200 bg-[var(--background)] px-4 pb-4 pt-2 dark:border-neutral-800">
-                <div className="mx-auto w-full max-w-3xl">
-                  <form
-                    onSubmit={handleSubmit}
-                    className="flex items-end gap-2 rounded-2xl border border-neutral-300 bg-white px-4 py-2.5 shadow-sm dark:border-neutral-700 dark:bg-neutral-800"
-                  >
-                    <textarea
-                      ref={textareaRef}
-                      id="chat-input"
-                      aria-label="Írd be a kérdésed"
-                      rows={1}
-                      placeholder="Írd be a kérdésed..."
-                      value={input}
-                      onChange={(e) => setInput(e.target.value)}
-                      onKeyDown={(e) => {
-                        if (e.key === "Enter" && !e.shiftKey) {
-                          e.preventDefault();
-                          sendMessage();
-                        }
-                      }}
-                      className="max-h-40 flex-1 resize-none overflow-hidden border-none bg-transparent py-3 text-base text-[var(--foreground)] outline-none placeholder:text-neutral-400 dark:placeholder:text-neutral-500"
-                    />
-                    <button
-                      type="submit"
-                      disabled={loading || !input.trim()}
-                      className="flex h-10 w-10 items-center justify-center rounded-xl bg-neutral-900 text-white shadow-sm transition hover:bg-neutral-800 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200"
+                      )}
+                      <div ref={messagesEndRef} className="h-4" />
+                    </div>
+                  </div>
+                </section>
+                <footer className="bg-gradient-to-t from-white via-white/95 to-white/80 dark:from-[#131314] dark:via-[#131314]/95 dark:to-[#131314]/80 backdrop-blur shrink-0 z-10 w-full">
+                  <div className="mx-auto flex max-w-4xl flex-col gap-2 px-6 pb-4 pt-2">
+                    <form
+                      onSubmit={handleSubmit}
+                      className="flex items-end gap-2 rounded-2xl border border-neutral-300 dark:border-neutral-800 bg-white dark:bg-[#131314] px-6 py-2.5 shadow-sm dark:shadow-[0_0_15px_rgba(16,185,129,0.05)] hover:shadow-md dark:hover:shadow-[0_0_20px_rgba(16,185,129,0.08)] focus-within:shadow-lg dark:focus-within:shadow-[0_0_25px_rgba(16,185,129,0.1)] transition-shadow duration-300"
                     >
-                      <ArrowUp className="h-5 w-5" />
-                    </button>
-                  </form>
-                  <p className="mt-2 text-center text-[11px] leading-relaxed text-neutral-500 dark:text-neutral-400">
-                    A válaszok{" "}
-                    <strong>nem minősülnek jogi tanácsadásnak</strong>.{" "}
-                    <Link
-                      href="/jogi-nyilatkozat"
-                      className="underline-offset-2 hover:underline"
-                    >
-                      Jogi nyilatkozat
-                    </Link>
-                  </p>
-                </div>
-              </div>
-            </>
-          )}
+                      <textarea
+                        ref={textareaRef}
+                        id="chat-input"
+                        aria-label="Írd be a kérdésed"
+                        rows={1}
+                        placeholder="Írd be a kérdésed... (pl. Mit ír elő a Ptk. 6:519. §?)"
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter" && !e.shiftKey) {
+                            e.preventDefault();
+                            sendMessage();
+                          }
+                        }}
+                        className="max-h-40 flex-1 resize-none overflow-y-auto border-none bg-transparent py-3 pr-3 text-base text-neutral-900 dark:text-neutral-100 outline-none placeholder:text-neutral-500 placeholder:leading-normal"
+                      />
+                      <button
+                        type="submit"
+                        disabled={loading || !input.trim()}
+                        className="flex items-center rounded-xl bg-neutral-200 px-5 py-3 text-base font-semibold text-neutral-900 shadow-sm transition hover:-translate-y-0.5 hover:bg-neutral-300 hover:shadow-md disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50"
+                      >
+                        Küldés
+                      </button>
+                    </form>
+                    <p className="pb-1 text-center text-[11px] leading-relaxed text-neutral-900 dark:text-[#E3E3E3]">
+                      A JURA egy kísérleti jogi AI-asszisztens. A válaszok{" "}
+                      <strong>nem minősülnek jogi tanácsadásnak</strong>, és nem
+                      helyettesítik ügyvéd véleményét. Részletek:{" "}
+                      <Link
+                        href="/jogi-nyilatkozat"
+                        className="underline-offset-2 hover:text-neutral-900 dark:text-[#E3E3E3] hover:underline"
+                      >
+                        jogi nyilatkozat →
+                      </Link>
+                    </p>
+                  </div>
+                </footer>
+              </>
+            )}
+          </main>
         </div>
       </div>
     </>
