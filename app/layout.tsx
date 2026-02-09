@@ -1,10 +1,23 @@
 // app/layout.tsx
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { Geist, Geist_Mono } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "sonner";
 import "./globals.css";
 
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
 const SITE_URL = "https://jura-chat.vercel.app";
-const CANONICAL = SITE_URL; // nincs per a végén, így jó
+const CANONICAL = SITE_URL;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -12,7 +25,7 @@ export const metadata: Metadata = {
   description:
     "A JURA egy kísérleti mesterséges intelligencia alapú jogi információs eszköz. Segít jogszabályok és jogi szövegek értelmezésében, de nem helyettesíti az ügyvédi tanácsadást.",
   icons: {
-    icon: "/favicon.png", // /public/favicon.png
+    icon: "/favicon.png",
   },
   openGraph: {
     type: "website",
@@ -77,7 +90,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   const globalJsonLd = getGlobalJsonLd();
 
   return (
-    <html lang="hu">
+    <html lang="hu" suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"
@@ -86,8 +99,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           }}
         />
       </head>
-      <body className="min-h-screen bg-slate-50 text-slate-900 antialiased">
-        {children}
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased`}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          disableTransitionOnChange
+        >
+          {children}
+          <Toaster richColors />
+        </ThemeProvider>
       </body>
     </html>
   );

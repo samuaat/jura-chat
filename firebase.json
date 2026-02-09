@@ -6,5 +6,9 @@
       "timeoutSeconds": 540,
       "secrets": ["CHAT_UPSTREAM_URL", "ALLOWED_ORIGIN"]
     }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
   }
 }
