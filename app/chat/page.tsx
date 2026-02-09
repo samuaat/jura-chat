@@ -91,16 +91,20 @@ export default function ChatPage() {
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
   const loadingTimerRef = useRef<number | null>(null);
   const requestStartRef = useRef<number | null>(null);
+  const shouldScrollOnceRef = useRef(false);
 
   // Init anonymous user ID
   useEffect(() => {
     setAnonymousUserId(getAnonymousUserId());
   }, []);
 
-  // Auto-scroll to latest message
+  // Auto-scroll to latest message ONLY when explicitly requested (e.g. new message sent)
   useEffect(() => {
     if (messages.length === 0) return;
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (shouldScrollOnceRef.current) {
+      shouldScrollOnceRef.current = false;
+      messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
   }, [messages, loading]);
 
   // Auto-resize textarea
@@ -165,6 +169,7 @@ export default function ChatPage() {
         setCurrentChatId(chatId);
         setFeedbackGiven({});
         setShowUpgradeAlert(false); // Hide alert on selecting a chat
+        shouldScrollOnceRef.current = true; // Scroll to bottom when loading a chat
       }
     } catch (err) {
       console.error("Failed to load chat:", err);
@@ -231,8 +236,10 @@ export default function ChatPage() {
     setMessages(updatedMessages);
     setInput("");
     setLoading(true);
+    shouldScrollOnceRef.current = true; // Scroll to bottom when sending a message
 
     requestStartRef.current = Date.now();
+
     setLoadingSeconds(0);
     if (loadingTimerRef.current !== null) {
       window.clearInterval(loadingTimerRef.current);
@@ -606,7 +613,7 @@ export default function ChatPage() {
                           </div>
                         );
                       })}
-                      {loading && (
+                      {loading && messages[messages.length - 1]?.content === "" && (
                         <div className="mb-3 flex justify-start">
                           <div className="flex max-w-[80%] flex-col gap-1 rounded-2xl rounded-bl-none border border-neutral-300 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 px-6 py-3 text-xs text-neutral-900 dark:text-[#E3E3E3] shadow-sm">
                             <div className="flex items-center gap-2">
