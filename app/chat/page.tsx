@@ -114,7 +114,12 @@ export default function ChatPage() {
     try {
       const limitedHistory = messages.slice(-HISTORY_LIMIT);
 
-      const API_URL = "/api/chat";
+      // Production: közvetlen Cloud Run URL (Firebase Hosting buffereli a streaminget)
+      // Dev: helyi Next.js proxy
+      const API_URL =
+        process.env.NODE_ENV === "production"
+          ? "https://ssrjurav2-74elkdduqa-ew.a.run.app/api/chat"
+          : "/api/chat";
 
       const res = await fetch(API_URL, {
         method: "POST",
