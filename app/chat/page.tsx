@@ -247,7 +247,12 @@ export default function ChatPage() {
 
     try {
       const limitedHistory = messages.slice(-HISTORY_LIMIT);
-      const API_URL = "/api/chat"; // Local API URL
+
+      // FIX: Közvetlen Cloud Run URL (.run.app), ami stabilabb mint a cloudfunctions.net
+      const API_URL =
+        process.env.NODE_ENV === "development"
+          ? "/api/chat" // Next.js rewrite handles this locally
+          : "https://ssrjurav2-74elkdduqa-ew.a.run.app/api/chat";
 
       const res = await fetch(API_URL, {
         method: "POST",
