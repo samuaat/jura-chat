@@ -18,5 +18,6 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JURA_V2 }}
           channelId: live
           projectId: jura-v2
+          firebaseToolsVersion: 13.29.1
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks

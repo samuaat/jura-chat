@@ -15,7 +15,7 @@ from jura_prompts import (
 
 # --- Config ---
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-MODEL = os.environ.get("MODEL", "gpt-4o")
+MODEL = os.environ.get("MODEL", "gpt-5-mini")
 SEARCH_MODEL = os.environ.get("SEARCH_MODEL", "gpt-4o")
 MAX_MESSAGE_LENGTH = 10000
 MAX_HISTORY_LIMIT = 10
