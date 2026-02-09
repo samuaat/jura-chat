@@ -114,11 +114,7 @@ export default function ChatPage() {
     try {
       const limitedHistory = messages.slice(-HISTORY_LIMIT);
 
-      // FIX: Közvetlen Cloud Run URL (.run.app), ami stabilabb mint a cloudfunctions.net
-      const API_URL =
-        process.env.NODE_ENV === "production"
-          ? "https://ssrjurav2-74elkdduqa-ew.a.run.app/api/chat"
-          : "/api/chat";
+      const API_URL = "/api/chat";
 
       const res = await fetch(API_URL, {
         method: "POST",
@@ -140,55 +136,67 @@ export default function ChatPage() {
         throw new Error(backendError);
       }
 
-      // Stream olvasása – folyamatosan frissítjük az utolsó assistant üzenetet
+      // Stream olvasása – chunk-onként frissítjük az utolsó assistant üzenetet
       const reader = res.body?.getReader();
       const decoder = new TextDecoder();
-      let acc = "";
+      let content = "";
+      let rafPending = false;
+      let firstRealChunk = true;
+
+      const flushToUI = (text: string) => {
+        setMessages((prev) => {
+          const next = [...prev];
+          const last = next[next.length - 1];
+          if (last && last.role === "assistant") {
+            next[next.length - 1] = { ...last, content: text };
+          }
+          return next;
+        });
+      };
 
       if (!reader) {
         const text = await res.text();
-        acc = text;
+        content = text.replace(/\0/g, "");
+        flushToUI(content || "⚠️ Nem érkezett válasz a modelltől. Kérlek, próbáld meg újra egy kicsit később.");
       } else {
         while (true) {
           const { done, value } = await reader.read();
           if (done) break;
-          acc += decoder.decode(value, { stream: true });
 
-          setMessages((prev) => {
-            const next = [...prev];
-            const last = next[next.length - 1];
-            if (last && last.role === "assistant") {
-              next[next.length - 1] = { ...last, content: acc };
-            }
-            return next;
-          });
+          // Decode és null-byte heartbeat szűrés
+          const chunk = decoder.decode(value, { stream: true }).replace(/\0/g, "");
+          if (!chunk) continue;
+
+          // Loading indikátor elrejtése az első valódi chunk-nál
+          if (firstRealChunk) {
+            firstRealChunk = false;
+            setLoadingSeconds(0);
+          }
+
+          content += chunk;
+
+          // UI frissítés requestAnimationFrame throttling-gal (~60fps)
+          if (!rafPending) {
+            rafPending = true;
+            const snapshot = content;
+            requestAnimationFrame(() => {
+              flushToUI(snapshot);
+              rafPending = false;
+            });
+          }
         }
+
+        // Végső flush – minden megjelenjen
+        flushToUI(content || "⚠️ Nem érkezett válasz a modelltől. Kérlek, próbáld meg újra egy kicsit később.");
       }
 
-      // Végső finomhangolás: ha JSON-t kaptunk, próbáljuk parse-olni
-      const finalText = acc.trim();
-      let content = finalText;
-      try {
-        const parsed = JSON.parse(finalText);
-        if (typeof parsed?.reply === "string") content = parsed.reply;
-        else if (typeof parsed?.content === "string") content = parsed.content;
-      } catch {
-        // ha nem JSON, hagyjuk szövegként
+      // Stream közbeni hiba marker kezelés
+      const errorMatch = content.match(/\[STREAM_ERROR\]([\s\S]*?)\[\/STREAM_ERROR\]/);
+      if (errorMatch) {
+        const cleanContent = content.replace(/\[STREAM_ERROR\][\s\S]*?\[\/STREAM_ERROR\]/, "").trim();
+        content = cleanContent || `⚠️ Hiba a válasz közben: ${errorMatch[1]}`;
+        flushToUI(content);
       }
-
-      setMessages((prev) => {
-        const next = [...prev];
-        const last = next[next.length - 1];
-        if (last && last.role === "assistant") {
-          next[next.length - 1] = {
-            ...last,
-            content:
-              content ||
-              "⚠️ Nem érkezett válasz a modelltől. Kérlek, próbáld meg újra egy kicsit később.",
-          };
-        }
-        return next;
-      });
     } catch (error: any) {
       console.error("Chat hiba:", error);
       setMessages((prev) => {
@@ -470,7 +478,7 @@ export default function ChatPage() {
                   );
                 })}
 
-                {loading && (
+                {loading && messages[messages.length - 1]?.content === "" && (
                   <div className="mb-3 flex justify-start">
                     <div className="flex max-w-[80%] flex-col gap-1 rounded-2xl rounded-bl-none border border-slate-200 bg-white px-4 py-3 text-xs text-slate-600 shadow-sm">
                       <div className="flex items-center gap-2">
