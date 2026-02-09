@@ -235,8 +235,8 @@ export default function HomePage() {
 
           {/* Feature cards */}
           <section className="grid gap-6 lg:grid-cols-2">
-            <div className="relative overflow-hidden rounded-2xl border border-cyan-200 dark:border-cyan-800/50 bg-gradient-to-br from-cyan-50 to-white dark:from-cyan-900/20 dark:to-neutral-800 p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
-              <div className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-cyan-400 via-sky-400 to-cyan-500" />
+            <div className="relative overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--card)] p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+              <div className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-[var(--primary)]/20" />
               <h2 className="mb-4 mt-1 text-lg font-semibold tracking-tight">
                 Mire használható?
               </h2>
