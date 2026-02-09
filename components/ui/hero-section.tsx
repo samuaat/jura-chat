@@ -3,101 +3,110 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { StreamingText } from "@/components/streaming-text";
+import NeuralBackground from "./neural-background";
+import ScrollReveal from "./scroll-reveal";
 
 export function HeroSection() {
     return (
-        <section className="relative overflow-hidden pt-12 pb-16 lg:pt-20 lg:pb-32">
-            {/* Background Glow Effect */}
-            <div className="absolute top-0 left-1/2 -z-10 h-[600px] w-[1000px] -translate-x-1/2 opacity-20 dark:opacity-10 blur-[100px] bg-gradient-to-b from-blue-400 to-transparent pointer-events-none" />
+        <section className="relative overflow-hidden min-h-[90vh] flex flex-col justify-center pt-20 pb-20 lg:pt-32 lg:pb-32 bg-gray-950">
 
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Neural Network Background */}
+            <NeuralBackground />
+
+            {/* Background Glows */}
+            <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[120px] pointer-events-none opacity-50 mix-blend-screen" />
+            <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-purple-600/20 rounded-full blur-[120px] pointer-events-none opacity-50 mix-blend-screen" />
+
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
                     {/* Left Column: Text & CTA */}
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, ease: "easeOut" }}
-                        className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-8"
-                    >
-                        <motion.div
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            transition={{ delay: 0.1, duration: 0.4 }}
-                            className="inline-flex items-center rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary"
-                        >
-                            Kísérleti jogi AI-projekt
-                        </motion.div>
+                    <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-8">
+                        <ScrollReveal>
+                            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-800/80 border border-gray-700 backdrop-blur-md mb-6 shadow-xl">
+                                <span className="relative flex h-2.5 w-2.5">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                                </span>
+                                <span className="text-gray-300 text-xs font-semibold tracking-wide uppercase">Kísérleti jogi AI</span>
+                            </div>
+                        </ScrollReveal>
 
-                        <motion.h1
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.2, duration: 0.6 }}
-                            className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tighter text-foreground"
-                        >
-                            JURA <span className="text-muted-foreground font-light">Chat</span>
-                        </motion.h1>
+                        <ScrollReveal delay={0.1}>
+                            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-tight">
+                                Jogi válaszok,<br />
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 drop-shadow-sm">
+                                    másodpercek alatt.
+                                </span>
+                            </h1>
+                        </ScrollReveal>
 
-                        <motion.p
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.3, duration: 0.6 }}
-                            className="text-xl sm:text-2xl text-muted-foreground leading-relaxed max-w-2xl"
-                        >
-                            A mesterséges intelligencia segít eligazodni a magyar jog útvesztőjében.
-                            <span className="block mt-2 text-foreground font-medium">Gyors tájékozódás, közérthető válaszok.</span>
-                        </motion.p>
+                        <ScrollReveal delay={0.2}>
+                            <p className="text-lg sm:text-xl text-gray-400 leading-relaxed max-w-2xl">
+                                A JURA mesterséges intelligenciája segít eligazodni a magyar jogszabályok között.
+                                Tedd fel a kérdésed, és kapj <span className="text-blue-300 font-medium">közérthető, releváns</span> választ.
+                            </p>
+                        </ScrollReveal>
 
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.4, duration: 0.6 }}
-                            className="flex flex-wrap items-center justify-center lg:justify-start gap-4"
-                        >
-                            <Link
-                                href="/chat"
-                                className="inline-flex items-center justify-center rounded-2xl bg-primary px-8 py-4 text-lg font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-all hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-                            >
-                                Belépés a chatbe
-                            </Link>
-                            <Link
-                                href="#how-it-works"
-                                className="inline-flex items-center justify-center rounded-2xl border border-input bg-background px-8 py-4 text-lg font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
-                            >
-                                Hogyan működik?
-                            </Link>
-                        </motion.div>
-                    </motion.div>
+                        <ScrollReveal delay={0.3}>
+                            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-5">
+                                <Link
+                                    href="/chat"
+                                    className="group relative inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-blue-900/30 transition-all hover:scale-105 hover:shadow-blue-500/25 focus:outline-none ring-offset-2 ring-offset-gray-900 focus:ring-2 focus:ring-blue-500"
+                                >
+                                    <span className="relative z-10 flex items-center gap-2">
+                                        Kipróbálom most
+                                        <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                        </svg>
+                                    </span>
+                                </Link>
+                                <Link
+                                    href="#how-it-works"
+                                    className="inline-flex items-center justify-center rounded-2xl border border-gray-700 bg-gray-800/30 px-8 py-4 text-lg font-medium text-gray-300 shadow-sm transition-colors hover:bg-gray-800 hover:text-white hover:border-gray-600 backdrop-blur-sm"
+                                >
+                                    Hogyan működik?
+                                </Link>
+                            </div>
+                        </ScrollReveal>
+                    </div>
 
                     {/* Right Column: Chat Preview */}
                     <motion.div
-                        initial={{ opacity: 0, x: 50, rotate: -2 }}
-                        animate={{ opacity: 1, x: 0, rotate: 0 }}
+                        initial={{ opacity: 0, scale: 0.9, rotate: -2 }}
+                        animate={{ opacity: 1, scale: 1, rotate: 0 }}
                         transition={{ delay: 0.4, duration: 0.8, type: "spring", bounce: 0.2 }}
                         className="relative hidden lg:block"
                     >
-                        <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-purple-500/30 blur-3xl opacity-30 -z-10 rounded-full" />
+                        {/* Glow behind chat */}
+                        <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-purple-500/20 blur-3xl rounded-[3rem] -z-10" />
 
-                        <div className="relative rounded-3xl border border-border/50 bg-background/50 backdrop-blur-xl p-4 shadow-2xl ring-1 ring-white/10">
-                            <div className="mb-4 flex items-center justify-between text-xs text-muted-foreground px-2">
-                                <span className="font-semibold tracking-wide">ÉLŐ DEMÓ</span>
-                                <span className="rounded-full bg-emerald-500/10 px-2.5 py-0.5 text-[10px] font-bold text-emerald-500 uppercase">
-                                    Béta
-                                </span>
+                        <div className="relative rounded-[2rem] border border-gray-700/50 bg-gray-900/80 backdrop-blur-xl p-5 shadow-2xl ring-1 ring-white/5">
+                            <div className="mb-6 flex items-center justify-between px-2">
+                                <div className="flex items-center gap-2">
+                                    <div className="flex space-x-1.5">
+                                        <div className="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50" />
+                                        <div className="w-3 h-3 rounded-full bg-yellow-500/20 border border-yellow-500/50" />
+                                        <div className="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/50" />
+                                    </div>
+                                </div>
+                                <div className="text-xs font-mono text-gray-500 flex items-center gap-2">
+                                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                                    JURA AI v1.0
+                                </div>
                             </div>
 
-                            <div className="space-y-4 rounded-2xl bg-card/80 p-5 shadow-inner border border-border/50">
+                            <div className="space-y-6">
                                 {/* User Message */}
                                 <motion.div
                                     initial={{ opacity: 0, x: 20 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ delay: 1, duration: 0.5 }}
-                                    className="flex gap-3 justify-end"
+                                    className="flex gap-4 justify-end"
                                 >
-                                    <div className="max-w-[85%] rounded-2xl rounded-tr-sm bg-muted p-4 text-sm text-foreground shadow-sm">
-                                        <p className="font-medium">Miben tud segíteni a JURA a mai ügyemben?</p>
+                                    <div className="max-w-[85%] rounded-2xl rounded-tr-sm bg-gradient-to-br from-blue-600 to-indigo-600 p-4 text-sm text-white shadow-lg shadow-blue-900/20">
+                                        <p className="font-medium">Milyen jogaim vannak, ha az albérlőm nem fizet?</p>
                                     </div>
-                                    <div className="mt-auto h-8 w-8 flex-none rounded-full bg-muted border border-border" />
                                 </motion.div>
 
                                 {/* AI Response */}
@@ -105,26 +114,30 @@ export function HeroSection() {
                                     initial={{ opacity: 0, x: -20 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ delay: 1.5, duration: 0.5 }}
-                                    className="flex gap-3"
+                                    className="flex gap-4 items-start"
                                 >
-                                    <div className="mt-auto h-8 w-8 flex-none rounded-full bg-primary flex items-center justify-center font-bold text-primary-foreground text-xs">J</div>
-                                    <div className="space-y-2 max-w-[90%]">
-                                        <div className="p-1">
-                                            <p className="font-medium text-sm leading-relaxed text-foreground">
-                                                <StreamingText
-                                                    text="A JURA kísérleti jogi AI-asszisztens, amely segít a releváns szakaszok és jogintézmények gyors megtalálásában."
-                                                    speed={25}
-                                                    startDelay={1800}
-                                                />
-                                            </p>
-                                        </div>
-                                        <div className="rounded-xl border border-border bg-background/50 p-3 text-[11px] text-muted-foreground">
+                                    <div className="mt-1 h-8 w-8 flex-none rounded-xl bg-gradient-to-br from-gray-700 to-gray-800 border border-gray-600 flex items-center justify-center shadow-lg">
+                                        <span className="font-bold text-white text-xs">J</span>
+                                    </div>
+                                    <div className="space-y-3 max-w-[90%]">
+                                        <div className="rounded-2xl rounded-tl-sm bg-gray-800/50 border border-gray-700/50 p-4 shadow-sm text-gray-200 text-sm leading-relaxed">
                                             <StreamingText
-                                                text="Fontos: a válaszok nem minősülnek jogi tanácsadásnak, és nem helyettesítik ügyvéd véleményét."
-                                                speed={15}
-                                                startDelay={4500}
+                                                text="A Ptk. és a Lakástörvény alapján először írásban kell felszólítanod a bérlőt a fizetésre. Ha a megadott határidőre sem fizet, felmondhatod a szerződést."
+                                                speed={30}
+                                                startDelay={1800}
                                             />
                                         </div>
+
+                                        {/* Disclaimer Pill */}
+                                        <motion.div
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            transition={{ delay: 5.5, duration: 0.5 }}
+                                            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-500/10 border border-indigo-500/20 text-[11px] text-indigo-300"
+                                        >
+                                            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                            Ez nem jogi tanács.
+                                        </motion.div>
                                     </div>
                                 </motion.div>
                             </div>
