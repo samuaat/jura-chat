@@ -48,15 +48,15 @@ export function HeroSection() {
                             </p>
                         </ScrollReveal>
 
-                        <ScrollReveal delay={0.3}>
-                            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-5">
+                        <ScrollReveal delay={0.3} className="p-2"> {/* Added padding to container for scale effect */}
+                            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6"> {/* Increased gap */}
                                 <Link
                                     href="/chat"
                                     className="group relative inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-blue-900/30 transition-all hover:scale-105 hover:shadow-blue-500/25 focus:outline-none ring-offset-2 ring-offset-gray-900 focus:ring-2 focus:ring-blue-500"
                                 >
-                                    <span className="relative z-10 flex items-center gap-2">
+                                    <span className="relative z-10 flex items-center gap-2 text-white">
                                         Kipróbálom most
-                                        <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <svg className="w-5 h-5 transition-transform group-hover:translate-x-1 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                                         </svg>
                                     </span>

@@ -12,7 +12,7 @@ interface ScrollRevealProps {
 
 export default function ScrollReveal({ children, width = "fit-content", delay = 0, className = "" }: ScrollRevealProps) {
     return (
-        <div style={{ width }} className={`${className} overflow-hidden`}> {/* Added overflow-hidden to prevent scrollbar flicker */}
+        <div style={{ width }} className={`${className}`}> {/* Removed overflow-hidden to allow hover effects */}
             <motion.div
                 variants={{
                     hidden: { opacity: 0, y: 30 }, // Reduced distance to 30px
@@ -22,6 +22,7 @@ export default function ScrollReveal({ children, width = "fit-content", delay = 
                 whileInView="visible"
                 viewport={{ once: true, margin: "-50px" }} // Trigger slightly before element is in view
                 transition={{ duration: 0.6, delay: delay, ease: "easeOut" }} // Smoother ease
+                className="h-full"
             >
                 {children}
             </motion.div>

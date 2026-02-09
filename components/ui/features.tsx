@@ -69,7 +69,7 @@ export default function Features() {
             {/* Helping Hands Section */}
             <div className="max-w-7xl mx-auto mb-32">
                 <ScrollReveal width="100%">
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-24">
                         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
                             Miben <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">segít</span> a JURA?
                         </h2>

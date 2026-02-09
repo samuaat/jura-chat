@@ -85,7 +85,7 @@ export default function ChatPage() {
   >({});
 
   // Upgrade alert
-  const [showUpgradeAlert, setShowUpgradeAlert] = useState(true);
+
 
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
@@ -168,7 +168,6 @@ export default function ChatPage() {
         setMessages(data.messages || []);
         setCurrentChatId(chatId);
         setFeedbackGiven({});
-        setShowUpgradeAlert(false); // Hide alert on selecting a chat
         shouldScrollOnceRef.current = true; // Scroll to bottom when loading a chat
       }
     } catch (err) {
@@ -182,7 +181,6 @@ export default function ChatPage() {
     setCurrentChatId(null);
     setInput("");
     setFeedbackGiven({});
-    setShowUpgradeAlert(true); // Show alert on new chat
   }
 
   async function handleFeedback(
@@ -223,7 +221,7 @@ export default function ChatPage() {
     if (!trimmed || loading) return;
 
     if (messages.length === 0) {
-      setShowUpgradeAlert(false); // Hide alert on first message
+      // Logic for first message if needed
     }
 
     const userMessage: ChatMessage = { role: "user", content: trimmed };
@@ -405,25 +403,7 @@ export default function ChatPage() {
       ? Math.round(totalResponseMs / responseCount / 1000)
       : null;
 
-  const UpgradeAlert = () => {
-    if (!showUpgradeAlert) return null;
-    return (
-      <div className="mb-6 w-full rounded-xl border border-blue-300 dark:border-blue-900/30 bg-blue-50 dark:bg-[#1a1d2e] p-4 text-sm text-neutral-900 dark:text-[#E3E3E3] shadow-sm dark:shadow-[0_0_15px_rgba(59,130,246,0.08)] text-left">
-        <div className="flex gap-3">
-          <span className="text-lg">🚧</span>
-          <div>
-            <p className="font-semibold text-blue-600 dark:text-blue-400">Technikai tájékoztatás</p>
-            <p className="mt-1 leading-relaxed text-neutral-800 dark:text-[#E3E3E3]/90">
-              A <strong>bírósági határozatkereső</strong> modul jelenleg átfogó
-              technikai frissítésen (upgrade) esik át. A funkció végleges,
-              stabil verziója pár napon belül elérhetővé válik. Köszönjük a
-              türelmedet!
-            </p>
-          </div>
-        </div>
-      </div>
-    );
-  };
+
 
   return (
     <>
@@ -481,13 +461,13 @@ export default function ChatPage() {
           <main className="flex flex-1 flex-col relative w-full overflow-hidden bg-white dark:bg-[#131314]">
             {showEmptyState ? (
               <ScrollArea className="flex-1 w-full h-full">
-                <section className="flex flex-col items-center justify-start px-6 pb-4 pt-10 min-h-full lg:justify-center lg:pt-0">
-                  <div className="flex w-full max-w-4xl flex-col items-center text-center">
+                <section className="flex flex-col items-center justify-center min-h-full px-6 py-10">
+                  <div className="flex w-full max-w-3xl flex-col items-center text-center space-y-8">
                     <h1 className="mb-4 text-2xl font-semibold text-neutral-900 dark:text-[#E3E3E3] sm:text-3xl">
                       Üdvözöllek a JURA-ban!
                     </h1>
 
-                    <UpgradeAlert />
+
 
                     <p className="mb-8 max-w-3xl text-sm text-neutral-900 dark:text-[#E3E3E3]">
                       Kérdezz a magyar jogról – például munkajogról, fogyasztóvédelemről, szerződésekről, bérletről vagy öröklésről.<br />A válaszok nem minősülnek jogi tanácsadásnak.
@@ -554,7 +534,6 @@ export default function ChatPage() {
                 <section className="flex flex-1 justify-center relative min-h-0">
                   <div className="w-full h-full overflow-y-auto px-6 pt-4 pb-32 md:pb-40">
                     <div className="mx-auto max-w-4xl flex flex-col">
-                      <UpgradeAlert />
                       {messages.map((msg, index) => {
                         const isUser = msg.role === "user";
                         return (
@@ -573,7 +552,7 @@ export default function ChatPage() {
                                   {isUser ? (
                                     msg.content
                                   ) : (
-                                    <div className="prose prose-slate prose-sm max-w-none [&_h1]:font-bold [&_h2]:font-bold [&_h2]:text-lg [&_h3]:font-bold [&_h3]:text-base [&_h2]:mt-3 [&_h2]:mb-2 [&_ul]:mt-1 [&_ul]:mb-2 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:mt-1 [&_ol]:mb-2 [&_ol]:list-decimal [&_ol]:pl-5 [&_strong]:font-semibold dark:prose-invert">
+                                    <div className="prose prose-slate max-w-none [&_h1]:font-bold [&_h2]:font-bold [&_h2]:text-lg [&_h3]:font-bold [&_h3]:text-base [&_h2]:mt-3 [&_h2]:mb-2 [&_ul]:mt-1 [&_ul]:mb-2 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:mt-1 [&_ol]:mb-2 [&_ol]:list-decimal [&_ol]:pl-5 [&_strong]:font-semibold dark:prose-invert">
                                       <ReactMarkdown remarkPlugins={[remarkGfm]}>
                                         {msg.content}
                                       </ReactMarkdown>

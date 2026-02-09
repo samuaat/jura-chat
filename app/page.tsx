@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { HeroSection } from "@/components/ui/hero-section";
 import Features from "@/components/ui/features";
@@ -49,10 +50,21 @@ export default function HomePage() {
 
         {/* Footer */}
         <footer className="py-12 px-6 text-center text-xs text-gray-600 border-t border-gray-900 bg-gray-950">
-          <p>
-            &copy; {new Date().getFullYear()} JURA – Kísérleti jogi
-            AI-asszisztens. Minden jog fenntartva.
+          <p className="mb-4">
+            &copy; 2026 JURA – Kísérleti jogi AI-asszisztens
           </p>
+          <p className="mb-6 text-gray-500">
+            A szolgáltatás használata a felelősségkizáró nyilatkozat elfogadását jelenti.
+          </p>
+          <div className="flex justify-center gap-4 text-gray-500">
+            <Link href="/jogi-nyilatkozat" className="hover:text-gray-300 transition-colors">
+              Jogi nyilatkozat
+            </Link>
+            <span>·</span>
+            <Link href="/projekt" className="hover:text-gray-300 transition-colors">
+              Projekt / modellkártya
+            </Link>
+          </div>
         </footer>
 
       </main>
