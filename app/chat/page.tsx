@@ -52,7 +52,7 @@ const CHAT_JSON_LD = {
 } as const;
 
 const suggestions = [
-  "Mit tehetek, ha a munkáltatóm azonnali hatállyal felmondott?",
+  "Mennyi a felmondási idő a munka törvénykönyve szerint?",
   "Milyen jogaid vannak online vásárlás elállásakor 14 napon belül?",
   "Mikor követelhetek kártérítést szerződésszegés miatt?",
   "Milyen jogai vannak a bérlőnek lakásbérleti szerződésnél?",
