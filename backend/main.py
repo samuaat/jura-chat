@@ -88,10 +88,10 @@ def chat(request):
                     tools=[{
                         "type": "file_search",
                         "vector_store_ids": [NORMATIVE_VECTOR_STORE_ID],
-                        "max_num_results": 5,
+                        "max_num_results": 12,
                         "ranking_options": {
                             "ranker": "auto",
-                            "score_threshold": 0.3,
+                            "score_threshold": 0.1,
                         },
                     }],
                     stream=True,
