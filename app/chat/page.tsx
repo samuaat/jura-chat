@@ -188,6 +188,8 @@ export default function ChatPage() {
     msgIndex: number,
     assistantContent: string
   ) {
+    if (feedbackGiven[msgIndex]) return;
+
     const userQuery =
       msgIndex > 0 && messages[msgIndex - 1]?.role === "user"
         ? messages[msgIndex - 1].content
@@ -211,6 +213,11 @@ export default function ChatPage() {
       );
     } catch (err) {
       console.error("Feedback save error:", err);
+      setFeedbackGiven((prev) => {
+        const next = { ...prev };
+        delete next[msgIndex];
+        return next;
+      });
       toast.error("Nem sikerült menteni a visszajelzést.");
     }
   }
@@ -560,11 +567,18 @@ export default function ChatPage() {
                                   )}
                                 </div>
                                 {!isUser && (
-                                  <div className="absolute left-6 bottom-2 flex items-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                                  <div className={`absolute left-6 bottom-2 flex items-center gap-2 transition ${feedbackGiven[index] ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`}>
                                     <button
                                       type="button"
                                       onClick={() => handleFeedback("like", index, msg.content)}
-                                      className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-neutral-200 dark:bg-neutral-800 text-neutral-900 dark:text-white text-base font-bold transition hover:bg-green-200 dark:hover:bg-green-900"
+                                      disabled={!!feedbackGiven[index]}
+                                      className={`inline-flex items-center justify-center w-7 h-7 rounded-full text-base font-bold transition ${
+                                        feedbackGiven[index] === "like"
+                                          ? "bg-green-200 dark:bg-green-900 text-green-700 dark:text-green-300"
+                                          : feedbackGiven[index]
+                                            ? "bg-neutral-100 dark:bg-neutral-900 text-neutral-400 dark:text-neutral-600 cursor-default"
+                                            : "bg-neutral-200 dark:bg-neutral-800 text-neutral-900 dark:text-white hover:bg-green-200 dark:hover:bg-green-900"
+                                      }`}
                                       title="Tetszik"
                                     >
                                       <ThumbsUp className="w-3.5 h-3.5" />
@@ -572,7 +586,14 @@ export default function ChatPage() {
                                     <button
                                       type="button"
                                       onClick={() => handleFeedback("dislike", index, msg.content)}
-                                      className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-neutral-200 dark:bg-neutral-800 text-neutral-900 dark:text-white text-base font-bold transition hover:bg-red-200 dark:hover:bg-red-900"
+                                      disabled={!!feedbackGiven[index]}
+                                      className={`inline-flex items-center justify-center w-7 h-7 rounded-full text-base font-bold transition ${
+                                        feedbackGiven[index] === "dislike"
+                                          ? "bg-red-200 dark:bg-red-900 text-red-700 dark:text-red-300"
+                                          : feedbackGiven[index]
+                                            ? "bg-neutral-100 dark:bg-neutral-900 text-neutral-400 dark:text-neutral-600 cursor-default"
+                                            : "bg-neutral-200 dark:bg-neutral-800 text-neutral-900 dark:text-white hover:bg-red-200 dark:hover:bg-red-900"
+                                      }`}
                                       title="Nem tetszik"
                                     >
                                       <ThumbsDown className="w-3.5 h-3.5" />
