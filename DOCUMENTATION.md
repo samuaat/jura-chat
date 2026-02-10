@@ -80,8 +80,8 @@ A **JURA** egy kísérleti mesterséges intelligencia alapú jogi információs 
 │  • System prompt (jura_prompts.py)   │
 │  • OpenAI Responses API              │
 │  • file_search tool + vektor tár     │
-│  • max_num_results: 5                │
-│  • score_threshold: 0.3              │
+│  • max_num_results: 12               │
+│  • score_threshold: 0.1              │
 │  • reasoning: { effort: "low" }      │
 │  • Streaming válasz generálás        │
 │  • [STREAM_ERROR] marker hibáknál    │
@@ -94,7 +94,7 @@ A **JURA** egy kísérleti mesterséges intelligencia alapú jogi információs 
 │  • GPT-5.2 modell                    │
 │  • Vektor tár: 9 362 fájl            │
 │  • Chunking: 2000 token, 500 overlap │
-│  • Ranker: auto, threshold: 0.3     │
+│  • Ranker: auto, threshold: 0.1     │
 └──────────────────────────────────────┘
 ```
 
@@ -330,7 +330,7 @@ Framework: functions_framework + Flask
 6. Input üzenetek összeállítása: `[system_prompt, ...history, user_message]`
 7. OpenAI Responses API hívás:
    - `model`: gpt-5.2
-   - `tools`: file_search (vektor tár, max 5 eredmény, score küszöb 0.3)
+   - `tools`: file_search (vektor tár, max 12 eredmény, score küszöb 0.1)
    - `stream`: True
    - `reasoning`: { effort: "low" }
 8. Generator függvény: `response.output_text.delta` event-ek yield-elése
@@ -497,18 +497,18 @@ A `backend/main.py`-ban:
 tools=[{
     "type": "file_search",
     "vector_store_ids": ["vs_698a0859caa081918c62fcf51a98bffa"],
-    "max_num_results": 5,
+    "max_num_results": 12,
     "ranking_options": {
         "ranker": "auto",
-        "score_threshold": 0.3,
+        "score_threshold": 0.1,
     },
 }]
 ```
 
-- **max_num_results: 5** — max 5 releváns chunk visszaadása (token-takarékos)
-- **score_threshold: 0.3** — csak 0.3 feletti relevancia score-ú chunk-ok
-- **ranker: auto** — automatikus ranker választás (OpenAI)
-- **reasoning: { effort: "low" }** — alacsony reasoning effort (token-takarékos, ~30K token/kérdés)
+- **max_num_results: 12** — max 12 releváns chunk visszaadása (jobb recall specifikus §-keresésekhez)
+- **score_threshold: 0.1** — alacsony küszöb, hogy keyword-match-ek is bekerüljenek
+- **ranker: auto** — automatikus ranker választás (OpenAI hybrid search)
+- **reasoning: { effort: "low" }** — alacsony reasoning effort (token-takarékos, ~20K token/kérdés)
 
 ---
 
@@ -629,7 +629,16 @@ borderRadius: {
 
 ## 10. CI/CD és deployment
 
-### 10.1 GitHub Actions — Firebase Hosting
+> **FONTOS**: A projektben **két külön Cloud Function** fut, és ezeket **két külön GitHub Actions workflow** deployolja!
+>
+> | Komponens | Workflow fájl | Trigger |
+> |-----------|--------------|---------|
+> | Next.js SSR frontend (`ssrjurav2`) | `firebase-hosting-merge.yml` | Minden push a `main`-re |
+> | Python backend (`jura-chat-backend`) | `deploy-backend.yml` | Push a `main`-re, **csak ha `backend/` mappa változott** |
+>
+> A backend workflow a `paths: ['backend/**']` szűrőt használja, tehát csak akkor fut le, ha a `backend/` mappában történt változás.
+
+### 10.1 GitHub Actions — Firebase Hosting (frontend)
 
 Fájl: `.github/workflows/firebase-hosting-merge.yml`
 
@@ -646,15 +655,57 @@ steps:
      - env: FIREBASE_CLI_EXPERIMENTS=webframeworks
 ```
 
+**Ez a workflow CSAK az alábbiakat deployolja:**
+- Firebase Hosting (statikus fájlok, CDN)
+- Next.js SSR Cloud Function (`ssrjurav2`) — ez tartalmazza az `app/api/chat/route.ts` proxyt is
+
+**NEM deployolja:**
+- A Python backend Cloud Function-t (azt a `deploy-backend.yml` kezeli)
+- Firestore szabályokat (azokat `firebase deploy --only firestore` paranccsal kell)
+
 **Szükséges GitHub Secrets:**
 - `FIREBASE_SERVICE_ACCOUNT_JURA_V2`: Firebase service account JSON
 
-### 10.2 Deploy folyamat
+### 10.2 GitHub Actions — Python Backend
 
-1. `git push origin main`
-2. GitHub Actions trigger → build + deploy
-3. Firebase Hosting frissül (CDN invalidáció)
-4. Cloud Functions frissül (Next.js SSR backend)
+Fájl: `.github/workflows/deploy-backend.yml`
+
+```yaml
+trigger: push to main (csak ha backend/ mappa változott)
+runner: ubuntu-latest
+steps:
+  1. actions/checkout@v4
+  2. google-github-actions/auth@v2 (GCP_SERVICE_ACCOUNT_KEY)
+  3. google-github-actions/setup-gcloud@v2
+  4. gcloud functions deploy jura-chat-backend ...
+```
+
+**Szükséges GitHub Secret:**
+- `GCP_SERVICE_ACCOUNT_KEY`: GCP service account JSON (Cloud Functions deploy jogosultsággal)
+
+**Szükséges IAM szerepkörök a service account-on:**
+- `roles/cloudfunctions.developer`
+- `roles/iam.serviceAccountUser`
+- `roles/run.admin` (Gen2 Cloud Functions Cloud Run-on fut)
+
+### 10.3 Deploy folyamat összefoglaló
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ git push origin main                                        │
+│                                                             │
+│  ┌─ firebase-hosting-merge.yml (MINDIG) ───────────────┐   │
+│  │  npm ci && npm run build                             │   │
+│  │  Firebase Hosting deploy (Next.js SSR + statikus)    │   │
+│  │  → ssrjurav2-74elkdduqa-ew.a.run.app frissül        │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                                                             │
+│  ┌─ deploy-backend.yml (CSAK ha backend/ változott) ───┐   │
+│  │  gcloud functions deploy jura-chat-backend           │   │
+│  │  → Python backend Cloud Function frissül             │   │
+│  └──────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ### 10.3 PR preview
 
@@ -755,9 +806,22 @@ const API_URL = process.env.NODE_ENV === "production"
 
 ## 13. Backend deployment
 
+> A Python backend Cloud Function **automatikusan deployolódik** git push-ra, ha a `backend/` mappa változott (`.github/workflows/deploy-backend.yml`).
+> Manuális deploy is lehetséges az alábbi paranccsal.
+
 A Python backend Google Cloud Functions Gen2-re van telepítve.
 
-### 13.1 Deploy parancs
+### 13.1 Mikor kell backend-et deployolni?
+
+Az alábbi fájlok módosítása esetén **manuális deploy szükséges**:
+
+| Fájl | Leírás |
+|------|--------|
+| `backend/main.py` | Fő handler (model config, file_search paraméterek, streaming logika) |
+| `backend/jura_prompts.py` | System prompt (válaszformátum, stílus, utasítások) |
+| `backend/requirements.txt` | Python függőségek |
+
+### 13.2 Deploy parancs
 
 ```bash
 gcloud functions deploy jura-chat-backend \
@@ -775,11 +839,35 @@ gcloud functions deploy jura-chat-backend \
   --max-instances=10
 ```
 
-### 13.2 Megjegyzések
+### 13.3 Deploy ellenőrzés
+
+A deploy után ellenőrizheted, hogy a változások élesedtek-e:
+
+```bash
+# Teszt kérdés a live endpoint-ra
+curl -s -X POST 'https://<BACKEND_URL>/api/chat' \
+  -H 'Content-Type: application/json' \
+  -d '{"message":"Miről szól az Mt. 20. §?","history":[]}' \
+  --max-time 60
+```
+
+Vagy az OpenAI Dashboard-on (`platform.openai.com/responses`) ellenőrizheted a `File Search` szekciót:
+- **max_num_results: 12** esetén legfeljebb 12 fájl jelenik meg keresési körönként
+- **score_threshold: 0.1** esetén alacsonyabb relevancia score-ú chunk-ok is bekerülnek
+
+### 13.4 Megjegyzések
 
 - A `OPENAI_API_KEY` Google Cloud Secret Manager-ben van tárolva
-- A function publikusan elérhető (allow-unauthenticated) a CORS headerek miatt
+- A function publikusan elérhető (`allow-unauthenticated`) a CORS headerek miatt
 - Timeout 540s (9 perc) a hosszú streaming válaszokhoz
+- A `gcloud` CLI-t előtte be kell állítani: `gcloud auth login` és `gcloud config set project jura-v2`
+
+### 13.5 Cloud Function neve és URL
+
+- **Function neve**: `jura-chat-backend`
+- **Régió**: `europe-west1`
+- **Cloud Run URL**: A deploy output-ban megjelenik (pl. `https://jura-chat-backend-xxxxx-ew.a.run.app`)
+- Ez az URL kerül a Next.js proxy `CHAT_UPSTREAM_URL` secret-jébe
 
 ---
 
@@ -856,7 +944,7 @@ OPENAI_API_KEY=sk-... python3 scripts/upload_to_vectorstore.py annotated_laws/ -
 
 1. **Nem jogi tanácsadás** — A rendszer kizárólag tájékoztató jellegű, nem helyettesíti ügyvéd véleményét
 2. **Aktualitás nem garantált** — A vektor tárban lévő jogszabályszövegek nem feltétlenül naprakészek
-3. **Hallucináció lehetséges** — Bár a `reasoning: low` és `score_threshold: 0.3` csökkenti, a modell generálhat nem létező jogszabályhelyet
+3. **Hallucináció lehetséges** — Bár a `reasoning: low` és `score_threshold: 0.1` csökkenti, a modell generálhat nem létező jogszabályhelyet. A `reasoning: "low"` beállítás téma-tévesztést is okozhat hosszabb beszélgetéseknél
 4. **Nincs valódi autentikáció** — A localStorage UUID könnyen hamisítható, más felhasználó chat-jei nem védettek
 5. **Firebase Hosting buffering** — A Firebase Hosting buffereli a streaming-et, ezért production-ben közvetlen Cloud Run URL-t használunk
 6. **Válaszidő** — Jellemzően 20–40 másodperc (OpenAI file_search + generálás), átlagosan ~33s a 30 kérdéses teszten
