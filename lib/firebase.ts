@@ -2,7 +2,7 @@ import { initializeApp, getApps, getApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCfE1H3Q45XHrmw1Jgk4UiKamZHFal0QQA",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "jura-v2.firebaseapp.com",
   projectId: "jura-v2",
   storageBucket: "jura-v2.firebasestorage.app",

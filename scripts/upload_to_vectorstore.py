@@ -17,9 +17,11 @@ import json
 from pathlib import Path
 from openai import OpenAI
 
-API_KEY = os.environ.get("OPENAI_API_KEY",
-    "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"
-)
+API_KEY = os.environ.get("OPENAI_API_KEY")
+
+if not API_KEY:
+    print("Hiba: OPENAI_API_KEY környezeti változó nincs beállítva.")
+    sys.exit(1)
 
 DEFAULT_STORE_ID = "vs_698a0859caa081918c62fcf51a98bffa"
 
