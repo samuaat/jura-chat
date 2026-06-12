@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
+import { MaintenanceBanner } from "@/components/maintenance-banner";
 import { Toaster } from "sonner";
 import "./globals.css";
 
@@ -107,6 +108,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           defaultTheme="light"
           disableTransitionOnChange
         >
+          <MaintenanceBanner />
           {children}
           <Toaster richColors />
         </ThemeProvider>
